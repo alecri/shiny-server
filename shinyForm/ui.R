@@ -8,6 +8,8 @@
 
 library(shiny)
 library(shinyjs)
+source("www/helpers.R")
+
 
 shinyUI(fluidPage(
 

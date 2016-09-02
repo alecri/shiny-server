@@ -11,18 +11,7 @@ library(shinyjs)
 library(digest)
 library(dplyr)
 library(DT)
-
-source("helpers.R")
-
-# create the directory
-formName <- "year-semester-basic-info"
-responsesDir <- file.path("data", formName)
-dir.create(responsesDir, recursive = TRUE, showWarnings = FALSE)
-
-# names of the fields on the form we want to save
-fieldsAll <- c("name", "favourite_pkg", "used_shiny", "r_num_years", "os_type")
-# mandatory fields
-fieldsMandatory <- c("name", "favourite_pkg")
+source("www/helpers.R")
 
 
 shinyServer(function(input, output, session) {
