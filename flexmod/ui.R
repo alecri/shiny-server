@@ -1,5 +1,3 @@
-lty <- c("solid", "dashed", "dotted", "dotdash", "longdash", "twodash", "1F")
-
 shinyUI(navbarPage(
    "Flexible modeling",
 
@@ -9,14 +7,16 @@ shinyUI(navbarPage(
       fluidPage(  
          h1("Flexible Modeling of Quantitative Predictors"),
          h4("Designed by ",
-            a("A. Crippa", target="_blank", href = "http://alessiocrippa.altervista.org"),
+            a("A. Crippa", target="_blank", target = "_blank", href = "http://alecri.github.io/"),
             "&", 
-            a("N. Orsini", target = "_blank", href = "http://nicolaorsini.altervista.org")), 
+            a("N. Orsini", target = "_blank", target = "_blank", href = "http://nicolaorsini.altervista.org")), 
          p("More info at",
            a("www.imm.ki.se/biostatistics", target = "_blank", href = "http://www.imm.ki.se/biostatistics/")),
          br()
       ),
-      img(src = "pic.jpg", align = "middle", height = 600, width = 600)
+      img(src = "pic.jpg", align = "middle", height = 600, width = 600),
+      textOutput("loadData"),
+      textOutput("prova")
    ),
   
    
@@ -27,26 +27,28 @@ shinyUI(navbarPage(
          sidebarPanel(
             radioButtons(
                "data", strong("Select dataset:"), 
-               list("hyponatremia" = "hyponatremianum",
-                    "Select your own data" = "yourdata"), "hyponatremianum"
+               list("hyponatremia" = "marathon",
+                    "Select your own data" = "yourdata"), "marathon"
             ),
             conditionalPanel(
                condition = "input.data == 'yourdata'",
-               fileInput('file1', 'Choose xlsx File')
+               fileInput('file', 'Choose xlsx File')
             ),
             hr(),
             fluidRow(
                column(5,
                       selectizeInput(
-                         'type',  strong('Outcome Type'),
+                         'type',  strong('Outcome Type *'),
                          choices = c(' ' = ' ',
-                                     Continuous = 'gaussian',
-                                     Binary = 'binomial',
-                                     Counts = 'poisson',
-                                     Survival = 'surv'), ' ', options = list(
-                                        placeholder = 'Please select an option below',
-                                        onInitialize = I('function() { this.setValue(""); }')
-                                     )
+                                     "Continuous" = 'gaussian',
+                                     "Binary" = 'binomial',
+                                     "Counts" = 'poisson',
+                                     "Survival" = 'surv'), ' ',
+                         # no default
+                         options = list(
+                            placeholder = 'Please select an option below',
+                            onInitialize = I('function() { this.setValue(""); }')
+                         )
                       )
                ),
                column(5,
@@ -85,13 +87,15 @@ shinyUI(navbarPage(
       "Modeling Strategies",
       sidebarLayout(
          sidebarPanel(
-            checkboxInput(inputId = "showKnots", label = "Display knots position", FALSE),
+            checkboxInput(inputId = "showKnots", label = "Display knots position (on the plot)", FALSE),
             numericInput("k", "Number of knots:", 4),
-            uiOutput("knots"),
-            textInput("kloc", "Knots location", ' '),
-            
+            checkboxInput(inputId = "knots_selection", label = "Show knots value", FALSE),
+            conditionalPanel(condition = "input.knots_selection == true",
+                             uiOutput("knots"),
+                             textInput("kloc", "Insert knots location", '')
+            ),
             br(),
-            strong("Choose functional relationship"),
+            strong("Choose model"),
             checkboxInput(inputId = "mod_categorical", label = "Categories"),
             checkboxInput(inputId = "mod_linear", label = "Linear Trend"),
             checkboxInput(inputId = "linspl", label = "Linear Splines"),
@@ -100,22 +104,34 @@ shinyUI(navbarPage(
             checkboxInput(inputId = "rcubspl", label = "Restricted Cubic Splines"),
             checkboxInput(inputId = "mod_polynomial", label = "Polynomial Trend"),
             conditionalPanel(condition = "input.mod_polynomial == true",
-                             numericInput("n", "Polynomial degree:", 3)
-                             ),
+                             numericInput("n", "Polynomial degree:", 3)),
+            selectizeInput(
+               'CI',  strong('Confidence band'), multiple = TRUE,
+               choices = c(' ' = ' ',
+                           "mod_categorical" = 'categorical',
+                           "mod_linear" = 'linear',
+                           "linspl" = 'linSpline',
+                           "quadrspl" = 'quadrSpline',
+                           "cubspl" = 'cubSpline',
+                           "rcubspl" = 'RestrCubSpline',
+                           "mod_polynomial" = 'polynomial'), ' ',
+               # no default
+               options = list(
+                  placeholder = 'Please select an option below',
+                  onInitialize = I('function() { this.setValue(""); }')
+               )
+            ),
             br(),
             uiOutput("ref_slider"),
-            textInput("xrefloc", "", ' '),
+            checkboxInput(inputId = "chooseRef", label = "Type referent value ", FALSE),
+            conditionalPanel(condition = "input.chooseRef == true",
+               textInput("xrefloc", "", '')),
             br(),
-            strong("Add confidence band"),
-            checkboxInput(inputId = "confCategorical", label = "Categories"),
-            checkboxInput(inputId = "confLinear", label = "Linear Trend"),
-            checkboxInput(inputId = "confLinspl", label = "Linear Splines"),
-            checkboxInput(inputId = "confQuadrspl", label = "Quadratic Splines"),
-            checkboxInput(inputId = "confCubspl", label = "Cubic Splines"),
-            checkboxInput(inputId = "confRcubspl", label = "Restricted Cubic Splines"),
-            checkboxInput(inputId = "confPolynomial", label = "Polynomial Trend"),
             hr(),
             wellPanel(
+               selectizeInput("fig", strong('Select figure'), 
+                              choices = c("Relative" = 'relative',
+                                          "Absolute" = 'absolute'), selected = 'relative'),
                downloadButton('downloadPlot', 'Download Plot'),
                tags$h4(),
                textInput("wh", "Width, Height (in)", "7, 7"),
@@ -128,24 +144,23 @@ shinyUI(navbarPage(
          mainPanel(
             div(align = "center", 
             plotOutput(outputId = "predplot", width = "100%")),
-            conditionalPanel(condition = "input.hist == true",
-                             div(align = "center", 
-                                 plotOutput(outputId = "hist", width = "100%", height = "150px"))),
             checkboxInput('hist', 'Exposure distribution', FALSE),
             checkboxInput('custplot', 'Show and modify default graphical options', F),
             conditionalPanel(condition = "input.custplot == true",
                              fluidRow(
                                 column(4, textInput("xlab", "xlabel", "exposure")),
-                                column(4, uiOutput("ylab")),
+                                column(4, uiOutput("x_range")),
                                 column(4, textInput("title", "title", " "))
                              ),
                              fluidRow(
+                                column(4, uiOutput("ylab")),
                                 column(4, uiOutput("y_range")),
-                                column(4, uiOutput("x_range"))
+                                column(4, selectizeInput('theme', 'Theme', choices = themes,
+                                                         selected = "theme_bw()"))
                              ),
                              fluidRow(
                                 column(4, sliderInput("alpha", "Transparency", min = 0, max = 1, 
-                                                      format = "##0.##", value = .2, step = .01)),
+                                                      value = .2, step = .01, round = 2)),
                                 column(4, checkboxInput('lines', 'Display lines for CI', FALSE)),
                                 column(4,selectizeInput('cilty',  'CIs', choices = lty, "dotted"))
                              ),
@@ -196,17 +211,43 @@ shinyUI(navbarPage(
                                                         selectizeInput('pollty',  'Polynomials', choices = lty))
                                 ),
                                 column(4,
-                                       selectizeInput('knotlty',  'Knots', choices = lty)
+                                       conditionalPanel(condition = "input.showKnots == true",
+                                       selectizeInput('knotlty',  'Knots', choices = lty))
                                 )
                              )
-            )
+            ),
+            conditionalPanel(condition = "input.type != 'surv'",
+                             div(align = "center", 
+                                 plotOutput(outputId = "predplot_abs", width = "100%")),
+                             checkboxInput('custplot_abs', 'Show and modify default graphical options', F),
+                             conditionalPanel(condition = "input.custplot == true && input.custplot_abs == true",
+                                              fluidRow(
+                                                 column(4, uiOutput("ylab_abs")),
+                                                 column(4, textInput("title_abs", "title", " "))
+                                              ),
+                                              fluidRow(
+                                                 column(4, uiOutput("y_range_abs"))
+                                              ),
+                                              checkboxInput('breaks_abs', 'Define axis breaks', FALSE),
+                                              conditionalPanel(condition = "input.breaks_abs == true",
+                                                               fluidRow(
+                                                                  column(4, textInput("ybreaks_abs", "Y-breaks:", ""))
+                                                               ),
+                                                               helpText("Note: breaks should be passed as numbers separated by , ex: .5, 1, 1.5, 2"),
+                                                               actionButton("update_abs", "Update")
+                                              )
+                             ))
          )
       )
    ),
    
+   ## Absolute and partial predictions
    tabPanel(
       "Predictions",
       mainPanel(
+         selectizeInput("tab", strong('Select prediction'), 
+                        choices = c("Relative" = 'relative',
+                                    "Absolute" = 'absolute'), selected = 'relative'),
          downloadButton('downloadPred', 'Download Prediction'),
          hr(),
          checkboxInput('valuePred', 'Choose predictions', FALSE),
@@ -215,7 +256,10 @@ shinyUI(navbarPage(
                           helpText("Note: values should be passed as numbers separated by , ex: .5, 1, 1.5, 2"),
                           actionButton("updatePred", "Update")),
          hr(),
-         tableOutput("prediction")
+         h3("Predictions on the relative scale (using the first obs as referent)"),
+         tableOutput("prediction"),
+         h3("Predictions on the absolute scale"),
+         tableOutput("prediction_abs")
       )
    ),
    
