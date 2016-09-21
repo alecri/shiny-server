@@ -21,9 +21,6 @@ shinyServer(function(input, output, session) {
    output$loadData <- renderPrint({
       invisible(dataset())
    })
-   # output$prova <- renderPrint({
-   # })
-
    
    ## flag variable for avoiding initial errors
    avoidErr <- reactive({
