@@ -15,8 +15,7 @@ shinyUI(navbarPage(
          br()
       ),
       img(src = "pic.jpg", align = "middle", height = 600, width = 600),
-      textOutput("loadData"),
-      textOutput("prova")
+      textOutput("loadData")
    ),
   
    
