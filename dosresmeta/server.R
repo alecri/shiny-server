@@ -4,12 +4,14 @@ library("dosresmeta")
 library("ggplot2")
 library("scales")
 
+## Loading data
+load("bmi.Rda")
 
 shinyServer(function(input, output) {
   
   ## Reading and fixing dataset
   dataset <- reactive({
-    if(input$data != 'yourdata'){
+    if(!(input$data %in% c('yourdata'))){
       urldata <- paste0("http://alecri.github.io/downloads/data/", input$data, ".xlsx")
       data <- read.xls(urldata, sheet = 1, header = T, na.strings = c("NA", "#DIV/0!", "#N/A", " ", "."))
     }	
@@ -36,11 +38,12 @@ shinyServer(function(input, output) {
       xmax <- 1
       ref <- 0
     } else {
-      xmin <- min(dataset()$exposure)
-      xmax <- max(dataset()$exposure)
+      xmin <- round(min(dataset()$exposure), 2)
+      xmax <- round(max(dataset()$exposure), 2)
       ref <- min(dataset()$exposure)
     } 
-    sliderInput("xref", "Referent value:", min = xmin, max = xmax, value = ref, step = (xmax - xmin)/99)
+    sliderInput("xref", "Referent value:", min = xmin, max = xmax, value = ref, step = round((xmax - xmin)/99, 2),
+                round = 2)
   }) 
 
   ## Y-range
@@ -50,9 +53,9 @@ shinyServer(function(input, output) {
   })
   ## X-range
   output$x_range <- renderUI({
-    xmin <- min(dataset()$exposure)
-    xmax <- max(dataset()$exposure)
-    sliderInput("xrange", "X-Range:", min = xmin, max = xmax, step = (xmax - xmin)/99, value = c(xmin, xmax) )
+    xmin <- round(min(dataset()$exposure), 2)
+    xmax <- round(max(dataset()$exposure), 2)
+    sliderInput("xrange", "X-Range:", min = xmin, max = xmax, step = round((xmax - xmin)/99, 2), value = c(xmin, xmax))
   })
   
   ## Tab "Table" (data)
