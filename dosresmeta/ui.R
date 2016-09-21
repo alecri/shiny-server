@@ -1,5 +1,3 @@
-
-
 library(shiny)
 
 shinyUI(pageWithSidebar(
@@ -16,11 +14,11 @@ shinyUI(pageWithSidebar(
     ## Panel "data"
     wellPanel(
       radioButtons('data', p(strong('Select dataset:')),
-                   c(   #'Alcohol intake and colorectal cancer' = 'ex_alcohol_crc',
+                   c('Alcohol intake and colorectal cancer' = 'ex_alcohol_crc',
                      'Alcohol intake and lung cancer' = 'ex_alcohol_lc',
                      'Body mass index and renal cancer' = 'bmi_rc2',
                      'Alcohol intake and cardiovascular risk' = 'alcohol_cvd',
-                     'Select your own data' = 'yourdata'), 'Body mass index and renal cancer'),  
+                     'Select your own data' = 'yourdata'), 'bmi_rc2'),  
       conditionalPanel(condition = "input.data == 'yourdata'",
                        helpText(a("Click Here to Download yourdata.xlsx Template", target = "_blank",     
                                   href = "http://alessiocrippa.altervista.org/data/yourdata.xlsx")), 
@@ -39,7 +37,7 @@ shinyUI(pageWithSidebar(
     wellPanel(
       radioButtons('pscorr', p(strong('Approximating covariance:')),
                    c('Greenland & Longnecker method' = 'gl','Hamling method' = 'h'), 
-                   'Greenland & Longnecker method'),
+                   'gl'),
       p(strong("Dose-response analyses")),
       checkboxInput(inputId = "mod_linear", label = "Linear Trend (dot-dash)"),
       checkboxInput(inputId = "mod_spline", label = "Spline Model (solid)"),
