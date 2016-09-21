@@ -4,8 +4,6 @@ library("dosresmeta")
 library("ggplot2")
 library("scales")
 
-## Loading data
-load("bmi.Rda")
 
 shinyServer(function(input, output) {
   
