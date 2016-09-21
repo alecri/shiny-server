@@ -2,6 +2,7 @@ library("gdata")
 library("rms")
 library("dosresmeta")
 library("ggplot2")
+library("scales")
 
 
 shinyServer(function(input, output) {
@@ -9,7 +10,7 @@ shinyServer(function(input, output) {
   ## Reading and fixing dataset
   dataset <- reactive({
     if(input$data != 'yourdata'){
-      urldata <- paste0("http://alessiocrippa.altervista.org/data/",input$data, ".xlsx")
+      urldata <- paste0("http://alecri.github.io/downloads/data/", input$data, ".xlsx")
       data <- read.xls(urldata, sheet = 1, header = T, na.strings = c("NA", "#DIV/0!", "#N/A", " ", "."))
     }	
     if(input$data == 'yourdata'){
@@ -45,7 +46,7 @@ shinyServer(function(input, output) {
   ## Y-range
   output$y_range <- renderUI({
     sliderInput("yrange", "Y-Range:", min = .01, max = 10, step = .1, 
-                value = c(min(dataset()$rr), max(dataset()$rr)) )
+                value = c(min(dataset()$rr), max(dataset()$rr)), round = 2)
   })
   ## X-range
   output$x_range <- renderUI({
@@ -142,52 +143,52 @@ shinyServer(function(input, output) {
   ## Predictions from the dosresmeta analysis (Graph & Table)
   output$predplot <- renderPlot({
     if (is.null(dataset()) )	return(NULL)
-    newdata <- data.frame(exposure = sort(c(input$xref,
-      seq(min(dataset()$exposure), max(dataset()$exposure), length = 100))))
+    newdata <- data.frame(exposure = c(input$xref,
+      seq(min(dataset()$exposure), max(dataset()$exposure), length = 100)))
     pred <- newdata 
 
     ## Setting of the plot  
-    points = geom_point(, colour = "white")
-    p <- ggplot(dataset(), aes(exposure, rr)) + points + scale_y_continuous(trans = "log") + theme_bw() +
-      theme(axis.line = element_line(colour = "black"),
-            panel.border = element_blank(), panel.background = element_blank())
-
+    p <- ggplot(dataset(), aes(exposure, rr)) + geom_blank() + 
+       scale_y_continuous(trans = "log", labels = function(y) round(y, 2)) + 
+       theme_bw() + theme(axis.line = element_line(colour = "black"),
+                          panel.border = element_blank(), panel.background = element_blank())
+    
     if (input$mod_linear) {
-      predlin <- predict(lin(), newdata = newdata, xref = input$xref)[, c("pred", "ci.lb", "ci.ub")]
+      predlin <- predict(lin(), newdata = newdata, xref = input$xref, expo = T)[, c("pred", "ci.lb", "ci.ub")]
       names(predlin) <- paste0(names(predlin), ".lin")
       pred <- cbind(pred, predlin)
       p <- p + geom_line(data = pred, aes(x = exposure, y = pred.lin), linetype = "dotdash")
       if ("Linear" %in% input$conflim) {
         p <- p + geom_ribbon(data = pred, aes(x = exposure, y = pred.lin, ymin = ci.lb.lin, 
-                                              ymax = ci.ub.lin), alpha = 0.3)
+                                              ymax = ci.ub.lin), alpha = 0.1)
       }
     }
     if (input$mod_spline) {
-      predspl <- predict(spl(), newdata = newdata, xref = input$xref)[, c("pred", "ci.lb", "ci.ub")]
+      predspl <- predict(spl(), newdata = newdata, xref = input$xref, expo = T)[, c("pred", "ci.lb", "ci.ub")]
       names(predspl) <- paste0(names(predspl), ".spl")
       pred <- cbind(pred, predspl)
       p <- p + geom_line(data = pred, aes(x = exposure, y = pred.spl), linetype = "solid")
       if ("Spline" %in% input$conflim) {
         p <- p + geom_ribbon(data = pred, aes(x = exposure, y = pred.spl, ymin = ci.lb.spl, 
-                                              ymax = ci.ub.spl), alpha = 0.3)
+                                              ymax = ci.ub.spl), alpha = 0.1)
       }
     }
     if (input$mod_quadratic) {
-      predquadr <- predict(quadr(), newdata = newdata, xref = input$xref)[, c("pred", "ci.lb", "ci.ub")]
+      predquadr <- predict(quadr(), newdata = newdata, xref = input$xref, expo = T)[, c("pred", "ci.lb", "ci.ub")]
       names(predquadr) <- paste0(names(predquadr), ".quadr")
       pred <- cbind(pred, predquadr)
       p <- p + geom_line(data = pred, aes(x = exposure, y = pred.quadr), linetype = "dashed")
       if ("Quadratic" %in% input$conflim) {
         p <- p + geom_ribbon(data = pred, aes(x = exposure, y = pred.quadr, ymin = ci.lb.quadr, 
-                                              ymax = ci.ub.quadr), alpha = 0.3)
+                                              ymax = ci.ub.quadr), alpha = 0.1)
       }
     }
  
     
     ## Adding chosen curves (with customized parameters)
     if (input$custplot){
-    p <- p + scale_y_continuous(input$ylab, trans = "log",
-                                breaks = round(seq(input$yrange[1], input$yrange[2], length = 5), 2) ) + 
+    p <- p + scale_y_continuous(input$ylab, trans = "log", labels = function(y) round(y, 2),
+            breaks = round(seq(input$yrange[1], input$yrange[2], length.out = 5), 2) ) + 
       scale_x_continuous(input$xlab) + labs(title = input$title)
     if (input$limaxes){
       p <- p + scale_y_continuous(input$ylab, trans = "log", limits = input$yrange) +
