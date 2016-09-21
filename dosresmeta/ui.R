@@ -106,7 +106,7 @@ shinyUI(pageWithSidebar(
                                   textInput("xlab", "xlabel", "exposure"),
                                   textInput("ylab", "ylabel", "Relative Risk"),
                                   textInput("title", "title", " "),
-                                  checkboxInput('limaxes', 'Limit axes', FALSE),
+                                  checkboxInput('limaxes', 'Limit axes', TRUE),
                                   conditionalPanel(condition = "input.limaxes == true",
                                                    uiOutput("y_range"),
                                                    uiOutput("x_range")
