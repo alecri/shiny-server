@@ -6,6 +6,7 @@ library(broom)
 library(ggplot2)
 library(plotly)
 library(googleVis)
+library(leaflet)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
@@ -37,10 +38,15 @@ shinyServer(function(input, output) {
       ggplotly(p)
    })
    
-   output$google_maps <- renderGvis({
-      gvisMap(cities, "LatLong", "Tip",
-                 options = list(showTip = T, showLine = F, enableScrollWheel = T,
-                              mapType = 'satellite', useMapTypeControl = T))
+   # output$google_maps <- renderGvis({
+   #    gvisMap(cities, "LatLong", "Tip",
+   #               options = list(showTip = T, showLine = F, enableScrollWheel = T,
+   #                            mapType = 'satellite', useMapTypeControl = T))
+   # })
+   
+   output$google_maps <- renderLeaflet({
+      leaflet(data = cities) %>% addTiles() %>%
+         addMarkers(~long, ~lat, popup = ~as.character(Tip))
    })
    
 })
