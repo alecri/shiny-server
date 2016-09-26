@@ -1,5 +1,6 @@
 library(shiny)
 library(plotly)
+library(googleVis)
 
 swe <- getData("GADM", country = "SWE", level = 1)
 
@@ -55,6 +56,23 @@ shinyUI(
                )
             )
          )
+      ),
+      
+      tabPanel(
+         "Google maps",
+         
+         sidebarLayout(
+            sidebarPanel(
+               p("Text")
+            ),
+            
+            mainPanel(
+               fluidRow(
+                  column(6, htmlOutput("google_maps"))
+               )
+            )
+         )
       )
+      
    )
 )
