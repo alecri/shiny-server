@@ -20,7 +20,7 @@ shinyServer(function(input, output) {
    
    output$maps <- renderPlotly({
       p <- ggplot(sweden_plot, aes_string(x = "long", y = "lat", group = "group", 
-                                          fill = input$year)) +
+                                          fill = input$year, text = "hover")) +
          geom_polygon() + coord_quickmap() +
          ggthemes::theme_map() + theme(legend.position = c(.8, .2))
       p
