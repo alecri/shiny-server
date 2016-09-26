@@ -11,6 +11,10 @@ swe_data1$y_2014 <- rnorm(nrow(swe_data1))
 swe_s <- rgeos::gSimplify(swe_data1, .01)
 sweden <- broom::tidy(swe_s, region = "ID_1")
 sweden_plot <- merge(x = sweden, y = swe_data1, by.x = "id", by.y = "ID_1")
+sweden_plot$hover <- with(sweden_plot, paste(VARNAME_1, '<br>', 
+                                             "Ind1_2012", round(y_2012, 2), "<br>",
+                                         "Ind1_2013", round(y_2013, 2), "<br>",
+                                         "Ind1_2014", round(y_2014, 2), "<br>"))
 
 # regions
 swe_data2 <- readRDS("www/SWE_adm2.rds")
