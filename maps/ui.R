@@ -1,6 +1,7 @@
 library(shiny)
 library(plotly)
 library(googleVis)
+library(leaflet)
 
 swe <- getData("GADM", country = "SWE", level = 1)
 
@@ -68,7 +69,8 @@ shinyUI(
             
             mainPanel(
                fluidRow(
-                  column(6, htmlOutput("google_maps"))
+                  #column(6, htmlOutput("google_maps"))
+                  leafletOutput("google_maps")
                )
             )
          )
