@@ -2,6 +2,7 @@ library(raster)
 library(rgeos)
 library(tidyverse)
 library(broom)
+library(readxl)
 
 # data managment
 swe_data1 <- readRDS("www/SWE_adm1.rds")
@@ -29,3 +30,15 @@ sweden_plot2 <- merge(x = sweden_region2, y = swe_data2, by.x = "id", by.y = "ID
 
 # defining choices for inputs
 regions <- swe_data1$NAME_1
+
+
+# google maps
+cities <- readxl::read_excel("www/swedish cities.xlsx")
+cities$lat <- as.numeric(char2dms(cities$Latitude, chd = "°", chm = "'", chs = "\""))
+cities$long <- as.numeric(char2dms(cities$Longitude, chd = "°", chm = "'", chs = "\""))
+cities$LatLong <- paste(round(cities$lat, 1), round(cities$long, 1), sep = ":")
+cities$y1 <- rnorm(nrow(cities))
+cities$y2 <- rnorm(nrow(cities))
+cities$y3 <- rnorm(nrow(cities))
+cities$Tip <- with(cities, paste0(Locations, "<BR>", "Ind1=", round(y1, 2), 
+                                  "<BR>", "Ind2=", round(y2, 2)))
