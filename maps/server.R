@@ -5,6 +5,7 @@ library(rgeos)
 library(broom)
 library(ggplot2)
 library(plotly)
+library(googleVis)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
@@ -34,6 +35,12 @@ shinyServer(function(input, output) {
          geom_polygon() + coord_quickmap() +
          ggthemes::theme_map() + theme(legend.position = c(.8, .2))
       ggplotly(p)
+   })
+   
+   output$google_maps <- renderGvis({
+      gvisMap(cities, "LatLong", "Tip",
+                 options = list(showTip = T, showLine = F, enableScrollWheel = T,
+                              mapType = 'satellite', useMapTypeControl = T))
    })
    
 })
