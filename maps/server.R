@@ -1,7 +1,8 @@
 library(shiny)
 library(maptools)
-library(ggplot2)
+library(tidyverse)
 library(leaflet)
+library(raster)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output){
