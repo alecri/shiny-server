@@ -93,14 +93,18 @@ shinyServer(function(input, output){
          clearShapes() %>%
          clearControls() %>%
          # fitBounds(
-         #    lng1 = min(sweden_reg()$coord1), lat1 = min(sweden_reg()$coord2),
-         #    lng2 = max(sweden_reg()$coord1), lat2 = max(sweden_reg()$coord2)
-         # ) %>%
+         #   lng1 = min(sweden_reg()$coord1), lat1 = min(sweden_reg()$coord2),
+         #   lng2 = max(sweden_reg()$coord1), lat2 = max(sweden_reg()$coord2)
+         # )
          addPolygons(
             stroke = FALSE, fillOpacity = 0.5, smoothFactor = 0.5,
             fillColor = pal(colorData), popup = text
          ) %>%
-         addLegend("bottomright", pal = pal, values = colorData, title = colorBy)
+         addLegend("bottomright", pal = pal, values = colorData, title = colorBy) %>%
+         fitBounds(
+            lng1 = min(sweden_reg()$coord1), lat1 = min(sweden_reg()$coord2),
+            lng2 = max(sweden_reg()$coord1), lat2 = max(sweden_reg()$coord2)
+         )
    })
    
    ## modifying maps cities
