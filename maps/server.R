@@ -4,6 +4,7 @@ library(maptools)
 library(tidyverse)
 library(leaflet)
 library(raster)
+library(data.table)
 library(DT)
 
 # Define server logic required to draw a histogram

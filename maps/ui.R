@@ -1,6 +1,8 @@
 library(shiny)
 library(sp)
 library(leaflet)
+library(data.table)
+library(DT)
 
 shinyUI(
    navbarPage(
