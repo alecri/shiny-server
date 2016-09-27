@@ -18,16 +18,13 @@ shinyUI(
                selectInput("year", label = h3("Choose year"), 
                            choices = list("2012" = "y_2012", "2013" = "y_2013",
                                           "2014" = "y_2014"), selected = "y_2014"),
-               selectInput("ind", label = h3("Choose indicator"), 
-                           choices = list("ind1" = 1, "ind2" = 2,
-                                          "ind3" = 3), selected = 1),
             width = 2),
             
             mainPanel(
-               fluidRow(
-                  column(6, plotlyOutput("maps", height = 1000, width = 1000*13/26)),
-                  column(4, dataTableOutput('data_sweden'))
-                  )
+                  #column(6, plotlyOutput("maps", height = 1000, width = 1000*13/26)),
+                 leafletOutput("maps"),
+                 br(),
+                 dataTableOutput('data_sweden')
             )
          )
       ),
@@ -44,17 +41,14 @@ shinyUI(
                               onInitialize = I('function() { this.setValue(""); }')
                            )
                ),
-               selectInput("ind", label = h3("Choose indicator"), 
-                           choices = list("ind1" = 1, "ind2" = 2,
-                                          "ind2" = 3), selected = 1)
+               width = 2
             ),
             
             # Show a plot of the generated distribution
             mainPanel(
-               fluidRow(
-                  column(6, plotlyOutput("maps_region", height = 1000, width = 1000*13/26)),
-                  column(4, dataTableOutput('data_sweden_region'))
-               )
+               leafletOutput("maps_region"),
+               br(),
+               dataTableOutput('data_sweden_region')
             )
          )
       ),
@@ -64,14 +58,15 @@ shinyUI(
          
          sidebarLayout(
             sidebarPanel(
-               p("Text")
+               checkboxInput("negVal", "Dispaly only negative values", value = FALSE),
+               width = 2
             ),
             
             mainPanel(
-               fluidRow(
                   #column(6, htmlOutput("google_maps"))
-                  leafletOutput("google_maps")
-               )
+                  leafletOutput("map_cities"),
+                  br(),
+                  dataTableOutput('data_sweden_cities')
             )
          )
       )
