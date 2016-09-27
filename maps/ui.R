@@ -1,7 +1,6 @@
 library(shiny)
+library(sp)
 library(leaflet)
-
-swe <- getData("GADM", country = "SWE", level = 1)
 
 shinyUI(
    navbarPage(

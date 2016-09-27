@@ -1,6 +1,7 @@
 library(raster)
 library(tidyverse)
 library(readxl)
+library(sp)
 
 # data managment
 swe_data1 <- readRDS("www/SWE_adm1.rds")

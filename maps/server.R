@@ -1,4 +1,5 @@
 library(shiny)
+library(sp)
 library(maptools)
 library(tidyverse)
 library(leaflet)
@@ -90,10 +91,10 @@ shinyServer(function(input, output){
       leafletProxy("maps_region", data = sweden_reg()) %>%
          clearShapes() %>%
          clearControls() %>%
-         fitBounds(
-            lng1 = min(sweden_reg()$coord1), lat1 = min(sweden_reg()$coord2),
-            lng2 = max(sweden_reg()$coord1), lat2 = max(sweden_reg()$coord2)
-         ) %>%
+         # fitBounds(
+         #    lng1 = min(sweden_reg()$coord1), lat1 = min(sweden_reg()$coord2),
+         #    lng2 = max(sweden_reg()$coord1), lat2 = max(sweden_reg()$coord2)
+         # ) %>%
          addPolygons(
             stroke = FALSE, fillOpacity = 0.5, smoothFactor = 0.5,
             fillColor = pal(colorData), popup = text
