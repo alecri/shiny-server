@@ -33,10 +33,10 @@ shinyServer(function(input, output){
    
    # data output
    output$data_sweden <- renderDataTable({
-      data.frame(swe_data1[, c("NAME_1", "y_2012", "y_2013", "y_2014")])
+      data.frame(swe_data1_tab)
    })
    output$data_sweden_region <- renderDataTable({
-      data.frame(sweden_reg()[, c("NAME_1", "NAME_2", "y_2012", "y_2013", "y_2014")])
+      data.frame(swe_data2_tab[swe_data2_tab$NAME_1 == input$region, ])
    })
    output$data_sweden_cities <- renderDataTable({
       sweden_cities()[, c("Locations", "y_2012", "y_2013", "y_2014")]
