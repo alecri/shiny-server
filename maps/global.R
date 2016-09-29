@@ -49,5 +49,5 @@
 # save(cities, regions, swe_data1, swe_data1_tab, swe_data2, swe_data2_tab,
 #      file = "www/dataset.Rdata")
 #
-# load created datasets
+## load created datasets
 load("www/dataset.Rdata")
