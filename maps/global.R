@@ -46,8 +46,13 @@
 # cities$y_2013 <- round(rnorm(nrow(cities)), 2)
 # cities$y_2014 <- round(rnorm(nrow(cities)), 2)
 # 
-# save(cities, regions, swe_data1, swe_data1_tab, swe_data2, swe_data2_tab,
+# #save(cities, regions, swe_data1, swe_data1_tab, swe_data2, swe_data2_tab,
 #      file = "www/dataset.Rdata")
-#
-## load created datasets
+# 
+# # load created datasets
 load("www/dataset.Rdata")
+
+swe_data1 <- map_ln
+swe_data1$y_2012 <- round(rnorm(nrow(swe_data1)), 2)
+swe_data1$y_2013 <- round(rnorm(nrow(swe_data1)), 2)
+swe_data1$y_2014 <- round(rnorm(nrow(swe_data1)), 2)

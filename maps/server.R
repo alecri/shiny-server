@@ -6,6 +6,7 @@ library(leaflet)
 library(raster)
 library(data.table)
 library(DT)
+library(swemaps)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output){
@@ -64,20 +65,35 @@ shinyServer(function(input, output){
    
    ## modifying maps sweden
    observe({
-      colorBy <- input$year
-      colorData <- swe_data1[[colorBy]]
-      pal <- colorNumeric("Blues", colorData)
-      text <- paste0("Län: ", swe_data1$NAME_1, "<BR>", input$year, ": ",
-                     swe_data1[[input$year]])
-      
+     
+     colorBy <- input$year
+     colorData <- swe_data1[[colorBy]]
+     pal <- colorNumeric("Blues", colorData)
+     swe_data1$color = pal(colorData)
+     swe_data1$text = paste0("Län: ", swe_data1$lnnamn, "<BR>", input$year, ": ",
+                                 swe_data1[[input$year]])
+     
       leafletProxy("maps", data = swe_data1) %>%
-         clearShapes() %>%
-         clearControls() %>%
-         addPolygons(
-            stroke = FALSE, fillOpacity = 0.5, smoothFactor = 0.5,
-            fillColor = pal(colorData), popup = text
-         ) %>%
-         addLegend("bottomright", pal = pal, values = colorData, title = colorBy)
+        clearShapes() %>%
+        clearControls()
+      for (ln in unique(swe_data1$lnkod)){
+        i <- swe_data1[swe_data1$lnkod == ln, ]
+        leafletProxy("maps", data = i) %>%
+          addPolygons(i$leaflet_long, i$leaflet_lat, 
+                      color = i$color[[1]], weight = 1,
+                      popup = i$text)
+      }
+      leafletProxy("maps") %>%
+        addLegend("bottomright", pal = pal, values = colorData, title = colorBy)
+      
+      # leafletProxy("maps", data = swe_data1) %>%
+      #    clearShapes() %>%
+      #    clearControls() %>%
+      #    addPolygons(
+      #       stroke = FALSE, fillOpacity = 0.5, smoothFactor = 0.5,
+      #       fillColor = pal(colorData), popup = text
+      #    ) %>%
+      #    
    })
    
    ## modifying maps region
