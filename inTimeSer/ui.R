@@ -1,5 +1,6 @@
 library(shiny)
 library(dygraphs)
+library(timevis)
 
 shinyUI(fluidPage(
    headerPanel("Quit Smoking Line"),
