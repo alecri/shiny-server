@@ -1,1 +1,279 @@
-/opt/shiny-server/samples/welcome.html
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+            <title>Alessio Crippa</title>
+            <meta name="author" content="Alessio Crippa" />
+            
+            <base target="_parent" />
+            <script src="https://use.fontawesome.com/ae517fd761.js"></script>
+            <link rel="stylesheet" href="./css/index.css" />
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto" />
+            
+            <script>
+                if (location.search.indexOf("iframe") > -1) {
+                    document.documentElement.className += " in-iframe";
+                }
+            </script>
+    </head>
+    
+    <body>
+        
+        
+        <a href="https://github.com/alecri/shiny-server" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+        
+        <div id="header">
+            <h1 id="title">Alessio Crippa</h1>
+            
+            <!--
+            <div id="aboutme-section">
+                
+                <p class="about-text">
+                <span class="fa fa-briefcase about-icon fa-fw" aria-hidden="true"></span>
+                Previously a <strong>software engineer</strong> at <strong>Google</strong> and top San Francisco startup <a href="https://www.wish.com/">Wish.com</a>
+                </p>
+                
+                <p class="about-text">
+                <span class="fa fa-code about-icon fa-fw" aria-hidden="true"></span>
+                <strong>Author of popular packages</strong> <a href="https://github.com/daattali/shinyjs">shinyjs</a> (<a href="http://shiny.rstudio.com/articles/">featured by RStudio</a>), <a href="https://github.com/daattali/timevis">timevis</a>, <a href="https://github.com/daattali/addinslist">addinslist</a> & <a href="http://deanattali.com/projects/#r-packages">more</a>
+                </p>
+                
+                <p class="about-text">
+                <span class="fa fa-microphone about-icon fa-fw" aria-hidden="true"></span>
+                Invited speaker at the <strong>Shiny Developer Conference</strong> hosted by RStudio - <a href="https://www.rstudio.com/resources/videos/shinyjs/">30 min talk</a>
+                </p>
+                
+                <p class="about-text">
+                <span class="fa fa-trophy about-icon fa-fw" aria-hidden="true"></span>
+                <strong>Third highest</strong> all-time answerer in the "shiny" tag on <a href="http://stackoverflow.com/tags/shiny/topusers">StackOverflow</a>
+                </p>
+                
+                <p class="about-text" id="learn-more-link">
+                <span class="fa fa-info about-icon fa-fw" aria-hidden="true"></span>
+                Learn more at <strong><a href="http://deanattali.com/">DeanAttali.com</a></strong>
+                </p>
+                </div>
+                </div>
+                
+                <div id="services-out">
+                <div id="services">
+                <div id="services-title">Services Include</div>
+                <div id="services-list">
+                <span class="service">Building Shiny apps and analytics dashboards</span>
+                <span class="service">Integrating Shiny apps with external services or libraries</span>
+                <span class="service">Offering expert advice and guidance with Shiny</span>
+                </div>
+                <a href="http://deanattali.com/contact" id="contact-me-btn" class="actionbtn">
+                <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                CONTACT DEAN
+                </a>
+                </div>
+                </div>
+             -->
+                
+                <div id="portfolio-out">
+                <div id="portfolio">
+                <div id="portfolio-title">
+                Sample of My Personal Shiny Apps
+                <!-- <span class="fa fa-arrow-circle-down fa-fw" aria-hidden="true"></span> -->
+                </div>
+                
+                <div id="shinyapps-big">
+                
+                <div class="shinyapp">
+                <a class="applink" href="http://alessiocrippa.com/shiny/bias/">
+                <img class="appimg" src="http://alecri.github.io/downloads/pic/bias.png" />
+                <div class="apptitle">
+                bias
+                </div>
+                <div class="appdesc">
+                Bias for heterogeneity measures in meta-analysis.
+                </div>
+                </a>
+                </div>
+                
+                <div class="shinyapp">
+                <a class="applink" href="http://alessiocrippa.com/shiny/flexmod/">
+                <img class="appimg" src="http://alecri.github.io/downloads/pic/flexmod.png" />
+                <div class="apptitle">
+                flexmod
+                </div>
+                <div class="appdesc">
+                Flexible modeling.
+                </div>
+                </a>
+                </div>
+                
+                <div class="shinyapp">
+                <a class="applink" href="http://alessiocrippa.com/shiny/dosresmeta/">
+                <img class="appimg" src="http://alecri.github.io/downloads/pic/dosresmeta_app.png" />
+                <div class="apptitle">
+                dosresmeta
+                </div>
+                <div class="appdesc">
+                Performing dose-response meta-analysis.
+                </div>
+                </a>
+                </div>
+                
+                <div class="shinyapp">
+                <a class="applink" href="http://alessiocrippa.com/shiny/shinyForm/">
+                <img class="appimg" src="http://alecri.github.io/downloads/pic/shiny_form.png" />
+                <div class="apptitle">
+                shinyForm
+                </div>
+                <div class="appdesc">
+                Shiny form.
+                </div>
+                </a>
+                </div>
+                
+                <div class="shinyapp">
+                <a class="applink" href="https://alecri.shinyapps.io/dosresmeta_usage">
+                <img class="appimg" src="http://alecri.github.io/downloads/pic/dosresmeta_usage.png" />
+                <div class="apptitle">
+                dosresmeta_usage
+                </div>
+                <div class="appdesc">
+                dosresmeta usage
+                </div>
+                </a>
+                </div>
+                
+                
+                </div>
+                <div style="clear:both;"></div>
+        </div>
+        </div>
+        
+        <!--
+        <hr id="clients-sep" class="section-sep"/>
+        
+        <div id="clients-out">
+            <div id="clients">
+                <div id="clients-title">Clients</div>
+                <div id="clients-subtitle">Clients range from individuals and startups to universities and government agencies</div>
+                <div id="client-logos">
+                    <a href="https://www.imperial.ac.uk/" title="Imperial College London"><img src="img/ICL-logo.png" /></a>
+                    <a href="http://www.ubc.ca/" title="University of British Columbia"><img src="img/UBC-logo.png" /></a>
+                    <a href="http://www.bcstats.gov.bc.ca/" title="BC Stats (BC Government)"><img src="img/BCStats-logo.png" /></a>
+                    <a href="https://morningconsultintelligence.com/" title="Morning Consult Intelligence"><img src="img/MCI-logo.png" /></a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="qualifications-out">
+            <div id="qualifications">
+                <div id="qualifications-title">Credentials</div>
+                <div id="qualifications-list">
+                    <div class="more-info">
+                        <span class="fa fa-graduation-cap fa-fw" aria-hidden="true"></span>
+                        MSc in Bioinformatics (UBC) &bull; Bachelor of Computer Science (University of Waterloo)
+                    </div>
+                    <div class="more-info">
+                        <span class="fa fa-pencil fa-fw" aria-hidden="true"></span>
+                        Wrote <a href="http://shiny.rstudio.com/articles/persistent-data-storage.html">an article</a> for RStudio that is hosted on Shiny's official webpage
+                    </div>
+                    <div class="more-info">
+                        <span class="fa fa-star fa-fw" aria-hidden="true"></span>
+                        Two Shiny apps featured on RStudio's official <a href="https://www.rstudio.com/products/shiny/shiny-user-showcase/">Shiny User Showcase</a>
+                    </div>
+                    <div class="more-info">
+                        <span class="fa fa-github fa-fw" aria-hidden="true"></span>
+                        Often in the top 5 <a href="https://github.com/trending/developers/r?since=monthly">Trending R Developers</a> on GitHub
+                    </div>
+                    <div class="more-info">
+                        <span class="fa fa-book fa-fw" aria-hidden="true"></span>
+                        Official book reviewer of the book <a href="https://www.packtpub.com/application-development/learning-shiny">"Learning Shiny"</a> (I personally do not recommend it)
+                    </div>
+                    
+                    <hr class="section-sep"/>
+                    
+                    <div class="more-info">
+                        <span class="fa fa-info fa-fw" aria-hidden="true"></span>
+                        More information about my open source projects is available on <a href="http://deanattali.com/">my website</a>
+                    </div>
+                    <div class="more-info">
+                        <span class="fa fa-info fa-fw" aria-hidden="true"></span>
+                        Want to learn how to build Shiny apps? Learn using my <a href="http://deanattali.com/blog/building-shiny-apps-tutorial/">tutorial</a>, which several people have told me is "even better than the RStudio Shiny tutorial!"
+                    </div>
+                    <div class="more-info">
+                        <span class="fa fa-info fa-fw" aria-hidden="true"></span>
+                        Want to have a similar website hosting your Shiny apps? Learn how using my popular <a href="http://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/">tutorial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="more-links-out">
+            <div id="more-links">
+                <div id="more-links-title">More Shiny Apps Hosted Here</div>
+                <div class="shiny-apps">
+                    <div>
+                        <strong><a href="./shinyjs-basic/">shinyjs basic app</a></strong> - a very basic Shiny app showing how <a href="https://github.com/daattali/shinyjs">shinyjs</a> functions can be used together in a simply app.
+                    </div>
+                    <div>
+                        <strong><a href="./request-basic-info/">Basic info form</a></strong> - a simple form that we used in a course to collect some basic information about students (example of how to use forms to collect data from a shiny app).
+                    </div>
+                    <div>
+                        <strong><a href="./peer-review/">Peer review form</a></strong> - a marking sheet that we used in a course for students to peer-review other students' assignments (example of how to use forms to collect data from a shiny app).
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- AddThis plugin (floating social media sharing buttons on the left of each post) -->
+        <!--
+         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57d65a4d97789dd1"></script>
+         -->
+        
+        <!--
+        <script>
+            // If deanattali.com asks for the page's height, return
+            window.addEventListener("message", function(event) {
+                                    // Ignore messages not coming from deanattali.com
+                                    if (event.origin !== "http://deanattali.com") {
+                                    return;
+                                    }
+                                    
+                                    // If this is the first message, keep a reference to the parent window and remove the link to my site
+                                    if (typeof window.deansite === "undefined") {
+                                    window.deansite = event.source;
+                                    }
+                                    
+                                    var data = event.data.split(":");
+                                    
+                                    // deanattali.com is asking for the content height
+                                    if (data[0] == "getHeight") {
+                                    var message = "height:" + document.documentElement.scrollHeight;
+                                    event.source.postMessage(message, "*");
+                                    }
+                                    });
+                                    
+                                    // AnimateScroll.min.js
+                                    // Sunmock Yang Nov. 2015
+                                    function animateScroll(t,n,i,e,a,r){e=e?e:0;var o=document.documentElement,s=o.clientHeight,u="scrollMaxY"in window.top?window.top.scrollMaxY:o.scrollHeight-s,c=window.top.pageYOffset,l=c,h=isNaN(t)?t.getBoundingClientRect():0;"center"===a?(l+=isNaN(t)?h.top+h.height/2:t,l-=s/2,l-=e):"bottom"===a?(l+=h.bottom||t,l-=s,l+=e):(l+=h.top||t,l-=e),l=Math.max(Math.min(u,l),0);var d=l-c,f={targetY:l,deltaY:d,duration:n?n:0,easing:i in animateScroll.Easing?animateScroll.Easing[i]:animateScroll.Easing.linear,onFinish:r,startTime:Date.now(),lastY:c,step:animateScroll.step};window.top.requestAnimationFrame(f.step.bind(f))}animateScroll.Easing={linear:function(t){return t},easeInQuad:function(t){return t*t},easeOutQuad:function(t){return t*(2-t)},easeInOutQuad:function(t){return.5>t?2*t*t:-1+(4-2*t)*t},easeInCubic:function(t){return t*t*t},easeOutCubic:function(t){return--t*t*t+1},easeInOutCubic:function(t){return.5>t?4*t*t*t:(t-1)*(2*t-2)*(2*t-2)+1},easeInQuart:function(t){return t*t*t*t},easeOutQuart:function(t){return 1- --t*t*t*t},easeInOutQuart:function(t){return.5>t?8*t*t*t*t:1-8*--t*t*t*t},easeInQuint:function(t){return t*t*t*t*t},easeOutQuint:function(t){return 1+--t*t*t*t*t},easeInOutQuint:function(t){return.5>t?16*t*t*t*t*t:1+16*--t*t*t*t*t}},animateScroll.step=function(){if(this.lastY!==window.top.pageYOffset&&this.onFinish)return void this.onFinish();var t=Math.min((Date.now()-this.startTime)/this.duration,1),n=this.targetY-(1-this.easing(t))*this.deltaY;window.top.scrollTo(window.top.scrollX,n),1!==t?(this.lastY=window.top.pageYOffset,window.top.requestAnimationFrame(this.step.bind(this))):this.onFinish&&this.onFinish()};
+                                    document.getElementById("portfolio-title").addEventListener('click', function() {
+                                                                                                if (typeof window.deansite === "undefined") {
+                                                                                                animateScroll(document.getElementById('shinyapps-big'), 500, "easeInOutCubic", 20);
+                                                                                                } else {
+                                                                                                var message = "scroll-to:" + document.getElementById('shinyapps-big').offsetTop;
+                                                                                                window.deansite.postMessage(message, "*");
+                                                                                                }
+                                                                                                }, false);
+                                                                                                document.getElementById("clients-link").addEventListener('click', function() {
+                                                                                                                                                         if (typeof window.deansite === "undefined") {
+                                                                                                                                                         animateScroll(document.getElementById('clients'), 500, "easeInOutCubic", 20);
+                                                                                                                                                         } else {
+                                                                                                                                                         var message = "scroll-to:" + document.getElementById('clients').offsetTop;
+                                                                                                                                                         window.deansite.postMessage(message, "*");
+                                                                                                                                                         }
+                                                                                                                                                         }, false);
+            </script>
+         -->
+        
+    </body>
+</html>
+
