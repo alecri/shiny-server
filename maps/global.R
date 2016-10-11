@@ -1,4 +1,6 @@
 library(swemaps)
+library(readxl)
+library(sp)
 
 ## for sthlm län
 map_ln <- map_ln
