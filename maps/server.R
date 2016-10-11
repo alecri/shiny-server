@@ -92,8 +92,8 @@ shinyServer(function(input, output){
       colorData <- map_knd()[[colorBy]]
       pal <- colorNumeric("Blues", colorData)
       color <- pal(colorData)
-      text <- paste0("Län: ", map_knd()$NAME_1, "<BR>",
-                     "Kommuner: ", map_knd()$NAME_2, "<BR>",
+      text <- paste0("Län: ", map_knd()$lnnamn, "<BR>",
+                     "Kommuner: ", map_knd()$knnamn, "<BR>",
                      input$year, ": ", map_knd()[[input$year]])
 
       if (input$region != ""){
