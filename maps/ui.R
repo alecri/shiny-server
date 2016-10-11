@@ -33,7 +33,7 @@ shinyUI(
          sidebarLayout(
             sidebarPanel(
                selectizeInput("region", label = h3("Choose region"), 
-                           choices = regions, multiple = FALSE,
+                           choices = regions, multiple = TRUE,
                            options = list(
                               placeholder = 'Please select an option below',
                               onInitialize = I('function() { this.setValue(""); }')

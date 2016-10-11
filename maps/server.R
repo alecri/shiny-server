@@ -14,7 +14,7 @@ shinyServer(function(input, output){
    # reactive datasets
    map_knd <- reactive({
       data <- map_kn
-      if (input$region != "") data <- data[data$lnnamn == input$region, ]
+      if (!is.null(input$region)) data <- data[data$lnnamn %in% input$region, ]
       data
    })
    citiesd <- reactive({
@@ -32,11 +32,13 @@ shinyServer(function(input, output){
    # data output
    output$data_sweden <- renderDataTable({
       map_ln %>% 
-         distinct(lnkod, lnnamn, y_2012, y_2013, y_2014)
+         group_by(lnkod, lnnamn) %>%
+         summarise_each(funs(mean), y_2012, y_2013, y_2014)
    })
    output$data_sweden_region <- renderDataTable({
       map_knd() %>% 
-         distinct(knkod, knnamn, lnnamn, y_2012, y_2013, y_2014)
+         group_by(knkod, knnamn) %>%
+         summarise_each(funs(mean), y_2012, y_2013, y_2014)
    })
    output$data_sweden_cities <- renderDataTable({
       citiesd()[, c("Locations", "y_2012", "y_2013", "y_2014")]
@@ -88,33 +90,35 @@ shinyServer(function(input, output){
    
    # modifying maps region
    observe({
+     
+     mapknd <- map_knd()
       colorBy <- input$year
-      colorData <- map_knd()[[colorBy]]
+      colorData <- mapknd[[colorBy]]
       pal <- colorNumeric("Blues", colorData)
-      color <- pal(colorData)
-      text <- paste0("Län: ", map_knd()$lnnamn, "<BR>",
-                     "Kommuner: ", map_knd()$knnamn, "<BR>",
-                     input$year, ": ", map_knd()[[input$year]])
+      mapknd$color <- pal(colorData)
+      mapknd$text <- paste0("Län: ", mapknd$lnnamn, "<BR>",
+                     "Kommuner: ", mapknd$knnamn, "<BR>",
+                     input$year, ": ", mapknd[[input$year]])
 
-      if (input$region != ""){
-         leafletProxy("maps_region", data = map_knd()) %>%
+      if (!is.null(input$region)){
+         leafletProxy("maps_region", data = mapknd) %>%
             clearShapes() %>%
             clearControls()
          ## progress bar
          withProgress(message = 'Loading map', value = 0, {
-            for (kn in unique(map_knd()[["knkod"]])){
-               incProgress(1/length(unique(map_knd()[["knkod"]])))
-               leafletProxy("maps_region", data = map_knd()[map_knd()[["knkod"]] == kn, ]) %>%
+            for (kn in unique(mapknd[["knkod"]])){
+               incProgress(1/length(unique(mapknd[["knkod"]])))
+               leafletProxy("maps_region", data = mapknd[mapknd[["knkod"]] == kn, ]) %>%
                   addPolygons(~leaflet_long, ~leaflet_lat,
-                              color = color[[1]], weight = 1,
-                              popup = text)
+                              color = ~color[[1]], weight = 1,
+                              popup = ~text)
             }
-         }) 
-         leafletProxy("maps_region", data = map_knd()) %>%
+         })
+         leafletProxy("maps_region", data = mapknd) %>%
          addLegend("bottomright", pal = pal, values = colorData, title = colorBy) %>%
             fitBounds(
-               lng1 = min(map_knd()$leaflet_long), lat1 = min(map_knd()$leaflet_lat),
-               lng2 = max(map_knd()$leaflet_long), lat2 = max(map_knd()$leaflet_lat)
+               lng1 = min(mapknd$leaflet_long), lat1 = min(mapknd$leaflet_lat),
+               lng2 = max(mapknd$leaflet_long), lat2 = max(mapknd$leaflet_lat)
             )
       }
 
