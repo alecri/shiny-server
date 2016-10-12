@@ -171,14 +171,13 @@ server <- function(input, output){
       h3(paste("Pooled dose-response curve based on", lab()), align = "center")
    })
    
-   
    fluor <- reactive({
       dat <- if (input$overall == 1){
          fluo
       } else if (input$overall == 2){
          subset(fluo, tags == input$subgrp_tag)
       } else if (input$overall == 3){
-         subset(fluo, tags == input$subgrp_tag && `effect subtype` == input$subgrp_eff)
+         subset(fluo, tags == input$subgrp_tag & `effect subtype` == input$subgrp_eff)
       } 
       # else if (input$overall == 4){
       #    subset(fluo, tags == input$subgrp_tag && `response units` == input$subgrp_unit)
@@ -190,6 +189,13 @@ server <- function(input, output){
          dat <- subset(fluo, `endpoint id` %in% id_keep)
       }
       dat
+   })
+   error <- reactive({
+      if (length(unique(fluor()[["endpoint id"]])) <= 2){
+         return(TRUE)
+      } else {
+         return(FALSE)
+      }
    })
    
    fluor_descr <- reactive({
@@ -206,28 +212,34 @@ server <- function(input, output){
    })
    
    lin <- reactive({
+      if (error()) return(NULL)
       dosresmeta(formula = response ~ dose, id = `endpoint id`,
                  sd = stdev, n = N, covariance = "smd", data = fluor(),
                  proc = "2stage")
    })
    output$linear <- renderPrint({
+      if (error()) return(NULL)
       summary(lin())
    })
    
    spl <- reactive({
+      if (error()) return(NULL)
       k <- with(fluor(), quantile(dose, c(.25, .5, .75)))
       dosresmeta(formula = response ~ rcs(dose, k), id = `endpoint id`,
                      sd = stdev, n = N, covariance = "smd", data = fluor(),
                      proc = "1stage")
    })
    output$spline <- renderPrint({
+      if (error()) return(NULL)
       summary(spl())
    })
    output$pred <- renderDataTable({
+      if (error()) return(NULL)
       round(data.frame(newdata_tab, predict(spl(), newdata_tab)[, -c(1:2)]), 2)
    })
 
    output$p_pcm <- renderPlotly({
+      if (error()) return(NULL)
       ggplotly(ggplot(subset(fluor(), `dose index` != 0), 
                       aes(x = id_plot, y= `percent control mean`,
                           ymin=`percent control low`, ymax=`percent control high`)) + 
@@ -236,9 +248,11 @@ server <- function(input, output){
       )
    })
    output$hist_pcm <- renderPlotly({
+      if (error()) return(NULL)
       ggplotly(ggplot(subset(fluor(), `dose index` != 0), aes(x = `percent control mean`)) + geom_histogram())
    })
    output$p_smd <- renderPlotly({
+      if (error()) return(NULL)
       ggplotly(ggplot(subset(fluor(), `dose index` != 0), 
                       aes(x = id_plot, y= smd, ymin=smd_low, ymax=smd_upp)) + 
                   geom_pointrange() + coord_flip() + geom_hline(aes(yintercept=0), lty=2) +
@@ -246,10 +260,12 @@ server <- function(input, output){
       )
    })
    output$hist_smd <- renderPlotly({
+      if (error()) return(NULL)
       ggplotly(ggplot(subset(fluor(), `dose index` != 0), aes(x = smd)) + geom_histogram() +
                   xlab("Standardized mean differences"))
    })
    output$spaghetti <- renderPlotly({
+      if (error()) return(NULL)
       ggplotly(
          ggplot(fluor(), aes(dose, smd, group = `endpoint id`, shape = `study name`)) + 
             scale_shape_manual(values = seq_along(unique(fluo$`study name`))) +
@@ -259,6 +275,7 @@ server <- function(input, output){
       )
    })
    output$pooled <- renderPlotly({
+      if (error()) return(NULL)
          newdata <- data.frame(dose = seq(min(fluor()$dose), max(fluor()$dose), length.out = 100))
          pred <- ggplot(predict(spl(), newdata), 
                         aes(x = newdata$dose, y = pred, ymin = ci.lb, ymax = ci.ub)) +
@@ -270,6 +287,7 @@ server <- function(input, output){
    })
    
    output$vpcPlot <- renderPlotly({
+      if (error()) return(NULL)
       ggplotly(
          ggplot(data.frame(x = fluor()$dose[fluor()$`dose index` != 0], y = vpc(spl())),
                 aes(x = x, y = y)) + geom_point() + geom_smooth(se = F, method = "loess") + 
