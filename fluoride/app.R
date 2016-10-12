@@ -5,6 +5,7 @@ Sys.setenv("plotly_api_key"="nr287vef19")
 library(readxl)
 library(dosresmeta)
 library(ggplot2)
+library(tidyverse)
 library(gridExtra)
 library(rms)
 library(plotly)
@@ -63,15 +64,15 @@ ui <- fluidPage(
       sidebarPanel(
          
          radioButtons("overall", h3("Select analysis"),
-                      list("Overall" = 1, "Tags" = 2, "Effect subtype" = 3,
-                           "Response units" = 4), selected = 1),
+                      list("Overall" = 1, "Tags" = 2, "Tags and Effect subtype" = 3,
+                           "Tags and Response units" = 4), selected = 1),
          checkboxInput("exclude", "Limite fluoride range", value = FALSE),
          conditionalPanel("input.exclude == true",
                           sliderInput("doselim", "Limit to dose less than",
                                       min = 10, max = max(fluo$dose), value = 30, step = 1
                           )
          ),
-         conditionalPanel("input.overall == 2",
+         conditionalPanel("input.overall != 1",
                           radioButtons("subgrp_tag", h3("Select subgroup"),
                                        list("Learning" = "|learning|", 
                                             "Memory" = "|memory|"),
@@ -105,7 +106,11 @@ ui <- fluidPage(
                         uiOutput("hist"),
                         column(6, plotlyOutput("hist_pcm", height = 250)),
                         column(6, plotlyOutput("hist_smd", height = 250))
-                     )
+                     ),
+                     br(), br(),
+                     h3("Study characteristics", align = "center"),
+                     br(),
+                     dataTableOutput("descr")
             ),
             tabPanel("Dose-response",
                      fluidRow(
@@ -144,10 +149,10 @@ server <- function(input, output){
          paste("studies with tag", ifelse(input$subgrp_tag == "|learning|", "learning", "memory"))
       }
       else if (input$overall == 3){
-         paste("studies with effect subtype", input$subgrp_eff)
+         paste("studies with tag", ifelse(input$subgrp_tag == "|learning|", "learning", "memory"), "and with effect subtype", input$subgrp_eff)
       }
       else if (input$overall == 4){
-         paste("studies with response unit", input$subgrp_unit)
+         paste("studies with tag", ifelse(input$subgrp_tag == "|learning|", "learning", "memory"),  "and with response unit", input$subgrp_unit)
       }
       lab
    })
@@ -171,17 +176,23 @@ server <- function(input, output){
       } else if (input$overall == 2){
          subset(fluo, tags == input$subgrp_tag)
       } else if (input$overall == 3){
-         subset(fluo, `effect subtype` == input$subgrp_eff)
+         subset(fluo, tags == input$subgrp_tag, `effect subtype` == input$subgrp_eff)
       } else if (input$overall == 4){
-         subset(fluo, `response units` == input$subgrp_unit)
+         subset(fluo, tags == input$subgrp_tag, `response units` == input$subgrp_unit)
       }
       if (input$exclude){
-         dat <- subset(fluo, dose < input$doselim)
+         dat <- subset(dat, dose < input$doselim)
          # exclude studies with only referent observation
          id_keep <- names(which(with(dat, table(`endpoint id`)) > 1))
          dat <- subset(fluo, `endpoint id` %in% id_keep)
       }
       dat
+   })
+   output$descr <- renderDataTable({
+      fluor() %>% 
+         filter(dose > 0) %>%
+         group_by(tags, `effect subtype`, `response units`) %>%
+         summarise(n_obs = n(), n_studies = length(unique(`endpoint id`)))
    })
    
    lin <- reactive({
