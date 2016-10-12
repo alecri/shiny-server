@@ -65,6 +65,12 @@ ui <- fluidPage(
          radioButtons("overall", h3("Select analysis"),
                       list("Overall" = 1, "Tags" = 2, "Effect subtype" = 3,
                            "Response units" = 4), selected = 1),
+         checkboxInput("exclude", "Limite fluoride range", value = FALSE),
+         conditionalPanel("input.exclude == true",
+                          sliderInput("doselim", "Limit to dose less than",
+                                      min = 10, max = max(fluo$dose), value = 30, step = 1
+                          )
+         ),
          conditionalPanel("input.overall == 2",
                           radioButtons("subgrp_tag", h3("Select subgroup"),
                                        list("Learning" = "|learning|", 
@@ -169,13 +175,19 @@ server <- function(input, output){
       } else if (input$overall == 4){
          subset(fluo, `response units` == input$subgrp_unit)
       }
+      if (input$exclude){
+         dat <- subset(fluo, dose < input$doselim)
+         # exclude studies with only referent observation
+         id_keep <- names(which(with(dat, table(`endpoint id`)) > 1))
+         dat <- subset(fluo, `endpoint id` %in% id_keep)
+      }
       dat
    })
    
    lin <- reactive({
       dosresmeta(formula = response ~ dose, id = `endpoint id`,
                  sd = stdev, n = N, covariance = "smd", data = fluor(),
-                 proc = "1stage")
+                 proc = "2stage")
    })
    output$linear <- renderPrint({
       summary(lin())
