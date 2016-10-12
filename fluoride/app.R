@@ -64,8 +64,9 @@ ui <- fluidPage(
       sidebarPanel(
          
          radioButtons("overall", h3("Select analysis"),
-                      list("Overall" = 1, "Tags" = 2, "Tags and Effect subtype" = 3,
-                           "Tags and Response units" = 4), selected = 1),
+                      list("Overall" = 1, "Tags" = 2, "Tags and Effect subtype" = 3),
+                           #"Tags and Response units" = 4), 
+                           selected = 1),
          checkboxInput("exclude", "Limite fluoride range", value = FALSE),
          conditionalPanel("input.exclude == true",
                           sliderInput("doselim", "Limit to dose less than",
@@ -85,12 +86,12 @@ ui <- fluidPage(
                                             "Time in platform area/location" = "Time in platform area/location",
                                             "Time in target quadrant" = "Time in target quadrant"),
                                        selected = "Escape time")
-         ),
-         conditionalPanel("input.overall == 4",
-                          radioButtons("subgrp_unit", h3("Select subgroup"),
-                                       list("Count" = "count", "Time (sec)" = "sec"),
-                                       selected = "count")
          )
+         # conditionalPanel("input.overall == 4",
+         #                  radioButtons("subgrp_unit", h3("Select subgroup"),
+         #                               list("Count" = "count", "Time (sec)" = "sec"),
+         #                               selected = "count")
+         # )
       ),
       
       # Show a plot of the generated distribution
@@ -110,6 +111,7 @@ ui <- fluidPage(
                      br(), br(),
                      h3("Study characteristics", align = "center"),
                      br(),
+                     uiOutput("descrText"),
                      dataTableOutput("descr")
             ),
             tabPanel("Dose-response",
@@ -151,9 +153,9 @@ server <- function(input, output){
       else if (input$overall == 3){
          paste("studies with tag", ifelse(input$subgrp_tag == "|learning|", "learning", "memory"), "and with effect subtype", input$subgrp_eff)
       }
-      else if (input$overall == 4){
-         paste("studies with tag", ifelse(input$subgrp_tag == "|learning|", "learning", "memory"),  "and with response unit", input$subgrp_unit)
-      }
+      # else if (input$overall == 4){
+      #    paste("studies with tag", ifelse(input$subgrp_tag == "|learning|", "learning", "memory"),  "and with response unit", input$subgrp_unit)
+      # }
       lab
    })
    output$forest <- renderUI({ 
@@ -176,10 +178,11 @@ server <- function(input, output){
       } else if (input$overall == 2){
          subset(fluo, tags == input$subgrp_tag)
       } else if (input$overall == 3){
-         subset(fluo, tags == input$subgrp_tag, `effect subtype` == input$subgrp_eff)
-      } else if (input$overall == 4){
-         subset(fluo, tags == input$subgrp_tag, `response units` == input$subgrp_unit)
-      }
+         subset(fluo, tags == input$subgrp_tag && `effect subtype` == input$subgrp_eff)
+      } 
+      # else if (input$overall == 4){
+      #    subset(fluo, tags == input$subgrp_tag && `response units` == input$subgrp_unit)
+      # }
       if (input$exclude){
          dat <- subset(dat, dose < input$doselim)
          # exclude studies with only referent observation
@@ -188,11 +191,18 @@ server <- function(input, output){
       }
       dat
    })
-   output$descr <- renderDataTable({
+   
+   fluor_descr <- reactive({
       fluor() %>% 
          filter(dose > 0) %>%
-         group_by(tags, `effect subtype`, `response units`) %>%
-         summarise(n_obs = n(), n_studies = length(unique(`endpoint id`)))
+         group_by(tags, `effect subtype`) %>%
+         summarise(n_studies = length(unique(`endpoint id`)), n_obs = n())
+   })
+   output$descrText <- renderUI({ 
+      p(paste("Total number of studies", sum(fluor_descr()$n_studies), "including", sum(fluor_descr()$n_obs), "datapoints"))
+   })
+   output$descr <- renderDataTable({
+      fluor_descr()
    })
    
    lin <- reactive({
