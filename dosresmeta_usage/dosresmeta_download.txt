@@ -1,4 +1,4 @@
-"date" "time" "size" "r_version" "r_arch" "r_os" "package" "version" "country" "ip_id"
+"date" "time" "size" "r_version" "r_arch" "r_os" "package" "version" "country" "ip_id" 
 "7937" "2013-09-11" "03:13:12" 41458 "3.0.1" "i386" "mingw32" "dosresmeta" "1.0" "KR" 514
 "32566" "2013-09-11" "12:10:37" 41463 NA NA NA "dosresmeta" "1.0" "US" 2379
 "38617" "2013-09-11" "13:42:56" 41458 "3.0.1" "x86_64" "mingw32" "dosresmeta" "1.0" "US" 3132
