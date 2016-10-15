@@ -8,6 +8,7 @@ output:
 runtime: shiny
 ---
 
+
 The `dosresmeta` package was first released on the 11st September 2011 to perform dose-response meta-analysis in R. Detailed documentation can be found [here](https://cran.r-project.org/web/packages/dosresmeta/dosresmeta.pdf).  
 The following report is based on the downloads of `dosresmeta` from the log files of the [RStudio cloud CRAN](http://cran-logs.rstudio.com/) and is update to the 12nd April 2016.  
 The interactive R Markdown document wase generated using Shiny; to learn more, see [Interactive Documents](http://rmarkdown.rstudio.com/authoring_shiny.html).
