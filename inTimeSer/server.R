@@ -4,12 +4,16 @@ library(dygraphs)
 
 ## data for pipeline
 data <- data.frame(
-   id      = 1:4,
-   content = c("Item one", "Item two",
-               "Ranged item", "Item four"),
-   start   = c("2016-01-10", "2016-01-11",
-               "2016-01-20", "2016-02-14 15:00:00"),
-   end     = c(NA, NA, "2016-02-04", NA)
+   id      = 1:11,
+   content = c("Quit Smoking Line started", "Campaign on passive smoking",
+               "Larger warnings on cigarette packets + less harmful name prohibits", 
+               "Indirect tobacco advertising bans", "Smoke-free restaurants",
+               "Prohibition cigarettes selling to minors", "Tax increase on mainly snuff",
+               "Tax increase", "Tax increase by 10%", "Tax cuts on tobacco ", "Tax increase"),
+   start   = c("1998-09-14", "2001-01-01", "2002-09-30", "2003-01-01", "2005-06-01",
+               "2005-07-01", "2007-01-01", "2011-01-01", "2012-01-01", "2014-01-01",
+               "2015-01-01"),
+   end     = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA)
 )
 
 ## data for time serie
