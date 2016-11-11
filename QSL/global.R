@@ -8,7 +8,7 @@ library(Epi)
 library(plotly)
 
 
-load("qsl_ts.rda")
+load("www/qsl_ts.rda")
 
 ## data for pipeline
 data_milestone <- data.frame(
@@ -24,21 +24,3 @@ data_milestone <- data.frame(
    end     = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA)
 )
 data_milestone$start <- as.Date(data_milestone$start)
-
-## read data from csv file
-data <- read.csv("sicily.csv")
-#head(data)
-## compute the standardized rates
-data <- mutate(data,
-               rate = aces/stdpop*10^5,
-               date = as.Date(paste(year, month, 1, sep = "-")),
-               before = ifelse(smokban == 0, rate, NA),
-               after = ifelse(smokban == 1, rate, NA))
-
-## data for predictions (same as initial)
-newdata <- mutate(data, stdpop = mean(stdpop))
-newdata0 <- mutate(newdata, smokban = 0)
-
-## data for time serie
-lungDeaths <- cbind(mdeaths, fdeaths)
-
