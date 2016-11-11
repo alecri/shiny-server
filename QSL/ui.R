@@ -1,6 +1,7 @@
 library(shiny)
 library(dygraphs)
 library(timevis)
+library(plotly)
 
 shinyUI(fluidPage(
    "Quit Smoking Line",
@@ -11,28 +12,23 @@ shinyUI(fluidPage(
    
    sidebarLayout(
       sidebarPanel(
-         checkboxInput("mod_lin", label = "Linear trend", value = FALSE),
-         checkboxInput("mod_season", label = "Seasonal trend", value = FALSE),
-         helpText("Click and drag to zoom in (double click to zoom back out).")
-      ),
+         h2(uiOutput("initial_message")),
+         h4(uiOutput("initial_message2")),
+         h4(uiOutput("date_selected")),
+         uiOutput("dates"),
+         uiOutput("date_range_selected"),
+         uiOutput("lin_selected"),
+         uiOutput("season_selected")
+         ),
       
       mainPanel(
          tabsetPanel(
             type = "tabs", 
             tabPanel(
                "Homepage",
-               timevisOutput("timeline")
-            ),
-            tabPanel("Interrupted Time Serie",
-                     dygraphOutput("its_graph"),
-                     conditionalPanel(
-                        "input.mod_lin == true",
-                        uiOutput("effect_lin")
-                     ),
-                     conditionalPanel(
-                        "input.mod_season == true",
-                        uiOutput("effect_season")
-                     )
+               timevisOutput("timeline"),
+               plotlyOutput("qsl_ts"),
+               dataTableOutput("effects")
             ),
             tabPanel("Analytical results",
                      conditionalPanel(
@@ -43,6 +39,9 @@ shinyUI(fluidPage(
                         "input.mod_season == true",
                         verbatimTextOutput("modseason")
                      )
+            ),
+            tabPanel("Tabular data",
+                     dataTableOutput("table")
             )
          )
       )

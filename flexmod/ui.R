@@ -4,7 +4,7 @@ shinyUI(navbarPage(
    ## Homepage Panl
    tabPanel(
       "Homepage",
-      fluidPage(  
+      fluidPage(
          h1("Flexible Modeling of Quantitative Predictors"),
          h4("Designed by ",
             a("A. Crippa", target="_blank", target = "_blank", href = "http://alecri.github.io/"),
