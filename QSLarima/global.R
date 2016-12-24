@@ -79,7 +79,7 @@ names(obj.mean) <- c("b0", "b1", "b2")
 colnames(obj.cov)  <- c("b1", "b2")
 rownames(obj.cov) <- c("b1", "b2")
 exp(deltaMethod(obj.mean[c(2,3)], "b2*(1-b1^7)/(1-b1)", vcov. = obj.cov)) 
-deltaMethod (obj.mean[c(2,3)], "exp (b2*(1-b1^7)/(1-b1) )", vcov. = obj.cov)  
+deltaMethod(obj.mean[c(2,3)], "exp (b2*(1-b1^7)/(1-b1) )", vcov. = obj.cov)  
 wald.test(b = obj.mean[c(2,3)], Sigma = obj.cov, Terms = 1:2) 
 
 # par(mar = c(5, 5, 4, 2) + c(0.5, 1.0, 0.1, 0.1))
