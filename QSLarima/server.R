@@ -99,11 +99,31 @@ shinyServer(function(input, output) {
     ggplotly(gg_1Int, tooltip = "text")
   })
   
-  output$Effect1 <- renderUI({
-    RR1 <- round(exp(Effect_I1[Effect_I1 != 0])[as.double(input$tInt1)], 2)
-    #h2(paste("linear model: RR: ", est_lin[1], "(95% CI: ", est_lin[2], ", ", est_lin[3], ")", sep = ""))
-    h3(paste("RR: ", RR1, sep = ""))
-  })
+  # output$Effect1 <- renderUI({
+  #   RR1 <- round(exp(Effect_I1[Effect_I1 != 0])[as.double(input$tInt1)], 2)
+  #   #h2(paste("linear model: RR: ", est_lin[1], "(95% CI: ", est_lin[2], ", ", est_lin[3], ")", sep = ""))
+  #   h3(paste("RR: ", RR1, sep = ""))
+  # })
+  
+  output$RR1 <- renderPlotly({
+    rr_1Int <- c(exp(ts(Effect_I1, frequency = 12, start = c(1999, 01))))
+    time_1Int <- seq(as.Date("1999-01-01"), as.Date("2002-08-01"), by = "month")
+    ggplotly(
+      ggplot(data = NULL, 
+             aes(time_1Int, rr_1Int
+                 #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+                 )) + 
+        geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+        theme_classic() +
+        geom_ribbon(aes(ymin = .5, ymax = rr_1Int), fill = "lightblue")
+      )  
+    })
+
+    output$tableRR1 <- renderDataTable({
+      data.frame(Date = time_1Int,
+                 `Rate Ratio` = round(rr_1Int, 2)
+      )[rr_1Int != 1, ]
+    })
 
     
   # 2nd intervantion
@@ -119,9 +139,24 @@ shinyServer(function(input, output) {
     ggplotly(gg_2Int, tooltip = "text")
   })
   
-  output$Effect2 <- renderUI({
-    RR2 <- round(exp(Effect_I2[Effect_I2 != 0])[as.double(input$tInt2)], 2)
-    h3(paste("RR: ", RR2, sep = ""))
+  output$RR2 <- renderPlotly({
+    rr_2Int <- c(exp(ts(Effect_I2, frequency = 12, start = c(1999, 01))))
+    time_2Int <- seq(as.Date("2001-01-01"), as.Date("2005-05-01"), by = "month")
+    ggplotly(
+      ggplot(data = NULL, 
+             aes(time_2Int, rr_2Int
+                 #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+             )) + 
+        geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+        theme_classic() +
+        geom_ribbon(aes(ymin = .5, ymax = rr_2Int), fill = "lightblue")
+    )
+  })
+  
+  output$tableRR2 <- renderDataTable({
+    data.frame(Date = time_2Int,
+               `Rate Ratio` = round(rr_2Int, 2)
+    )[rr_2Int != 1, ]
   })
   
   
@@ -138,10 +173,26 @@ shinyServer(function(input, output) {
     ggplotly(gg_3Int, tooltip = "text")
   })
   
-  output$Effect3 <- renderUI({
-    RR3 <- round(exp(Effect_I3[Effect_I3 != 0])[as.double(input$tInt3)], 2)
-    h3(paste("RR: ", RR3, sep = ""))
+  output$RR3 <- renderPlotly({
+    rr_3Int <- c(exp(ts(Effect_I3, frequency = 12, start = c(1999, 01))))
+    time_3Int <- seq(as.Date("2002-09-01"), as.Date("2008-12-01"), by = "month")
+    ggplotly(
+      ggplot(data = NULL, 
+             aes(time_3Int, rr_3Int
+                 #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+             )) + 
+        geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+        theme_classic() +
+        geom_ribbon(aes(ymin = .5, ymax = rr_3Int), fill = "lightblue")
+    )
   })
+  
+  output$tableRR3 <- renderDataTable({
+    data.frame(Date = time_3Int,
+               `Rate Ratio` = round(rr_3Int, 2)
+    )[rr_3Int != 1, ]
+  })
+  
   
   # 4th intervantion
   output$pl_4Int <- renderPlotly({
@@ -156,10 +207,24 @@ shinyServer(function(input, output) {
     ggplotly(gg_4Int, tooltip = "text")
   })
   
-  output$Effect4 <- renderUI({
-    RR4 <- round(exp(Effect_I4[Effect_I4 != 0])[as.double(input$tInt4)], 2)
-    h3(paste("RR: ", RR4, sep = ""))
+  output$RR4 <- renderPlotly({
+    rr_4Int <- c(exp(ts(Effect_I4, frequency = 12, start = c(1999, 01))))
+    time_4Int <- seq(as.Date("2009-01-01"), as.Date("2014-12-01"), by = "month")
+    ggplotly(
+      ggplot(data = NULL, 
+             aes(time_4Int, rr_4Int
+                 #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+             )) + 
+        geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+        theme_classic() +
+        geom_ribbon(aes(ymin = .5, ymax = rr_4Int), fill = "lightblue")
+    )
   })
   
+  output$tableRR4 <- renderDataTable({
+    data.frame(Date = time_4Int,
+               `Rate Ratio` = round(rr_4Int, 2)
+               )[rr_4Int != 1, ]
+  })
   
 })

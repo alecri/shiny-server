@@ -82,15 +82,15 @@ exp(deltaMethod(obj.mean[c(2,3)], "b2*(1-b1^7)/(1-b1)", vcov. = obj.cov))
 deltaMethod(obj.mean[c(2,3)], "exp (b2*(1-b1^7)/(1-b1) )", vcov. = obj.cov)  
 wald.test(b = obj.mean[c(2,3)], Sigma = obj.cov, Terms = 1:2) 
 
-# par(mar = c(5, 5, 4, 2) + c(0.5, 1.0, 0.1, 0.1))
-# plot(exp(ts(Effect_I1, frequency = 12, start = c(1999, 01))), type = "h", 
-#      ylim = c(0.4, 2.5), ylab = "", xlab = "", xaxt = 'n', yaxt = 'n',
-#      col = "lightblue", log = 'y', main = "B", cex.main = 1.5, frame.plot = FALSE, 
-#      lwd = 1.5) 
-# axis(1, at = c(1999:2015), cex.axis = 1.5) 
-# axis(2, at = c(0.4, 0.55, 0.75, 1, 1.35,1.8, 2.5), cex.axis = 1.5, las = 2) 
-# title(xlab = 'Time', ylab = 'Rate Ratio', cex.lab = 1.5, line = 4) 
-# points(exp(ts(Effect_I1, frequency = 12, start = c(1999, 01))), type = "l")
+rr_1Int <- c(exp(ts(Effect_I1, frequency = 12, start = c(1999, 01))))
+time_1Int <- seq(as.Date("1999-01-01"), as.Date("2002-08-01"), by = "month")
+ggplot(data = NULL, 
+       aes(time_1Int, rr_1Int
+           #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+       )) + 
+  geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+  theme_classic() +
+  geom_ribbon(aes(ymin = .5, ymax = rr_1Int), fill = "lightblue")
 
 NewInter1 <- Inter1 - ts(Effect_I1, frequency = frequency (Inter1), start = start(Inter1)) 
 pl_int1 <- qsl_ts %>%
@@ -144,13 +144,15 @@ exp(deltaMethod(obj.mean[c(3,4)], "b2*(1-b1^7)/(1-b1)",
 deltaMethod (obj.mean[c(3,4)], "exp(b2*(1-b1^7)/(1-b1))", vcov. = obj.cov[c(3,4),c(3,4)] )
 wald.test(b = obj.mean[c(3, 4)], Sigma = obj.cov[c(3, 4), c(3, 4)], Terms = 1:2) 
 
-# plot.ts(exp(ts(Effect_I2, frequency = 12, start = c(2001,01))), type = "h", 
-#           ylim = c(0.5, 2.5), ylab = "", xlab = "", xaxt = 'n', yaxt = 'n',
-#           col = "lightblue", log = 'y', main = "B", cex.main = 1.5, frame.plot = FALSE, lwd = 1.5) 
-# axis(1, at = c(1999:2015), cex.axis = 1.5) 
-# axis(2, at = c(0.5, 0.7, 1.0, 1.50, 2.0), cex.axis = 1.5, las = 2) 
-# title(xlab = 'Time', ylab = 'Rate Ratio', cex.lab = 1.5, line = 4) 
-# points(exp(ts(Effect_I2, frequency = 12, start = c(2001, 01))), type = "l")
+rr_2Int <- c(exp(ts(Effect_I2, frequency = 12, start = c(1999, 01))))
+time_2Int <- seq(as.Date("2001-01-01"), as.Date("2005-05-01"), by = "month")
+ggplot(data = NULL, 
+       aes(time_2Int, rr_2Int
+           #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+       )) + 
+  geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+  theme_classic() +
+  geom_ribbon(aes(ymin = .5, ymax = rr_2Int), fill = "lightblue")
 
 NewInter2 <- Inter2 - ts(Effect_I2, frequency = frequency(Inter2), 
                          start = start(Inter2)) 
@@ -209,6 +211,16 @@ wald.test(b = obj.mean[c(2, 3)], Sigma = obj.cov[c(2, 3), c(2, 3)], Terms = 1:2)
 # axis(2, cex.axis = 1.5, las = 2) 
 # title(xlab = 'Time', ylab = 'Rate Ratio', cex.lab = 1.5, line = 4) 
 # points(exp(ts(Effect_I3, frequency = 12, start = c(2002, 09))), type = "l")
+
+rr_3Int <- c(exp(ts(Effect_I3, frequency = 12, start = c(1999, 01))))
+time_3Int <- seq(as.Date("2002-09-01"), as.Date("2008-12-01"), by = "month")
+ggplot(data = NULL, 
+       aes(time_3Int, rr_3Int
+           #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+       )) + 
+  geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+  theme_classic() +
+  geom_ribbon(aes(ymin = .5, ymax = rr_3Int), fill = "lightblue")
 
 NewInter3 <- Inter3 -  ts(Effect_I3, frequency = frequency(Inter3), start = start (Inter3))
 pl_int3 <- qsl_ts %>%
@@ -274,6 +286,15 @@ NewInter4 <- Inter4 - ts(Effect_I4, frequency = frequency (Inter4), start = star
 # axis(2, at = c(0.5, 0.65, 0.8, 1, 1.2), cex.axis = 1.5, las = 2 ) 
 # title(xlab = 'Time', ylab = 'Rate Ratio', cex.lab = 1.5, line = 4) 
 # points(exp(ts(Effect_I4, frequency = 12, start = c(2009,01))), type = "l")
+rr_4Int <- c(exp(ts(Effect_I4, frequency = 12, start = c(1999, 01))))
+time_4Int <- seq(as.Date("2009-01-01"), as.Date("2014-12-01"), by = "month")
+ggplot(data = NULL, 
+       aes(time_4Int, rr_4Int
+           #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+       )) + 
+  geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+  theme_classic() +
+  geom_ribbon(aes(ymin = .5, ymax = rr_4Int), fill = "lightblue")
 
 pl_int4 <- qsl_ts %>%
   subset(month >= "2009-01-01" & month <= "2014-12-01") %>%
