@@ -37,24 +37,24 @@ shinyServer(function(input, output) {
   })
   
   ## time serie calls
-  output$dy_ts <- renderDygraph({
-    dataxts <- as.xts(qsl_ts, order.by = qsl_ts$month)[, ifelse(input$log, "n", "rate")]
-    dy_ts <- dygraph(dataxts) %>%
-      dyAxis("y", label = ifelse(input$log, "Total number of calls", 
-                                 "Calling rates per 100,000 smokers")
-             ) %>%
-      dyOptions(drawPoints = TRUE, pointSize = 3, logscale = (input$log == FALSE))
-    if (!is.null(input$timeline_selected)){
-      for (i in as.numeric(input$timeline_selected)){
-        dy_ts <- dy_ts %>%
-          dyEvent(data_milestone$start[data_milestone$id == i], 
-                  data_milestone$content[data_milestone$id == i], labelLoc = "top") %>%
-          dyShading(from = data_milestone$wlow[data_milestone$id == i], 
-                    to = data_milestone$wupp[data_milestone$id == i])        
-      }
-      }
-    dy_ts
-  })
+  # output$dy_ts <- renderDygraph({
+  #   dataxts <- as.xts(qsl_ts, order.by = qsl_ts$month)[, ifelse(input$log, "n", "rate")]
+  #   dy_ts <- dygraph(dataxts) %>%
+  #     dyAxis("y", label = ifelse(input$log, "Total number of calls", 
+  #                                "Calling rates per 100,000 smokers")
+  #            ) %>%
+  #     dyOptions(drawPoints = TRUE, pointSize = 3, logscale = (input$log == FALSE))
+  #   if (!is.null(input$timeline_selected)){
+  #     for (i in as.numeric(input$timeline_selected)){
+  #       dy_ts <- dy_ts %>%
+  #         dyEvent(data_milestone$start[data_milestone$id == i], 
+  #                 data_milestone$content[data_milestone$id == i], labelLoc = "top") %>%
+  #         dyShading(from = data_milestone$wlow[data_milestone$id == i], 
+  #                   to = data_milestone$wupp[data_milestone$id == i])        
+  #     }
+  #     }
+  #   dy_ts
+  # })
   output$pl_ts <- renderPlotly({
     if (input$log == FALSE){
       gg_ts <- ggplot(qsl_ts, aes(month, rate, group = 1,
@@ -114,7 +114,8 @@ shinyServer(function(input, output) {
                  #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
                  )) + 
         geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
-        theme_classic() +
+        theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+        scale_x_date("\n", date_labels = "%b %y", date_breaks = "3 months") + 
         geom_ribbon(aes(ymin = .5, ymax = rr_1Int), fill = "lightblue")
       )  
     })
@@ -148,7 +149,8 @@ shinyServer(function(input, output) {
                  #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
              )) + 
         geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
-        theme_classic() +
+        theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+        scale_x_date("\n", date_labels = "%b %y", date_breaks = "3 months") + 
         geom_ribbon(aes(ymin = .5, ymax = rr_2Int), fill = "lightblue")
     )
   })
@@ -182,7 +184,8 @@ shinyServer(function(input, output) {
                  #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
              )) + 
         geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
-        theme_classic() +
+        theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+        scale_x_date("\n", date_labels = "%b %y", date_breaks = "4 months") + 
         geom_ribbon(aes(ymin = .5, ymax = rr_3Int), fill = "lightblue")
     )
   })
@@ -216,7 +219,8 @@ shinyServer(function(input, output) {
                  #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
              )) + 
         geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
-        theme_classic() +
+        theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+        scale_x_date("\n", date_labels = "%b %y", date_breaks = "5 months") + 
         geom_ribbon(aes(ymin = .5, ymax = rr_4Int), fill = "lightblue")
     )
   })
