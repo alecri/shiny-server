@@ -5,7 +5,11 @@ library(plotly)
 library(xts)
 library(ggplot2)
 library(stats)
+library(lubridate)
+#library(magrittr)
 
+## load data
+load("www/qls_app_data.Rdata")
 shinyServer(function(input, output) {
   
   ## reactive output
@@ -106,8 +110,6 @@ shinyServer(function(input, output) {
   # })
   
   output$RR1 <- renderPlotly({
-    rr_1Int <- c(exp(ts(Effect_I1, frequency = 12, start = c(1999, 01))))
-    time_1Int <- seq(as.Date("1999-01-01"), as.Date("2002-08-01"), by = "month")
     ggplotly(
       ggplot(data = NULL, 
              aes(time_1Int, rr_1Int
@@ -121,9 +123,7 @@ shinyServer(function(input, output) {
     })
 
     output$tableRR1 <- renderDataTable({
-      data.frame(Date = time_1Int,
-                 `Rate Ratio` = round(rr_1Int, 2)
-      )[rr_1Int != 1, ]
+       rr_tab1
     })
 
     
@@ -141,8 +141,6 @@ shinyServer(function(input, output) {
   })
   
   output$RR2 <- renderPlotly({
-    rr_2Int <- c(exp(ts(Effect_I2, frequency = 12, start = c(1999, 01))))
-    time_2Int <- seq(as.Date("2001-01-01"), as.Date("2005-05-01"), by = "month")
     ggplotly(
       ggplot(data = NULL, 
              aes(time_2Int, rr_2Int
@@ -156,9 +154,7 @@ shinyServer(function(input, output) {
   })
   
   output$tableRR2 <- renderDataTable({
-    data.frame(Date = time_2Int,
-               `Rate Ratio` = round(rr_2Int, 2)
-    )[rr_2Int != 1, ]
+     rr_tab2
   })
   
   
@@ -176,8 +172,6 @@ shinyServer(function(input, output) {
   })
   
   output$RR3 <- renderPlotly({
-    rr_3Int <- c(exp(ts(Effect_I3, frequency = 12, start = c(1999, 01))))
-    time_3Int <- seq(as.Date("2002-09-01"), as.Date("2008-12-01"), by = "month")
     ggplotly(
       ggplot(data = NULL, 
              aes(time_3Int, rr_3Int
@@ -191,9 +185,7 @@ shinyServer(function(input, output) {
   })
   
   output$tableRR3 <- renderDataTable({
-    data.frame(Date = time_3Int,
-               `Rate Ratio` = round(rr_3Int, 2)
-    )[rr_3Int != 1, ]
+     rr_tab3
   })
   
   
@@ -211,8 +203,6 @@ shinyServer(function(input, output) {
   })
   
   output$RR4 <- renderPlotly({
-    rr_4Int <- c(exp(ts(Effect_I4, frequency = 12, start = c(1999, 01))))
-    time_4Int <- seq(as.Date("2009-01-01"), as.Date("2014-12-01"), by = "month")
     ggplotly(
       ggplot(data = NULL, 
              aes(time_4Int, rr_4Int
@@ -226,9 +216,7 @@ shinyServer(function(input, output) {
   })
   
   output$tableRR4 <- renderDataTable({
-    data.frame(Date = time_4Int,
-               `Rate Ratio` = round(rr_4Int, 2)
-               )[rr_4Int != 1, ]
+     rr_tab4
   })
   
 })
