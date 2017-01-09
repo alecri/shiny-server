@@ -1,7 +1,5 @@
 ## Packages required
 library(shiny)
-Sys.setenv("plotly_username"="alecri")
-Sys.setenv("plotly_api_key"="nr287vef19")
 library(readxl)
 library(dosresmeta)
 library(ggplot2)

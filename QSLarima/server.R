@@ -9,7 +9,7 @@ library(lubridate)
 #library(magrittr)
 
 ## load data
-load("www/qls_app_data.Rdata")
+load("www/qls_app_dat.Rdata")
 shinyServer(function(input, output) {
   
   ## reactive output
