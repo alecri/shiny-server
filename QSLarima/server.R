@@ -6,10 +6,10 @@ library(xts)
 library(ggplot2)
 library(stats)
 library(lubridate)
-#library(magrittr)
 
 ## load data
 load("www/qls_app_dat.Rdata")
+
 shinyServer(function(input, output) {
   
   ## reactive output
@@ -59,35 +59,36 @@ shinyServer(function(input, output) {
   #     }
   #   dy_ts
   # })
-  output$pl_ts <- renderPlotly({
-    if (input$log == FALSE){
-      gg_ts <- ggplot(qsl_ts, aes(month, rate, group = 1,
-                                      text = paste("date:", month, "<br>", "rate:", round(rate, 1)))) +
-        scale_y_continuous("Calling rates per 100,000 smokers", trans = "log", breaks = c(25, 50, 100, 200, 300))
-    } else {
-      gg_ts <- ggplot(qsl_ts, aes(month, n, group = 1,
-                                      text = paste("date:", month, "<br>", "n:", n))) +
-        ylab("Total number of calls")
-    }
-    gg_ts <- gg_ts + geom_point(col = "blue") + geom_line(col = "blue") +
-      scale_x_date("\n", date_labels = "%b %y", date_breaks = "6 months") + 
-      theme_classic() + theme(axis.text.x = element_text(angle = 45))
-    if (!is.null(input$timeline_selected)){
-      for (i in as.numeric(input$timeline_selected)){
-        gg_ts <- gg_ts +
-          geom_vline(xintercept = as.numeric(data_milestone$start[data_milestone$id == i]),
-                     linetype = 4) +
-          annotate("rect", fill = "grey", alpha = 0.25, 
-                   xmin = data_milestone$wlow[data_milestone$id == i], 
-                   xmax = data_milestone$wupp[data_milestone$id == i],
-                   ymin = ifelse(input$log, 300, 20), ymax = ifelse(input$log, 2700, 320))
-          # geom_rect(xmin = as.numeric(data_milestone$start[data_milestone$id == i]),
-          #               xmax = as.numeric(data_milestone$start[data_milestone$id == i]),
-          #               ymin = -Inf, ymax = +Inf, fill="red",alpha = 0.5)
-      }
-    }
 
-    ggplotly(gg_ts, tooltip = "text")
+  output$pl_ts <- renderPlotly({
+     if (input$log == FALSE){
+        gg_ts <- ggplot(qsl_ts, aes(month, rate, group = 1,
+                                    text = paste("date:", month, "<br>", "rate:", round(rate, 1)))) +
+           scale_y_continuous("Calling rates per 100,000 smokers", trans = "log", breaks = c(25, 50, 100, 200, 300))
+     } else {
+        gg_ts <- ggplot(qsl_ts, aes(month, n, group = 1,
+                                    text = paste("date:", month, "<br>", "n:", n))) +
+           ylab("Total number of calls")
+     }
+     gg_ts <- gg_ts + geom_point(col = "blue") + geom_line(col = "blue") +
+        scale_x_date("\n", date_labels = "%b %y", date_breaks = "6 months") + 
+        theme_classic() + theme(axis.text.x = element_text(angle = 45))
+     if (!is.null(input$timeline_selected)){
+        for (i in as.numeric(input$timeline_selected)){
+           gg_ts <- gg_ts +
+              geom_vline(xintercept = as.numeric(data_milestone$start[data_milestone$id == i]),
+                         linetype = 4) +
+              annotate("rect", fill = "grey", alpha = 0.25, 
+                       xmin = data_milestone$wlow[data_milestone$id == i], 
+                       xmax = data_milestone$wupp[data_milestone$id == i],
+                       ymin = ifelse(input$log, 300, 20), ymax = ifelse(input$log, 2700, 320))
+           # geom_rect(xmin = as.numeric(data_milestone$start[data_milestone$id == i]),
+           #               xmax = as.numeric(data_milestone$start[data_milestone$id == i]),
+           #               ymin = -Inf, ymax = +Inf, fill="red",alpha = 0.5)
+        }
+     }
+     
+     ggplotly(gg_ts, tooltip = "text")
   })
   
   # 1st intervantion
@@ -110,16 +111,17 @@ shinyServer(function(input, output) {
   # })
   
   output$RR1 <- renderPlotly({
-    ggplotly(
-      ggplot(data = NULL, 
-             aes(time_1Int, rr_1Int
-                 #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
-                 )) + 
-        geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
-        theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
-        scale_x_date("\n", date_labels = "%b %y", date_breaks = "3 months") + 
-        geom_ribbon(aes(ymin = .5, ymax = rr_1Int), fill = "lightblue")
-      )  
+     ggplotly(
+        ggplot(data = data.frame(time_1Int, rr_1Int), 
+               aes(time_1Int, rr_1Int, group = 1,
+                   text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
+               )) + 
+           geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
+           theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+           scale_x_date("\n", date_labels = "%b %y", date_breaks = "3 months") + 
+           geom_segment(aes(xend = time_1Int, yend = .4), col = "lightblue"),
+        tooltip = "text"
+     ) 
     })
 
     output$tableRR1 <- renderDataTable({
@@ -141,16 +143,17 @@ shinyServer(function(input, output) {
   })
   
   output$RR2 <- renderPlotly({
-    ggplotly(
-      ggplot(data = NULL, 
-             aes(time_2Int, rr_2Int
-                 #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
-             )) + 
-        geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
-        theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
-        scale_x_date("\n", date_labels = "%b %y", date_breaks = "3 months") + 
-        geom_ribbon(aes(ymin = .5, ymax = rr_2Int), fill = "lightblue")
-    )
+     ggplotly(
+        ggplot(data = data.frame(time_2Int, rr_2Int), 
+               aes(time_2Int, rr_2Int, group = 1,
+                   text = paste("date:", time_2Int, "<br>", "Rate Ratio:", round(rr_2Int, 3))
+               )) + 
+           geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.2) +
+           theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+           scale_x_date("\n", date_labels = "%b %y", date_breaks = "3 months") + 
+           geom_segment(aes(xend = time_2Int, yend = .4), col = "lightblue"),
+        tooltip = "text"
+     )
   })
   
   output$tableRR2 <- renderDataTable({
@@ -172,17 +175,18 @@ shinyServer(function(input, output) {
   })
   
   output$RR3 <- renderPlotly({
-    ggplotly(
-      ggplot(data = NULL, 
-             aes(time_3Int, rr_3Int
-                 #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
-             )) + 
-        geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
-        theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
-        scale_x_date("\n", date_labels = "%b %y", date_breaks = "4 months") + 
-        geom_ribbon(aes(ymin = .5, ymax = rr_3Int), fill = "lightblue")
-    )
-  })
+     ggplotly(
+        ggplot(data = data.frame(time_3Int, rr_3Int), 
+               aes(time_3Int, rr_3Int, group = 1,
+                   text = paste("date:", time_3Int, "<br>", "Rate Ratio:", round(rr_3Int, 3))
+               )) + 
+           geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.9, 1.2) +
+           theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+           scale_x_date("\n", date_labels = "%b %y", date_breaks = "3 months") + 
+           geom_segment(aes(xend = time_3Int, yend = .9), col = "lightblue"),
+        tooltip = "text"
+     )
+   })
   
   output$tableRR3 <- renderDataTable({
      rr_tab3
@@ -203,17 +207,18 @@ shinyServer(function(input, output) {
   })
   
   output$RR4 <- renderPlotly({
-    ggplotly(
-      ggplot(data = NULL, 
-             aes(time_4Int, rr_4Int
-                 #text = paste("date:", time_1Int, "<br>", "Rate Ratio:", round(rr_1Int, 3))
-             )) + 
-        geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.4, 2.5) +
-        theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
-        scale_x_date("\n", date_labels = "%b %y", date_breaks = "5 months") + 
-        geom_ribbon(aes(ymin = .5, ymax = rr_4Int), fill = "lightblue")
-    )
-  })
+     ggplotly(
+        ggplot(data = data.frame(time_4Int, rr_4Int), 
+               aes(time_4Int, rr_4Int, group = 1,
+                   text = paste("date:", time_4Int, "<br>", "Rate Ratio:", round(rr_4Int, 3))
+               )) + 
+           geom_line() + labs(x = "Time", y = "Rate Ratio") + ylim(.5, 1.2) +
+           theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+           scale_x_date("\n", date_labels = "%b %y", date_breaks = "3 months") + 
+           geom_segment(aes(xend = time_4Int, yend = .5), col = "lightblue"),
+        tooltip = "text"
+     )
+   })
   
   output$tableRR4 <- renderDataTable({
      rr_tab4
