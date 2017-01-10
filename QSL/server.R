@@ -8,6 +8,7 @@ library(Epi)
 library(plotly)
 library(lubridate)
 require(rms)
+library(tidyverse)
 
 
 load("www/qsl_ts.rda")
