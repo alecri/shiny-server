@@ -6,6 +6,7 @@ library(xts)
 library(ggplot2)
 library(stats)
 library(lubridate)
+library(tidyverse)
 
 ## load data
 load("www/qls_app_dat.Rdata")
