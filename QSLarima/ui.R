@@ -20,7 +20,7 @@ shinyUI(
       h4(tags$sup(1), "Biostatistics Team, Department of Public Health Sciences, Karolinska Institutet"),
       h4(tags$sup(2), "Centre of Epidemiology and Community Medicine"),
       br(),
-      selectInput("Language", "Choose language:", 
+      selectInput("Language", "Change language:", 
                   choices = c("English", "Svenska")),
       conditionalPanel(
          "input.Language == 'English'",
@@ -52,7 +52,7 @@ shinyUI(
             strong("Results:"), "The campaign on passive smoking on Jan 2001 was associated with a 85% higher calling rate 
             (95% CI=1.13-3.04). Larger warnings on cigarette packs in Sept 2002 
             conferred a 53% increment in the calling rate (95% CI=1.20-1.94). 
-            Smoking-free restaurants was associated with a significant 11% (95% CI=1.00-1.1.23) 
+            Smoking-free restaurants was associated with a significant 11% (95% CI=1.00-1.23) 
             higher calling rate. The 10% tobacco tax increase in Jan 2012 had no 
             significant effect on the calling rate (RR=0.98, 95% CI=0.82-1.15)."
          ),
@@ -116,7 +116,14 @@ shinyUI(
       checkboxInput("log", "Display counts", FALSE),
       #dygraphOutput("dy_ts"),
       plotlyOutput("pl_ts"),
-      br()
+      br(),
+      checkboxInput("counts", "Display counts", FALSE),
+      plotlyOutput("pl_smk"),
+      br(),
+      checkboxInput("strat_age", "Stratify by age categories", FALSE),
+      conditionalPanel("input.strat_age == true",
+                       plotlyOutput("pl_smk_age")
+                       )
   ),
   
   tabPanel("1st Interv",

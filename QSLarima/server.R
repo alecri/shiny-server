@@ -9,6 +9,20 @@ library(lubridate)
 
 ## load data
 load("www/qls_app_dat.Rdata")
+load("www/pop_smk.rda")
+
+smk_age <- data.frame(
+   gather(pop_smkage[, c(1:2, 3:5)], sex, num, -c(1:2)),
+   smk = gather(pop_smkage[, c(2, 6:8)], sex, smk, -year)$smk,
+   pct = gather(pop_smkage[, c(2, 9:11)], sex, pct, -year)$pct
+)
+smk_age$sex <- factor(smk_age$sex, labels = c("total", "female", "male"))
+smk <- smk_age %>% group_by(year, sex) %>%
+   summarise(num = sum(num),
+             smk = sum(smk)) %>%
+   mutate(pct = 100*smk/num)
+
+
 
 shinyServer(function(input, output) {
   
@@ -90,6 +104,40 @@ shinyServer(function(input, output) {
      
      ggplotly(gg_ts, tooltip = "text")
   })
+  
+  output$pl_smk <- renderPlotly({
+     ggplotly(
+        ggplot(smk, aes(x = year, color = sex, group = sex, 
+                        y = get(ifelse(input$counts, "smk", "pct")),
+                        text = paste("Year:", year, "<br>", 
+                                     ifelse(input$counts, "Number of smokers:", "Percentage of smokers:"), 
+                                     round(get(ifelse(input$counts, "smk", "pct")))))) +
+           ylab(ifelse(input$counts, "Number of smokers", "Percentage of smokers")) + 
+           geom_line() + geom_point() +
+           theme_classic() + theme(axis.text.x = element_text(angle = 45)),
+        tooltip = "text"
+     )
+  })
+  output$pl_smk_age <- renderPlotly({
+     ggplotly(
+        ggplot(smk_age %>% filter(year >= 2004),
+               aes(x = year, color = age_cat, group = age_cat,
+                   y = get(ifelse(input$counts, "smk", "pct")),
+                   text = paste("Year:", year, "<br>", 
+                                ifelse(input$counts, "Number of smokers:", "Percentage of smokers:"), 
+                                round(get(ifelse(input$counts, "smk", "pct")))))) +
+           ylab(ifelse(input$counts, "Number of smokers", "Percentage of smokers")) + 
+           geom_line() +
+           theme_classic() + theme(axis.text.x = element_text(angle = 45)) +
+           facet_grid(. ~ sex),
+        tooltip = "text"
+     )
+  })
+  
+  
+  
+  
+  
   
   # 1st intervantion
   output$pl_1Int <- renderPlotly({
