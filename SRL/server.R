@@ -23,6 +23,12 @@ smk <- smk_age %>% group_by(year, sex) %>%
              smk = sum(smk)) %>%
    mutate(pct = 100*smk/num)
 
+# pop_smkage %>%
+#    rename(n_total = n, smk_total = smk, pct_total = pct) %>%
+#    gather(sex, value, -age_cat, -year) %>%
+#    extract(sex, c("variable", "gender"), "([[:alnum:]]+)_([[:alnum:]]+)") %>%
+#    spread(variable, value)
+
 
 
 shinyServer(function(input, output) {

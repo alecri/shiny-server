@@ -5,7 +5,7 @@ library(timevis)
 
 shinyUI(
   navbarPage(
-    "Quit Smoking Line",
+    "Sluta-Röka-Linjen",
     
     tabPanel(
       "Home",
