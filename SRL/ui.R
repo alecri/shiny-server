@@ -9,9 +9,15 @@ shinyUI(
     
     tabPanel(
       "Home",
+      conditionalPanel(
+        "input.Language == 'English'",
       h2("Intervention time series analysis of the smoking cessation 
                 quitline: a 16-years retrospective study in Sweden", 
-         align = "center"),
+         align = "center")),      
+      conditionalPanel(
+           "input.Language == 'Svenska'",
+           h2("En analys av policyinsatsers inverkan på den svenska Sluta-Röka-Linjens aktivitet under sexton års tid", 
+              align = "center")),
       br(),
       h3("Xingwu Zhou", tags$sup(1), ", Alessio Crippa ", tags$sup(1), ", 
          Rosaria Galanti, ", tags$sup(2), " and Nicola Orsini", tags$sup(1),
@@ -20,7 +26,7 @@ shinyUI(
       h4(tags$sup(1), "Biostatistics Team, Department of Public Health Sciences, Karolinska Institutet"),
       h4(tags$sup(2), "Centre of Epidemiology and Community Medicine"),
       br(),
-      selectInput("Language", "Change language:", 
+      selectInput("Language", "Change language/Ändra språk:", 
                   choices = c("English", "Svenska")),
       conditionalPanel(
          "input.Language == 'English'",
