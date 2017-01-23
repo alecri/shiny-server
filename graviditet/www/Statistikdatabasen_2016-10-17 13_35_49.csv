@@ -1,0 +1,3303 @@
+﻿Förlossningsstatistik, Ålder: Alla åldrar, -24 år, 25-29 år, 30-34 år och 35+ år, Totalt
+Mått;Variabel;Landsting;Ålder;2012;2013;2014
+Antal;BMI < 18.5;Riket;Alla åldrar;2 569;2 712;2 926
+Antal;BMI < 18.5;Riket;­24 år;685;719;696
+Antal;BMI < 18.5;Riket;25­29 år;846;876;1 046
+Antal;BMI < 18.5;Riket;30­34 år;726;766;808
+Antal;BMI < 18.5;Riket;35+ år;296;341;344
+Antal;BMI < 18.5;Stockholm;Alla åldrar;842;759;856
+Antal;BMI < 18.5;Stockholm;­24 år;161;110;114
+Antal;BMI < 18.5;Stockholm;25­29 år;226;223;259
+Antal;BMI < 18.5;Stockholm;30­34 år;298;259;309
+Antal;BMI < 18.5;Stockholm;35+ år;141;159;163
+Antal;BMI < 18.5;Uppsala;Alla åldrar;81;81;73
+Antal;BMI < 18.5;Uppsala;­24 år;21;15;17
+Antal;BMI < 18.5;Uppsala;25­29 år;26;31;22
+Antal;BMI < 18.5;Uppsala;30­34 år;26;27;26
+Antal;BMI < 18.5;Uppsala;35+ år;8;8;8
+Antal;BMI < 18.5;Södermanland;Alla åldrar;56;72;78
+Antal;BMI < 18.5;Södermanland;­24 år;18;24;31
+Antal;BMI < 18.5;Södermanland;25­29 år;23;19;26
+Antal;BMI < 18.5;Södermanland;30­34 år;X;22;15
+Antal;BMI < 18.5;Södermanland;35+ år;X;7;6
+Antal;BMI < 18.5;Östergötland;Alla åldrar;96;115;121
+Antal;BMI < 18.5;Östergötland;­24 år;36;40;32
+Antal;BMI < 18.5;Östergötland;25­29 år;29;40;55
+Antal;BMI < 18.5;Östergötland;30­34 år;23;27;24
+Antal;BMI < 18.5;Östergötland;35+ år;8;8;9
+Antal;BMI < 18.5;Jönköping;Alla åldrar;75;96;102
+Antal;BMI < 18.5;Jönköping;­24 år;23;31;36
+Antal;BMI < 18.5;Jönköping;25­29 år;30;32;39
+Antal;BMI < 18.5;Jönköping;30­34 år;18;23;16
+Antal;BMI < 18.5;Jönköping;35+ år;4;10;8
+Antal;BMI < 18.5;Kronoberg;Alla åldrar;45;55;52
+Antal;BMI < 18.5;Kronoberg;­24 år;14;15;23
+Antal;BMI < 18.5;Kronoberg;25­29 år;18;24;15
+Antal;BMI < 18.5;Kronoberg;30­34 år;X;12;9
+Antal;BMI < 18.5;Kronoberg;35+ år;X;4;5
+Antal;BMI < 18.5;Kalmar;Alla åldrar;56;60;60
+Antal;BMI < 18.5;Kalmar;­24 år;16;20;13
+Antal;BMI < 18.5;Kalmar;25­29 år;22;17;26
+Antal;BMI < 18.5;Kalmar;30­34 år;14;17;13
+Antal;BMI < 18.5;Kalmar;35+ år;4;5;6
+Antal;BMI < 18.5;Gotland;Alla åldrar;17;21;15
+Antal;BMI < 18.5;Gotland;­24 år;X;10;X
+Antal;BMI < 18.5;Gotland;25­29 år;8;4;X
+Antal;BMI < 18.5;Gotland;30­34 år;X;7;X
+Antal;BMI < 18.5;Gotland;35+ år;X;0;X
+Antal;BMI < 18.5;Blekinge;Alla åldrar;34;28;28
+Antal;BMI < 18.5;Blekinge;­24 år;16;9;X
+Antal;BMI < 18.5;Blekinge;25­29 år;8;11;9
+Antal;BMI < 18.5;Blekinge;30­34 år;6;X;10
+Antal;BMI < 18.5;Blekinge;35+ år;4;X;X
+Antal;BMI < 18.5;Skåne;Alla åldrar;353;387;427
+Antal;BMI < 18.5;Skåne;­24 år;102;111;121
+Antal;BMI < 18.5;Skåne;25­29 år;131;123;163
+Antal;BMI < 18.5;Skåne;30­34 år;85;117;94
+Antal;BMI < 18.5;Skåne;35+ år;35;36;48
+Antal;BMI < 18.5;Halland;Alla åldrar;73;74;88
+Antal;BMI < 18.5;Halland;­24 år;20;26;18
+Antal;BMI < 18.5;Halland;25­29 år;26;20;38
+Antal;BMI < 18.5;Halland;30­34 år;19;20;21
+Antal;BMI < 18.5;Halland;35+ år;8;8;9
+Antal;BMI < 18.5;Västra Götaland;Alla åldrar;403;447;463
+Antal;BMI < 18.5;Västra Götaland;­24 år;104;133;98
+Antal;BMI < 18.5;Västra Götaland;25­29 år;145;136;191
+Antal;BMI < 18.5;Västra Götaland;30­34 år;108;120;130
+Antal;BMI < 18.5;Västra Götaland;35+ år;46;57;44
+Antal;BMI < 18.5;Värmland;Alla åldrar;18;50;58
+Antal;BMI < 18.5;Värmland;­24 år;X;18;21
+Antal;BMI < 18.5;Värmland;25­29 år;9;17;18
+Antal;BMI < 18.5;Värmland;30­34 år;4;X;14
+Antal;BMI < 18.5;Värmland;35+ år;X;X;5
+Antal;BMI < 18.5;Örebro;Alla åldrar;74;79;81
+Antal;BMI < 18.5;Örebro;­24 år;23;25;24
+Antal;BMI < 18.5;Örebro;25­29 år;23;33;28
+Antal;BMI < 18.5;Örebro;30­34 år;24;16;20
+Antal;BMI < 18.5;Örebro;35+ år;4;5;9
+Antal;BMI < 18.5;Västmanland;Alla åldrar;61;71;76
+Antal;BMI < 18.5;Västmanland;­24 år;24;24;X
+Antal;BMI < 18.5;Västmanland;25­29 år;19;26;28
+Antal;BMI < 18.5;Västmanland;30­34 år;14;X;25
+Antal;BMI < 18.5;Västmanland;35+ år;4;X;X
+Antal;BMI < 18.5;Dalarna;Alla åldrar;51;56;62
+Antal;BMI < 18.5;Dalarna;­24 år;16;22;29
+Antal;BMI < 18.5;Dalarna;25­29 år;20;25;19
+Antal;BMI < 18.5;Dalarna;30­34 år;10;X;10
+Antal;BMI < 18.5;Dalarna;35+ år;5;X;4
+Antal;BMI < 18.5;Gävleborg;Alla åldrar;53;43;61
+Antal;BMI < 18.5;Gävleborg;­24 år;22;22;31
+Antal;BMI < 18.5;Gävleborg;25­29 år;17;10;16
+Antal;BMI < 18.5;Gävleborg;30­34 år;X;X;X
+Antal;BMI < 18.5;Gävleborg;35+ år;X;X;X
+Antal;BMI < 18.5;Västernorrland;Alla åldrar;42;51;53
+Antal;BMI < 18.5;Västernorrland;­24 år;16;17;12
+Antal;BMI < 18.5;Västernorrland;25­29 år;15;20;15
+Antal;BMI < 18.5;Västernorrland;30­34 år;X;9;20
+Antal;BMI < 18.5;Västernorrland;35+ år;X;5;4
+Antal;BMI < 18.5;Jämtland;Alla åldrar;23;32;25
+Antal;BMI < 18.5;Jämtland;­24 år;9;7;8
+Antal;BMI < 18.5;Jämtland;25­29 år;7;12;X
+Antal;BMI < 18.5;Jämtland;30­34 år;X;6;7
+Antal;BMI < 18.5;Jämtland;35+ år;X;7;X
+Antal;BMI < 18.5;Västerbotten;Alla åldrar;66;78;81
+Antal;BMI < 18.5;Västerbotten;­24 år;18;25;23
+Antal;BMI < 18.5;Västerbotten;25­29 år;24;27;35
+Antal;BMI < 18.5;Västerbotten;30­34 år;19;X;17
+Antal;BMI < 18.5;Västerbotten;35+ år;5;X;4
+Antal;BMI < 18.5;Norrbotten;Alla åldrar;50;53;58
+Antal;BMI < 18.5;Norrbotten;­24 år;17;15;X
+Antal;BMI < 18.5;Norrbotten;25­29 år;20;24;28
+Antal;BMI < 18.5;Norrbotten;30­34 år;7;6;15
+Antal;BMI < 18.5;Norrbotten;35+ år;6;8;X
+Antal;18.5 ≤ BMI < 25;Riket;Alla åldrar;60 810;62 262;63 806
+Antal;18.5 ≤ BMI < 25;Riket;­24 år;8 767;8 710;8 492
+Antal;18.5 ≤ BMI < 25;Riket;25­29 år;17 711;18 487;19 502
+Antal;18.5 ≤ BMI < 25;Riket;30­34 år;21 449;22 097;22 325
+Antal;18.5 ≤ BMI < 25;Riket;35+ år;12 676;12 739;12 949
+Antal;18.5 ≤ BMI < 25;Stockholm;Alla åldrar;17 833;18 251;18 560
+Antal;18.5 ≤ BMI < 25;Stockholm;­24 år;1 549;1 558;1 473
+Antal;18.5 ≤ BMI < 25;Stockholm;25­29 år;4 136;4 373;4 542
+Antal;18.5 ≤ BMI < 25;Stockholm;30­34 år;7 018;7 223;7 331
+Antal;18.5 ≤ BMI < 25;Stockholm;35+ år;4 956;4 928;5 038
+Antal;18.5 ≤ BMI < 25;Uppsala;Alla åldrar;2 213;2 126;1 993
+Antal;18.5 ≤ BMI < 25;Uppsala;­24 år;279;281;253
+Antal;18.5 ≤ BMI < 25;Uppsala;25­29 år;607;601;622
+Antal;18.5 ≤ BMI < 25;Uppsala;30­34 år;828;782;737
+Antal;18.5 ≤ BMI < 25;Uppsala;35+ år;499;462;381
+Antal;18.5 ≤ BMI < 25;Södermanland;Alla åldrar;1 378;1 360;1 464
+Antal;18.5 ≤ BMI < 25;Södermanland;­24 år;315;281;315
+Antal;18.5 ≤ BMI < 25;Södermanland;25­29 år;424;480;480
+Antal;18.5 ≤ BMI < 25;Södermanland;30­34 år;422;399;444
+Antal;18.5 ≤ BMI < 25;Södermanland;35+ år;217;199;225
+Antal;18.5 ≤ BMI < 25;Östergötland;Alla åldrar;2 646;2 641;2 793
+Antal;18.5 ≤ BMI < 25;Östergötland;­24 år;450;447;474
+Antal;18.5 ≤ BMI < 25;Östergötland;25­29 år;900;844;953
+Antal;18.5 ≤ BMI < 25;Östergötland;30­34 år;869;880;918
+Antal;18.5 ≤ BMI < 25;Östergötland;35+ år;427;463;435
+Antal;18.5 ≤ BMI < 25;Jönköping;Alla åldrar;2 099;2 204;2 227
+Antal;18.5 ≤ BMI < 25;Jönköping;­24 år;355;374;347
+Antal;18.5 ≤ BMI < 25;Jönköping;25­29 år;762;806;813
+Antal;18.5 ≤ BMI < 25;Jönköping;30­34 år;667;715;700
+Antal;18.5 ≤ BMI < 25;Jönköping;35+ år;315;309;323
+Antal;18.5 ≤ BMI < 25;Kronoberg;Alla åldrar;1 098;1 060;1 106
+Antal;18.5 ≤ BMI < 25;Kronoberg;­24 år;170;183;193
+Antal;18.5 ≤ BMI < 25;Kronoberg;25­29 år;361;366;374
+Antal;18.5 ≤ BMI < 25;Kronoberg;30­34 år;409;346;355
+Antal;18.5 ≤ BMI < 25;Kronoberg;35+ år;156;165;184
+Antal;18.5 ≤ BMI < 25;Kalmar;Alla åldrar;1 298;1 283;1 304
+Antal;18.5 ≤ BMI < 25;Kalmar;­24 år;224;245;214
+Antal;18.5 ≤ BMI < 25;Kalmar;25­29 år;470;466;470
+Antal;18.5 ≤ BMI < 25;Kalmar;30­34 år;392;363;398
+Antal;18.5 ≤ BMI < 25;Kalmar;35+ år;192;185;188
+Antal;18.5 ≤ BMI < 25;Gotland;Alla åldrar;291;288;265
+Antal;18.5 ≤ BMI < 25;Gotland;­24 år;60;41;40
+Antal;18.5 ≤ BMI < 25;Gotland;25­29 år;74;87;64
+Antal;18.5 ≤ BMI < 25;Gotland;30­34 år;97;102;103
+Antal;18.5 ≤ BMI < 25;Gotland;35+ år;60;56;57
+Antal;18.5 ≤ BMI < 25;Blekinge;Alla åldrar;746;728;785
+Antal;18.5 ≤ BMI < 25;Blekinge;­24 år;164;162;144
+Antal;18.5 ≤ BMI < 25;Blekinge;25­29 år;239;235;274
+Antal;18.5 ≤ BMI < 25;Blekinge;30­34 år;241;210;245
+Antal;18.5 ≤ BMI < 25;Blekinge;35+ år;102;121;121
+Antal;18.5 ≤ BMI < 25;Skåne;Alla åldrar;7 850;8 585;8 791
+Antal;18.5 ≤ BMI < 25;Skåne;­24 år;1 236;1 267;1 211
+Antal;18.5 ≤ BMI < 25;Skåne;25­29 år;2 287;2 563;2 737
+Antal;18.5 ≤ BMI < 25;Skåne;30­34 år;2 787;3 151;3 026
+Antal;18.5 ≤ BMI < 25;Skåne;35+ år;1 537;1 604;1 766
+Antal;18.5 ≤ BMI < 25;Halland;Alla åldrar;1 821;1 897;1 983
+Antal;18.5 ≤ BMI < 25;Halland;­24 år;250;260;243
+Antal;18.5 ≤ BMI < 25;Halland;25­29 år;539;643;671
+Antal;18.5 ≤ BMI < 25;Halland;30­34 år;668;625;680
+Antal;18.5 ≤ BMI < 25;Halland;35+ år;364;360;375
+Antal;18.5 ≤ BMI < 25;Västra Götaland;Alla åldrar;10 316;10 026;10 286
+Antal;18.5 ≤ BMI < 25;Västra Götaland;­24 år;1 489;1 429;1 374
+Antal;18.5 ≤ BMI < 25;Västra Götaland;25­29 år;3 182;3 087;3 293
+Antal;18.5 ≤ BMI < 25;Västra Götaland;30­34 år;3 677;3 574;3 662
+Antal;18.5 ≤ BMI < 25;Västra Götaland;35+ år;1 966;1 931;1 943
+Antal;18.5 ≤ BMI < 25;Värmland;Alla åldrar;558;1 206;1 096
+Antal;18.5 ≤ BMI < 25;Värmland;­24 år;113;233;197
+Antal;18.5 ≤ BMI < 25;Värmland;25­29 år;167;408;391
+Antal;18.5 ≤ BMI < 25;Värmland;30­34 år;172;369;333
+Antal;18.5 ≤ BMI < 25;Värmland;35+ år;106;196;175
+Antal;18.5 ≤ BMI < 25;Örebro;Alla åldrar;1 741;1 700;1 744
+Antal;18.5 ≤ BMI < 25;Örebro;­24 år;317;302;294
+Antal;18.5 ≤ BMI < 25;Örebro;25­29 år;581;564;606
+Antal;18.5 ≤ BMI < 25;Örebro;30­34 år;554;557;572
+Antal;18.5 ≤ BMI < 25;Örebro;35+ år;289;277;269
+Antal;18.5 ≤ BMI < 25;Västmanland;Alla åldrar;1 523;1 493;1 576
+Antal;18.5 ≤ BMI < 25;Västmanland;­24 år;293;250;291
+Antal;18.5 ≤ BMI < 25;Västmanland;25­29 år;506;510;553
+Antal;18.5 ≤ BMI < 25;Västmanland;30­34 år;474;478;459
+Antal;18.5 ≤ BMI < 25;Västmanland;35+ år;247;249;249
+Antal;18.5 ≤ BMI < 25;Dalarna;Alla åldrar;1 385;1 294;1 537
+Antal;18.5 ≤ BMI < 25;Dalarna;­24 år;300;275;291
+Antal;18.5 ≤ BMI < 25;Dalarna;25­29 år;478;432;520
+Antal;18.5 ≤ BMI < 25;Dalarna;30­34 år;407;384;493
+Antal;18.5 ≤ BMI < 25;Dalarna;35+ år;200;203;211
+Antal;18.5 ≤ BMI < 25;Gävleborg;Alla åldrar;1 352;1 347;1 413
+Antal;18.5 ≤ BMI < 25;Gävleborg;­24 år;319;276;312
+Antal;18.5 ≤ BMI < 25;Gävleborg;25­29 år;455;450;503
+Antal;18.5 ≤ BMI < 25;Gävleborg;30­34 år;353;383;387
+Antal;18.5 ≤ BMI < 25;Gävleborg;35+ år;224;238;210
+Antal;18.5 ≤ BMI < 25;Västernorrland;Alla åldrar;1 143;1 147;1 217
+Antal;18.5 ≤ BMI < 25;Västernorrland;­24 år;234;219;222
+Antal;18.5 ≤ BMI < 25;Västernorrland;25­29 år;388;385;402
+Antal;18.5 ≤ BMI < 25;Västernorrland;30­34 år;341;356;362
+Antal;18.5 ≤ BMI < 25;Västernorrland;35+ år;180;187;187
+Antal;18.5 ≤ BMI < 25;Jämtland;Alla åldrar;663;651;702
+Antal;18.5 ≤ BMI < 25;Jämtland;­24 år;126;96;114
+Antal;18.5 ≤ BMI < 25;Jämtland;25­29 år;172;186;222
+Antal;18.5 ≤ BMI < 25;Jämtland;30­34 år;211;232;210
+Antal;18.5 ≤ BMI < 25;Jämtland;35+ år;153;131;148
+Antal;18.5 ≤ BMI < 25;Västerbotten;Alla åldrar;1 656;1 664;1 593
+Antal;18.5 ≤ BMI < 25;Västerbotten;­24 år;245;221;238
+Antal;18.5 ≤ BMI < 25;Västerbotten;25­29 år;595;574;550
+Antal;18.5 ≤ BMI < 25;Västerbotten;30­34 år;530;599;518
+Antal;18.5 ≤ BMI < 25;Västerbotten;35+ år;285;270;267
+Antal;18.5 ≤ BMI < 25;Norrbotten;Alla åldrar;1 194;1 248;1 250
+Antal;18.5 ≤ BMI < 25;Norrbotten;­24 år;278;285;244
+Antal;18.5 ≤ BMI < 25;Norrbotten;25­29 år;387;408;451
+Antal;18.5 ≤ BMI < 25;Norrbotten;30­34 år;329;360;369
+Antal;18.5 ≤ BMI < 25;Norrbotten;35+ år;200;195;186
+Antal;25 ≤ BMI < 30;Riket;Alla åldrar;26 047;26 822;26 931
+Antal;25 ≤ BMI < 30;Riket;­24 år;3 711;3 785;3 632
+Antal;25 ≤ BMI < 30;Riket;25­29 år;7 425;7 779;8 170
+Antal;25 ≤ BMI < 30;Riket;30­34 år;8 408;8 778;8 566
+Antal;25 ≤ BMI < 30;Riket;35+ år;6 371;6 366;6 253
+Antal;25 ≤ BMI < 30;Stockholm;Alla åldrar;6 040;6 281;6 170
+Antal;25 ≤ BMI < 30;Stockholm;­24 år;588;566;517
+Antal;25 ≤ BMI < 30;Stockholm;25­29 år;1 439;1 559;1 620
+Antal;25 ≤ BMI < 30;Stockholm;30­34 år;2 050;2 167;2 123
+Antal;25 ≤ BMI < 30;Stockholm;35+ år;1 863;1 911;1 824
+Antal;25 ≤ BMI < 30;Uppsala;Alla åldrar;999;917;913
+Antal;25 ≤ BMI < 30;Uppsala;­24 år;124;124;117
+Antal;25 ≤ BMI < 30;Uppsala;25­29 år;273;258;275
+Antal;25 ≤ BMI < 30;Uppsala;30­34 år;357;301;290
+Antal;25 ≤ BMI < 30;Uppsala;35+ år;245;234;231
+Antal;25 ≤ BMI < 30;Södermanland;Alla åldrar;757;796;739
+Antal;25 ≤ BMI < 30;Södermanland;­24 år;136;136;134
+Antal;25 ≤ BMI < 30;Södermanland;25­29 år;218;238;239
+Antal;25 ≤ BMI < 30;Södermanland;30­34 år;248;265;216
+Antal;25 ≤ BMI < 30;Södermanland;35+ år;154;157;150
+Antal;25 ≤ BMI < 30;Östergötland;Alla åldrar;1 415;1 343;1 306
+Antal;25 ≤ BMI < 30;Östergötland;­24 år;203;203;230
+Antal;25 ≤ BMI < 30;Östergötland;25­29 år;431;390;433
+Antal;25 ≤ BMI < 30;Östergötland;30­34 år;464;461;355
+Antal;25 ≤ BMI < 30;Östergötland;35+ år;317;286;279
+Antal;25 ≤ BMI < 30;Jönköping;Alla åldrar;1 022;1 004;1 071
+Antal;25 ≤ BMI < 30;Jönköping;­24 år;164;163;153
+Antal;25 ≤ BMI < 30;Jönköping;25­29 år;347;338;369
+Antal;25 ≤ BMI < 30;Jönköping;30­34 år;305;328;347
+Antal;25 ≤ BMI < 30;Jönköping;35+ år;205;173;182
+Antal;25 ≤ BMI < 30;Kronoberg;Alla åldrar;477;504;535
+Antal;25 ≤ BMI < 30;Kronoberg;­24 år;84;71;74
+Antal;25 ≤ BMI < 30;Kronoberg;25­29 år;143;161;178
+Antal;25 ≤ BMI < 30;Kronoberg;30­34 år;141;169;163
+Antal;25 ≤ BMI < 30;Kronoberg;35+ år;108;103;120
+Antal;25 ≤ BMI < 30;Kalmar;Alla åldrar;645;582;598
+Antal;25 ≤ BMI < 30;Kalmar;­24 år;95;107;100
+Antal;25 ≤ BMI < 30;Kalmar;25­29 år;214;184;191
+Antal;25 ≤ BMI < 30;Kalmar;30­34 år;188;168;191
+Antal;25 ≤ BMI < 30;Kalmar;35+ år;129;110;98
+Antal;25 ≤ BMI < 30;Gotland;Alla åldrar;149;119;132
+Antal;25 ≤ BMI < 30;Gotland;­24 år;27;20;17
+Antal;25 ≤ BMI < 30;Gotland;25­29 år;47;36;41
+Antal;25 ≤ BMI < 30;Gotland;30­34 år;41;31;35
+Antal;25 ≤ BMI < 30;Gotland;35+ år;34;32;39
+Antal;25 ≤ BMI < 30;Blekinge;Alla åldrar;395;399;442
+Antal;25 ≤ BMI < 30;Blekinge;­24 år;71;74;80
+Antal;25 ≤ BMI < 30;Blekinge;25­29 år;129;131;152
+Antal;25 ≤ BMI < 30;Blekinge;30­34 år;118;114;120
+Antal;25 ≤ BMI < 30;Blekinge;35+ år;77;80;88
+Antal;25 ≤ BMI < 30;Skåne;Alla åldrar;3 520;3 802;3 920
+Antal;25 ≤ BMI < 30;Skåne;­24 år;473;559;533
+Antal;25 ≤ BMI < 30;Skåne;25­29 år;1 051;1 108;1 190
+Antal;25 ≤ BMI < 30;Skåne;30­34 år;1 171;1 264;1 257
+Antal;25 ≤ BMI < 30;Skåne;35+ år;823;871;906
+Antal;25 ≤ BMI < 30;Halland;Alla åldrar;802;800;807
+Antal;25 ≤ BMI < 30;Halland;­24 år;120;97;110
+Antal;25 ≤ BMI < 30;Halland;25­29 år;215;245;247
+Antal;25 ≤ BMI < 30;Halland;30­34 år;272;270;266
+Antal;25 ≤ BMI < 30;Halland;35+ år;192;187;174
+Antal;25 ≤ BMI < 30;Västra Götaland;Alla åldrar;4 298;4 392;4 334
+Antal;25 ≤ BMI < 30;Västra Götaland;­24 år;623;666;618
+Antal;25 ≤ BMI < 30;Västra Götaland;25­29 år;1 253;1 288;1 355
+Antal;25 ≤ BMI < 30;Västra Götaland;30­34 år;1 429;1 441;1 405
+Antal;25 ≤ BMI < 30;Västra Götaland;35+ år;991;991;942
+Antal;25 ≤ BMI < 30;Värmland;Alla åldrar;307;596;576
+Antal;25 ≤ BMI < 30;Värmland;­24 år;57;95;90
+Antal;25 ≤ BMI < 30;Värmland;25­29 år;89;216;197
+Antal;25 ≤ BMI < 30;Värmland;30­34 år;84;184;180
+Antal;25 ≤ BMI < 30;Värmland;35+ år;77;101;109
+Antal;25 ≤ BMI < 30;Örebro;Alla åldrar;847;815;817
+Antal;25 ≤ BMI < 30;Örebro;­24 år;154;125;110
+Antal;25 ≤ BMI < 30;Örebro;25­29 år;263;266;273
+Antal;25 ≤ BMI < 30;Örebro;30­34 år;241;242;258
+Antal;25 ≤ BMI < 30;Örebro;35+ år;189;182;175
+Antal;25 ≤ BMI < 30;Västmanland;Alla åldrar;717;757;763
+Antal;25 ≤ BMI < 30;Västmanland;­24 år;122;126;124
+Antal;25 ≤ BMI < 30;Västmanland;25­29 år;230;248;249
+Antal;25 ≤ BMI < 30;Västmanland;30­34 år;212;223;214
+Antal;25 ≤ BMI < 30;Västmanland;35+ år;152;153;152
+Antal;25 ≤ BMI < 30;Dalarna;Alla åldrar;748;677;795
+Antal;25 ≤ BMI < 30;Dalarna;­24 år;137;122;127
+Antal;25 ≤ BMI < 30;Dalarna;25­29 år;225;222;260
+Antal;25 ≤ BMI < 30;Dalarna;30­34 år;221;190;241
+Antal;25 ≤ BMI < 30;Dalarna;35+ år;165;143;152
+Antal;25 ≤ BMI < 30;Gävleborg;Alla åldrar;751;735;730
+Antal;25 ≤ BMI < 30;Gävleborg;­24 år;160;148;141
+Antal;25 ≤ BMI < 30;Gävleborg;25­29 år;218;228;236
+Antal;25 ≤ BMI < 30;Gävleborg;30­34 år;202;210;220
+Antal;25 ≤ BMI < 30;Gävleborg;35+ år;171;149;133
+Antal;25 ≤ BMI < 30;Västernorrland;Alla åldrar;604;616;604
+Antal;25 ≤ BMI < 30;Västernorrland;­24 år;118;103;97
+Antal;25 ≤ BMI < 30;Västernorrland;25­29 år;175;181;165
+Antal;25 ≤ BMI < 30;Västernorrland;30­34 år;186;208;186
+Antal;25 ≤ BMI < 30;Västernorrland;35+ år;125;124;135
+Antal;25 ≤ BMI < 30;Jämtland;Alla åldrar;309;312;346
+Antal;25 ≤ BMI < 30;Jämtland;­24 år;47;48;45
+Antal;25 ≤ BMI < 30;Jämtland;25­29 år;100;77;106
+Antal;25 ≤ BMI < 30;Jämtland;30­34 år;77;112;107
+Antal;25 ≤ BMI < 30;Jämtland;35+ år;85;74;83
+Antal;25 ≤ BMI < 30;Västerbotten;Alla åldrar;660;725;677
+Antal;25 ≤ BMI < 30;Västerbotten;­24 år;97;101;100
+Antal;25 ≤ BMI < 30;Västerbotten;25­29 år;199;228;191
+Antal;25 ≤ BMI < 30;Västerbotten;30­34 år;230;240;214
+Antal;25 ≤ BMI < 30;Västerbotten;35+ år;132;156;157
+Antal;25 ≤ BMI < 30;Norrbotten;Alla åldrar;581;615;603
+Antal;25 ≤ BMI < 30;Norrbotten;­24 år;109;120;115
+Antal;25 ≤ BMI < 30;Norrbotten;25­29 år;165;168;196
+Antal;25 ≤ BMI < 30;Norrbotten;30­34 år;170;183;173
+Antal;25 ≤ BMI < 30;Norrbotten;35+ år;137;142;119
+Antal;BMI ≥ 30;Riket;Alla åldrar;13 432;13 682;14 154
+Antal;BMI ≥ 30;Riket;­24 år;2 116;2 055;2 027
+Antal;BMI ≥ 30;Riket;25­29 år;3 848;4 058;4 300
+Antal;BMI ≥ 30;Riket;30­34 år;4 033;4 125;4 176
+Antal;BMI ≥ 30;Riket;35+ år;3 383;3 378;3 500
+Antal;BMI ≥ 30;Stockholm;Alla åldrar;2 533;2 557;2 711
+Antal;BMI ≥ 30;Stockholm;­24 år;243;263;249
+Antal;BMI ≥ 30;Stockholm;25­29 år;624;662;771
+Antal;BMI ≥ 30;Stockholm;30­34 år;835;796;834
+Antal;BMI ≥ 30;Stockholm;35+ år;798;791;824
+Antal;BMI ≥ 30;Uppsala;Alla åldrar;491;479;459
+Antal;BMI ≥ 30;Uppsala;­24 år;79;60;58
+Antal;BMI ≥ 30;Uppsala;25­29 år;131;142;141
+Antal;BMI ≥ 30;Uppsala;30­34 år;159;153;141
+Antal;BMI ≥ 30;Uppsala;35+ år;122;124;119
+Antal;BMI ≥ 30;Södermanland;Alla åldrar;451;477;502
+Antal;BMI ≥ 30;Södermanland;­24 år;85;69;83
+Antal;BMI ≥ 30;Södermanland;25­29 år;139;150;164
+Antal;BMI ≥ 30;Södermanland;30­34 år;116;140;131
+Antal;BMI ≥ 30;Södermanland;35+ år;111;118;124
+Antal;BMI ≥ 30;Östergötland;Alla åldrar;783;728;723
+Antal;BMI ≥ 30;Östergötland;­24 år;139;120;123
+Antal;BMI ≥ 30;Östergötland;25­29 år;232;217;213
+Antal;BMI ≥ 30;Östergötland;30­34 år;232;221;203
+Antal;BMI ≥ 30;Östergötland;35+ år;180;167;179
+Antal;BMI ≥ 30;Jönköping;Alla åldrar;570;580;595
+Antal;BMI ≥ 30;Jönköping;­24 år;93;88;82
+Antal;BMI ≥ 30;Jönköping;25­29 år;194;186;209
+Antal;BMI ≥ 30;Jönköping;30­34 år;152;174;182
+Antal;BMI ≥ 30;Jönköping;35+ år;131;132;112
+Antal;BMI ≥ 30;Kronoberg;Alla åldrar;278;295;281
+Antal;BMI ≥ 30;Kronoberg;­24 år;47;49;54
+Antal;BMI ≥ 30;Kronoberg;25­29 år;76;94;84
+Antal;BMI ≥ 30;Kronoberg;30­34 år;83;89;92
+Antal;BMI ≥ 30;Kronoberg;35+ år;71;63;51
+Antal;BMI ≥ 30;Kalmar;Alla åldrar;352;317;363
+Antal;BMI ≥ 30;Kalmar;­24 år;55;57;53
+Antal;BMI ≥ 30;Kalmar;25­29 år;119;107;122
+Antal;BMI ≥ 30;Kalmar;30­34 år;98;75;101
+Antal;BMI ≥ 30;Kalmar;35+ år;70;67;67
+Antal;BMI ≥ 30;Gotland;Alla åldrar;90;85;79
+Antal;BMI ≥ 30;Gotland;­24 år;11;23;16
+Antal;BMI ≥ 30;Gotland;25­29 år;24;22;21
+Antal;BMI ≥ 30;Gotland;30­34 år;23;17;25
+Antal;BMI ≥ 30;Gotland;35+ år;32;23;17
+Antal;BMI ≥ 30;Blekinge;Alla åldrar;220;233;255
+Antal;BMI ≥ 30;Blekinge;­24 år;42;41;43
+Antal;BMI ≥ 30;Blekinge;25­29 år;54;72;74
+Antal;BMI ≥ 30;Blekinge;30­34 år;72;68;72
+Antal;BMI ≥ 30;Blekinge;35+ år;52;52;63
+Antal;BMI ≥ 30;Skåne;Alla åldrar;1 794;1 892;1 936
+Antal;BMI ≥ 30;Skåne;­24 år;298;263;263
+Antal;BMI ≥ 30;Skåne;25­29 år;516;588;565
+Antal;BMI ≥ 30;Skåne;30­34 år;547;595;590
+Antal;BMI ≥ 30;Skåne;35+ år;432;446;504
+Antal;BMI ≥ 30;Halland;Alla åldrar;385;381;409
+Antal;BMI ≥ 30;Halland;­24 år;58;57;52
+Antal;BMI ≥ 30;Halland;25­29 år;111;121;131
+Antal;BMI ≥ 30;Halland;30­34 år;114;113;129
+Antal;BMI ≥ 30;Halland;35+ år;101;89;92
+Antal;BMI ≥ 30;Västra Götaland;Alla åldrar;2 173;2 196;2 267
+Antal;BMI ≥ 30;Västra Götaland;­24 år;316;357;319
+Antal;BMI ≥ 30;Västra Götaland;25­29 år;656;648;719
+Antal;BMI ≥ 30;Västra Götaland;30­34 år;674;652;672
+Antal;BMI ≥ 30;Västra Götaland;35+ år;527;538;556
+Antal;BMI ≥ 30;Värmland;Alla åldrar;182;330;318
+Antal;BMI ≥ 30;Värmland;­24 år;36;56;55
+Antal;BMI ≥ 30;Värmland;25­29 år;38;102;94
+Antal;BMI ≥ 30;Värmland;30­34 år;59;94;103
+Antal;BMI ≥ 30;Värmland;35+ år;49;78;66
+Antal;BMI ≥ 30;Örebro;Alla åldrar;501;508;488
+Antal;BMI ≥ 30;Örebro;­24 år;96;93;104
+Antal;BMI ≥ 30;Örebro;25­29 år;144;171;130
+Antal;BMI ≥ 30;Örebro;30­34 år;156;140;135
+Antal;BMI ≥ 30;Örebro;35+ år;105;104;119
+Antal;BMI ≥ 30;Västmanland;Alla åldrar;451;420;483
+Antal;BMI ≥ 30;Västmanland;­24 år;105;70;77
+Antal;BMI ≥ 30;Västmanland;25­29 år;133;125;154
+Antal;BMI ≥ 30;Västmanland;30­34 år;121;137;132
+Antal;BMI ≥ 30;Västmanland;35+ år;86;84;108
+Antal;BMI ≥ 30;Dalarna;Alla åldrar;480;434;501
+Antal;BMI ≥ 30;Dalarna;­24 år;91;84;90
+Antal;BMI ≥ 30;Dalarna;25­29 år;148;130;166
+Antal;BMI ≥ 30;Dalarna;30­34 år;129;134;126
+Antal;BMI ≥ 30;Dalarna;35+ år;112;86;106
+Antal;BMI ≥ 30;Gävleborg;Alla åldrar;485;461;466
+Antal;BMI ≥ 30;Gävleborg;­24 år;100;90;92
+Antal;BMI ≥ 30;Gävleborg;25­29 år;155;139;148
+Antal;BMI ≥ 30;Gävleborg;30­34 år;115;122;131
+Antal;BMI ≥ 30;Gävleborg;35+ år;115;110;95
+Antal;BMI ≥ 30;Västernorrland;Alla åldrar;387;370;406
+Antal;BMI ≥ 30;Västernorrland;­24 år;74;63;70
+Antal;BMI ≥ 30;Västernorrland;25­29 år;104;119;127
+Antal;BMI ≥ 30;Västernorrland;30­34 år;127;109;114
+Antal;BMI ≥ 30;Västernorrland;35+ år;82;79;82
+Antal;BMI ≥ 30;Jämtland;Alla åldrar;181;184;176
+Antal;BMI ≥ 30;Jämtland;­24 år;38;21;34
+Antal;BMI ≥ 30;Jämtland;25­29 år;57;56;48
+Antal;BMI ≥ 30;Jämtland;30­34 år;38;59;53
+Antal;BMI ≥ 30;Jämtland;35+ år;48;48;40
+Antal;BMI ≥ 30;Västerbotten;Alla åldrar;324;392;362
+Antal;BMI ≥ 30;Västerbotten;­24 år;54;65;61
+Antal;BMI ≥ 30;Västerbotten;25­29 år;94;98;108
+Antal;BMI ≥ 30;Västerbotten;30­34 år;95;132;114
+Antal;BMI ≥ 30;Västerbotten;35+ år;81;97;76
+Antal;BMI ≥ 30;Norrbotten;Alla åldrar;320;341;348
+Antal;BMI ≥ 30;Norrbotten;­24 år;56;64;49
+Antal;BMI ≥ 30;Norrbotten;25­29 år;98;99;110
+Antal;BMI ≥ 30;Norrbotten;30­34 år;88;99;94
+Antal;BMI ≥ 30;Norrbotten;35+ år;78;79;95
+Antal;Sammanbor med barnafadern;Riket;Alla åldrar;97 902;99 115;100 082
+Antal;Sammanbor med barnafadern;Riket;­24 år;13 178;13 049;12 596
+Antal;Sammanbor med barnafadern;Riket;25­29 år;28 815;29 762;31 233
+Antal;Sammanbor med barnafadern;Riket;30­34 år;33 904;34 567;34 186
+Antal;Sammanbor med barnafadern;Riket;35+ år;21 669;21 422;21 314
+Antal;Sammanbor med barnafadern;Stockholm;Alla åldrar;26 316;26 005;26 017
+Antal;Sammanbor med barnafadern;Stockholm;­24 år;2 220;2 124;1 962
+Antal;Sammanbor med barnafadern;Stockholm;25­29 år;6 298;6 472;6 695
+Antal;Sammanbor med barnafadern;Stockholm;30­34 år;10 100;10 018;9 965
+Antal;Sammanbor med barnafadern;Stockholm;35+ år;7 435;7 163;7 173
+Antal;Sammanbor med barnafadern;Uppsala;Alla åldrar;3 356;3 163;2 941
+Antal;Sammanbor med barnafadern;Uppsala;­24 år;425;399;348
+Antal;Sammanbor med barnafadern;Uppsala;25­29 år;935;922;918
+Antal;Sammanbor med barnafadern;Uppsala;30­34 år;1 236;1 124;1 047
+Antal;Sammanbor med barnafadern;Uppsala;35+ år;760;718;628
+Antal;Sammanbor med barnafadern;Södermanland;Alla åldrar;2 440;2 491;2 506
+Antal;Sammanbor med barnafadern;Södermanland;­24 år;448;406;453
+Antal;Sammanbor med barnafadern;Södermanland;25­29 år;760;838;857
+Antal;Sammanbor med barnafadern;Södermanland;30­34 år;775;789;741
+Antal;Sammanbor med barnafadern;Södermanland;35+ år;456;457;455
+Antal;Sammanbor med barnafadern;Östergötland;Alla åldrar;4 598;4 488;4 571
+Antal;Sammanbor med barnafadern;Östergötland;­24 år;676;666;723
+Antal;Sammanbor med barnafadern;Östergötland;25­29 år;1 497;1 422;1 553
+Antal;Sammanbor med barnafadern;Östergötland;30­34 år;1 548;1 527;1 436
+Antal;Sammanbor med barnafadern;Östergötland;35+ år;877;868;840
+Antal;Sammanbor med barnafadern;Jönköping;Alla åldrar;3 561;3 636;3 730
+Antal;Sammanbor med barnafadern;Jönköping;­24 år;548;555;534
+Antal;Sammanbor med barnafadern;Jönköping;25­29 år;1 287;1 300;1 370
+Antal;Sammanbor med barnafadern;Jönköping;30­34 år;1 107;1 196;1 181
+Antal;Sammanbor med barnafadern;Jönköping;35+ år;619;585;588
+Antal;Sammanbor med barnafadern;Kronoberg;Alla åldrar;1 784;1 803;1 818
+Antal;Sammanbor med barnafadern;Kronoberg;­24 år;258;281;285
+Antal;Sammanbor med barnafadern;Kronoberg;25­29 år;573;604;607
+Antal;Sammanbor med barnafadern;Kronoberg;30­34 år;628;595;589
+Antal;Sammanbor med barnafadern;Kronoberg;35+ år;321;323;337
+Antal;Sammanbor med barnafadern;Kalmar;Alla åldrar;2 260;2 165;2 212
+Antal;Sammanbor med barnafadern;Kalmar;­24 år;342;388;332
+Antal;Sammanbor med barnafadern;Kalmar;25­29 år;805;762;789
+Antal;Sammanbor med barnafadern;Kalmar;30­34 år;681;620;690
+Antal;Sammanbor med barnafadern;Kalmar;35+ år;383;355;343
+Antal;Sammanbor med barnafadern;Gotland;Alla åldrar;531;479;470
+Antal;Sammanbor med barnafadern;Gotland;­24 år;90;74;66
+Antal;Sammanbor med barnafadern;Gotland;25­29 år;151;145;141
+Antal;Sammanbor med barnafadern;Gotland;30­34 år;163;154;156
+Antal;Sammanbor med barnafadern;Gotland;35+ år;127;104;106
+Antal;Sammanbor med barnafadern;Blekinge;Alla åldrar;1 327;1 313;1 424
+Antal;Sammanbor med barnafadern;Blekinge;­24 år;265;257;240
+Antal;Sammanbor med barnafadern;Blekinge;25­29 år;408;430;489
+Antal;Sammanbor med barnafadern;Blekinge;30­34 år;433;385;431
+Antal;Sammanbor med barnafadern;Blekinge;35+ år;221;241;258
+Antal;Sammanbor med barnafadern;Skåne;Alla åldrar;12 897;13 796;13 962
+Antal;Sammanbor med barnafadern;Skåne;­24 år;1 866;1 880;1 810
+Antal;Sammanbor med barnafadern;Skåne;25­29 år;3 865;4 179;4 405
+Antal;Sammanbor med barnafadern;Skåne;30­34 år;4 459;4 933;4 709
+Antal;Sammanbor med barnafadern;Skåne;35+ år;2 704;2 804;2 967
+Antal;Sammanbor med barnafadern;Halland;Alla åldrar;2 996;3 089;3 190
+Antal;Sammanbor med barnafadern;Halland;­24 år;409;398;387
+Antal;Sammanbor med barnafadern;Halland;25­29 år;877;1 018;1 078
+Antal;Sammanbor med barnafadern;Halland;30­34 år;1 069;1 027;1 068
+Antal;Sammanbor med barnafadern;Halland;35+ år;638;635;633
+Antal;Sammanbor med barnafadern;Västra Götaland;Alla åldrar;16 409;16 248;16 273
+Antal;Sammanbor med barnafadern;Västra Götaland;­24 år;2 169;2 196;2 013
+Antal;Sammanbor med barnafadern;Västra Götaland;25­29 år;5 046;4 959;5 290
+Antal;Sammanbor med barnafadern;Västra Götaland;30­34 år;5 788;5 689;5 693
+Antal;Sammanbor med barnafadern;Västra Götaland;35+ år;3 404;3 396;3 256
+Antal;Sammanbor med barnafadern;Värmland;Alla åldrar;991;2 039;1 976
+Antal;Sammanbor med barnafadern;Värmland;­24 år;184;347;322
+Antal;Sammanbor med barnafadern;Värmland;25­29 år;283;706;688
+Antal;Sammanbor med barnafadern;Värmland;30­34 år;308;635;624
+Antal;Sammanbor med barnafadern;Värmland;35+ år;216;351;342
+Antal;Sammanbor med barnafadern;Örebro;Alla åldrar;2 957;2 874;2 841
+Antal;Sammanbor med barnafadern;Örebro;­24 år;504;457;437
+Antal;Sammanbor med barnafadern;Örebro;25­29 år;972;979;959
+Antal;Sammanbor med barnafadern;Örebro;30­34 år;936;915;930
+Antal;Sammanbor med barnafadern;Örebro;35+ år;545;523;511
+Antal;Sammanbor med barnafadern;Västmanland;Alla åldrar;2 532;2 523;2 634
+Antal;Sammanbor med barnafadern;Västmanland;­24 år;447;394;440
+Antal;Sammanbor med barnafadern;Västmanland;25­29 år;825;855;903
+Antal;Sammanbor med barnafadern;Västmanland;30­34 år;794;811;785
+Antal;Sammanbor med barnafadern;Västmanland;35+ år;459;453;466
+Antal;Sammanbor med barnafadern;Dalarna;Alla åldrar;2 482;2 277;2 677
+Antal;Sammanbor med barnafadern;Dalarna;­24 år;461;432;459
+Antal;Sammanbor med barnafadern;Dalarna;25­29 år;821;753;918
+Antal;Sammanbor med barnafadern;Dalarna;30­34 år;742;690;835
+Antal;Sammanbor med barnafadern;Dalarna;35+ år;458;402;432
+Antal;Sammanbor med barnafadern;Gävleborg;Alla åldrar;2 442;2 368;2 471
+Antal;Sammanbor med barnafadern;Gävleborg;­24 år;505;452;487
+Antal;Sammanbor med barnafadern;Gävleborg;25­29 år;802;763;851
+Antal;Sammanbor med barnafadern;Gävleborg;30­34 år;660;690;717
+Antal;Sammanbor med barnafadern;Gävleborg;35+ år;475;462;415
+Antal;Sammanbor med barnafadern;Västernorrland;Alla åldrar;2 151;2 193;2 195
+Antal;Sammanbor med barnafadern;Västernorrland;­24 år;391;371;368
+Antal;Sammanbor med barnafadern;Västernorrland;25­29 år;705;706;684
+Antal;Sammanbor med barnafadern;Västernorrland;30­34 år;669;717;682
+Antal;Sammanbor med barnafadern;Västernorrland;35+ år;386;399;408
+Antal;Sammanbor med barnafadern;Jämtland;Alla åldrar;1 138;1 157;1 215
+Antal;Sammanbor med barnafadern;Jämtland;­24 år;195;161;184
+Antal;Sammanbor med barnafadern;Jämtland;25­29 år;333;324;372
+Antal;Sammanbor med barnafadern;Jämtland;30­34 år;325;415;376
+Antal;Sammanbor med barnafadern;Jämtland;35+ år;284;250;265
+Antal;Sammanbor med barnafadern;Västerbotten;Alla åldrar;2 670;2 753;2 618
+Antal;Sammanbor med barnafadern;Västerbotten;­24 år;376;367;370
+Antal;Sammanbor med barnafadern;Västerbotten;25­29 år;904;907;872
+Antal;Sammanbor med barnafadern;Västerbotten;30­34 år;882;968;857
+Antal;Sammanbor med barnafadern;Västerbotten;35+ år;505;511;489
+Antal;Sammanbor med barnafadern;Norrbotten;Alla åldrar;2 054;2 160;2 172
+Antal;Sammanbor med barnafadern;Norrbotten;­24 år;397;418;370
+Antal;Sammanbor med barnafadern;Norrbotten;25­29 år;665;687;774
+Antal;Sammanbor med barnafadern;Norrbotten;30­34 år;597;650;645
+Antal;Sammanbor med barnafadern;Norrbotten;35+ år;395;404;383
+Antal;Annan familjesituation;Riket;Alla åldrar;7 421;7 525;7 639
+Antal;Annan familjesituation;Riket;­24 år;2 466;2 455;2 269
+Antal;Annan familjesituation;Riket;25­29 år;1 713;1 783;1 779
+Antal;Annan familjesituation;Riket;30­34 år;1 500;1 556;1 620
+Antal;Annan familjesituation;Riket;35+ år;1 632;1 595;1 647
+Antal;Annan familjesituation;Stockholm;Alla åldrar;1 821;1 717;1 689
+Antal;Annan familjesituation;Stockholm;­24 år;396;378;339
+Antal;Annan familjesituation;Stockholm;25­29 år;337;302;338
+Antal;Annan familjesituation;Stockholm;30­34 år;429;397;416
+Antal;Annan familjesituation;Stockholm;35+ år;574;550;516
+Antal;Annan familjesituation;Uppsala;Alla åldrar;148;148;139
+Antal;Annan familjesituation;Uppsala;­24 år;52;51;53
+Antal;Annan familjesituation;Uppsala;25­29 år;33;34;33
+Antal;Annan familjesituation;Uppsala;30­34 år;24;33;28
+Antal;Annan familjesituation;Uppsala;35+ år;39;30;25
+Antal;Annan familjesituation;Södermanland;Alla åldrar;282;303;289
+Antal;Annan familjesituation;Södermanland;­24 år;122;126;113
+Antal;Annan familjesituation;Södermanland;25­29 år;74;84;62
+Antal;Annan familjesituation;Södermanland;30­34 år;45;60;62
+Antal;Annan familjesituation;Södermanland;35+ år;41;33;52
+Antal;Annan familjesituation;Östergötland;Alla åldrar;389;373;397
+Antal;Annan familjesituation;Östergötland;­24 år;162;146;141
+Antal;Annan familjesituation;Östergötland;25­29 år;105;81;111
+Antal;Annan familjesituation;Östergötland;30­34 år;61;76;70
+Antal;Annan familjesituation;Östergötland;35+ år;61;62;66
+Antal;Annan familjesituation;Jönköping;Alla åldrar;222;271;264
+Antal;Annan familjesituation;Jönköping;­24 år;90;108;83
+Antal;Annan familjesituation;Jönköping;25­29 år;56;69;58
+Antal;Annan familjesituation;Jönköping;30­34 år;39;48;59
+Antal;Annan familjesituation;Jönköping;35+ år;36;44;38
+Antal;Annan familjesituation;Kronoberg;Alla åldrar;140;119;141
+Antal;Annan familjesituation;Kronoberg;­24 år;65;41;58
+Antal;Annan familjesituation;Kronoberg;25­29 år;30;38;36
+Antal;Annan familjesituation;Kronoberg;30­34 år;21;21;26
+Antal;Annan familjesituation;Kronoberg;35+ år;23;19;21
+Antal;Annan familjesituation;Kalmar;Alla åldrar;134;128;129
+Antal;Annan familjesituation;Kalmar;­24 år;53;48;51
+Antal;Annan familjesituation;Kalmar;25­29 år;32;29;22
+Antal;Annan familjesituation;Kalmar;30­34 år;21;17;X
+Antal;Annan familjesituation;Kalmar;35+ år;19;21;X
+Antal;Annan familjesituation;Gotland;Alla åldrar;33;34;21
+Antal;Annan familjesituation;Gotland;­24 år;15;20;8
+Antal;Annan familjesituation;Gotland;25­29 år;7;6;X
+Antal;Annan familjesituation;Gotland;30­34 år;6;4;X
+Antal;Annan familjesituation;Gotland;35+ år;5;4;X
+Antal;Annan familjesituation;Blekinge;Alla åldrar;93;97;101
+Antal;Annan familjesituation;Blekinge;­24 år;34;37;38
+Antal;Annan familjesituation;Blekinge;25­29 år;28;26;25
+Antal;Annan familjesituation;Blekinge;30­34 år;10;17;20
+Antal;Annan familjesituation;Blekinge;35+ år;21;17;18
+Antal;Annan familjesituation;Skåne;Alla åldrar;959;1 048;1 094
+Antal;Annan familjesituation;Skåne;­24 år;307;336;313
+Antal;Annan familjesituation;Skåne;25­29 år;214;249;253
+Antal;Annan familjesituation;Skåne;30­34 år;225;254;257
+Antal;Annan familjesituation;Skåne;35+ år;210;209;236
+Antal;Annan familjesituation;Halland;Alla åldrar;139;142;161
+Antal;Annan familjesituation;Halland;­24 år;48;51;48
+Antal;Annan familjesituation;Halland;25­29 år;28;32;34
+Antal;Annan familjesituation;Halland;30­34 år;26;30;32
+Antal;Annan familjesituation;Halland;35+ år;36;28;32
+Antal;Annan familjesituation;Västra Götaland;Alla åldrar;1 302;1 275;1 300
+Antal;Annan familjesituation;Västra Götaland;­24 år;435;440;405
+Antal;Annan familjesituation;Västra Götaland;25­29 år;334;327;324
+Antal;Annan familjesituation;Västra Götaland;30­34 år;277;261;265
+Antal;Annan familjesituation;Västra Götaland;35+ år;254;242;295
+Antal;Annan familjesituation;Värmland;Alla åldrar;72;141;126
+Antal;Annan familjesituation;Värmland;­24 år;19;51;49
+Antal;Annan familjesituation;Värmland;25­29 år;21;41;29
+Antal;Annan familjesituation;Värmland;30­34 år;16;26;26
+Antal;Annan familjesituation;Värmland;35+ år;16;23;22
+Antal;Annan familjesituation;Örebro;Alla åldrar;266;269;299
+Antal;Annan familjesituation;Örebro;­24 år;102;96;98
+Antal;Annan familjesituation;Örebro;25­29 år;59;69;75
+Antal;Annan familjesituation;Örebro;30­34 år;55;50;63
+Antal;Annan familjesituation;Örebro;35+ år;50;54;63
+Antal;Annan familjesituation;Västmanland;Alla åldrar;261;258;276
+Antal;Annan familjesituation;Västmanland;­24 år;104;84;75
+Antal;Annan familjesituation;Västmanland;25­29 år;73;67;84
+Antal;Annan familjesituation;Västmanland;30­34 år;42;50;51
+Antal;Annan familjesituation;Västmanland;35+ år;39;48;45
+Antal;Annan familjesituation;Dalarna;Alla åldrar;238;229;267
+Antal;Annan familjesituation;Dalarna;­24 år;89;84;88
+Antal;Annan familjesituation;Dalarna;25­29 år;68;67;65
+Antal;Annan familjesituation;Dalarna;30­34 år;45;37;47
+Antal;Annan familjesituation;Dalarna;35+ år;36;41;48
+Antal;Annan familjesituation;Gävleborg;Alla åldrar;241;273;246
+Antal;Annan familjesituation;Gävleborg;­24 år;110;104;99
+Antal;Annan familjesituation;Gävleborg;25­29 år;57;73;64
+Antal;Annan familjesituation;Gävleborg;30­34 år;31;43;48
+Antal;Annan familjesituation;Gävleborg;35+ år;42;53;35
+Antal;Annan familjesituation;Västernorrland;Alla åldrar;192;170;173
+Antal;Annan familjesituation;Västernorrland;­24 år;81;68;46
+Antal;Annan familjesituation;Västernorrland;25­29 år;38;48;42
+Antal;Annan familjesituation;Västernorrland;30­34 år;44;30;28
+Antal;Annan familjesituation;Västernorrland;35+ år;29;24;23
+Antal;Annan familjesituation;Jämtland;Alla åldrar;93;84;90
+Antal;Annan familjesituation;Jämtland;­24 år;35;23;27
+Antal;Annan familjesituation;Jämtland;25­29 år;16;17;X
+Antal;Annan familjesituation;Jämtland;30­34 år;18;13;X
+Antal;Annan familjesituation;Jämtland;35+ år;21;25;18
+Antal;Annan familjesituation;Västerbotten;Alla åldrar;142;153;155
+Antal;Annan familjesituation;Västerbotten;­24 år;50;55;55
+Antal;Annan familjesituation;Västerbotten;25­29 år;39;35;32
+Antal;Annan familjesituation;Västerbotten;30­34 år;22;38;27
+Antal;Annan familjesituation;Västerbotten;35+ år;30;25;28
+Antal;Annan familjesituation;Norrbotten;Alla åldrar;253;259;241
+Antal;Annan familjesituation;Norrbotten;­24 år;96;97;80
+Antal;Annan familjesituation;Norrbotten;25­29 år;64;77;67
+Antal;Annan familjesituation;Norrbotten;30­34 år;43;44;55
+Antal;Annan familjesituation;Norrbotten;35+ år;50;40;39
+Antal;Röker tre månader före aktuell graviditet;Riket;Alla åldrar;15 085;14 919;14 901
+Antal;Röker tre månader före aktuell graviditet;Riket;­24 år;4 648;4 480;4 291
+Antal;Röker tre månader före aktuell graviditet;Riket;25­29 år;4 872;4 872;5 028
+Antal;Röker tre månader före aktuell graviditet;Riket;30­34 år;3 514;3 561;3 449
+Antal;Röker tre månader före aktuell graviditet;Riket;35+ år;1 992;1 942;2 013
+Antal;Röker tre månader före aktuell graviditet;Stockholm;Alla åldrar;3 510;3 385;3 223
+Antal;Röker tre månader före aktuell graviditet;Stockholm;­24 år;821;779;694
+Antal;Röker tre månader före aktuell graviditet;Stockholm;25­29 år;1 086;1 037;1 033
+Antal;Röker tre månader före aktuell graviditet;Stockholm;30­34 år;985;971;904
+Antal;Röker tre månader före aktuell graviditet;Stockholm;35+ år;572;555;557
+Antal;Röker tre månader före aktuell graviditet;Uppsala;Alla åldrar;461;453;400
+Antal;Röker tre månader före aktuell graviditet;Uppsala;­24 år;153;142;118
+Antal;Röker tre månader före aktuell graviditet;Uppsala;25­29 år;141;146;141
+Antal;Röker tre månader före aktuell graviditet;Uppsala;30­34 år;111;107;86
+Antal;Röker tre månader före aktuell graviditet;Uppsala;35+ år;56;58;55
+Antal;Röker tre månader före aktuell graviditet;Södermanland;Alla åldrar;465;490;477
+Antal;Röker tre månader före aktuell graviditet;Södermanland;­24 år;182;161;172
+Antal;Röker tre månader före aktuell graviditet;Södermanland;25­29 år;143;148;166
+Antal;Röker tre månader före aktuell graviditet;Södermanland;30­34 år;79;127;81
+Antal;Röker tre månader före aktuell graviditet;Södermanland;35+ år;61;54;58
+Antal;Röker tre månader före aktuell graviditet;Östergötland;Alla åldrar;713;667;727
+Antal;Röker tre månader före aktuell graviditet;Östergötland;­24 år;258;238;265
+Antal;Röker tre månader före aktuell graviditet;Östergötland;25­29 år;226;226;231
+Antal;Röker tre månader före aktuell graviditet;Östergötland;30­34 år;153;134;147
+Antal;Röker tre månader före aktuell graviditet;Östergötland;35+ år;76;69;82
+Antal;Röker tre månader före aktuell graviditet;Jönköping;Alla åldrar;565;561;594
+Antal;Röker tre månader före aktuell graviditet;Jönköping;­24 år;186;182;172
+Antal;Röker tre månader före aktuell graviditet;Jönköping;25­29 år;218;214;217
+Antal;Röker tre månader före aktuell graviditet;Jönköping;30­34 år;113;110;129
+Antal;Röker tre månader före aktuell graviditet;Jönköping;35+ år;48;55;68
+Antal;Röker tre månader före aktuell graviditet;Kronoberg;Alla åldrar;269;254;259
+Antal;Röker tre månader före aktuell graviditet;Kronoberg;­24 år;92;74;90
+Antal;Röker tre månader före aktuell graviditet;Kronoberg;25­29 år;85;88;88
+Antal;Röker tre månader före aktuell graviditet;Kronoberg;30­34 år;54;47;45
+Antal;Röker tre månader före aktuell graviditet;Kronoberg;35+ år;38;45;36
+Antal;Röker tre månader före aktuell graviditet;Kalmar;Alla åldrar;436;390;363
+Antal;Röker tre månader före aktuell graviditet;Kalmar;­24 år;133;122;137
+Antal;Röker tre månader före aktuell graviditet;Kalmar;25­29 år;155;143;106
+Antal;Röker tre månader före aktuell graviditet;Kalmar;30­34 år;85;74;76
+Antal;Röker tre månader före aktuell graviditet;Kalmar;35+ år;52;42;39
+Antal;Röker tre månader före aktuell graviditet;Gotland;Alla åldrar;109;92;91
+Antal;Röker tre månader före aktuell graviditet;Gotland;­24 år;39;34;29
+Antal;Röker tre månader före aktuell graviditet;Gotland;25­29 år;39;31;28
+Antal;Röker tre månader före aktuell graviditet;Gotland;30­34 år;17;22;20
+Antal;Röker tre månader före aktuell graviditet;Gotland;35+ år;14;5;14
+Antal;Röker tre månader före aktuell graviditet;Blekinge;Alla åldrar;239;241;279
+Antal;Röker tre månader före aktuell graviditet;Blekinge;­24 år;79;86;97
+Antal;Röker tre månader före aktuell graviditet;Blekinge;25­29 år;82;86;88
+Antal;Röker tre månader före aktuell graviditet;Blekinge;30­34 år;50;44;53
+Antal;Röker tre månader före aktuell graviditet;Blekinge;35+ år;28;25;39
+Antal;Röker tre månader före aktuell graviditet;Skåne;Alla åldrar;2 192;2 514;2 421
+Antal;Röker tre månader före aktuell graviditet;Skåne;­24 år;662;717;645
+Antal;Röker tre månader före aktuell graviditet;Skåne;25­29 år;740;879;894
+Antal;Röker tre månader före aktuell graviditet;Skåne;30­34 år;525;608;552
+Antal;Röker tre månader före aktuell graviditet;Skåne;35+ år;264;310;319
+Antal;Röker tre månader före aktuell graviditet;Halland;Alla åldrar;478;487;521
+Antal;Röker tre månader före aktuell graviditet;Halland;­24 år;164;145;141
+Antal;Röker tre månader före aktuell graviditet;Halland;25­29 år;141;186;190
+Antal;Röker tre månader före aktuell graviditet;Halland;30­34 år;101;97;120
+Antal;Röker tre månader före aktuell graviditet;Halland;35+ år;72;57;63
+Antal;Röker tre månader före aktuell graviditet;Västra Götaland;Alla åldrar;2 716;2 549;2 661
+Antal;Röker tre månader före aktuell graviditet;Västra Götaland;­24 år;827;801;763
+Antal;Röker tre månader före aktuell graviditet;Västra Götaland;25­29 år;887;803;909
+Antal;Röker tre månader före aktuell graviditet;Västra Götaland;30­34 år;654;613;640
+Antal;Röker tre månader före aktuell graviditet;Västra Götaland;35+ år;348;329;341
+Antal;Röker tre månader före aktuell graviditet;Värmland;Alla åldrar;170;354;307
+Antal;Röker tre månader före aktuell graviditet;Värmland;­24 år;59;122;97
+Antal;Röker tre månader före aktuell graviditet;Värmland;25­29 år;44;118;103
+Antal;Röker tre månader före aktuell graviditet;Värmland;30­34 år;39;80;57
+Antal;Röker tre månader före aktuell graviditet;Värmland;35+ år;28;34;50
+Antal;Röker tre månader före aktuell graviditet;Örebro;Alla åldrar;464;518;460
+Antal;Röker tre månader före aktuell graviditet;Örebro;­24 år;171;176;151
+Antal;Röker tre månader före aktuell graviditet;Örebro;25­29 år;149;163;152
+Antal;Röker tre månader före aktuell graviditet;Örebro;30­34 år;92;114;105
+Antal;Röker tre månader före aktuell graviditet;Örebro;35+ år;52;65;51
+Antal;Röker tre månader före aktuell graviditet;Västmanland;Alla åldrar;475;413;436
+Antal;Röker tre månader före aktuell graviditet;Västmanland;­24 år;170;134;143
+Antal;Röker tre månader före aktuell graviditet;Västmanland;25­29 år;150;131;145
+Antal;Röker tre månader före aktuell graviditet;Västmanland;30­34 år;99;95;91
+Antal;Röker tre månader före aktuell graviditet;Västmanland;35+ år;56;50;54
+Antal;Röker tre månader före aktuell graviditet;Dalarna;Alla åldrar;450;366;439
+Antal;Röker tre månader före aktuell graviditet;Dalarna;­24 år;149;125;147
+Antal;Röker tre månader före aktuell graviditet;Dalarna;25­29 år;159;118;145
+Antal;Röker tre månader före aktuell graviditet;Dalarna;30­34 år;100;77;97
+Antal;Röker tre månader före aktuell graviditet;Dalarna;35+ år;42;46;46
+Antal;Röker tre månader före aktuell graviditet;Gävleborg;Alla åldrar;456;385;413
+Antal;Röker tre månader före aktuell graviditet;Gävleborg;­24 år;184;149;157
+Antal;Röker tre månader före aktuell graviditet;Gävleborg;25­29 år;137;116;135
+Antal;Röker tre månader före aktuell graviditet;Gävleborg;30­34 år;79;75;81
+Antal;Röker tre månader före aktuell graviditet;Gävleborg;35+ år;55;44;40
+Antal;Röker tre månader före aktuell graviditet;Västernorrland;Alla åldrar;291;236;248
+Antal;Röker tre månader före aktuell graviditet;Västernorrland;­24 år;91;84;86
+Antal;Röker tre månader före aktuell graviditet;Västernorrland;25­29 år;96;69;64
+Antal;Röker tre månader före aktuell graviditet;Västernorrland;30­34 år;62;44;56
+Antal;Röker tre månader före aktuell graviditet;Västernorrland;35+ år;42;39;31
+Antal;Röker tre månader före aktuell graviditet;Jämtland;Alla åldrar;119;102;118
+Antal;Röker tre månader före aktuell graviditet;Jämtland;­24 år;44;41;44
+Antal;Röker tre månader före aktuell graviditet;Jämtland;25­29 år;32;23;36
+Antal;Röker tre månader före aktuell graviditet;Jämtland;30­34 år;17;27;17
+Antal;Röker tre månader före aktuell graviditet;Jämtland;35+ år;26;9;20
+Antal;Röker tre månader före aktuell graviditet;Västerbotten;Alla åldrar;210;220;213
+Antal;Röker tre månader före aktuell graviditet;Västerbotten;­24 år;82;76;70
+Antal;Röker tre månader före aktuell graviditet;Västerbotten;25­29 år;64;74;74
+Antal;Röker tre månader före aktuell graviditet;Västerbotten;30­34 år;42;49;44
+Antal;Röker tre månader före aktuell graviditet;Västerbotten;35+ år;22;21;23
+Antal;Röker tre månader före aktuell graviditet;Norrbotten;Alla åldrar;295;223;228
+Antal;Röker tre månader före aktuell graviditet;Norrbotten;­24 år;100;87;72
+Antal;Röker tre månader före aktuell graviditet;Norrbotten;25­29 år;98;64;83
+Antal;Röker tre månader före aktuell graviditet;Norrbotten;30­34 år;57;43;47
+Antal;Röker tre månader före aktuell graviditet;Norrbotten;35+ år;40;28;26
+Antal;Röker i tidig graviditet;Riket;Alla åldrar;6 230;6 028;6 014
+Antal;Röker i tidig graviditet;Riket;­24 år;2 060;1 934;1 790
+Antal;Röker i tidig graviditet;Riket;25­29 år;1 820;1 879;1 882
+Antal;Röker i tidig graviditet;Riket;30­34 år;1 360;1 326;1 357
+Antal;Röker i tidig graviditet;Riket;35+ år;965;859;925
+Antal;Röker i tidig graviditet;Stockholm;Alla åldrar;1 132;1 139;1 061
+Antal;Röker i tidig graviditet;Stockholm;­24 år;306;275;251
+Antal;Röker i tidig graviditet;Stockholm;25­29 år;321;353;317
+Antal;Röker i tidig graviditet;Stockholm;30­34 år;281;275;281
+Antal;Röker i tidig graviditet;Stockholm;35+ år;209;219;200
+Antal;Röker i tidig graviditet;Uppsala;Alla åldrar;154;187;140
+Antal;Röker i tidig graviditet;Uppsala;­24 år;56;57;43
+Antal;Röker i tidig graviditet;Uppsala;25­29 år;41;55;50
+Antal;Röker i tidig graviditet;Uppsala;30­34 år;32;45;23
+Antal;Röker i tidig graviditet;Uppsala;35+ år;25;30;24
+Antal;Röker i tidig graviditet;Södermanland;Alla åldrar;229;241;233
+Antal;Röker i tidig graviditet;Södermanland;­24 år;99;76;85
+Antal;Röker i tidig graviditet;Södermanland;25­29 år;66;71;71
+Antal;Röker i tidig graviditet;Södermanland;30­34 år;31;69;46
+Antal;Röker i tidig graviditet;Södermanland;35+ år;33;25;31
+Antal;Röker i tidig graviditet;Östergötland;Alla åldrar;330;295;318
+Antal;Röker i tidig graviditet;Östergötland;­24 år;116;117;109
+Antal;Röker i tidig graviditet;Östergötland;25­29 år;99;94;95
+Antal;Röker i tidig graviditet;Östergötland;30­34 år;69;50;72
+Antal;Röker i tidig graviditet;Östergötland;35+ år;46;34;41
+Antal;Röker i tidig graviditet;Jönköping;Alla åldrar;215;222;245
+Antal;Röker i tidig graviditet;Jönköping;­24 år;70;81;76
+Antal;Röker i tidig graviditet;Jönköping;25­29 år;76;70;82
+Antal;Röker i tidig graviditet;Jönköping;30­34 år;43;41;52
+Antal;Röker i tidig graviditet;Jönköping;35+ år;26;30;33
+Antal;Röker i tidig graviditet;Kronoberg;Alla åldrar;106;106;99
+Antal;Röker i tidig graviditet;Kronoberg;­24 år;39;33;33
+Antal;Röker i tidig graviditet;Kronoberg;25­29 år;24;36;23
+Antal;Röker i tidig graviditet;Kronoberg;30­34 år;24;18;20
+Antal;Röker i tidig graviditet;Kronoberg;35+ år;19;19;23
+Antal;Röker i tidig graviditet;Kalmar;Alla åldrar;204;168;146
+Antal;Röker i tidig graviditet;Kalmar;­24 år;67;46;53
+Antal;Röker i tidig graviditet;Kalmar;25­29 år;65;56;39
+Antal;Röker i tidig graviditet;Kalmar;30­34 år;33;38;31
+Antal;Röker i tidig graviditet;Kalmar;35+ år;29;22;20
+Antal;Röker i tidig graviditet;Gotland;Alla åldrar;39;38;36
+Antal;Röker i tidig graviditet;Gotland;­24 år;16;17;11
+Antal;Röker i tidig graviditet;Gotland;25­29 år;12;10;11
+Antal;Röker i tidig graviditet;Gotland;30­34 år;7;X;7
+Antal;Röker i tidig graviditet;Gotland;35+ år;4;X;7
+Antal;Röker i tidig graviditet;Blekinge;Alla åldrar;107;109;125
+Antal;Röker i tidig graviditet;Blekinge;­24 år;38;41;41
+Antal;Röker i tidig graviditet;Blekinge;25­29 år;29;38;32
+Antal;Röker i tidig graviditet;Blekinge;30­34 år;23;19;30
+Antal;Röker i tidig graviditet;Blekinge;35+ år;17;11;20
+Antal;Röker i tidig graviditet;Skåne;Alla åldrar;1 004;1 120;1 121
+Antal;Röker i tidig graviditet;Skåne;­24 år;331;342;322
+Antal;Röker i tidig graviditet;Skåne;25­29 år;323;372;384
+Antal;Röker i tidig graviditet;Skåne;30­34 år;215;250;243
+Antal;Röker i tidig graviditet;Skåne;35+ år;135;156;165
+Antal;Röker i tidig graviditet;Halland;Alla åldrar;207;170;219
+Antal;Röker i tidig graviditet;Halland;­24 år;74;55;58
+Antal;Röker i tidig graviditet;Halland;25­29 år;59;60;73
+Antal;Röker i tidig graviditet;Halland;30­34 år;37;32;47
+Antal;Röker i tidig graviditet;Halland;35+ år;37;23;37
+Antal;Röker i tidig graviditet;Västra Götaland;Alla åldrar;1 215;1 081;1 059
+Antal;Röker i tidig graviditet;Västra Götaland;­24 år;401;374;324
+Antal;Röker i tidig graviditet;Västra Götaland;25­29 år;338;335;336
+Antal;Röker i tidig graviditet;Västra Götaland;30­34 år;297;234;256
+Antal;Röker i tidig graviditet;Västra Götaland;35+ år;179;136;139
+Antal;Röker i tidig graviditet;Värmland;Alla åldrar;82;134;124
+Antal;Röker i tidig graviditet;Värmland;­24 år;24;51;42
+Antal;Röker i tidig graviditet;Värmland;25­29 år;22;35;33
+Antal;Röker i tidig graviditet;Värmland;30­34 år;19;32;22
+Antal;Röker i tidig graviditet;Värmland;35+ år;17;16;27
+Antal;Röker i tidig graviditet;Örebro;Alla åldrar;202;231;221
+Antal;Röker i tidig graviditet;Örebro;­24 år;72;91;69
+Antal;Röker i tidig graviditet;Örebro;25­29 år;59;63;74
+Antal;Röker i tidig graviditet;Örebro;30­34 år;47;48;46
+Antal;Röker i tidig graviditet;Örebro;35+ år;24;29;32
+Antal;Röker i tidig graviditet;Västmanland;Alla åldrar;217;176;179
+Antal;Röker i tidig graviditet;Västmanland;­24 år;75;52;56
+Antal;Röker i tidig graviditet;Västmanland;25­29 år;59;61;56
+Antal;Röker i tidig graviditet;Västmanland;30­34 år;43;37;39
+Antal;Röker i tidig graviditet;Västmanland;35+ år;40;24;25
+Antal;Röker i tidig graviditet;Dalarna;Alla åldrar;177;117;173
+Antal;Röker i tidig graviditet;Dalarna;­24 år;51;44;53
+Antal;Röker i tidig graviditet;Dalarna;25­29 år;59;28;54
+Antal;Röker i tidig graviditet;Dalarna;30­34 år;45;26;36
+Antal;Röker i tidig graviditet;Dalarna;35+ år;22;19;27
+Antal;Röker i tidig graviditet;Gävleborg;Alla åldrar;225;162;181
+Antal;Röker i tidig graviditet;Gävleborg;­24 år;94;64;65
+Antal;Röker i tidig graviditet;Gävleborg;25­29 år;59;50;60
+Antal;Röker i tidig graviditet;Gävleborg;30­34 år;39;31;34
+Antal;Röker i tidig graviditet;Gävleborg;35+ år;33;17;22
+Antal;Röker i tidig graviditet;Västernorrland;Alla åldrar;148;120;123
+Antal;Röker i tidig graviditet;Västernorrland;­24 år;43;37;40
+Antal;Röker i tidig graviditet;Västernorrland;25­29 år;45;34;30
+Antal;Röker i tidig graviditet;Västernorrland;30­34 år;34;24;31
+Antal;Röker i tidig graviditet;Västernorrland;35+ år;26;25;15
+Antal;Röker i tidig graviditet;Jämtland;Alla åldrar;48;39;42
+Antal;Röker i tidig graviditet;Jämtland;­24 år;16;16;15
+Antal;Röker i tidig graviditet;Jämtland;25­29 år;12;8;9
+Antal;Röker i tidig graviditet;Jämtland;30­34 år;6;X;7
+Antal;Röker i tidig graviditet;Jämtland;35+ år;14;X;11
+Antal;Röker i tidig graviditet;Västerbotten;Alla åldrar;64;63;59
+Antal;Röker i tidig graviditet;Västerbotten;­24 år;26;22;14
+Antal;Röker i tidig graviditet;Västerbotten;25­29 år;15;19;24
+Antal;Röker i tidig graviditet;Västerbotten;30­34 år;15;15;11
+Antal;Röker i tidig graviditet;Västerbotten;35+ år;8;7;9
+Antal;Röker i tidig graviditet;Norrbotten;Alla åldrar;125;96;98
+Antal;Röker i tidig graviditet;Norrbotten;­24 år;46;40;29
+Antal;Röker i tidig graviditet;Norrbotten;25­29 år;37;23;29
+Antal;Röker i tidig graviditet;Norrbotten;30­34 år;20;23;23
+Antal;Röker i tidig graviditet;Norrbotten;35+ år;22;9;17
+Antal;Röker i sen graviditet;Riket;Alla åldrar;4 653;4 392;4 393
+Antal;Röker i sen graviditet;Riket;­24 år;1 542;1 434;1 316
+Antal;Röker i sen graviditet;Riket;25­29 år;1 363;1 363;1 368
+Antal;Röker i sen graviditet;Riket;30­34 år;1 013;957;985
+Antal;Röker i sen graviditet;Riket;35+ år;718;619;677
+Antal;Röker i sen graviditet;Stockholm;Alla åldrar;775;695;671
+Antal;Röker i sen graviditet;Stockholm;­24 år;219;182;158
+Antal;Röker i sen graviditet;Stockholm;25­29 år;211;213;201
+Antal;Röker i sen graviditet;Stockholm;30­34 år;190;165;178
+Antal;Röker i sen graviditet;Stockholm;35+ år;148;125;128
+Antal;Röker i sen graviditet;Uppsala;Alla åldrar;68;93;86
+Antal;Röker i sen graviditet;Uppsala;­24 år;32;29;23
+Antal;Röker i sen graviditet;Uppsala;25­29 år;9;29;32
+Antal;Röker i sen graviditet;Uppsala;30­34 år;18;19;13
+Antal;Röker i sen graviditet;Uppsala;35+ år;9;16;18
+Antal;Röker i sen graviditet;Södermanland;Alla åldrar;180;189;162
+Antal;Röker i sen graviditet;Södermanland;­24 år;67;61;61
+Antal;Röker i sen graviditet;Södermanland;25­29 år;57;53;51
+Antal;Röker i sen graviditet;Södermanland;30­34 år;28;55;28
+Antal;Röker i sen graviditet;Södermanland;35+ år;28;20;22
+Antal;Röker i sen graviditet;Östergötland;Alla åldrar;252;224;262
+Antal;Röker i sen graviditet;Östergötland;­24 år;87;87;88
+Antal;Röker i sen graviditet;Östergötland;25­29 år;81;68;78
+Antal;Röker i sen graviditet;Östergötland;30­34 år;53;38;60
+Antal;Röker i sen graviditet;Östergötland;35+ år;31;31;35
+Antal;Röker i sen graviditet;Jönköping;Alla åldrar;176;194;192
+Antal;Röker i sen graviditet;Jönköping;­24 år;53;66;66
+Antal;Röker i sen graviditet;Jönköping;25­29 år;58;58;63
+Antal;Röker i sen graviditet;Jönköping;30­34 år;39;40;38
+Antal;Röker i sen graviditet;Jönköping;35+ år;26;30;23
+Antal;Röker i sen graviditet;Kronoberg;Alla åldrar;89;79;78
+Antal;Röker i sen graviditet;Kronoberg;­24 år;41;26;30
+Antal;Röker i sen graviditet;Kronoberg;25­29 år;16;28;16
+Antal;Röker i sen graviditet;Kronoberg;30­34 år;19;12;15
+Antal;Röker i sen graviditet;Kronoberg;35+ år;13;13;17
+Antal;Röker i sen graviditet;Kalmar;Alla åldrar;159;129;124
+Antal;Röker i sen graviditet;Kalmar;­24 år;49;32;43
+Antal;Röker i sen graviditet;Kalmar;25­29 år;55;47;28
+Antal;Röker i sen graviditet;Kalmar;30­34 år;24;31;30
+Antal;Röker i sen graviditet;Kalmar;35+ år;22;13;19
+Antal;Röker i sen graviditet;Gotland;Alla åldrar;39;25;25
+Antal;Röker i sen graviditet;Gotland;­24 år;12;9;6
+Antal;Röker i sen graviditet;Gotland;25­29 år;15;8;8
+Antal;Röker i sen graviditet;Gotland;30­34 år;X;X;6
+Antal;Röker i sen graviditet;Gotland;35+ år;X;X;5
+Antal;Röker i sen graviditet;Blekinge;Alla åldrar;87;86;97
+Antal;Röker i sen graviditet;Blekinge;­24 år;28;31;36
+Antal;Röker i sen graviditet;Blekinge;25­29 år;25;28;24
+Antal;Röker i sen graviditet;Blekinge;30­34 år;20;15;20
+Antal;Röker i sen graviditet;Blekinge;35+ år;14;12;15
+Antal;Röker i sen graviditet;Skåne;Alla åldrar;718;836;825
+Antal;Röker i sen graviditet;Skåne;­24 år;239;253;236
+Antal;Röker i sen graviditet;Skåne;25­29 år;231;290;286
+Antal;Röker i sen graviditet;Skåne;30­34 år;158;180;187
+Antal;Röker i sen graviditet;Skåne;35+ år;90;113;111
+Antal;Röker i sen graviditet;Halland;Alla åldrar;169;137;179
+Antal;Röker i sen graviditet;Halland;­24 år;51;45;50
+Antal;Röker i sen graviditet;Halland;25­29 år;54;47;60
+Antal;Röker i sen graviditet;Halland;30­34 år;28;27;38
+Antal;Röker i sen graviditet;Halland;35+ år;36;18;28
+Antal;Röker i sen graviditet;Västra Götaland;Alla åldrar;914;835;784
+Antal;Röker i sen graviditet;Västra Götaland;­24 år;310;294;238
+Antal;Röker i sen graviditet;Västra Götaland;25­29 år;252;254;254
+Antal;Röker i sen graviditet;Västra Götaland;30­34 år;211;180;185
+Antal;Röker i sen graviditet;Västra Götaland;35+ år;141;107;103
+Antal;Röker i sen graviditet;Värmland;Alla åldrar;59;90;86
+Antal;Röker i sen graviditet;Värmland;­24 år;20;33;34
+Antal;Röker i sen graviditet;Värmland;25­29 år;15;21;16
+Antal;Röker i sen graviditet;Värmland;30­34 år;10;24;14
+Antal;Röker i sen graviditet;Värmland;35+ år;14;12;22
+Antal;Röker i sen graviditet;Örebro;Alla åldrar;171;185;173
+Antal;Röker i sen graviditet;Örebro;­24 år;65;76;56
+Antal;Röker i sen graviditet;Örebro;25­29 år;51;54;55
+Antal;Röker i sen graviditet;Örebro;30­34 år;36;31;35
+Antal;Röker i sen graviditet;Örebro;35+ år;19;24;27
+Antal;Röker i sen graviditet;Västmanland;Alla åldrar;177;137;134
+Antal;Röker i sen graviditet;Västmanland;­24 år;62;46;39
+Antal;Röker i sen graviditet;Västmanland;25­29 år;49;42;43
+Antal;Röker i sen graviditet;Västmanland;30­34 år;34;32;35
+Antal;Röker i sen graviditet;Västmanland;35+ år;32;15;15
+Antal;Röker i sen graviditet;Dalarna;Alla åldrar;168;100;130
+Antal;Röker i sen graviditet;Dalarna;­24 år;42;35;33
+Antal;Röker i sen graviditet;Dalarna;25­29 år;59;29;46
+Antal;Röker i sen graviditet;Dalarna;30­34 år;47;19;23
+Antal;Röker i sen graviditet;Dalarna;35+ år;20;17;25
+Antal;Röker i sen graviditet;Gävleborg;Alla åldrar;193;131;133
+Antal;Röker i sen graviditet;Gävleborg;­24 år;83;47;38
+Antal;Röker i sen graviditet;Gävleborg;25­29 år;46;40;43
+Antal;Röker i sen graviditet;Gävleborg;30­34 år;40;28;32
+Antal;Röker i sen graviditet;Gävleborg;35+ år;23;16;20
+Antal;Röker i sen graviditet;Västernorrland;Alla åldrar;123;103;108
+Antal;Röker i sen graviditet;Västernorrland;­24 år;33;30;37
+Antal;Röker i sen graviditet;Västernorrland;25­29 år;41;25;23
+Antal;Röker i sen graviditet;Västernorrland;30­34 år;26;26;25
+Antal;Röker i sen graviditet;Västernorrland;35+ år;23;22;16
+Antal;Röker i sen graviditet;Jämtland;Alla åldrar;27;30;34
+Antal;Röker i sen graviditet;Jämtland;­24 år;10;13;10
+Antal;Röker i sen graviditet;Jämtland;25­29 år;8;X;8
+Antal;Röker i sen graviditet;Jämtland;30­34 år;X;9;6
+Antal;Röker i sen graviditet;Jämtland;35+ år;X;X;10
+Antal;Röker i sen graviditet;Västerbotten;Alla åldrar;54;46;46
+Antal;Röker i sen graviditet;Västerbotten;­24 år;21;19;13
+Antal;Röker i sen graviditet;Västerbotten;25­29 år;13;X;15
+Antal;Röker i sen graviditet;Västerbotten;30­34 år;13;12;9
+Antal;Röker i sen graviditet;Västerbotten;35+ år;7;X;9
+Antal;Röker i sen graviditet;Norrbotten;Alla åldrar;53;39;55
+Antal;Röker i sen graviditet;Norrbotten;­24 år;17;20;20
+Antal;Röker i sen graviditet;Norrbotten;25­29 år;16;7;18
+Antal;Röker i sen graviditet;Norrbotten;30­34 år;8;X;8
+Antal;Röker i sen graviditet;Norrbotten;35+ år;12;X;9
+Antal;Snusar tre månader före aktuell graviditet;Riket;Alla åldrar;3 625;4 188;5 003
+Antal;Snusar tre månader före aktuell graviditet;Riket;­24 år;772;792;826
+Antal;Snusar tre månader före aktuell graviditet;Riket;25­29 år;1 307;1 508;1 953
+Antal;Snusar tre månader före aktuell graviditet;Riket;30­34 år;1 010;1 229;1 494
+Antal;Snusar tre månader före aktuell graviditet;Riket;35+ år;528;656;725
+Antal;Snusar tre månader före aktuell graviditet;Stockholm;Alla åldrar;807;1 004;982
+Antal;Snusar tre månader före aktuell graviditet;Stockholm;­24 år;85;105;87
+Antal;Snusar tre månader före aktuell graviditet;Stockholm;25­29 år;242;308;319
+Antal;Snusar tre månader före aktuell graviditet;Stockholm;30­34 år;310;353;390
+Antal;Snusar tre månader före aktuell graviditet;Stockholm;35+ år;165;235;184
+Antal;Snusar tre månader före aktuell graviditet;Uppsala;Alla åldrar;198;192;192
+Antal;Snusar tre månader före aktuell graviditet;Uppsala;­24 år;34;33;31
+Antal;Snusar tre månader före aktuell graviditet;Uppsala;25­29 år;65;72;68
+Antal;Snusar tre månader före aktuell graviditet;Uppsala;30­34 år;75;58;66
+Antal;Snusar tre månader före aktuell graviditet;Uppsala;35+ år;24;29;27
+Antal;Snusar tre månader före aktuell graviditet;Södermanland;Alla åldrar;38;52;83
+Antal;Snusar tre månader före aktuell graviditet;Södermanland;­24 år;X;8;16
+Antal;Snusar tre månader före aktuell graviditet;Södermanland;25­29 år;16;21;38
+Antal;Snusar tre månader före aktuell graviditet;Södermanland;30­34 år;X;17;20
+Antal;Snusar tre månader före aktuell graviditet;Södermanland;35+ år;9;6;9
+Antal;Snusar tre månader före aktuell graviditet;Östergötland;Alla åldrar;95;118;184
+Antal;Snusar tre månader före aktuell graviditet;Östergötland;­24 år;23;21;29
+Antal;Snusar tre månader före aktuell graviditet;Östergötland;25­29 år;35;47;76
+Antal;Snusar tre månader före aktuell graviditet;Östergötland;30­34 år;29;34;44
+Antal;Snusar tre månader före aktuell graviditet;Östergötland;35+ år;8;16;35
+Antal;Snusar tre månader före aktuell graviditet;Jönköping;Alla åldrar;94;138;156
+Antal;Snusar tre månader före aktuell graviditet;Jönköping;­24 år;28;33;27
+Antal;Snusar tre månader före aktuell graviditet;Jönköping;25­29 år;31;57;70
+Antal;Snusar tre månader före aktuell graviditet;Jönköping;30­34 år;24;35;46
+Antal;Snusar tre månader före aktuell graviditet;Jönköping;35+ år;11;13;13
+Antal;Snusar tre månader före aktuell graviditet;Kronoberg;Alla åldrar;54;45;66
+Antal;Snusar tre månader före aktuell graviditet;Kronoberg;­24 år;13;X;X
+Antal;Snusar tre månader före aktuell graviditet;Kronoberg;25­29 år;21;22;25
+Antal;Snusar tre månader före aktuell graviditet;Kronoberg;30­34 år;13;14;21
+Antal;Snusar tre månader före aktuell graviditet;Kronoberg;35+ år;5;X;X
+Antal;Snusar tre månader före aktuell graviditet;Kalmar;Alla åldrar;74;85;84
+Antal;Snusar tre månader före aktuell graviditet;Kalmar;­24 år;12;23;17
+Antal;Snusar tre månader före aktuell graviditet;Kalmar;25­29 år;26;35;40
+Antal;Snusar tre månader före aktuell graviditet;Kalmar;30­34 år;24;14;18
+Antal;Snusar tre månader före aktuell graviditet;Kalmar;35+ år;12;13;9
+Antal;Snusar tre månader före aktuell graviditet;Gotland;Alla åldrar;36;47;34
+Antal;Snusar tre månader före aktuell graviditet;Gotland;­24 år;9;17;X
+Antal;Snusar tre månader före aktuell graviditet;Gotland;25­29 år;19;15;13
+Antal;Snusar tre månader före aktuell graviditet;Gotland;30­34 år;X;X;X
+Antal;Snusar tre månader före aktuell graviditet;Gotland;35+ år;X;X;9
+Antal;Snusar tre månader före aktuell graviditet;Blekinge;Alla åldrar;25;40;41
+Antal;Snusar tre månader före aktuell graviditet;Blekinge;­24 år;X;10;X
+Antal;Snusar tre månader före aktuell graviditet;Blekinge;25­29 år;8;19;18
+Antal;Snusar tre månader före aktuell graviditet;Blekinge;30­34 år;X;7;X
+Antal;Snusar tre månader före aktuell graviditet;Blekinge;35+ år;X;4;X
+Antal;Snusar tre månader före aktuell graviditet;Skåne;Alla åldrar;226;296;329
+Antal;Snusar tre månader före aktuell graviditet;Skåne;­24 år;28;25;28
+Antal;Snusar tre månader före aktuell graviditet;Skåne;25­29 år;83;94;130
+Antal;Snusar tre månader före aktuell graviditet;Skåne;30­34 år;71;121;113
+Antal;Snusar tre månader före aktuell graviditet;Skåne;35+ år;43;56;58
+Antal;Snusar tre månader före aktuell graviditet;Halland;Alla åldrar;45;43;111
+Antal;Snusar tre månader före aktuell graviditet;Halland;­24 år;12;X;11
+Antal;Snusar tre månader före aktuell graviditet;Halland;25­29 år;13;19;50
+Antal;Snusar tre månader före aktuell graviditet;Halland;30­34 år;12;X;30
+Antal;Snusar tre månader före aktuell graviditet;Halland;35+ år;8;11;20
+Antal;Snusar tre månader före aktuell graviditet;Västra Götaland;Alla åldrar;341;396;760
+Antal;Snusar tre månader före aktuell graviditet;Västra Götaland;­24 år;69;66;100
+Antal;Snusar tre månader före aktuell graviditet;Västra Götaland;25­29 år;140;160;323
+Antal;Snusar tre månader före aktuell graviditet;Västra Götaland;30­34 år;96;111;239
+Antal;Snusar tre månader före aktuell graviditet;Västra Götaland;35+ år;36;59;97
+Antal;Snusar tre månader före aktuell graviditet;Värmland;Alla åldrar;62;160;136
+Antal;Snusar tre månader före aktuell graviditet;Värmland;­24 år;14;46;36
+Antal;Snusar tre månader före aktuell graviditet;Värmland;25­29 år;33;68;56
+Antal;Snusar tre månader före aktuell graviditet;Värmland;30­34 år;8;30;29
+Antal;Snusar tre månader före aktuell graviditet;Värmland;35+ år;7;16;15
+Antal;Snusar tre månader före aktuell graviditet;Örebro;Alla åldrar;100;125;171
+Antal;Snusar tre månader före aktuell graviditet;Örebro;­24 år;22;23;32
+Antal;Snusar tre månader före aktuell graviditet;Örebro;25­29 år;42;48;77
+Antal;Snusar tre månader före aktuell graviditet;Örebro;30­34 år;24;38;43
+Antal;Snusar tre månader före aktuell graviditet;Örebro;35+ år;12;16;19
+Antal;Snusar tre månader före aktuell graviditet;Västmanland;Alla åldrar;77;103;135
+Antal;Snusar tre månader före aktuell graviditet;Västmanland;­24 år;26;31;32
+Antal;Snusar tre månader före aktuell graviditet;Västmanland;25­29 år;31;38;50
+Antal;Snusar tre månader före aktuell graviditet;Västmanland;30­34 år;13;25;35
+Antal;Snusar tre månader före aktuell graviditet;Västmanland;35+ år;7;9;18
+Antal;Snusar tre månader före aktuell graviditet;Dalarna;Alla åldrar;175;136;207
+Antal;Snusar tre månader före aktuell graviditet;Dalarna;­24 år;50;38;47
+Antal;Snusar tre månader före aktuell graviditet;Dalarna;25­29 år;70;46;84
+Antal;Snusar tre månader före aktuell graviditet;Dalarna;30­34 år;31;37;53
+Antal;Snusar tre månader före aktuell graviditet;Dalarna;35+ år;24;15;23
+Antal;Snusar tre månader före aktuell graviditet;Gävleborg;Alla åldrar;97;94;157
+Antal;Snusar tre månader före aktuell graviditet;Gävleborg;­24 år;29;28;35
+Antal;Snusar tre månader före aktuell graviditet;Gävleborg;25­29 år;37;31;75
+Antal;Snusar tre månader före aktuell graviditet;Gävleborg;30­34 år;16;23;33
+Antal;Snusar tre månader före aktuell graviditet;Gävleborg;35+ år;15;12;14
+Antal;Snusar tre månader före aktuell graviditet;Västernorrland;Alla åldrar;244;256;272
+Antal;Snusar tre månader före aktuell graviditet;Västernorrland;­24 år;77;56;62
+Antal;Snusar tre månader före aktuell graviditet;Västernorrland;25­29 år;85;101;99
+Antal;Snusar tre månader före aktuell graviditet;Västernorrland;30­34 år;49;70;65
+Antal;Snusar tre månader före aktuell graviditet;Västernorrland;35+ år;33;29;45
+Antal;Snusar tre månader före aktuell graviditet;Jämtland;Alla åldrar;223;205;198
+Antal;Snusar tre månader före aktuell graviditet;Jämtland;­24 år;67;52;44
+Antal;Snusar tre månader före aktuell graviditet;Jämtland;25­29 år;80;74;68
+Antal;Snusar tre månader före aktuell graviditet;Jämtland;30­34 år;40;49;46
+Antal;Snusar tre månader före aktuell graviditet;Jämtland;35+ år;36;30;40
+Antal;Snusar tre månader före aktuell graviditet;Västerbotten;Alla åldrar;405;395;359
+Antal;Snusar tre månader före aktuell graviditet;Västerbotten;­24 år;94;75;78
+Antal;Snusar tre månader före aktuell graviditet;Västerbotten;25­29 år;155;147;133
+Antal;Snusar tre månader före aktuell graviditet;Västerbotten;30­34 år;111;115;96
+Antal;Snusar tre månader före aktuell graviditet;Västerbotten;35+ år;45;58;51
+Antal;Snusar tre månader före aktuell graviditet;Norrbotten;Alla åldrar;209;258;342
+Antal;Snusar tre månader före aktuell graviditet;Norrbotten;­24 år;68;92;94
+Antal;Snusar tre månader före aktuell graviditet;Norrbotten;25­29 år;75;86;140
+Antal;Snusar tre månader före aktuell graviditet;Norrbotten;30­34 år;44;58;80
+Antal;Snusar tre månader före aktuell graviditet;Norrbotten;35+ år;22;22;28
+Antal;Snusar i tidig graviditet;Riket;Alla åldrar;1 237;1 531;1 465
+Antal;Snusar i tidig graviditet;Riket;­24 år;253;308;258
+Antal;Snusar i tidig graviditet;Riket;25­29 år;366;486;496
+Antal;Snusar i tidig graviditet;Riket;30­34 år;365;441;423
+Antal;Snusar i tidig graviditet;Riket;35+ år;246;293;285
+Antal;Snusar i tidig graviditet;Stockholm;Alla åldrar;319;456;309
+Antal;Snusar i tidig graviditet;Stockholm;­24 år;41;47;27
+Antal;Snusar i tidig graviditet;Stockholm;25­29 år;75;129;76
+Antal;Snusar i tidig graviditet;Stockholm;30­34 år;123;169;121
+Antal;Snusar i tidig graviditet;Stockholm;35+ år;74;108;83
+Antal;Snusar i tidig graviditet;Uppsala;Alla åldrar;51;63;49
+Antal;Snusar i tidig graviditet;Uppsala;­24 år;X;9;8
+Antal;Snusar i tidig graviditet;Uppsala;25­29 år;14;18;14
+Antal;Snusar i tidig graviditet;Uppsala;30­34 år;21;19;16
+Antal;Snusar i tidig graviditet;Uppsala;35+ år;X;17;11
+Antal;Snusar i tidig graviditet;Södermanland;Alla åldrar;22;29;25
+Antal;Snusar i tidig graviditet;Södermanland;­24 år;X;X;X
+Antal;Snusar i tidig graviditet;Södermanland;25­29 år;X;X;10
+Antal;Snusar i tidig graviditet;Södermanland;30­34 år;6;8;7
+Antal;Snusar i tidig graviditet;Södermanland;35+ år;6;11;X
+Antal;Snusar i tidig graviditet;Östergötland;Alla åldrar;16;45;56
+Antal;Snusar i tidig graviditet;Östergötland;­24 år;X;13;13
+Antal;Snusar i tidig graviditet;Östergötland;25­29 år;7;13;17
+Antal;Snusar i tidig graviditet;Östergötland;30­34 år;X;11;13
+Antal;Snusar i tidig graviditet;Östergötland;35+ år;4;8;13
+Antal;Snusar i tidig graviditet;Jönköping;Alla åldrar;35;46;44
+Antal;Snusar i tidig graviditet;Jönköping;­24 år;X;13;X
+Antal;Snusar i tidig graviditet;Jönköping;25­29 år;9;21;12
+Antal;Snusar i tidig graviditet;Jönköping;30­34 år;15;X;18
+Antal;Snusar i tidig graviditet;Jönköping;35+ år;X;X;X
+Antal;Snusar i tidig graviditet;Kronoberg;Alla åldrar;9;10;12
+Antal;Snusar i tidig graviditet;Kronoberg;­24 år;4;X;X
+Antal;Snusar i tidig graviditet;Kronoberg;25­29 år;X;X;X
+Antal;Snusar i tidig graviditet;Kronoberg;30­34 år;X;4;X
+Antal;Snusar i tidig graviditet;Kronoberg;35+ år;X;X;X
+Antal;Snusar i tidig graviditet;Kalmar;Alla åldrar;20;23;26
+Antal;Snusar i tidig graviditet;Kalmar;­24 år;X;7;X
+Antal;Snusar i tidig graviditet;Kalmar;25­29 år;6;9;11
+Antal;Snusar i tidig graviditet;Kalmar;30­34 år;6;X;7
+Antal;Snusar i tidig graviditet;Kalmar;35+ år;X;X;X
+Antal;Snusar i tidig graviditet;Gotland;Alla åldrar;15;10;15
+Antal;Snusar i tidig graviditet;Gotland;­24 år;X;X;0
+Antal;Snusar i tidig graviditet;Gotland;25­29 år;8;X;X
+Antal;Snusar i tidig graviditet;Gotland;30­34 år;X;0;X
+Antal;Snusar i tidig graviditet;Gotland;35+ år;X;X;6
+Antal;Snusar i tidig graviditet;Blekinge;Alla åldrar;7;18;13
+Antal;Snusar i tidig graviditet;Blekinge;­24 år;X;X;0
+Antal;Snusar i tidig graviditet;Blekinge;25­29 år;X;8;X
+Antal;Snusar i tidig graviditet;Blekinge;30­34 år;X;5;5
+Antal;Snusar i tidig graviditet;Blekinge;35+ år;X;X;X
+Antal;Snusar i tidig graviditet;Skåne;Alla åldrar;99;110;72
+Antal;Snusar i tidig graviditet;Skåne;­24 år;15;12;X
+Antal;Snusar i tidig graviditet;Skåne;25­29 år;30;34;31
+Antal;Snusar i tidig graviditet;Skåne;30­34 år;31;37;23
+Antal;Snusar i tidig graviditet;Skåne;35+ år;22;27;X
+Antal;Snusar i tidig graviditet;Halland;Alla åldrar;10;12;38
+Antal;Snusar i tidig graviditet;Halland;­24 år;X;X;5
+Antal;Snusar i tidig graviditet;Halland;25­29 år;X;6;16
+Antal;Snusar i tidig graviditet;Halland;30­34 år;X;X;11
+Antal;Snusar i tidig graviditet;Halland;35+ år;X;X;6
+Antal;Snusar i tidig graviditet;Västra Götaland;Alla åldrar;101;127;197
+Antal;Snusar i tidig graviditet;Västra Götaland;­24 år;18;23;32
+Antal;Snusar i tidig graviditet;Västra Götaland;25­29 år;37;46;76
+Antal;Snusar i tidig graviditet;Västra Götaland;30­34 år;33;34;52
+Antal;Snusar i tidig graviditet;Västra Götaland;35+ år;13;24;36
+Antal;Snusar i tidig graviditet;Värmland;Alla åldrar;14;49;30
+Antal;Snusar i tidig graviditet;Värmland;­24 år;X;20;6
+Antal;Snusar i tidig graviditet;Värmland;25­29 år;7;14;13
+Antal;Snusar i tidig graviditet;Värmland;30­34 år;X;10;6
+Antal;Snusar i tidig graviditet;Värmland;35+ år;X;5;5
+Antal;Snusar i tidig graviditet;Örebro;Alla åldrar;28;43;50
+Antal;Snusar i tidig graviditet;Örebro;­24 år;8;X;9
+Antal;Snusar i tidig graviditet;Örebro;25­29 år;4;20;19
+Antal;Snusar i tidig graviditet;Örebro;30­34 år;9;12;13
+Antal;Snusar i tidig graviditet;Örebro;35+ år;7;X;9
+Antal;Snusar i tidig graviditet;Västmanland;Alla åldrar;33;37;49
+Antal;Snusar i tidig graviditet;Västmanland;­24 år;10;14;12
+Antal;Snusar i tidig graviditet;Västmanland;25­29 år;13;11;21
+Antal;Snusar i tidig graviditet;Västmanland;30­34 år;X;X;11
+Antal;Snusar i tidig graviditet;Västmanland;35+ år;X;X;5
+Antal;Snusar i tidig graviditet;Dalarna;Alla åldrar;50;40;50
+Antal;Snusar i tidig graviditet;Dalarna;­24 år;16;11;13
+Antal;Snusar i tidig graviditet;Dalarna;25­29 år;14;16;17
+Antal;Snusar i tidig graviditet;Dalarna;30­34 år;8;8;14
+Antal;Snusar i tidig graviditet;Dalarna;35+ år;12;5;6
+Antal;Snusar i tidig graviditet;Gävleborg;Alla åldrar;48;28;62
+Antal;Snusar i tidig graviditet;Gävleborg;­24 år;11;9;16
+Antal;Snusar i tidig graviditet;Gävleborg;25­29 år;16;5;30
+Antal;Snusar i tidig graviditet;Gävleborg;30­34 år;12;8;12
+Antal;Snusar i tidig graviditet;Gävleborg;35+ år;9;6;4
+Antal;Snusar i tidig graviditet;Västernorrland;Alla åldrar;79;92;97
+Antal;Snusar i tidig graviditet;Västernorrland;­24 år;23;29;21
+Antal;Snusar i tidig graviditet;Västernorrland;25­29 år;20;25;33
+Antal;Snusar i tidig graviditet;Västernorrland;30­34 år;16;24;24
+Antal;Snusar i tidig graviditet;Västernorrland;35+ år;20;14;19
+Antal;Snusar i tidig graviditet;Jämtland;Alla åldrar;77;71;67
+Antal;Snusar i tidig graviditet;Jämtland;­24 år;22;22;19
+Antal;Snusar i tidig graviditet;Jämtland;25­29 år;29;27;24
+Antal;Snusar i tidig graviditet;Jämtland;30­34 år;12;10;9
+Antal;Snusar i tidig graviditet;Jämtland;35+ år;14;12;15
+Antal;Snusar i tidig graviditet;Västerbotten;Alla åldrar;147;151;120
+Antal;Snusar i tidig graviditet;Västerbotten;­24 år;29;29;23
+Antal;Snusar i tidig graviditet;Västerbotten;25­29 år;50;48;37
+Antal;Snusar i tidig graviditet;Västerbotten;30­34 år;43;46;32
+Antal;Snusar i tidig graviditet;Västerbotten;35+ år;25;28;28
+Antal;Snusar i tidig graviditet;Norrbotten;Alla åldrar;57;71;83
+Antal;Snusar i tidig graviditet;Norrbotten;­24 år;12;31;31
+Antal;Snusar i tidig graviditet;Norrbotten;25­29 år;15;22;24
+Antal;Snusar i tidig graviditet;Norrbotten;30­34 år;15;12;20
+Antal;Snusar i tidig graviditet;Norrbotten;35+ år;15;6;8
+Antal;Snusar i sen graviditet;Riket;Alla åldrar;656;684;705
+Antal;Snusar i sen graviditet;Riket;­24 år;159;178;145
+Antal;Snusar i sen graviditet;Riket;25­29 år;203;239;259
+Antal;Snusar i sen graviditet;Riket;30­34 år;161;152;179
+Antal;Snusar i sen graviditet;Riket;35+ år;132;114;122
+Antal;Snusar i sen graviditet;Stockholm;Alla åldrar;143;123;67
+Antal;Snusar i sen graviditet;Stockholm;­24 år;18;23;6
+Antal;Snusar i sen graviditet;Stockholm;25­29 år;43;43;27
+Antal;Snusar i sen graviditet;Stockholm;30­34 år;38;28;19
+Antal;Snusar i sen graviditet;Stockholm;35+ år;43;29;15
+Antal;Snusar i sen graviditet;Uppsala;Alla åldrar;19;24;29
+Antal;Snusar i sen graviditet;Uppsala;­24 år;X;6;6
+Antal;Snusar i sen graviditet;Uppsala;25­29 år;X;10;9
+Antal;Snusar i sen graviditet;Uppsala;30­34 år;7;4;9
+Antal;Snusar i sen graviditet;Uppsala;35+ år;4;4;5
+Antal;Snusar i sen graviditet;Södermanland;Alla åldrar;9;9;7
+Antal;Snusar i sen graviditet;Södermanland;­24 år;0;X;X
+Antal;Snusar i sen graviditet;Södermanland;25­29 år;X;4;X
+Antal;Snusar i sen graviditet;Södermanland;30­34 år;X;X;X
+Antal;Snusar i sen graviditet;Södermanland;35+ år;X;X;X
+Antal;Snusar i sen graviditet;Östergötland;Alla åldrar;7;24;23
+Antal;Snusar i sen graviditet;Östergötland;­24 år;X;8;5
+Antal;Snusar i sen graviditet;Östergötland;25­29 år;X;7;8
+Antal;Snusar i sen graviditet;Östergötland;30­34 år;0;X;5
+Antal;Snusar i sen graviditet;Östergötland;35+ år;X;X;5
+Antal;Snusar i sen graviditet;Jönköping;Alla åldrar;19;30;32
+Antal;Snusar i sen graviditet;Jönköping;­24 år;6;9;10
+Antal;Snusar i sen graviditet;Jönköping;25­29 år;8;13;X
+Antal;Snusar i sen graviditet;Jönköping;30­34 år;X;X;11
+Antal;Snusar i sen graviditet;Jönköping;35+ år;X;X;X
+Antal;Snusar i sen graviditet;Kronoberg;Alla åldrar;X;8;8
+Antal;Snusar i sen graviditet;Kronoberg;­24 år;X;X;X
+Antal;Snusar i sen graviditet;Kronoberg;25­29 år;X;X;X
+Antal;Snusar i sen graviditet;Kronoberg;30­34 år;X;4;X
+Antal;Snusar i sen graviditet;Kronoberg;35+ år;X;0;0
+Antal;Snusar i sen graviditet;Kalmar;Alla åldrar;11;22;20
+Antal;Snusar i sen graviditet;Kalmar;­24 år;X;6;X
+Antal;Snusar i sen graviditet;Kalmar;25­29 år;X;8;8
+Antal;Snusar i sen graviditet;Kalmar;30­34 år;X;4;5
+Antal;Snusar i sen graviditet;Kalmar;35+ år;X;4;X
+Antal;Snusar i sen graviditet;Gotland;Alla åldrar;8;11;10
+Antal;Snusar i sen graviditet;Gotland;­24 år;X;6;X
+Antal;Snusar i sen graviditet;Gotland;25­29 år;X;X;X
+Antal;Snusar i sen graviditet;Gotland;30­34 år;X;X;0
+Antal;Snusar i sen graviditet;Gotland;35+ år;X;0;X
+Antal;Snusar i sen graviditet;Blekinge;Alla åldrar;X;6;6
+Antal;Snusar i sen graviditet;Blekinge;­24 år;X;X;X
+Antal;Snusar i sen graviditet;Blekinge;25­29 år;X;X;X
+Antal;Snusar i sen graviditet;Blekinge;30­34 år;0;X;X
+Antal;Snusar i sen graviditet;Blekinge;35+ år;0;0;X
+Antal;Snusar i sen graviditet;Skåne;Alla åldrar;56;31;22
+Antal;Snusar i sen graviditet;Skåne;­24 år;12;5;X
+Antal;Snusar i sen graviditet;Skåne;25­29 år;14;12;8
+Antal;Snusar i sen graviditet;Skåne;30­34 år;21;9;8
+Antal;Snusar i sen graviditet;Skåne;35+ år;9;5;X
+Antal;Snusar i sen graviditet;Halland;Alla åldrar;8;8;19
+Antal;Snusar i sen graviditet;Halland;­24 år;X;0;X
+Antal;Snusar i sen graviditet;Halland;25­29 år;X;X;6
+Antal;Snusar i sen graviditet;Halland;30­34 år;X;X;5
+Antal;Snusar i sen graviditet;Halland;35+ år;0;X;X
+Antal;Snusar i sen graviditet;Västra Götaland;Alla åldrar;29;57;83
+Antal;Snusar i sen graviditet;Västra Götaland;­24 år;9;14;16
+Antal;Snusar i sen graviditet;Västra Götaland;25­29 år;10;19;32
+Antal;Snusar i sen graviditet;Västra Götaland;30­34 år;6;14;17
+Antal;Snusar i sen graviditet;Västra Götaland;35+ år;4;10;18
+Antal;Snusar i sen graviditet;Värmland;Alla åldrar;7;27;15
+Antal;Snusar i sen graviditet;Värmland;­24 år;X;10;X
+Antal;Snusar i sen graviditet;Värmland;25­29 år;X;8;7
+Antal;Snusar i sen graviditet;Värmland;30­34 år;X;X;X
+Antal;Snusar i sen graviditet;Värmland;35+ år;X;X;X
+Antal;Snusar i sen graviditet;Örebro;Alla åldrar;28;19;32
+Antal;Snusar i sen graviditet;Örebro;­24 år;5;4;6
+Antal;Snusar i sen graviditet;Örebro;25­29 år;8;5;9
+Antal;Snusar i sen graviditet;Örebro;30­34 år;11;6;10
+Antal;Snusar i sen graviditet;Örebro;35+ år;4;4;7
+Antal;Snusar i sen graviditet;Västmanland;Alla åldrar;18;19;27
+Antal;Snusar i sen graviditet;Västmanland;­24 år;9;6;8
+Antal;Snusar i sen graviditet;Västmanland;25­29 år;X;X;9
+Antal;Snusar i sen graviditet;Västmanland;30­34 år;0;5;6
+Antal;Snusar i sen graviditet;Västmanland;35+ år;X;X;4
+Antal;Snusar i sen graviditet;Dalarna;Alla åldrar;20;22;38
+Antal;Snusar i sen graviditet;Dalarna;­24 år;X;6;7
+Antal;Snusar i sen graviditet;Dalarna;25­29 år;6;5;16
+Antal;Snusar i sen graviditet;Dalarna;30­34 år;6;6;9
+Antal;Snusar i sen graviditet;Dalarna;35+ år;X;5;6
+Antal;Snusar i sen graviditet;Gävleborg;Alla åldrar;16;13;36
+Antal;Snusar i sen graviditet;Gävleborg;­24 år;8;4;11
+Antal;Snusar i sen graviditet;Gävleborg;25­29 år;X;4;12
+Antal;Snusar i sen graviditet;Gävleborg;30­34 år;X;X;X
+Antal;Snusar i sen graviditet;Gävleborg;35+ år;X;X;X
+Antal;Snusar i sen graviditet;Västernorrland;Alla åldrar;66;76;70
+Antal;Snusar i sen graviditet;Västernorrland;­24 år;20;27;12
+Antal;Snusar i sen graviditet;Västernorrland;25­29 år;17;21;28
+Antal;Snusar i sen graviditet;Västernorrland;30­34 år;14;16;20
+Antal;Snusar i sen graviditet;Västernorrland;35+ år;15;12;10
+Antal;Snusar i sen graviditet;Jämtland;Alla åldrar;59;44;46
+Antal;Snusar i sen graviditet;Jämtland;­24 år;19;12;15
+Antal;Snusar i sen graviditet;Jämtland;25­29 år;18;22;17
+Antal;Snusar i sen graviditet;Jämtland;30­34 år;12;X;5
+Antal;Snusar i sen graviditet;Jämtland;35+ år;10;X;9
+Antal;Snusar i sen graviditet;Västerbotten;Alla åldrar;105;82;79
+Antal;Snusar i sen graviditet;Västerbotten;­24 år;20;17;16
+Antal;Snusar i sen graviditet;Västerbotten;25­29 år;38;28;28
+Antal;Snusar i sen graviditet;Västerbotten;30­34 år;25;23;22
+Antal;Snusar i sen graviditet;Västerbotten;35+ år;22;14;13
+Antal;Snusar i sen graviditet;Norrbotten;Alla åldrar;20;29;35
+Antal;Snusar i sen graviditet;Norrbotten;­24 år;X;10;8
+Antal;Snusar i sen graviditet;Norrbotten;25­29 år;10;13;15
+Antal;Snusar i sen graviditet;Norrbotten;30­34 år;X;X;7
+Antal;Snusar i sen graviditet;Norrbotten;35+ år;X;X;5
+Antal;Preeklampsi;Riket;Alla åldrar;3 318;3 137;3 252
+Antal;Preeklampsi;Riket;­24 år;572;552;529
+Antal;Preeklampsi;Riket;25­29 år;927;947;968
+Antal;Preeklampsi;Riket;30­34 år;1 014;921;939
+Antal;Preeklampsi;Riket;35+ år;798;706;794
+Antal;Preeklampsi;Stockholm;Alla åldrar;842;826;856
+Antal;Preeklampsi;Stockholm;­24 år;74;80;88
+Antal;Preeklampsi;Stockholm;25­29 år;190;213;228
+Antal;Preeklampsi;Stockholm;30­34 år;303;271;265
+Antal;Preeklampsi;Stockholm;35+ år;269;253;268
+Antal;Preeklampsi;Uppsala;Alla åldrar;123;97;120
+Antal;Preeklampsi;Uppsala;­24 år;24;24;13
+Antal;Preeklampsi;Uppsala;25­29 år;39;26;44
+Antal;Preeklampsi;Uppsala;30­34 år;35;21;24
+Antal;Preeklampsi;Uppsala;35+ år;25;26;39
+Antal;Preeklampsi;Södermanland;Alla åldrar;89;55;61
+Antal;Preeklampsi;Södermanland;­24 år;16;15;12
+Antal;Preeklampsi;Södermanland;25­29 år;30;20;18
+Antal;Preeklampsi;Södermanland;30­34 år;23;10;22
+Antal;Preeklampsi;Södermanland;35+ år;20;10;9
+Antal;Preeklampsi;Östergötland;Alla åldrar;101;107;102
+Antal;Preeklampsi;Östergötland;­24 år;22;16;21
+Antal;Preeklampsi;Östergötland;25­29 år;29;35;24
+Antal;Preeklampsi;Östergötland;30­34 år;32;42;28
+Antal;Preeklampsi;Östergötland;35+ år;18;13;26
+Antal;Preeklampsi;Jönköping;Alla åldrar;136;126;122
+Antal;Preeklampsi;Jönköping;­24 år;28;27;22
+Antal;Preeklampsi;Jönköping;25­29 år;54;48;40
+Antal;Preeklampsi;Jönköping;30­34 år;30;36;41
+Antal;Preeklampsi;Jönköping;35+ år;24;15;17
+Antal;Preeklampsi;Kronoberg;Alla åldrar;50;26;65
+Antal;Preeklampsi;Kronoberg;­24 år;X;X;16
+Antal;Preeklampsi;Kronoberg;25­29 år;18;X;23
+Antal;Preeklampsi;Kronoberg;30­34 år;X;8;15
+Antal;Preeklampsi;Kronoberg;35+ år;13;X;11
+Antal;Preeklampsi;Kalmar;Alla åldrar;81;58;72
+Antal;Preeklampsi;Kalmar;­24 år;20;16;17
+Antal;Preeklampsi;Kalmar;25­29 år;21;15;20
+Antal;Preeklampsi;Kalmar;30­34 år;28;14;21
+Antal;Preeklampsi;Kalmar;35+ år;12;13;14
+Antal;Preeklampsi;Gotland;Alla åldrar;8;19;16
+Antal;Preeklampsi;Gotland;­24 år;X;X;X
+Antal;Preeklampsi;Gotland;25­29 år;X;X;5
+Antal;Preeklampsi;Gotland;30­34 år;X;6;X
+Antal;Preeklampsi;Gotland;35+ år;X;6;4
+Antal;Preeklampsi;Blekinge;Alla åldrar;57;46;49
+Antal;Preeklampsi;Blekinge;­24 år;13;15;6
+Antal;Preeklampsi;Blekinge;25­29 år;15;17;12
+Antal;Preeklampsi;Blekinge;30­34 år;17;8;19
+Antal;Preeklampsi;Blekinge;35+ år;12;6;11
+Antal;Preeklampsi;Skåne;Alla åldrar;419;409;382
+Antal;Preeklampsi;Skåne;­24 år;71;63;71
+Antal;Preeklampsi;Skåne;25­29 år;114;145;101
+Antal;Preeklampsi;Skåne;30­34 år;132;112;129
+Antal;Preeklampsi;Skåne;35+ år;102;89;79
+Antal;Preeklampsi;Halland;Alla åldrar;121;87;90
+Antal;Preeklampsi;Halland;­24 år;21;18;14
+Antal;Preeklampsi;Halland;25­29 år;30;29;32
+Antal;Preeklampsi;Halland;30­34 år;37;28;24
+Antal;Preeklampsi;Halland;35+ år;33;12;20
+Antal;Preeklampsi;Västra Götaland;Alla åldrar;529;513;536
+Antal;Preeklampsi;Västra Götaland;­24 år;86;81;70
+Antal;Preeklampsi;Västra Götaland;25­29 år;155;152;164
+Antal;Preeklampsi;Västra Götaland;30­34 år;156;157;161
+Antal;Preeklampsi;Västra Götaland;35+ år;132;123;141
+Antal;Preeklampsi;Värmland;Alla åldrar;87;97;89
+Antal;Preeklampsi;Värmland;­24 år;24;20;22
+Antal;Preeklampsi;Värmland;25­29 år;X;30;29
+Antal;Preeklampsi;Värmland;30­34 år;28;27;25
+Antal;Preeklampsi;Värmland;35+ år;X;20;13
+Antal;Preeklampsi;Örebro;Alla åldrar;139;137;116
+Antal;Preeklampsi;Örebro;­24 år;33;25;28
+Antal;Preeklampsi;Örebro;25­29 år;49;49;39
+Antal;Preeklampsi;Örebro;30­34 år;35;40;22
+Antal;Preeklampsi;Örebro;35+ år;22;23;27
+Antal;Preeklampsi;Västmanland;Alla åldrar;77;64;83
+Antal;Preeklampsi;Västmanland;­24 år;16;17;25
+Antal;Preeklampsi;Västmanland;25­29 år;18;19;25
+Antal;Preeklampsi;Västmanland;30­34 år;25;16;15
+Antal;Preeklampsi;Västmanland;35+ år;17;12;17
+Antal;Preeklampsi;Dalarna;Alla åldrar;110;106;129
+Antal;Preeklampsi;Dalarna;­24 år;20;31;24
+Antal;Preeklampsi;Dalarna;25­29 år;36;29;48
+Antal;Preeklampsi;Dalarna;30­34 år;33;29;34
+Antal;Preeklampsi;Dalarna;35+ år;21;17;19
+Antal;Preeklampsi;Gävleborg;Alla åldrar;81;105;99
+Antal;Preeklampsi;Gävleborg;­24 år;19;36;25
+Antal;Preeklampsi;Gävleborg;25­29 år;28;32;36
+Antal;Preeklampsi;Gävleborg;30­34 år;20;20;25
+Antal;Preeklampsi;Gävleborg;35+ år;14;17;13
+Antal;Preeklampsi;Västernorrland;Alla åldrar;67;80;65
+Antal;Preeklampsi;Västernorrland;­24 år;17;21;14
+Antal;Preeklampsi;Västernorrland;25­29 år;22;25;20
+Antal;Preeklampsi;Västernorrland;30­34 år;19;24;14
+Antal;Preeklampsi;Västernorrland;35+ år;9;10;16
+Antal;Preeklampsi;Jämtland;Alla åldrar;56;37;35
+Antal;Preeklampsi;Jämtland;­24 år;17;X;X
+Antal;Preeklampsi;Jämtland;25­29 år;19;13;8
+Antal;Preeklampsi;Jämtland;30­34 år;X;11;X
+Antal;Preeklampsi;Jämtland;35+ år;X;X;13
+Antal;Preeklampsi;Västerbotten;Alla åldrar;80;80;84
+Antal;Preeklampsi;Västerbotten;­24 år;20;14;20
+Antal;Preeklampsi;Västerbotten;25­29 år;28;22;23
+Antal;Preeklampsi;Västerbotten;30­34 år;18;31;22
+Antal;Preeklampsi;Västerbotten;35+ år;14;13;19
+Antal;Preeklampsi;Norrbotten;Alla åldrar;64;60;78
+Antal;Preeklampsi;Norrbotten;­24 år;21;17;12
+Antal;Preeklampsi;Norrbotten;25­29 år;17;18;29
+Antal;Preeklampsi;Norrbotten;30­34 år;18;10;20
+Antal;Preeklampsi;Norrbotten;35+ år;8;14;17
+Antal;Graviditetsdiabetes;Riket;Alla åldrar;1 304;1 279;1 355
+Antal;Graviditetsdiabetes;Riket;­24 år;118;99;112
+Antal;Graviditetsdiabetes;Riket;25­29 år;296;293;308
+Antal;Graviditetsdiabetes;Riket;30­34 år;414;420;456
+Antal;Graviditetsdiabetes;Riket;35+ år;465;460;471
+Antal;Graviditetsdiabetes;Stockholm;Alla åldrar;229;202;213
+Antal;Graviditetsdiabetes;Stockholm;­24 år;19;11;13
+Antal;Graviditetsdiabetes;Stockholm;25­29 år;38;43;41
+Antal;Graviditetsdiabetes;Stockholm;30­34 år;73;57;77
+Antal;Graviditetsdiabetes;Stockholm;35+ år;91;85;79
+Antal;Graviditetsdiabetes;Uppsala;Alla åldrar;47;49;45
+Antal;Graviditetsdiabetes;Uppsala;­24 år;X;X;X
+Antal;Graviditetsdiabetes;Uppsala;25­29 år;X;X;X
+Antal;Graviditetsdiabetes;Uppsala;30­34 år;12;15;20
+Antal;Graviditetsdiabetes;Uppsala;35+ år;22;20;15
+Antal;Graviditetsdiabetes;Södermanland;Alla åldrar;26;21;35
+Antal;Graviditetsdiabetes;Södermanland;­24 år;X;X;5
+Antal;Graviditetsdiabetes;Södermanland;25­29 år;X;X;7
+Antal;Graviditetsdiabetes;Södermanland;30­34 år;11;10;11
+Antal;Graviditetsdiabetes;Södermanland;35+ år;8;6;12
+Antal;Graviditetsdiabetes;Östergötland;Alla åldrar;88;51;60
+Antal;Graviditetsdiabetes;Östergötland;­24 år;12;X;6
+Antal;Graviditetsdiabetes;Östergötland;25­29 år;20;X;15
+Antal;Graviditetsdiabetes;Östergötland;30­34 år;22;18;17
+Antal;Graviditetsdiabetes;Östergötland;35+ år;34;18;22
+Antal;Graviditetsdiabetes;Jönköping;Alla åldrar;95;65;55
+Antal;Graviditetsdiabetes;Jönköping;­24 år;8;6;X
+Antal;Graviditetsdiabetes;Jönköping;25­29 år;31;16;X
+Antal;Graviditetsdiabetes;Jönköping;30­34 år;22;18;21
+Antal;Graviditetsdiabetes;Jönköping;35+ år;34;25;18
+Antal;Graviditetsdiabetes;Kronoberg;Alla åldrar;34;6;20
+Antal;Graviditetsdiabetes;Kronoberg;­24 år;X;X;X
+Antal;Graviditetsdiabetes;Kronoberg;25­29 år;X;X;X
+Antal;Graviditetsdiabetes;Kronoberg;30­34 år;12;X;8
+Antal;Graviditetsdiabetes;Kronoberg;35+ år;11;X;7
+Antal;Graviditetsdiabetes;Kalmar;Alla åldrar;26;27;21
+Antal;Graviditetsdiabetes;Kalmar;­24 år;X;X;X
+Antal;Graviditetsdiabetes;Kalmar;25­29 år;X;7;9
+Antal;Graviditetsdiabetes;Kalmar;30­34 år;10;X;X
+Antal;Graviditetsdiabetes;Kalmar;35+ år;6;12;6
+Antal;Graviditetsdiabetes;Gotland;Alla åldrar;9;9;10
+Antal;Graviditetsdiabetes;Gotland;­24 år;0;0;X
+Antal;Graviditetsdiabetes;Gotland;25­29 år;X;X;X
+Antal;Graviditetsdiabetes;Gotland;30­34 år;X;X;X
+Antal;Graviditetsdiabetes;Gotland;35+ år;5;X;4
+Antal;Graviditetsdiabetes;Blekinge;Alla åldrar;24;29;32
+Antal;Graviditetsdiabetes;Blekinge;­24 år;X;X;X
+Antal;Graviditetsdiabetes;Blekinge;25­29 år;7;10;X
+Antal;Graviditetsdiabetes;Blekinge;30­34 år;8;10;11
+Antal;Graviditetsdiabetes;Blekinge;35+ år;X;X;12
+Antal;Graviditetsdiabetes;Skåne;Alla åldrar;337;415;401
+Antal;Graviditetsdiabetes;Skåne;­24 år;29;27;26
+Antal;Graviditetsdiabetes;Skåne;25­29 år;78;96;89
+Antal;Graviditetsdiabetes;Skåne;30­34 år;112;158;144
+Antal;Graviditetsdiabetes;Skåne;35+ år;118;134;141
+Antal;Graviditetsdiabetes;Halland;Alla åldrar;32;27;41
+Antal;Graviditetsdiabetes;Halland;­24 år;5;X;0
+Antal;Graviditetsdiabetes;Halland;25­29 år;7;X;14
+Antal;Graviditetsdiabetes;Halland;30­34 år;9;8;13
+Antal;Graviditetsdiabetes;Halland;35+ år;11;10;14
+Antal;Graviditetsdiabetes;Västra Götaland;Alla åldrar;165;150;134
+Antal;Graviditetsdiabetes;Västra Götaland;­24 år;12;15;14
+Antal;Graviditetsdiabetes;Västra Götaland;25­29 år;34;27;38
+Antal;Graviditetsdiabetes;Västra Götaland;30­34 år;53;49;38
+Antal;Graviditetsdiabetes;Västra Götaland;35+ år;66;59;44
+Antal;Graviditetsdiabetes;Värmland;Alla åldrar;26;32;25
+Antal;Graviditetsdiabetes;Värmland;­24 år;4;5;X
+Antal;Graviditetsdiabetes;Värmland;25­29 år;5;9;X
+Antal;Graviditetsdiabetes;Värmland;30­34 år;11;6;7
+Antal;Graviditetsdiabetes;Värmland;35+ år;6;12;8
+Antal;Graviditetsdiabetes;Örebro;Alla åldrar;27;46;45
+Antal;Graviditetsdiabetes;Örebro;­24 år;6;4;5
+Antal;Graviditetsdiabetes;Örebro;25­29 år;6;9;8
+Antal;Graviditetsdiabetes;Örebro;30­34 år;10;15;18
+Antal;Graviditetsdiabetes;Örebro;35+ år;5;18;14
+Antal;Graviditetsdiabetes;Västmanland;Alla åldrar;25;19;49
+Antal;Graviditetsdiabetes;Västmanland;­24 år;X;X;5
+Antal;Graviditetsdiabetes;Västmanland;25­29 år;8;X;13
+Antal;Graviditetsdiabetes;Västmanland;30­34 år;9;6;13
+Antal;Graviditetsdiabetes;Västmanland;35+ år;X;6;18
+Antal;Graviditetsdiabetes;Dalarna;Alla åldrar;26;44;73
+Antal;Graviditetsdiabetes;Dalarna;­24 år;X;7;10
+Antal;Graviditetsdiabetes;Dalarna;25­29 år;X;11;17
+Antal;Graviditetsdiabetes;Dalarna;30­34 år;11;13;24
+Antal;Graviditetsdiabetes;Dalarna;35+ år;8;13;22
+Antal;Graviditetsdiabetes;Gävleborg;Alla åldrar;12;16;22
+Antal;Graviditetsdiabetes;Gävleborg;­24 år;X;X;X
+Antal;Graviditetsdiabetes;Gävleborg;25­29 år;4;6;X
+Antal;Graviditetsdiabetes;Gävleborg;30­34 år;X;X;6
+Antal;Graviditetsdiabetes;Gävleborg;35+ år;4;5;10
+Antal;Graviditetsdiabetes;Västernorrland;Alla åldrar;21;18;19
+Antal;Graviditetsdiabetes;Västernorrland;­24 år;X;X;X
+Antal;Graviditetsdiabetes;Västernorrland;25­29 år;5;6;5
+Antal;Graviditetsdiabetes;Västernorrland;30­34 år;8;X;6
+Antal;Graviditetsdiabetes;Västernorrland;35+ år;X;6;X
+Antal;Graviditetsdiabetes;Jämtland;Alla åldrar;15;11;11
+Antal;Graviditetsdiabetes;Jämtland;­24 år;0;0;X
+Antal;Graviditetsdiabetes;Jämtland;25­29 år;X;X;X
+Antal;Graviditetsdiabetes;Jämtland;30­34 år;6;5;4
+Antal;Graviditetsdiabetes;Jämtland;35+ år;X;X;X
+Antal;Graviditetsdiabetes;Västerbotten;Alla åldrar;10;11;13
+Antal;Graviditetsdiabetes;Västerbotten;­24 år;0;X;X
+Antal;Graviditetsdiabetes;Västerbotten;25­29 år;X;X;X
+Antal;Graviditetsdiabetes;Västerbotten;30­34 år;X;X;6
+Antal;Graviditetsdiabetes;Västerbotten;35+ år;4;6;X
+Antal;Graviditetsdiabetes;Norrbotten;Alla åldrar;30;28;29
+Antal;Graviditetsdiabetes;Norrbotten;­24 år;X;4;4
+Antal;Graviditetsdiabetes;Norrbotten;25­29 år;8;6;5
+Antal;Graviditetsdiabetes;Norrbotten;30­34 år;X;12;5
+Antal;Graviditetsdiabetes;Norrbotten;35+ år;13;6;15
+Procent;BMI < 18.5;Riket;Alla åldrar;2,5;2,6;2,7
+Procent;BMI < 18.5;Riket;­24 år;4,5;4,7;4,7
+Procent;BMI < 18.5;Riket;25­29 år;2,8;2,8;3,2
+Procent;BMI < 18.5;Riket;30­34 år;2,1;2,1;2,3
+Procent;BMI < 18.5;Riket;35+ år;1,3;1,5;1,5
+Procent;BMI < 18.5;Stockholm;Alla åldrar;3,1;2,7;3,0
+Procent;BMI < 18.5;Stockholm;­24 år;6,3;4,4;4,8
+Procent;BMI < 18.5;Stockholm;25­29 år;3,5;3,3;3,6
+Procent;BMI < 18.5;Stockholm;30­34 år;2,9;2,5;2,9
+Procent;BMI < 18.5;Stockholm;35+ år;1,8;2,0;2,1
+Procent;BMI < 18.5;Uppsala;Alla åldrar;2,1;2,2;2,1
+Procent;BMI < 18.5;Uppsala;­24 år;4,2;3,1;3,8
+Procent;BMI < 18.5;Uppsala;25­29 år;2,5;3,0;2,1
+Procent;BMI < 18.5;Uppsala;30­34 år;1,9;2,1;2,2
+Procent;BMI < 18.5;Uppsala;35+ år;0,9;1,0;1,1
+Procent;BMI < 18.5;Södermanland;Alla åldrar;2,1;2,7;2,8
+Procent;BMI < 18.5;Södermanland;­24 år;3,2;4,7;5,5
+Procent;BMI < 18.5;Södermanland;25­29 år;2,9;2,1;2,9
+Procent;BMI < 18.5;Södermanland;30­34 år;X;2,7;1,9
+Procent;BMI < 18.5;Södermanland;35+ år;X;1,5;1,2
+Procent;BMI < 18.5;Östergötland;Alla åldrar;1,9;2,4;2,4
+Procent;BMI < 18.5;Östergötland;­24 år;4,3;4,9;3,7
+Procent;BMI < 18.5;Östergötland;25­29 år;1,8;2,7;3,3
+Procent;BMI < 18.5;Östergötland;30­34 år;1,4;1,7;1,6
+Procent;BMI < 18.5;Östergötland;35+ år;0,9;0,9;1,0
+Procent;BMI < 18.5;Jönköping;Alla åldrar;2,0;2,5;2,6
+Procent;BMI < 18.5;Jönköping;­24 år;3,6;4,7;5,8
+Procent;BMI < 18.5;Jönköping;25­29 år;2,3;2,3;2,7
+Procent;BMI < 18.5;Jönköping;30­34 år;1,6;1,9;1,3
+Procent;BMI < 18.5;Jönköping;35+ år;0,6;1,6;1,3
+Procent;BMI < 18.5;Kronoberg;Alla åldrar;2,4;2,9;2,6
+Procent;BMI < 18.5;Kronoberg;­24 år;4,4;4,7;6,7
+Procent;BMI < 18.5;Kronoberg;25­29 år;3,0;3,7;2,3
+Procent;BMI < 18.5;Kronoberg;30­34 år;X;1,9;1,5
+Procent;BMI < 18.5;Kronoberg;35+ år;X;1,2;1,4
+Procent;BMI < 18.5;Kalmar;Alla åldrar;2,4;2,7;2,6
+Procent;BMI < 18.5;Kalmar;­24 år;4,1;4,7;3,4
+Procent;BMI < 18.5;Kalmar;25­29 år;2,7;2,2;3,2
+Procent;BMI < 18.5;Kalmar;30­34 år;2,0;2,7;1,8
+Procent;BMI < 18.5;Kalmar;35+ år;1,0;1,4;1,7
+Procent;BMI < 18.5;Gotland;Alla åldrar;3,1;4,1;3,1
+Procent;BMI < 18.5;Gotland;­24 år;X;10,6;X
+Procent;BMI < 18.5;Gotland;25­29 år;5,2;2,7;X
+Procent;BMI < 18.5;Gotland;30­34 år;X;4,5;X
+Procent;BMI < 18.5;Gotland;35+ år;X;0,0;X
+Procent;BMI < 18.5;Blekinge;Alla åldrar;2,4;2,0;1,9
+Procent;BMI < 18.5;Blekinge;­24 år;5,5;3,1;X
+Procent;BMI < 18.5;Blekinge;25­29 år;1,9;2,4;1,8
+Procent;BMI < 18.5;Blekinge;30­34 år;1,4;X;2,2
+Procent;BMI < 18.5;Blekinge;35+ år;1,7;X;X
+Procent;BMI < 18.5;Skåne;Alla åldrar;2,6;2,6;2,8
+Procent;BMI < 18.5;Skåne;­24 år;4,8;5,0;5,7
+Procent;BMI < 18.5;Skåne;25­29 år;3,3;2,8;3,5
+Procent;BMI < 18.5;Skåne;30­34 år;1,9;2,3;1,9
+Procent;BMI < 18.5;Skåne;35+ år;1,2;1,2;1,5
+Procent;BMI < 18.5;Halland;Alla åldrar;2,4;2,3;2,7
+Procent;BMI < 18.5;Halland;­24 år;4,5;5,9;4,3
+Procent;BMI < 18.5;Halland;25­29 år;2,9;1,9;3,5
+Procent;BMI < 18.5;Halland;30­34 år;1,8;1,9;1,9
+Procent;BMI < 18.5;Halland;35+ år;1,2;1,2;1,4
+Procent;BMI < 18.5;Västra Götaland;Alla åldrar;2,3;2,6;2,7
+Procent;BMI < 18.5;Västra Götaland;­24 år;4,1;5,1;4,1
+Procent;BMI < 18.5;Västra Götaland;25­29 år;2,8;2,6;3,4
+Procent;BMI < 18.5;Västra Götaland;30­34 år;1,8;2,1;2,2
+Procent;BMI < 18.5;Västra Götaland;35+ år;1,3;1,6;1,3
+Procent;BMI < 18.5;Värmland;Alla åldrar;1,7;2,3;2,8
+Procent;BMI < 18.5;Värmland;­24 år;X;4,5;5,8
+Procent;BMI < 18.5;Värmland;25­29 år;3,0;2,3;2,6
+Procent;BMI < 18.5;Värmland;30­34 år;1,3;X;2,2
+Procent;BMI < 18.5;Värmland;35+ år;X;X;1,4
+Procent;BMI < 18.5;Örebro;Alla åldrar;2,3;2,5;2,6
+Procent;BMI < 18.5;Örebro;­24 år;3,9;4,6;4,5
+Procent;BMI < 18.5;Örebro;25­29 år;2,3;3,2;2,7
+Procent;BMI < 18.5;Örebro;30­34 år;2,5;1,7;2,0
+Procent;BMI < 18.5;Örebro;35+ år;0,7;0,9;1,6
+Procent;BMI < 18.5;Västmanland;Alla åldrar;2,2;2,6;2,6
+Procent;BMI < 18.5;Västmanland;­24 år;4,4;5,1;X
+Procent;BMI < 18.5;Västmanland;25­29 år;2,1;2,9;2,8
+Procent;BMI < 18.5;Västmanland;30­34 år;1,7;X;3,0
+Procent;BMI < 18.5;Västmanland;35+ år;0,8;X;X
+Procent;BMI < 18.5;Dalarna;Alla åldrar;1,9;2,3;2,1
+Procent;BMI < 18.5;Dalarna;­24 år;2,9;4,4;5,4
+Procent;BMI < 18.5;Dalarna;25­29 år;2,3;3,1;2,0
+Procent;BMI < 18.5;Dalarna;30­34 år;1,3;X;1,1
+Procent;BMI < 18.5;Dalarna;35+ år;1,0;X;0,8
+Procent;BMI < 18.5;Gävleborg;Alla åldrar;2,0;1,7;2,3
+Procent;BMI < 18.5;Gävleborg;­24 år;3,7;4,1;5,4
+Procent;BMI < 18.5;Gävleborg;25­29 år;2,0;1,2;1,8
+Procent;BMI < 18.5;Gävleborg;30­34 år;X;X;X
+Procent;BMI < 18.5;Gävleborg;35+ år;X;X;X
+Procent;BMI < 18.5;Västernorrland;Alla åldrar;1,9;2,3;2,3
+Procent;BMI < 18.5;Västernorrland;­24 år;3,6;4,2;3,0
+Procent;BMI < 18.5;Västernorrland;25­29 år;2,2;2,8;2,1
+Procent;BMI < 18.5;Västernorrland;30­34 år;X;1,3;2,9
+Procent;BMI < 18.5;Västernorrland;35+ år;X;1,3;1,0
+Procent;BMI < 18.5;Jämtland;Alla åldrar;2,0;2,7;2,0
+Procent;BMI < 18.5;Jämtland;­24 år;4,1;4,1;4,0
+Procent;BMI < 18.5;Jämtland;25­29 år;2,1;3,6;X
+Procent;BMI < 18.5;Jämtland;30­34 år;X;1,5;1,9
+Procent;BMI < 18.5;Jämtland;35+ år;X;2,7;X
+Procent;BMI < 18.5;Västerbotten;Alla åldrar;2,4;2,7;3,0
+Procent;BMI < 18.5;Västerbotten;­24 år;4,3;6,1;5,5
+Procent;BMI < 18.5;Västerbotten;25­29 år;2,6;2,9;4,0
+Procent;BMI < 18.5;Västerbotten;30­34 år;2,2;X;2,0
+Procent;BMI < 18.5;Västerbotten;35+ år;1,0;X;0,8
+Procent;BMI < 18.5;Norrbotten;Alla åldrar;2,3;2,3;2,6
+Procent;BMI < 18.5;Norrbotten;­24 år;3,7;3,1;X
+Procent;BMI < 18.5;Norrbotten;25­29 år;3,0;3,4;3,6
+Procent;BMI < 18.5;Norrbotten;30­34 år;1,2;0,9;2,3
+Procent;BMI < 18.5;Norrbotten;35+ år;1,4;1,9;X
+Procent;18.5 ≤ BMI < 25;Riket;Alla åldrar;59,1;59,0;59,2
+Procent;18.5 ≤ BMI < 25;Riket;­24 år;57,4;57,0;57,2
+Procent;18.5 ≤ BMI < 25;Riket;25­29 år;59,4;59,3;59,1
+Procent;18.5 ≤ BMI < 25;Riket;30­34 år;62,0;61,8;62,2
+Procent;18.5 ≤ BMI < 25;Riket;35+ år;55,8;55,8;56,2
+Procent;18.5 ≤ BMI < 25;Stockholm;Alla åldrar;65,4;65,5;65,6
+Procent;18.5 ≤ BMI < 25;Stockholm;­24 år;61,0;62,4;62,6
+Procent;18.5 ≤ BMI < 25;Stockholm;25­29 år;64,4;64,1;63,2
+Procent;18.5 ≤ BMI < 25;Stockholm;30­34 år;68,8;69,2;69,2
+Procent;18.5 ≤ BMI < 25;Stockholm;35+ år;63,9;63,3;64,2
+Procent;18.5 ≤ BMI < 25;Uppsala;Alla åldrar;58,5;59,0;58,0
+Procent;18.5 ≤ BMI < 25;Uppsala;­24 år;55,5;58,5;56,9
+Procent;18.5 ≤ BMI < 25;Uppsala;25­29 år;58,5;58,2;58,7
+Procent;18.5 ≤ BMI < 25;Uppsala;30­34 år;60,4;61,9;61,7
+Procent;18.5 ≤ BMI < 25;Uppsala;35+ år;57,1;55,8;51,6
+Procent;18.5 ≤ BMI < 25;Södermanland;Alla åldrar;52,2;50,3;52,6
+Procent;18.5 ≤ BMI < 25;Södermanland;­24 år;56,9;55,1;56,0
+Procent;18.5 ≤ BMI < 25;Södermanland;25­29 år;52,7;54,1;52,8
+Procent;18.5 ≤ BMI < 25;Södermanland;30­34 år;52,8;48,3;55,1
+Procent;18.5 ≤ BMI < 25;Södermanland;35+ år;44,8;41,4;44,6
+Procent;18.5 ≤ BMI < 25;Östergötland;Alla åldrar;53,6;54,7;56,5
+Procent;18.5 ≤ BMI < 25;Östergötland;­24 år;54,3;55,2;55,2
+Procent;18.5 ≤ BMI < 25;Östergötland;25­29 år;56,5;56,6;57,6
+Procent;18.5 ≤ BMI < 25;Östergötland;30­34 år;54,7;55,4;61,2
+Procent;18.5 ≤ BMI < 25;Östergötland;35+ år;45,8;50,1;48,2
+Procent;18.5 ≤ BMI < 25;Jönköping;Alla åldrar;55,7;56,7;55,7
+Procent;18.5 ≤ BMI < 25;Jönköping;­24 år;55,9;57,0;56,1
+Procent;18.5 ≤ BMI < 25;Jönköping;25­29 år;57,2;59,2;56,9
+Procent;18.5 ≤ BMI < 25;Jönköping;30­34 år;58,4;57,7;56,2
+Procent;18.5 ≤ BMI < 25;Jönköping;35+ år;48,1;49,5;51,7
+Procent;18.5 ≤ BMI < 25;Kronoberg;Alla åldrar;57,9;55,4;56,0
+Procent;18.5 ≤ BMI < 25;Kronoberg;­24 år;54,0;57,5;56,1
+Procent;18.5 ≤ BMI < 25;Kronoberg;25­29 år;60,4;56,7;57,5
+Procent;18.5 ≤ BMI < 25;Kronoberg;30­34 år;63,6;56,2;57,4
+Procent;18.5 ≤ BMI < 25;Kronoberg;35+ år;46,2;49,3;51,1
+Procent;18.5 ≤ BMI < 25;Kalmar;Alla åldrar;55,2;57,2;56,1
+Procent;18.5 ≤ BMI < 25;Kalmar;­24 år;57,4;57,1;56,3
+Procent;18.5 ≤ BMI < 25;Kalmar;25­29 år;57,0;60,2;58,1
+Procent;18.5 ≤ BMI < 25;Kalmar;30­34 år;56,6;58,3;56,6
+Procent;18.5 ≤ BMI < 25;Kalmar;35+ år;48,6;50,4;52,4
+Procent;18.5 ≤ BMI < 25;Gotland;Alla åldrar;53,2;56,1;54,0
+Procent;18.5 ≤ BMI < 25;Gotland;­24 år;58,3;43,6;51,9
+Procent;18.5 ≤ BMI < 25;Gotland;25­29 år;48,4;58,4;47,8
+Procent;18.5 ≤ BMI < 25;Gotland;30­34 år;59,1;65,0;62,4
+Procent;18.5 ≤ BMI < 25;Gotland;35+ år;47,2;50,5;50,0
+Procent;18.5 ≤ BMI < 25;Blekinge;Alla åldrar;53,5;52,4;52,0
+Procent;18.5 ≤ BMI < 25;Blekinge;­24 år;56,0;56,6;52,4
+Procent;18.5 ≤ BMI < 25;Blekinge;25­29 år;55,6;52,3;53,8
+Procent;18.5 ≤ BMI < 25;Blekinge;30­34 år;55,1;52,6;54,8
+Procent;18.5 ≤ BMI < 25;Blekinge;35+ år;43,4;47,6;44,3
+Procent;18.5 ≤ BMI < 25;Skåne;Alla åldrar;58,1;58,5;58,3
+Procent;18.5 ≤ BMI < 25;Skåne;­24 år;58,6;57,6;56,9
+Procent;18.5 ≤ BMI < 25;Skåne;25­29 år;57,4;58,5;58,8
+Procent;18.5 ≤ BMI < 25;Skåne;30­34 år;60,7;61,5;60,9
+Procent;18.5 ≤ BMI < 25;Skåne;35+ år;54,4;54,2;54,8
+Procent;18.5 ≤ BMI < 25;Halland;Alla åldrar;59,1;60,2;60,3
+Procent;18.5 ≤ BMI < 25;Halland;­24 år;55,8;59,1;57,4
+Procent;18.5 ≤ BMI < 25;Halland;25­29 år;60,5;62,5;61,7
+Procent;18.5 ≤ BMI < 25;Halland;30­34 år;62,3;60,8;62,0
+Procent;18.5 ≤ BMI < 25;Halland;35+ år;54,7;55,9;57,7
+Procent;18.5 ≤ BMI < 25;Västra Götaland;Alla åldrar;60,0;58,8;59,3
+Procent;18.5 ≤ BMI < 25;Västra Götaland;­24 år;58,8;55,3;57,0
+Procent;18.5 ≤ BMI < 25;Västra Götaland;25­29 år;60,8;59,8;59,2
+Procent;18.5 ≤ BMI < 25;Västra Götaland;30­34 år;62,4;61,8;62,4
+Procent;18.5 ≤ BMI < 25;Västra Götaland;35+ år;55,7;54,9;55,8
+Procent;18.5 ≤ BMI < 25;Värmland;Alla åldrar;52,4;55,3;53,5
+Procent;18.5 ≤ BMI < 25;Värmland;­24 år;53,8;58,0;54,3
+Procent;18.5 ≤ BMI < 25;Värmland;25­29 år;55,1;54,9;55,9
+Procent;18.5 ≤ BMI < 25;Värmland;30­34 år;53,9;55,9;52,9
+Procent;18.5 ≤ BMI < 25;Värmland;35+ år;45,5;52,0;49,3
+Procent;18.5 ≤ BMI < 25;Örebro;Alla åldrar;55,0;54,8;55,7
+Procent;18.5 ≤ BMI < 25;Örebro;­24 år;53,7;55,4;55,3
+Procent;18.5 ≤ BMI < 25;Örebro;25­29 år;57,5;54,5;58,4
+Procent;18.5 ≤ BMI < 25;Örebro;30­34 år;56,8;58,3;58,1
+Procent;18.5 ≤ BMI < 25;Örebro;35+ år;49,2;48,8;47,0
+Procent;18.5 ≤ BMI < 25;Västmanland;Alla åldrar;55,3;54,5;54,4
+Procent;18.5 ≤ BMI < 25;Västmanland;­24 år;53,9;53,2;56,9
+Procent;18.5 ≤ BMI < 25;Västmanland;25­29 år;57,0;56,1;56,2
+Procent;18.5 ≤ BMI < 25;Västmanland;30­34 år;57,7;55,8;55,3
+Procent;18.5 ≤ BMI < 25;Västmanland;35+ år;50,5;50,9;48,6
+Procent;18.5 ≤ BMI < 25;Dalarna;Alla åldrar;52,0;52,6;53,1
+Procent;18.5 ≤ BMI < 25;Dalarna;­24 år;55,1;54,7;54,2
+Procent;18.5 ≤ BMI < 25;Dalarna;25­29 år;54,9;53,4;53,9
+Procent;18.5 ≤ BMI < 25;Dalarna;30­34 år;53,1;53,7;56,7
+Procent;18.5 ≤ BMI < 25;Dalarna;35+ år;41,5;46,8;44,6
+Procent;18.5 ≤ BMI < 25;Gävleborg;Alla åldrar;51,2;52,1;52,9
+Procent;18.5 ≤ BMI < 25;Gävleborg;­24 år;53,1;51,5;54,2
+Procent;18.5 ≤ BMI < 25;Gävleborg;25­29 år;53,8;54,4;55,7
+Procent;18.5 ≤ BMI < 25;Gävleborg;30­34 år;51,8;53,0;51,7
+Procent;18.5 ≤ BMI < 25;Gävleborg;35+ år;43,8;47,6;47,6
+Procent;18.5 ≤ BMI < 25;Västernorrland;Alla åldrar;52,5;52,5;53,4
+Procent;18.5 ≤ BMI < 25;Västernorrland;­24 år;52,9;54,5;55,4
+Procent;18.5 ≤ BMI < 25;Västernorrland;25­29 år;56,9;54,6;56,7
+Procent;18.5 ≤ BMI < 25;Västernorrland;30­34 år;51,4;52,2;53,1
+Procent;18.5 ≤ BMI < 25;Västernorrland;35+ år;46,3;47,3;45,8
+Procent;18.5 ≤ BMI < 25;Jämtland;Alla åldrar;56,4;55,2;56,2
+Procent;18.5 ≤ BMI < 25;Jämtland;­24 år;57,3;55,8;56,7
+Procent;18.5 ≤ BMI < 25;Jämtland;25­29 år;51,2;56,2;58,1
+Procent;18.5 ≤ BMI < 25;Jämtland;30­34 år;63,9;56,7;55,7
+Procent;18.5 ≤ BMI < 25;Jämtland;35+ år;52,9;50,4;54,0
+Procent;18.5 ≤ BMI < 25;Västerbotten;Alla åldrar;61,2;58,2;58,7
+Procent;18.5 ≤ BMI < 25;Västerbotten;­24 år;59,2;53,6;56,4
+Procent;18.5 ≤ BMI < 25;Västerbotten;25­29 år;65,2;61,9;62,2
+Procent;18.5 ≤ BMI < 25;Västerbotten;30­34 år;60,6;60,3;60,0
+Procent;18.5 ≤ BMI < 25;Västerbotten;35+ år;56,7;51,3;53,0
+Procent;18.5 ≤ BMI < 25;Norrbotten;Alla åldrar;55,7;55,3;55,3
+Procent;18.5 ≤ BMI < 25;Norrbotten;­24 år;60,4;58,9;57,8
+Procent;18.5 ≤ BMI < 25;Norrbotten;25­29 år;57,8;58,4;57,5
+Procent;18.5 ≤ BMI < 25;Norrbotten;30­34 år;55,4;55,6;56,7
+Procent;18.5 ≤ BMI < 25;Norrbotten;35+ år;47,5;46,0;46,4
+Procent;25 ≤ BMI < 30;Riket;Alla åldrar;25,3;25,4;25,0
+Procent;25 ≤ BMI < 30;Riket;­24 år;24,3;24,8;24,5
+Procent;25 ≤ BMI < 30;Riket;25­29 år;24,9;24,9;24,7
+Procent;25 ≤ BMI < 30;Riket;30­34 år;24,3;24,5;23,9
+Procent;25 ≤ BMI < 30;Riket;35+ år;28,0;27,9;27,1
+Procent;25 ≤ BMI < 30;Stockholm;Alla åldrar;22,2;22,6;21,8
+Procent;25 ≤ BMI < 30;Stockholm;­24 år;23,1;22,7;22,0
+Procent;25 ≤ BMI < 30;Stockholm;25­29 år;22,4;22,9;22,5
+Procent;25 ≤ BMI < 30;Stockholm;30­34 år;20,1;20,7;20,0
+Procent;25 ≤ BMI < 30;Stockholm;35+ år;24,0;24,5;23,2
+Procent;25 ≤ BMI < 30;Uppsala;Alla åldrar;26,4;25,5;26,6
+Procent;25 ≤ BMI < 30;Uppsala;­24 år;24,7;25,8;26,3
+Procent;25 ≤ BMI < 30;Uppsala;25­29 år;26,3;25,0;25,9
+Procent;25 ≤ BMI < 30;Uppsala;30­34 år;26,1;23,8;24,3
+Procent;25 ≤ BMI < 30;Uppsala;35+ år;28,0;28,3;31,3
+Procent;25 ≤ BMI < 30;Södermanland;Alla åldrar;28,7;29,4;26,6
+Procent;25 ≤ BMI < 30;Södermanland;­24 år;24,5;26,7;23,8
+Procent;25 ≤ BMI < 30;Södermanland;25­29 år;27,1;26,8;26,3
+Procent;25 ≤ BMI < 30;Södermanland;30­34 år;31,0;32,1;26,8
+Procent;25 ≤ BMI < 30;Södermanland;35+ år;31,8;32,6;29,7
+Procent;25 ≤ BMI < 30;Östergötland;Alla åldrar;28,6;27,8;26,4
+Procent;25 ≤ BMI < 30;Östergötland;­24 år;24,5;25,1;26,8
+Procent;25 ≤ BMI < 30;Östergötland;25­29 år;27,1;26,2;26,2
+Procent;25 ≤ BMI < 30;Östergötland;30­34 år;29,2;29,0;23,7
+Procent;25 ≤ BMI < 30;Östergötland;35+ år;34,0;31,0;30,9
+Procent;25 ≤ BMI < 30;Jönköping;Alla åldrar;27,1;25,8;26,8
+Procent;25 ≤ BMI < 30;Jönköping;­24 år;25,8;24,8;24,8
+Procent;25 ≤ BMI < 30;Jönköping;25­29 år;26,0;24,8;25,8
+Procent;25 ≤ BMI < 30;Jönköping;30­34 år;26,7;26,5;27,9
+Procent;25 ≤ BMI < 30;Jönköping;35+ år;31,3;27,7;29,1
+Procent;25 ≤ BMI < 30;Kronoberg;Alla åldrar;25,1;26,3;27,1
+Procent;25 ≤ BMI < 30;Kronoberg;­24 år;26,7;22,3;21,5
+Procent;25 ≤ BMI < 30;Kronoberg;25­29 år;23,9;25,0;27,3
+Procent;25 ≤ BMI < 30;Kronoberg;30­34 år;21,9;27,4;26,3
+Procent;25 ≤ BMI < 30;Kronoberg;35+ år;32,0;30,7;33,3
+Procent;25 ≤ BMI < 30;Kalmar;Alla åldrar;27,4;26,0;25,7
+Procent;25 ≤ BMI < 30;Kalmar;­24 år;24,4;24,9;26,3
+Procent;25 ≤ BMI < 30;Kalmar;25­29 år;25,9;23,8;23,6
+Procent;25 ≤ BMI < 30;Kalmar;30­34 år;27,2;27,0;27,2
+Procent;25 ≤ BMI < 30;Kalmar;35+ år;32,7;30,0;27,3
+Procent;25 ≤ BMI < 30;Gotland;Alla åldrar;27,2;23,2;26,9
+Procent;25 ≤ BMI < 30;Gotland;­24 år;26,2;21,3;22,1
+Procent;25 ≤ BMI < 30;Gotland;25­29 år;30,7;24,2;30,6
+Procent;25 ≤ BMI < 30;Gotland;30­34 år;25,0;19,7;21,2
+Procent;25 ≤ BMI < 30;Gotland;35+ år;26,8;28,8;34,2
+Procent;25 ≤ BMI < 30;Blekinge;Alla åldrar;28,3;28,7;29,3
+Procent;25 ≤ BMI < 30;Blekinge;­24 år;24,2;25,9;29,1
+Procent;25 ≤ BMI < 30;Blekinge;25­29 år;30,0;29,2;29,9
+Procent;25 ≤ BMI < 30;Blekinge;30­34 år;27,0;28,6;26,8
+Procent;25 ≤ BMI < 30;Blekinge;35+ år;32,8;31,5;32,2
+Procent;25 ≤ BMI < 30;Skåne;Alla åldrar;26,0;25,9;26,0
+Procent;25 ≤ BMI < 30;Skåne;­24 år;22,4;25,4;25,0
+Procent;25 ≤ BMI < 30;Skåne;25­29 år;26,4;25,3;25,6
+Procent;25 ≤ BMI < 30;Skåne;30­34 år;25,5;24,7;25,3
+Procent;25 ≤ BMI < 30;Skåne;35+ år;29,1;29,5;28,1
+Procent;25 ≤ BMI < 30;Halland;Alla åldrar;26,0;25,4;24,6
+Procent;25 ≤ BMI < 30;Halland;­24 år;26,8;22,0;26,0
+Procent;25 ≤ BMI < 30;Halland;25­29 år;24,1;23,8;22,7
+Procent;25 ≤ BMI < 30;Halland;30­34 år;25,3;26,3;24,3
+Procent;25 ≤ BMI < 30;Halland;35+ år;28,9;29,0;26,8
+Procent;25 ≤ BMI < 30;Västra Götaland;Alla åldrar;25,0;25,7;25,0
+Procent;25 ≤ BMI < 30;Västra Götaland;­24 år;24,6;25,8;25,7
+Procent;25 ≤ BMI < 30;Västra Götaland;25­29 år;23,9;25,0;24,4
+Procent;25 ≤ BMI < 30;Västra Götaland;30­34 år;24,3;24,9;23,9
+Procent;25 ≤ BMI < 30;Västra Götaland;35+ år;28,1;28,2;27,0
+Procent;25 ≤ BMI < 30;Värmland;Alla åldrar;28,8;27,3;28,1
+Procent;25 ≤ BMI < 30;Värmland;­24 år;27,1;23,6;24,8
+Procent;25 ≤ BMI < 30;Värmland;25­29 år;29,4;29,1;28,1
+Procent;25 ≤ BMI < 30;Värmland;30­34 år;26,3;27,9;28,6
+Procent;25 ≤ BMI < 30;Värmland;35+ år;33,0;26,8;30,7
+Procent;25 ≤ BMI < 30;Örebro;Alla åldrar;26,8;26,3;26,1
+Procent;25 ≤ BMI < 30;Örebro;­24 år;26,1;22,9;20,7
+Procent;25 ≤ BMI < 30;Örebro;25­29 år;26,0;25,7;26,3
+Procent;25 ≤ BMI < 30;Örebro;30­34 år;24,7;25,3;26,2
+Procent;25 ≤ BMI < 30;Örebro;35+ år;32,2;32,0;30,6
+Procent;25 ≤ BMI < 30;Västmanland;Alla åldrar;26,1;27,6;26,3
+Procent;25 ≤ BMI < 30;Västmanland;­24 år;22,4;26,8;24,3
+Procent;25 ≤ BMI < 30;Västmanland;25­29 år;25,9;27,3;25,3
+Procent;25 ≤ BMI < 30;Västmanland;30­34 år;25,8;26,1;25,8
+Procent;25 ≤ BMI < 30;Västmanland;35+ år;31,1;31,3;29,7
+Procent;25 ≤ BMI < 30;Dalarna;Alla åldrar;28,1;27,5;27,5
+Procent;25 ≤ BMI < 30;Dalarna;­24 år;25,2;24,3;23,6
+Procent;25 ≤ BMI < 30;Dalarna;25­29 år;25,8;27,4;26,9
+Procent;25 ≤ BMI < 30;Dalarna;30­34 år;28,8;26,6;27,7
+Procent;25 ≤ BMI < 30;Dalarna;35+ år;34,2;32,9;32,1
+Procent;25 ≤ BMI < 30;Gävleborg;Alla åldrar;28,4;28,4;27,3
+Procent;25 ≤ BMI < 30;Gävleborg;­24 år;26,6;27,6;24,5
+Procent;25 ≤ BMI < 30;Gävleborg;25­29 år;25,8;27,6;26,1
+Procent;25 ≤ BMI < 30;Gävleborg;30­34 år;29,6;29,0;29,4
+Procent;25 ≤ BMI < 30;Gävleborg;35+ år;33,4;29,8;30,2
+Procent;25 ≤ BMI < 30;Västernorrland;Alla åldrar;27,8;28,2;26,5
+Procent;25 ≤ BMI < 30;Västernorrland;­24 år;26,7;25,6;24,2
+Procent;25 ≤ BMI < 30;Västernorrland;25­29 år;25,7;25,7;23,3
+Procent;25 ≤ BMI < 30;Västernorrland;30­34 år;28,1;30,5;27,3
+Procent;25 ≤ BMI < 30;Västernorrland;35+ år;32,1;31,4;33,1
+Procent;25 ≤ BMI < 30;Jämtland;Alla åldrar;26,3;26,5;27,7
+Procent;25 ≤ BMI < 30;Jämtland;­24 år;21,4;27,9;22,4
+Procent;25 ≤ BMI < 30;Jämtland;25­29 år;29,8;23,3;27,7
+Procent;25 ≤ BMI < 30;Jämtland;30­34 år;23,3;27,4;28,4
+Procent;25 ≤ BMI < 30;Jämtland;35+ år;29,4;28,5;30,3
+Procent;25 ≤ BMI < 30;Västerbotten;Alla åldrar;24,4;25,4;25,0
+Procent;25 ≤ BMI < 30;Västerbotten;­24 år;23,4;24,5;23,7
+Procent;25 ≤ BMI < 30;Västerbotten;25­29 år;21,8;24,6;21,6
+Procent;25 ≤ BMI < 30;Västerbotten;30­34 år;26,3;24,1;24,8
+Procent;25 ≤ BMI < 30;Västerbotten;35+ år;26,2;29,7;31,2
+Procent;25 ≤ BMI < 30;Norrbotten;Alla åldrar;27,1;27,2;26,7
+Procent;25 ≤ BMI < 30;Norrbotten;­24 år;23,7;24,8;27,3
+Procent;25 ≤ BMI < 30;Norrbotten;25­29 år;24,6;24,0;25,0
+Procent;25 ≤ BMI < 30;Norrbotten;30­34 år;28,6;28,2;26,6
+Procent;25 ≤ BMI < 30;Norrbotten;35+ år;32,5;33,5;29,7
+Procent;BMI ≥ 30;Riket;Alla åldrar;13,1;13,0;13,1
+Procent;BMI ≥ 30;Riket;­24 år;13,8;13,5;13,7
+Procent;BMI ≥ 30;Riket;25­29 år;12,9;13,0;13,0
+Procent;BMI ≥ 30;Riket;30­34 år;11,7;11,5;11,6
+Procent;BMI ≥ 30;Riket;35+ år;14,9;14,8;15,2
+Procent;BMI ≥ 30;Stockholm;Alla åldrar;9,3;9,2;9,6
+Procent;BMI ≥ 30;Stockholm;­24 år;9,6;10,5;10,6
+Procent;BMI ≥ 30;Stockholm;25­29 år;9,7;9,7;10,7
+Procent;BMI ≥ 30;Stockholm;30­34 år;8,2;7,6;7,9
+Procent;BMI ≥ 30;Stockholm;35+ år;10,3;10,2;10,5
+Procent;BMI ≥ 30;Uppsala;Alla åldrar;13,0;13,3;13,4
+Procent;BMI ≥ 30;Uppsala;­24 år;15,7;12,5;13,0
+Procent;BMI ≥ 30;Uppsala;25­29 år;12,6;13,8;13,3
+Procent;BMI ≥ 30;Uppsala;30­34 år;11,6;12,1;11,8
+Procent;BMI ≥ 30;Uppsala;35+ år;14,0;15,0;16,1
+Procent;BMI ≥ 30;Södermanland;Alla åldrar;17,1;17,6;18,0
+Procent;BMI ≥ 30;Södermanland;­24 år;15,3;13,5;14,7
+Procent;BMI ≥ 30;Södermanland;25­29 år;17,3;16,9;18,0
+Procent;BMI ≥ 30;Södermanland;30­34 år;14,5;16,9;16,3
+Procent;BMI ≥ 30;Södermanland;35+ år;22,9;24,5;24,6
+Procent;BMI ≥ 30;Östergötland;Alla åldrar;15,9;15,1;14,6
+Procent;BMI ≥ 30;Östergötland;­24 år;16,8;14,8;14,3
+Procent;BMI ≥ 30;Östergötland;25­29 år;14,6;14,6;12,9
+Procent;BMI ≥ 30;Östergötland;30­34 år;14,6;13,9;13,5
+Procent;BMI ≥ 30;Östergötland;35+ år;19,3;18,1;19,8
+Procent;BMI ≥ 30;Jönköping;Alla åldrar;15,1;14,9;14,9
+Procent;BMI ≥ 30;Jönköping;­24 år;14,6;13,4;13,3
+Procent;BMI ≥ 30;Jönköping;25­29 år;14,6;13,7;14,6
+Procent;BMI ≥ 30;Jönköping;30­34 år;13,3;14,0;14,6
+Procent;BMI ≥ 30;Jönköping;35+ år;20,0;21,2;17,9
+Procent;BMI ≥ 30;Kronoberg;Alla åldrar;14,6;15,4;14,2
+Procent;BMI ≥ 30;Kronoberg;­24 år;14,9;15,4;15,7
+Procent;BMI ≥ 30;Kronoberg;25­29 år;12,7;14,6;12,9
+Procent;BMI ≥ 30;Kronoberg;30­34 år;12,9;14,4;14,9
+Procent;BMI ≥ 30;Kronoberg;35+ år;21,0;18,8;14,2
+Procent;BMI ≥ 30;Kalmar;Alla åldrar;15,0;14,1;15,6
+Procent;BMI ≥ 30;Kalmar;­24 år;14,1;13,3;13,9
+Procent;BMI ≥ 30;Kalmar;25­29 år;14,4;13,8;15,1
+Procent;BMI ≥ 30;Kalmar;30­34 år;14,2;12,0;14,4
+Procent;BMI ≥ 30;Kalmar;35+ år;17,7;18,3;18,7
+Procent;BMI ≥ 30;Gotland;Alla åldrar;16,5;16,6;16,1
+Procent;BMI ≥ 30;Gotland;­24 år;10,7;24,5;20,8
+Procent;BMI ≥ 30;Gotland;25­29 år;15,7;14,8;15,7
+Procent;BMI ≥ 30;Gotland;30­34 år;14,0;10,8;15,2
+Procent;BMI ≥ 30;Gotland;35+ år;25,2;20,7;14,9
+Procent;BMI ≥ 30;Blekinge;Alla åldrar;15,8;16,8;16,9
+Procent;BMI ≥ 30;Blekinge;­24 år;14,3;14,3;15,6
+Procent;BMI ≥ 30;Blekinge;25­29 år;12,6;16,0;14,5
+Procent;BMI ≥ 30;Blekinge;30­34 år;16,5;17,0;16,1
+Procent;BMI ≥ 30;Blekinge;35+ år;22,1;20,5;23,1
+Procent;BMI ≥ 30;Skåne;Alla åldrar;13,3;12,9;12,8
+Procent;BMI ≥ 30;Skåne;­24 år;14,1;12,0;12,4
+Procent;BMI ≥ 30;Skåne;25­29 år;12,9;13,4;12,1
+Procent;BMI ≥ 30;Skåne;30­34 år;11,9;11,6;11,9
+Procent;BMI ≥ 30;Skåne;35+ år;15,3;15,1;15,6
+Procent;BMI ≥ 30;Halland;Alla åldrar;12,5;12,1;12,4
+Procent;BMI ≥ 30;Halland;­24 år;12,9;13,0;12,3
+Procent;BMI ≥ 30;Halland;25­29 år;12,5;11,8;12,1
+Procent;BMI ≥ 30;Halland;30­34 år;10,6;11,0;11,8
+Procent;BMI ≥ 30;Halland;35+ år;15,2;13,8;14,2
+Procent;BMI ≥ 30;Västra Götaland;Alla åldrar;12,6;12,9;13,1
+Procent;BMI ≥ 30;Västra Götaland;­24 år;12,5;13,8;13,2
+Procent;BMI ≥ 30;Västra Götaland;25­29 år;12,5;12,6;12,9
+Procent;BMI ≥ 30;Västra Götaland;30­34 år;11,4;11,3;11,4
+Procent;BMI ≥ 30;Västra Götaland;35+ år;14,9;15,3;16,0
+Procent;BMI ≥ 30;Värmland;Alla åldrar;17,1;15,1;15,5
+Procent;BMI ≥ 30;Värmland;­24 år;17,1;13,9;15,2
+Procent;BMI ≥ 30;Värmland;25­29 år;12,5;13,7;13,4
+Procent;BMI ≥ 30;Värmland;30­34 år;18,5;14,2;16,3
+Procent;BMI ≥ 30;Värmland;35+ år;21,0;20,7;18,6
+Procent;BMI ≥ 30;Örebro;Alla åldrar;15,8;16,4;15,6
+Procent;BMI ≥ 30;Örebro;­24 år;16,3;17,1;19,5
+Procent;BMI ≥ 30;Örebro;25­29 år;14,2;16,5;12,5
+Procent;BMI ≥ 30;Örebro;30­34 år;16,0;14,7;13,7
+Procent;BMI ≥ 30;Örebro;35+ år;17,9;18,3;20,8
+Procent;BMI ≥ 30;Västmanland;Alla åldrar;16,4;15,3;16,7
+Procent;BMI ≥ 30;Västmanland;­24 år;19,3;14,9;15,1
+Procent;BMI ≥ 30;Västmanland;25­29 år;15,0;13,8;15,7
+Procent;BMI ≥ 30;Västmanland;30­34 år;14,7;16,0;15,9
+Procent;BMI ≥ 30;Västmanland;35+ år;17,6;17,2;21,1
+Procent;BMI ≥ 30;Dalarna;Alla åldrar;18,0;17,6;17,3
+Procent;BMI ≥ 30;Dalarna;­24 år;16,7;16,7;16,8
+Procent;BMI ≥ 30;Dalarna;25­29 år;17,0;16,1;17,2
+Procent;BMI ≥ 30;Dalarna;30­34 år;16,8;18,7;14,5
+Procent;BMI ≥ 30;Dalarna;35+ år;23,2;19,8;22,4
+Procent;BMI ≥ 30;Gävleborg;Alla åldrar;18,4;17,8;17,5
+Procent;BMI ≥ 30;Gävleborg;­24 år;16,6;16,8;16,0
+Procent;BMI ≥ 30;Gävleborg;25­29 år;18,3;16,8;16,4
+Procent;BMI ≥ 30;Gävleborg;30­34 år;16,9;16,9;17,5
+Procent;BMI ≥ 30;Gävleborg;35+ år;22,5;22,0;21,5
+Procent;BMI ≥ 30;Västernorrland;Alla åldrar;17,8;16,9;17,8
+Procent;BMI ≥ 30;Västernorrland;­24 år;16,7;15,7;17,5
+Procent;BMI ≥ 30;Västernorrland;25­29 år;15,2;16,9;17,9
+Procent;BMI ≥ 30;Västernorrland;30­34 år;19,2;16,0;16,7
+Procent;BMI ≥ 30;Västernorrland;35+ år;21,1;20,0;20,1
+Procent;BMI ≥ 30;Jämtland;Alla åldrar;15,4;15,6;14,1
+Procent;BMI ≥ 30;Jämtland;­24 år;17,3;12,2;16,9
+Procent;BMI ≥ 30;Jämtland;25­29 år;17,0;16,9;12,6
+Procent;BMI ≥ 30;Jämtland;30­34 år;11,5;14,4;14,1
+Procent;BMI ≥ 30;Jämtland;35+ år;16,6;18,5;14,6
+Procent;BMI ≥ 30;Västerbotten;Alla åldrar;12,0;13,7;13,3
+Procent;BMI ≥ 30;Västerbotten;­24 år;13,0;15,8;14,5
+Procent;BMI ≥ 30;Västerbotten;25­29 år;10,3;10,6;12,2
+Procent;BMI ≥ 30;Västerbotten;30­34 år;10,9;13,3;13,2
+Procent;BMI ≥ 30;Västerbotten;35+ år;16,1;18,4;15,1
+Procent;BMI ≥ 30;Norrbotten;Alla åldrar;14,9;15,1;15,4
+Procent;BMI ≥ 30;Norrbotten;­24 år;12,2;13,2;11,6
+Procent;BMI ≥ 30;Norrbotten;25­29 år;14,6;14,2;14,0
+Procent;BMI ≥ 30;Norrbotten;30­34 år;14,8;15,3;14,4
+Procent;BMI ≥ 30;Norrbotten;35+ år;18,5;18,6;23,7
+Procent;Sammanbor med barnafadern;Riket;Alla åldrar;93,0;92,9;92,9
+Procent;Sammanbor med barnafadern;Riket;­24 år;84,2;84,2;84,7
+Procent;Sammanbor med barnafadern;Riket;25­29 år;94,4;94,3;94,6
+Procent;Sammanbor med barnafadern;Riket;30­34 år;95,8;95,7;95,5
+Procent;Sammanbor med barnafadern;Riket;35+ år;93,0;93,1;92,8
+Procent;Sammanbor med barnafadern;Stockholm;Alla åldrar;93,5;93,8;93,9
+Procent;Sammanbor med barnafadern;Stockholm;­24 år;84,9;84,9;85,3
+Procent;Sammanbor med barnafadern;Stockholm;25­29 år;94,9;95,5;95,2
+Procent;Sammanbor med barnafadern;Stockholm;30­34 år;95,9;96,2;96,0
+Procent;Sammanbor med barnafadern;Stockholm;35+ år;92,8;92,9;93,3
+Procent;Sammanbor med barnafadern;Uppsala;Alla åldrar;95,8;95,5;95,5
+Procent;Sammanbor med barnafadern;Uppsala;­24 år;89,1;88,7;86,8
+Procent;Sammanbor med barnafadern;Uppsala;25­29 år;96,6;96,4;96,5
+Procent;Sammanbor med barnafadern;Uppsala;30­34 år;98,1;97,1;97,4
+Procent;Sammanbor med barnafadern;Uppsala;35+ år;95,1;96,0;96,2
+Procent;Sammanbor med barnafadern;Södermanland;Alla åldrar;89,6;89,2;89,7
+Procent;Sammanbor med barnafadern;Södermanland;­24 år;78,6;76,3;80,0
+Procent;Sammanbor med barnafadern;Södermanland;25­29 år;91,1;90,9;93,3
+Procent;Sammanbor med barnafadern;Södermanland;30­34 år;94,5;92,9;92,3
+Procent;Sammanbor med barnafadern;Södermanland;35+ år;91,8;93,3;89,7
+Procent;Sammanbor med barnafadern;Östergötland;Alla åldrar;92,2;92,3;92,0
+Procent;Sammanbor med barnafadern;Östergötland;­24 år;80,7;82,0;83,7
+Procent;Sammanbor med barnafadern;Östergötland;25­29 år;93,4;94,6;93,3
+Procent;Sammanbor med barnafadern;Östergötland;30­34 år;96,2;95,3;95,4
+Procent;Sammanbor med barnafadern;Östergötland;35+ år;93,5;93,3;92,7
+Procent;Sammanbor med barnafadern;Jönköping;Alla åldrar;94,1;93,1;93,4
+Procent;Sammanbor med barnafadern;Jönköping;­24 år;85,9;83,7;86,5
+Procent;Sammanbor med barnafadern;Jönköping;25­29 år;95,8;95,0;95,9
+Procent;Sammanbor med barnafadern;Jönköping;30­34 år;96,6;96,1;95,2
+Procent;Sammanbor med barnafadern;Jönköping;35+ år;94,5;93,0;93,9
+Procent;Sammanbor med barnafadern;Kronoberg;Alla åldrar;92,7;93,8;92,8
+Procent;Sammanbor med barnafadern;Kronoberg;­24 år;79,9;87,3;83,1
+Procent;Sammanbor med barnafadern;Kronoberg;25­29 år;95,0;94,1;94,4
+Procent;Sammanbor med barnafadern;Kronoberg;30­34 år;96,8;96,6;95,8
+Procent;Sammanbor med barnafadern;Kronoberg;35+ år;93,3;94,4;94,1
+Procent;Sammanbor med barnafadern;Kalmar;Alla åldrar;94,4;94,4;94,5
+Procent;Sammanbor med barnafadern;Kalmar;­24 år;86,6;89,0;86,7
+Procent;Sammanbor med barnafadern;Kalmar;25­29 år;96,2;96,3;97,3
+Procent;Sammanbor med barnafadern;Kalmar;30­34 år;97,0;97,3;97,6
+Procent;Sammanbor med barnafadern;Kalmar;35+ år;95,3;94,4;94,8
+Procent;Sammanbor med barnafadern;Gotland;Alla åldrar;94,1;93,4;95,7
+Procent;Sammanbor med barnafadern;Gotland;­24 år;85,7;78,7;89,2
+Procent;Sammanbor med barnafadern;Gotland;25­29 år;95,6;96,0;97,2
+Procent;Sammanbor med barnafadern;Gotland;30­34 år;96,4;97,5;98,1
+Procent;Sammanbor med barnafadern;Gotland;35+ år;96,2;96,3;94,6
+Procent;Sammanbor med barnafadern;Blekinge;Alla åldrar;93,5;93,1;93,4
+Procent;Sammanbor med barnafadern;Blekinge;­24 år;88,6;87,4;86,3
+Procent;Sammanbor med barnafadern;Blekinge;25­29 år;93,6;94,3;95,1
+Procent;Sammanbor med barnafadern;Blekinge;30­34 år;97,7;95,8;95,6
+Procent;Sammanbor med barnafadern;Blekinge;35+ år;91,3;93,4;93,5
+Procent;Sammanbor med barnafadern;Skåne;Alla åldrar;93,1;92,9;92,7
+Procent;Sammanbor med barnafadern;Skåne;­24 år;85,9;84,8;85,3
+Procent;Sammanbor med barnafadern;Skåne;25­29 år;94,8;94,4;94,6
+Procent;Sammanbor med barnafadern;Skåne;30­34 år;95,2;95,1;94,8
+Procent;Sammanbor med barnafadern;Skåne;35+ år;92,8;93,1;92,6
+Procent;Sammanbor med barnafadern;Halland;Alla åldrar;95,6;95,6;95,2
+Procent;Sammanbor med barnafadern;Halland;­24 år;89,5;88,6;89,0
+Procent;Sammanbor med barnafadern;Halland;25­29 år;96,9;97,0;96,9
+Procent;Sammanbor med barnafadern;Halland;30­34 år;97,6;97,2;97,1
+Procent;Sammanbor med barnafadern;Halland;35+ år;94,7;95,8;95,2
+Procent;Sammanbor med barnafadern;Västra Götaland;Alla åldrar;92,6;92,7;92,6
+Procent;Sammanbor med barnafadern;Västra Götaland;­24 år;83,3;83,3;83,3
+Procent;Sammanbor med barnafadern;Västra Götaland;25­29 år;93,8;93,8;94,2
+Procent;Sammanbor med barnafadern;Västra Götaland;30­34 år;95,4;95,6;95,6
+Procent;Sammanbor med barnafadern;Västra Götaland;35+ år;93,1;93,3;91,7
+Procent;Sammanbor med barnafadern;Värmland;Alla åldrar;93,2;93,5;94,0
+Procent;Sammanbor med barnafadern;Värmland;­24 år;90,6;87,2;86,8
+Procent;Sammanbor med barnafadern;Värmland;25­29 år;93,1;94,5;96,0
+Procent;Sammanbor med barnafadern;Värmland;30­34 år;95,1;96,1;96,0
+Procent;Sammanbor med barnafadern;Värmland;35+ år;93,1;93,9;94,0
+Procent;Sammanbor med barnafadern;Örebro;Alla åldrar;91,7;91,4;90,5
+Procent;Sammanbor med barnafadern;Örebro;­24 år;83,2;82,6;81,7
+Procent;Sammanbor med barnafadern;Örebro;25­29 år;94,3;93,4;92,7
+Procent;Sammanbor med barnafadern;Örebro;30­34 år;94,5;94,8;93,7
+Procent;Sammanbor med barnafadern;Örebro;35+ år;91,6;90,6;89,0
+Procent;Sammanbor med barnafadern;Västmanland;Alla åldrar;90,7;90,7;90,5
+Procent;Sammanbor med barnafadern;Västmanland;­24 år;81,1;82,4;85,4
+Procent;Sammanbor med barnafadern;Västmanland;25­29 år;91,9;92,7;91,5
+Procent;Sammanbor med barnafadern;Västmanland;30­34 år;95,0;94,2;93,9
+Procent;Sammanbor med barnafadern;Västmanland;35+ år;92,2;90,4;91,2
+Procent;Sammanbor med barnafadern;Dalarna;Alla åldrar;91,3;90,9;90,9
+Procent;Sammanbor med barnafadern;Dalarna;­24 år;83,8;83,7;83,9
+Procent;Sammanbor med barnafadern;Dalarna;25­29 år;92,4;91,8;93,4
+Procent;Sammanbor med barnafadern;Dalarna;30­34 år;94,3;94,9;94,7
+Procent;Sammanbor med barnafadern;Dalarna;35+ år;92,7;90,7;90,0
+Procent;Sammanbor med barnafadern;Gävleborg;Alla åldrar;91,0;89,7;90,9
+Procent;Sammanbor med barnafadern;Gävleborg;­24 år;82,1;81,3;83,1
+Procent;Sammanbor med barnafadern;Gävleborg;25­29 år;93,4;91,3;93,0
+Procent;Sammanbor med barnafadern;Gävleborg;30­34 år;95,5;94,1;93,7
+Procent;Sammanbor med barnafadern;Gävleborg;35+ år;91,9;89,7;92,2
+Procent;Sammanbor med barnafadern;Västernorrland;Alla åldrar;91,8;92,8;92,7
+Procent;Sammanbor med barnafadern;Västernorrland;­24 år;82,8;84,5;88,9
+Procent;Sammanbor med barnafadern;Västernorrland;25­29 år;94,9;93,6;94,2
+Procent;Sammanbor med barnafadern;Västernorrland;30­34 år;93,8;96,0;96,1
+Procent;Sammanbor med barnafadern;Västernorrland;35+ år;93,0;94,3;94,7
+Procent;Sammanbor med barnafadern;Jämtland;Alla åldrar;92,4;93,2;93,1
+Procent;Sammanbor med barnafadern;Jämtland;­24 år;84,8;87,5;87,2
+Procent;Sammanbor med barnafadern;Jämtland;25­29 år;95,4;95,0;94,7
+Procent;Sammanbor med barnafadern;Jämtland;30­34 år;94,8;97,0;95,7
+Procent;Sammanbor med barnafadern;Jämtland;35+ år;93,1;90,9;93,6
+Procent;Sammanbor med barnafadern;Västerbotten;Alla åldrar;95,0;94,7;94,4
+Procent;Sammanbor med barnafadern;Västerbotten;­24 år;88,3;87,0;87,1
+Procent;Sammanbor med barnafadern;Västerbotten;25­29 år;95,9;96,3;96,5
+Procent;Sammanbor med barnafadern;Västerbotten;30­34 år;97,6;96,2;96,9
+Procent;Sammanbor med barnafadern;Västerbotten;35+ år;94,4;95,3;94,6
+Procent;Sammanbor med barnafadern;Norrbotten;Alla åldrar;89,0;89,3;90,0
+Procent;Sammanbor med barnafadern;Norrbotten;­24 år;80,5;81,2;82,2
+Procent;Sammanbor med barnafadern;Norrbotten;25­29 år;91,2;89,9;92,0
+Procent;Sammanbor med barnafadern;Norrbotten;30­34 år;93,3;93,7;92,1
+Procent;Sammanbor med barnafadern;Norrbotten;35+ år;88,8;91,0;90,8
+Procent;Annan familjesituation;Riket;Alla åldrar;7,0;7,1;7,1
+Procent;Annan familjesituation;Riket;­24 år;15,8;15,8;15,3
+Procent;Annan familjesituation;Riket;25­29 år;5,6;5,7;5,4
+Procent;Annan familjesituation;Riket;30­34 år;4,2;4,3;4,5
+Procent;Annan familjesituation;Riket;35+ år;7,0;6,9;7,2
+Procent;Annan familjesituation;Stockholm;Alla åldrar;6,5;6,2;6,1
+Procent;Annan familjesituation;Stockholm;­24 år;15,1;15,1;14,7
+Procent;Annan familjesituation;Stockholm;25­29 år;5,1;4,5;4,8
+Procent;Annan familjesituation;Stockholm;30­34 år;4,1;3,8;4,0
+Procent;Annan familjesituation;Stockholm;35+ år;7,2;7,1;6,7
+Procent;Annan familjesituation;Uppsala;Alla åldrar;4,2;4,5;4,5
+Procent;Annan familjesituation;Uppsala;­24 år;10,9;11,3;13,2
+Procent;Annan familjesituation;Uppsala;25­29 år;3,4;3,6;3,5
+Procent;Annan familjesituation;Uppsala;30­34 år;1,9;2,9;2,6
+Procent;Annan familjesituation;Uppsala;35+ år;4,9;4,0;3,8
+Procent;Annan familjesituation;Södermanland;Alla åldrar;10,4;10,8;10,3
+Procent;Annan familjesituation;Södermanland;­24 år;21,4;23,7;20,0
+Procent;Annan familjesituation;Södermanland;25­29 år;8,9;9,1;6,7
+Procent;Annan familjesituation;Södermanland;30­34 år;5,5;7,1;7,7
+Procent;Annan familjesituation;Södermanland;35+ år;8,2;6,7;10,3
+Procent;Annan familjesituation;Östergötland;Alla åldrar;7,8;7,7;8,0
+Procent;Annan familjesituation;Östergötland;­24 år;19,3;18,0;16,3
+Procent;Annan familjesituation;Östergötland;25­29 år;6,6;5,4;6,7
+Procent;Annan familjesituation;Östergötland;30­34 år;3,8;4,7;4,6
+Procent;Annan familjesituation;Östergötland;35+ år;6,5;6,7;7,3
+Procent;Annan familjesituation;Jönköping;Alla åldrar;5,9;6,9;6,6
+Procent;Annan familjesituation;Jönköping;­24 år;14,1;16,3;13,5
+Procent;Annan familjesituation;Jönköping;25­29 år;4,2;5,0;4,1
+Procent;Annan familjesituation;Jönköping;30­34 år;3,4;3,9;4,8
+Procent;Annan familjesituation;Jönköping;35+ år;5,5;7,0;6,1
+Procent;Annan familjesituation;Kronoberg;Alla åldrar;7,3;6,2;7,2
+Procent;Annan familjesituation;Kronoberg;­24 år;20,1;12,7;16,9
+Procent;Annan familjesituation;Kronoberg;25­29 år;5,0;5,9;5,6
+Procent;Annan familjesituation;Kronoberg;30­34 år;3,2;3,4;4,2
+Procent;Annan familjesituation;Kronoberg;35+ år;6,7;5,6;5,9
+Procent;Annan familjesituation;Kalmar;Alla åldrar;5,6;5,6;5,5
+Procent;Annan familjesituation;Kalmar;­24 år;13,4;11,0;13,3
+Procent;Annan familjesituation;Kalmar;25­29 år;3,8;3,7;2,7
+Procent;Annan familjesituation;Kalmar;30­34 år;3,0;2,7;X
+Procent;Annan familjesituation;Kalmar;35+ år;4,7;5,6;X
+Procent;Annan familjesituation;Gotland;Alla åldrar;5,9;6,6;4,3
+Procent;Annan familjesituation;Gotland;­24 år;14,3;21,3;10,8
+Procent;Annan familjesituation;Gotland;25­29 år;4,4;4,0;X
+Procent;Annan familjesituation;Gotland;30­34 år;3,6;2,5;X
+Procent;Annan familjesituation;Gotland;35+ år;3,8;3,7;X
+Procent;Annan familjesituation;Blekinge;Alla åldrar;6,5;6,9;6,6
+Procent;Annan familjesituation;Blekinge;­24 år;11,4;12,6;13,7
+Procent;Annan familjesituation;Blekinge;25­29 år;6,4;5,7;4,9
+Procent;Annan familjesituation;Blekinge;30­34 år;2,3;4,2;4,4
+Procent;Annan familjesituation;Blekinge;35+ år;8,7;6,6;6,5
+Procent;Annan familjesituation;Skåne;Alla åldrar;6,9;7,1;7,3
+Procent;Annan familjesituation;Skåne;­24 år;14,1;15,2;14,7
+Procent;Annan familjesituation;Skåne;25­29 år;5,2;5,6;5,4
+Procent;Annan familjesituation;Skåne;30­34 år;4,8;4,9;5,2
+Procent;Annan familjesituation;Skåne;35+ år;7,2;6,9;7,4
+Procent;Annan familjesituation;Halland;Alla åldrar;4,4;4,4;4,8
+Procent;Annan familjesituation;Halland;­24 år;10,5;11,4;11,0
+Procent;Annan familjesituation;Halland;25­29 år;3,1;3,0;3,1
+Procent;Annan familjesituation;Halland;30­34 år;2,4;2,8;2,9
+Procent;Annan familjesituation;Halland;35+ år;5,3;4,2;4,8
+Procent;Annan familjesituation;Västra Götaland;Alla åldrar;7,4;7,3;7,4
+Procent;Annan familjesituation;Västra Götaland;­24 år;16,7;16,7;16,7
+Procent;Annan familjesituation;Västra Götaland;25­29 år;6,2;6,2;5,8
+Procent;Annan familjesituation;Västra Götaland;30­34 år;4,6;4,4;4,4
+Procent;Annan familjesituation;Västra Götaland;35+ år;6,9;6,7;8,3
+Procent;Annan familjesituation;Värmland;Alla åldrar;6,8;6,5;6,0
+Procent;Annan familjesituation;Värmland;­24 år;9,4;12,8;13,2
+Procent;Annan familjesituation;Värmland;25­29 år;6,9;5,5;4,0
+Procent;Annan familjesituation;Värmland;30­34 år;4,9;3,9;4,0
+Procent;Annan familjesituation;Värmland;35+ år;6,9;6,1;6,0
+Procent;Annan familjesituation;Örebro;Alla åldrar;8,3;8,6;9,5
+Procent;Annan familjesituation;Örebro;­24 år;16,8;17,4;18,3
+Procent;Annan familjesituation;Örebro;25­29 år;5,7;6,6;7,3
+Procent;Annan familjesituation;Örebro;30­34 år;5,5;5,2;6,3
+Procent;Annan familjesituation;Örebro;35+ år;8,4;9,4;11,0
+Procent;Annan familjesituation;Västmanland;Alla åldrar;9,3;9,3;9,5
+Procent;Annan familjesituation;Västmanland;­24 år;18,9;17,6;14,6
+Procent;Annan familjesituation;Västmanland;25­29 år;8,1;7,3;8,5
+Procent;Annan familjesituation;Västmanland;30­34 år;5,0;5,8;6,1
+Procent;Annan familjesituation;Västmanland;35+ år;7,8;9,6;8,8
+Procent;Annan familjesituation;Dalarna;Alla åldrar;8,8;9,1;9,1
+Procent;Annan familjesituation;Dalarna;­24 år;16,2;16,3;16,1
+Procent;Annan familjesituation;Dalarna;25­29 år;7,6;8,2;6,6
+Procent;Annan familjesituation;Dalarna;30­34 år;5,7;5,1;5,3
+Procent;Annan familjesituation;Dalarna;35+ år;7,3;9,3;10,0
+Procent;Annan familjesituation;Gävleborg;Alla åldrar;9,0;10,3;9,1
+Procent;Annan familjesituation;Gävleborg;­24 år;17,9;18,7;16,9
+Procent;Annan familjesituation;Gävleborg;25­29 år;6,6;8,7;7,0
+Procent;Annan familjesituation;Gävleborg;30­34 år;4,5;5,9;6,3
+Procent;Annan familjesituation;Gävleborg;35+ år;8,1;10,3;7,8
+Procent;Annan familjesituation;Västernorrland;Alla åldrar;8,2;7,2;7,3
+Procent;Annan familjesituation;Västernorrland;­24 år;17,2;15,5;11,1
+Procent;Annan familjesituation;Västernorrland;25­29 år;5,1;6,4;5,8
+Procent;Annan familjesituation;Västernorrland;30­34 år;6,2;4,0;3,9
+Procent;Annan familjesituation;Västernorrland;35+ år;7,0;5,7;5,3
+Procent;Annan familjesituation;Jämtland;Alla åldrar;7,6;6,8;6,9
+Procent;Annan familjesituation;Jämtland;­24 år;15,2;12,5;12,8
+Procent;Annan familjesituation;Jämtland;25­29 år;4,6;5,0;X
+Procent;Annan familjesituation;Jämtland;30­34 år;5,2;3,0;X
+Procent;Annan familjesituation;Jämtland;35+ år;6,9;9,1;6,4
+Procent;Annan familjesituation;Västerbotten;Alla åldrar;5,0;5,3;5,6
+Procent;Annan familjesituation;Västerbotten;­24 år;11,7;13,0;12,9
+Procent;Annan familjesituation;Västerbotten;25­29 år;4,1;3,7;3,5
+Procent;Annan familjesituation;Västerbotten;30­34 år;2,4;3,8;3,1
+Procent;Annan familjesituation;Västerbotten;35+ år;5,6;4,7;5,4
+Procent;Annan familjesituation;Norrbotten;Alla åldrar;11,0;10,7;10,0
+Procent;Annan familjesituation;Norrbotten;­24 år;19,5;18,8;17,8
+Procent;Annan familjesituation;Norrbotten;25­29 år;8,8;10,1;8,0
+Procent;Annan familjesituation;Norrbotten;30­34 år;6,7;6,3;7,9
+Procent;Annan familjesituation;Norrbotten;35+ år;11,2;9,0;9,2
+Procent;Röker tre månader före aktuell graviditet;Riket;Alla åldrar;14,3;13,8;13,6
+Procent;Röker tre månader före aktuell graviditet;Riket;­24 år;29,6;28,7;28,6
+Procent;Röker tre månader före aktuell graviditet;Riket;25­29 år;15,9;15,3;15,1
+Procent;Röker tre månader före aktuell graviditet;Riket;30­34 år;9,9;9,8;9,5
+Procent;Röker tre månader före aktuell graviditet;Riket;35+ år;8,5;8,3;8,6
+Procent;Röker tre månader före aktuell graviditet;Stockholm;Alla åldrar;12,5;11,8;11,2
+Procent;Röker tre månader före aktuell graviditet;Stockholm;­24 år;31,3;30,1;29,0
+Procent;Röker tre månader före aktuell graviditet;Stockholm;25­29 år;16,4;14,8;14,1
+Procent;Röker tre månader före aktuell graviditet;Stockholm;30­34 år;9,3;9,0;8,4
+Procent;Röker tre månader före aktuell graviditet;Stockholm;35+ år;7,1;6,9;6,9
+Procent;Röker tre månader före aktuell graviditet;Uppsala;Alla åldrar;12,4;13,5;14,0
+Procent;Röker tre månader före aktuell graviditet;Uppsala;­24 år;30,5;31,1;31,1
+Procent;Röker tre månader före aktuell graviditet;Uppsala;25­29 år;13,9;15,2;16,1
+Procent;Röker tre månader före aktuell graviditet;Uppsala;30­34 år;8,3;9,1;8,8
+Procent;Röker tre månader före aktuell graviditet;Uppsala;35+ år;6,5;7,6;8,9
+Procent;Röker tre månader före aktuell graviditet;Södermanland;Alla åldrar;17,0;17,5;16,7
+Procent;Röker tre månader före aktuell graviditet;Södermanland;­24 år;31,7;30,2;29,6
+Procent;Röker tre månader före aktuell graviditet;Södermanland;25­29 år;17,1;16,0;17,6
+Procent;Röker tre månader före aktuell graviditet;Södermanland;30­34 år;9,6;14,9;10,0
+Procent;Röker tre månader före aktuell graviditet;Södermanland;35+ år;12,2;11,0;11,3
+Procent;Röker tre månader före aktuell graviditet;Östergötland;Alla åldrar;14,2;13,7;14,6
+Procent;Röker tre månader före aktuell graviditet;Östergötland;­24 år;30,6;29,2;30,5
+Procent;Röker tre månader före aktuell graviditet;Östergötland;25­29 år;14,0;14,9;13,8
+Procent;Röker tre månader före aktuell graviditet;Östergötland;30­34 år;9,5;8,3;9,7
+Procent;Röker tre månader före aktuell graviditet;Östergötland;35+ år;8,1;7,4;9,0
+Procent;Röker tre månader före aktuell graviditet;Jönköping;Alla åldrar;14,9;14,4;14,8
+Procent;Röker tre månader före aktuell graviditet;Jönköping;­24 år;29,2;27,5;27,7
+Procent;Röker tre månader före aktuell graviditet;Jönköping;25­29 år;16,2;15,6;15,1
+Procent;Röker tre månader före aktuell graviditet;Jönköping;30­34 år;9,8;8,8;10,3
+Procent;Röker tre månader före aktuell graviditet;Jönköping;35+ år;7,3;8,7;10,8
+Procent;Röker tre månader före aktuell graviditet;Kronoberg;Alla åldrar;13,6;12,9;12,8
+Procent;Röker tre månader före aktuell graviditet;Kronoberg;­24 år;27,3;22,7;25,2
+Procent;Röker tre månader före aktuell graviditet;Kronoberg;25­29 år;13,8;13,3;13,3
+Procent;Röker tre månader före aktuell graviditet;Kronoberg;30­34 år;8,1;7,5;7,1
+Procent;Röker tre månader före aktuell graviditet;Kronoberg;35+ år;10,8;12,8;9,9
+Procent;Röker tre månader före aktuell graviditet;Kalmar;Alla åldrar;18,2;17,0;15,3
+Procent;Röker tre månader före aktuell graviditet;Kalmar;­24 år;33,7;28,0;35,1
+Procent;Röker tre månader före aktuell graviditet;Kalmar;25­29 år;18,5;18,1;12,9
+Procent;Röker tre månader före aktuell graviditet;Kalmar;30­34 år;12,1;11,6;10,6
+Procent;Röker tre månader före aktuell graviditet;Kalmar;35+ år;12,9;11,2;10,7
+Procent;Röker tre månader före aktuell graviditet;Gotland;Alla åldrar;19,2;17,1;17,3
+Procent;Röker tre månader före aktuell graviditet;Gotland;­24 år;37,1;35,4;36,7
+Procent;Röker tre månader före aktuell graviditet;Gotland;25­29 år;24,7;19,6;18,9
+Procent;Röker tre månader före aktuell graviditet;Gotland;30­34 år;10,0;13,3;11,4
+Procent;Röker tre månader före aktuell graviditet;Gotland;35+ år;10,4;4,3;11,5
+Procent;Röker tre månader före aktuell graviditet;Blekinge;Alla åldrar;16,8;17,0;18,3
+Procent;Röker tre månader före aktuell graviditet;Blekinge;­24 år;26,5;29,1;34,9
+Procent;Röker tre månader före aktuell graviditet;Blekinge;25­29 år;18,8;18,9;17,1
+Procent;Röker tre månader före aktuell graviditet;Blekinge;30­34 år;11,2;10,9;11,8
+Procent;Röker tre månader före aktuell graviditet;Blekinge;35+ år;11,6;9,7;14,1
+Procent;Röker tre månader före aktuell graviditet;Skåne;Alla åldrar;15,9;16,9;15,8
+Procent;Röker tre månader före aktuell graviditet;Skåne;­24 år;30,5;32,2;29,8
+Procent;Röker tre månader före aktuell graviditet;Skåne;25­29 år;18,2;19,8;18,9
+Procent;Röker tre månader före aktuell graviditet;Skåne;30­34 år;11,2;11,7;11,0
+Procent;Röker tre månader före aktuell graviditet;Skåne;35+ år;9,1;10,3;9,8
+Procent;Röker tre månader före aktuell graviditet;Halland;Alla åldrar;15,2;15,1;15,7
+Procent;Röker tre månader före aktuell graviditet;Halland;­24 år;35,9;32,2;32,9
+Procent;Röker tre månader före aktuell graviditet;Halland;25­29 år;15,5;17,7;17,3
+Procent;Röker tre månader före aktuell graviditet;Halland;30­34 år;9,2;9,2;11,0
+Procent;Röker tre månader före aktuell graviditet;Halland;35+ år;10,7;8,5;9,5
+Procent;Röker tre månader före aktuell graviditet;Västra Götaland;Alla åldrar;15,3;14,5;15,1
+Procent;Röker tre månader före aktuell graviditet;Västra Götaland;­24 år;31,7;30,3;31,3
+Procent;Röker tre månader före aktuell graviditet;Västra Götaland;25­29 år;16,5;15,2;16,1
+Procent;Röker tre månader före aktuell graviditet;Västra Götaland;30­34 år;10,8;10,3;10,7
+Procent;Röker tre månader före aktuell graviditet;Västra Götaland;35+ år;9,5;9,0;9,6
+Procent;Röker tre månader före aktuell graviditet;Värmland;Alla åldrar;15,6;16,0;14,4
+Procent;Röker tre månader före aktuell graviditet;Värmland;­24 år;27,3;30,1;25,7
+Procent;Röker tre månader före aktuell graviditet;Värmland;25­29 år;14,1;15,6;14,1
+Procent;Röker tre månader före aktuell graviditet;Värmland;30­34 år;11,9;12,0;8,6
+Procent;Röker tre månader före aktuell graviditet;Värmland;35+ år;11,8;8,9;13,4
+Procent;Röker tre månader före aktuell graviditet;Örebro;Alla åldrar;14,4;16,4;14,5
+Procent;Röker tre månader före aktuell graviditet;Örebro;­24 år;28,2;31,8;27,9
+Procent;Röker tre månader före aktuell graviditet;Örebro;25­29 år;14,5;15,5;14,5
+Procent;Röker tre månader före aktuell graviditet;Örebro;30­34 år;9,3;11,8;10,5
+Procent;Röker tre månader före aktuell graviditet;Örebro;35+ år;8,7;11,2;8,7
+Procent;Röker tre månader före aktuell graviditet;Västmanland;Alla åldrar;16,9;14,8;14,9
+Procent;Röker tre månader före aktuell graviditet;Västmanland;­24 år;30,7;27,8;27,7
+Procent;Röker tre månader före aktuell graviditet;Västmanland;25­29 år;16,7;14,1;14,6
+Procent;Röker tre månader före aktuell graviditet;Västmanland;30­34 år;11,8;10,9;10,9
+Procent;Röker tre månader före aktuell graviditet;Västmanland;35+ år;11,2;10,0;10,5
+Procent;Röker tre månader före aktuell graviditet;Dalarna;Alla åldrar;16,5;14,6;14,9
+Procent;Röker tre månader före aktuell graviditet;Dalarna;­24 år;27,1;24,2;26,9
+Procent;Röker tre månader före aktuell graviditet;Dalarna;25­29 år;17,9;14,4;14,8
+Procent;Röker tre månader före aktuell graviditet;Dalarna;30­34 år;12,7;10,6;11,0
+Procent;Röker tre månader före aktuell graviditet;Dalarna;35+ år;8,5;10,4;9,6
+Procent;Röker tre månader före aktuell graviditet;Gävleborg;Alla åldrar;17,0;14,6;15,2
+Procent;Röker tre månader före aktuell graviditet;Gävleborg;­24 år;29,9;26,8;26,8
+Procent;Röker tre månader före aktuell graviditet;Gävleborg;25­29 år;15,9;13,9;14,8
+Procent;Röker tre månader före aktuell graviditet;Gävleborg;30­34 år;11,4;10,2;10,6
+Procent;Röker tre månader före aktuell graviditet;Gävleborg;35+ år;10,6;8,5;8,9
+Procent;Röker tre månader före aktuell graviditet;Västernorrland;Alla åldrar;12,4;9,9;10,3
+Procent;Röker tre månader före aktuell graviditet;Västernorrland;­24 år;19,3;19,0;20,4
+Procent;Röker tre månader före aktuell graviditet;Västernorrland;25­29 år;12,9;9,1;8,6
+Procent;Röker tre månader före aktuell graviditet;Västernorrland;30­34 år;8,7;5,9;7,7
+Procent;Röker tre månader före aktuell graviditet;Västernorrland;35+ år;10,1;9,2;7,1
+Procent;Röker tre månader före aktuell graviditet;Jämtland;Alla åldrar;9,7;8,2;9,0
+Procent;Röker tre månader före aktuell graviditet;Jämtland;­24 år;19,1;22,3;20,9
+Procent;Röker tre månader före aktuell graviditet;Jämtland;25­29 år;9,2;6,7;9,2
+Procent;Röker tre månader före aktuell graviditet;Jämtland;30­34 år;5,0;6,3;4,3
+Procent;Röker tre månader före aktuell graviditet;Jämtland;35+ år;8,5;3,3;7,1
+Procent;Röker tre månader före aktuell graviditet;Västerbotten;Alla åldrar;7,5;7,6;7,7
+Procent;Röker tre månader före aktuell graviditet;Västerbotten;­24 år;19,2;18,0;16,5
+Procent;Röker tre månader före aktuell graviditet;Västerbotten;25­29 år;6,8;7,9;8,2
+Procent;Röker tre månader före aktuell graviditet;Västerbotten;30­34 år;4,6;4,9;5,0
+Procent;Röker tre månader före aktuell graviditet;Västerbotten;35+ år;4,1;3,9;4,4
+Procent;Röker tre månader före aktuell graviditet;Norrbotten;Alla åldrar;13,2;9,6;10,0
+Procent;Röker tre månader före aktuell graviditet;Norrbotten;­24 år;21,2;17,9;17,2
+Procent;Röker tre månader före aktuell graviditet;Norrbotten;25­29 år;13,9;8,8;10,4
+Procent;Röker tre månader före aktuell graviditet;Norrbotten;30­34 år;9,1;6,4;7,2
+Procent;Röker tre månader före aktuell graviditet;Norrbotten;35+ år;9,1;6,5;6,5
+Procent;Röker i tidig graviditet;Riket;Alla åldrar;5,9;5,6;5,5
+Procent;Röker i tidig graviditet;Riket;­24 år;13,1;12,4;11,9
+Procent;Röker i tidig graviditet;Riket;25­29 år;5,9;5,9;5,6
+Procent;Röker i tidig graviditet;Riket;30­34 år;3,8;3,6;3,7
+Procent;Röker i tidig graviditet;Riket;35+ år;4,1;3,7;4,0
+Procent;Röker i tidig graviditet;Stockholm;Alla åldrar;4,0;4,0;3,7
+Procent;Röker i tidig graviditet;Stockholm;­24 år;11,7;10,6;10,5
+Procent;Röker i tidig graviditet;Stockholm;25­29 år;4,8;5,0;4,3
+Procent;Röker i tidig graviditet;Stockholm;30­34 år;2,7;2,6;2,6
+Procent;Röker i tidig graviditet;Stockholm;35+ år;2,6;2,7;2,5
+Procent;Röker i tidig graviditet;Uppsala;Alla åldrar;4,2;5,6;4,9
+Procent;Röker i tidig graviditet;Uppsala;­24 år;11,2;12,6;11,4
+Procent;Röker i tidig graviditet;Uppsala;25­29 år;4,1;5,8;5,7
+Procent;Röker i tidig graviditet;Uppsala;30­34 år;2,4;3,8;2,3
+Procent;Röker i tidig graviditet;Uppsala;35+ år;2,9;3,9;3,9
+Procent;Röker i tidig graviditet;Södermanland;Alla åldrar;8,4;8,6;8,2
+Procent;Röker i tidig graviditet;Södermanland;­24 år;17,2;14,3;14,7
+Procent;Röker i tidig graviditet;Södermanland;25­29 år;7,9;7,7;7,5
+Procent;Röker i tidig graviditet;Södermanland;30­34 år;3,8;8,1;5,7
+Procent;Röker i tidig graviditet;Södermanland;35+ år;6,6;5,1;6,0
+Procent;Röker i tidig graviditet;Östergötland;Alla åldrar;6,6;6,0;6,4
+Procent;Röker i tidig graviditet;Östergötland;­24 år;13,8;14,3;12,5
+Procent;Röker i tidig graviditet;Östergötland;25­29 år;6,1;6,2;5,7
+Procent;Röker i tidig graviditet;Östergötland;30­34 år;4,3;3,1;4,8
+Procent;Röker i tidig graviditet;Östergötland;35+ år;4,9;3,6;4,5
+Procent;Röker i tidig graviditet;Jönköping;Alla åldrar;5,7;5,7;6,1
+Procent;Röker i tidig graviditet;Jönköping;­24 år;11,0;12,2;12,3
+Procent;Röker i tidig graviditet;Jönköping;25­29 år;5,7;5,1;5,7
+Procent;Röker i tidig graviditet;Jönköping;30­34 år;3,7;3,3;4,2
+Procent;Röker i tidig graviditet;Jönköping;35+ år;4,0;4,8;5,2
+Procent;Röker i tidig graviditet;Kronoberg;Alla åldrar;5,4;5,4;4,9
+Procent;Röker i tidig graviditet;Kronoberg;­24 år;11,6;10,1;9,2
+Procent;Röker i tidig graviditet;Kronoberg;25­29 år;3,9;5,5;3,5
+Procent;Röker i tidig graviditet;Kronoberg;30­34 år;3,6;2,9;3,1
+Procent;Röker i tidig graviditet;Kronoberg;35+ år;5,4;5,4;6,3
+Procent;Röker i tidig graviditet;Kalmar;Alla åldrar;8,5;7,3;6,2
+Procent;Röker i tidig graviditet;Kalmar;­24 år;17,0;10,6;13,6
+Procent;Röker i tidig graviditet;Kalmar;25­29 år;7,8;7,1;4,8
+Procent;Röker i tidig graviditet;Kalmar;30­34 år;4,7;6,0;4,3
+Procent;Röker i tidig graviditet;Kalmar;35+ år;7,2;5,9;5,5
+Procent;Röker i tidig graviditet;Gotland;Alla åldrar;6,9;7,1;6,9
+Procent;Röker i tidig graviditet;Gotland;­24 år;15,2;17,7;13,9
+Procent;Röker i tidig graviditet;Gotland;25­29 år;7,6;6,3;7,4
+Procent;Röker i tidig graviditet;Gotland;30­34 år;4,1;X;4,0
+Procent;Röker i tidig graviditet;Gotland;35+ år;3,0;X;5,7
+Procent;Röker i tidig graviditet;Blekinge;Alla åldrar;7,5;7,7;8,2
+Procent;Röker i tidig graviditet;Blekinge;­24 år;12,7;13,9;14,7
+Procent;Röker i tidig graviditet;Blekinge;25­29 år;6,7;8,3;6,2
+Procent;Röker i tidig graviditet;Blekinge;30­34 år;5,2;4,7;6,7
+Procent;Röker i tidig graviditet;Blekinge;35+ år;7,0;4,2;7,2
+Procent;Röker i tidig graviditet;Skåne;Alla åldrar;7,3;7,5;7,3
+Procent;Röker i tidig graviditet;Skåne;­24 år;15,3;15,4;14,9
+Procent;Röker i tidig graviditet;Skåne;25­29 år;7,9;8,4;8,1
+Procent;Röker i tidig graviditet;Skåne;30­34 år;4,6;4,8;4,8
+Procent;Röker i tidig graviditet;Skåne;35+ år;4,7;5,2;5,1
+Procent;Röker i tidig graviditet;Halland;Alla åldrar;6,6;5,3;6,6
+Procent;Röker i tidig graviditet;Halland;­24 år;16,2;12,2;13,6
+Procent;Röker i tidig graviditet;Halland;25­29 år;6,5;5,7;6,7
+Procent;Röker i tidig graviditet;Halland;30­34 år;3,4;3,0;4,3
+Procent;Röker i tidig graviditet;Halland;35+ år;5,5;3,4;5,6
+Procent;Röker i tidig graviditet;Västra Götaland;Alla åldrar;6,9;6,2;6,0
+Procent;Röker i tidig graviditet;Västra Götaland;­24 år;15,4;14,2;13,4
+Procent;Röker i tidig graviditet;Västra Götaland;25­29 år;6,3;6,3;6,0
+Procent;Röker i tidig graviditet;Västra Götaland;30­34 år;4,9;3,9;4,3
+Procent;Röker i tidig graviditet;Västra Götaland;35+ år;4,9;3,7;3,9
+Procent;Röker i tidig graviditet;Värmland;Alla åldrar;7,6;6,1;5,8
+Procent;Röker i tidig graviditet;Värmland;­24 år;11,7;12,7;11,4
+Procent;Röker i tidig graviditet;Värmland;25­29 år;7,2;4,7;4,5
+Procent;Röker i tidig graviditet;Värmland;30­34 år;5,8;4,8;3,3
+Procent;Röker i tidig graviditet;Värmland;35+ år;7,2;4,2;7,2
+Procent;Röker i tidig graviditet;Örebro;Alla åldrar;6,3;7,3;6,9
+Procent;Röker i tidig graviditet;Örebro;­24 år;11,9;16,4;12,8
+Procent;Röker i tidig graviditet;Örebro;25­29 år;5,7;6,0;7,1
+Procent;Röker i tidig graviditet;Örebro;30­34 år;4,7;5,0;4,6
+Procent;Röker i tidig graviditet;Örebro;35+ år;4,0;5,0;5,5
+Procent;Röker i tidig graviditet;Västmanland;Alla åldrar;7,7;6,3;6,1
+Procent;Röker i tidig graviditet;Västmanland;­24 år;13,5;10,8;10,8
+Procent;Röker i tidig graviditet;Västmanland;25­29 år;6,5;6,6;5,7
+Procent;Röker i tidig graviditet;Västmanland;30­34 år;5,1;4,3;4,7
+Procent;Röker i tidig graviditet;Västmanland;35+ år;8,0;4,8;4,9
+Procent;Röker i tidig graviditet;Dalarna;Alla åldrar;6,5;4,7;5,9
+Procent;Röker i tidig graviditet;Dalarna;­24 år;9,3;8,5;9,7
+Procent;Röker i tidig graviditet;Dalarna;25­29 år;6,6;3,4;5,5
+Procent;Röker i tidig graviditet;Dalarna;30­34 år;5,7;3,6;4,1
+Procent;Röker i tidig graviditet;Dalarna;35+ år;4,5;4,3;5,6
+Procent;Röker i tidig graviditet;Gävleborg;Alla åldrar;8,4;6,1;6,7
+Procent;Röker i tidig graviditet;Gävleborg;­24 år;15,3;11,5;11,1
+Procent;Röker i tidig graviditet;Gävleborg;25­29 år;6,8;6,0;6,6
+Procent;Röker i tidig graviditet;Gävleborg;30­34 år;5,6;4,2;4,4
+Procent;Röker i tidig graviditet;Gävleborg;35+ år;6,4;3,3;4,9
+Procent;Röker i tidig graviditet;Västernorrland;Alla åldrar;6,3;5,1;5,1
+Procent;Röker i tidig graviditet;Västernorrland;­24 år;9,1;8,4;9,5
+Procent;Röker i tidig graviditet;Västernorrland;25­29 år;6,1;4,5;4,0
+Procent;Röker i tidig graviditet;Västernorrland;30­34 år;4,8;3,2;4,3
+Procent;Röker i tidig graviditet;Västernorrland;35+ år;6,3;5,9;3,4
+Procent;Röker i tidig graviditet;Jämtland;Alla åldrar;3,9;3,1;3,2
+Procent;Röker i tidig graviditet;Jämtland;­24 år;7,0;8,7;7,1
+Procent;Röker i tidig graviditet;Jämtland;25­29 år;3,4;2,3;2,3
+Procent;Röker i tidig graviditet;Jämtland;30­34 år;1,7;X;1,8
+Procent;Röker i tidig graviditet;Jämtland;35+ år;4,6;X;3,9
+Procent;Röker i tidig graviditet;Västerbotten;Alla åldrar;2,3;2,2;2,1
+Procent;Röker i tidig graviditet;Västerbotten;­24 år;6,1;5,2;3,3
+Procent;Röker i tidig graviditet;Västerbotten;25­29 år;1,6;2,0;2,7
+Procent;Röker i tidig graviditet;Västerbotten;30­34 år;1,7;1,5;1,2
+Procent;Röker i tidig graviditet;Västerbotten;35+ år;1,5;1,3;1,7
+Procent;Röker i tidig graviditet;Norrbotten;Alla åldrar;5,5;4,1;4,1
+Procent;Röker i tidig graviditet;Norrbotten;­24 år;9,5;8,0;6,6
+Procent;Röker i tidig graviditet;Norrbotten;25­29 år;5,1;3,1;3,5
+Procent;Röker i tidig graviditet;Norrbotten;30­34 år;3,2;3,4;3,3
+Procent;Röker i tidig graviditet;Norrbotten;35+ år;5,1;2,1;4,1
+Procent;Röker i sen graviditet;Riket;Alla åldrar;4,4;4,1;4,0
+Procent;Röker i sen graviditet;Riket;­24 år;9,8;9,2;8,7
+Procent;Röker i sen graviditet;Riket;25­29 år;4,5;4,3;4,1
+Procent;Röker i sen graviditet;Riket;30­34 år;2,9;2,6;2,7
+Procent;Röker i sen graviditet;Riket;35+ år;3,1;2,6;2,9
+Procent;Röker i sen graviditet;Stockholm;Alla åldrar;2,8;2,4;2,3
+Procent;Röker i sen graviditet;Stockholm;­24 år;8,4;7,0;6,6
+Procent;Röker i sen graviditet;Stockholm;25­29 år;3,2;3,0;2,7
+Procent;Röker i sen graviditet;Stockholm;30­34 år;1,8;1,5;1,6
+Procent;Röker i sen graviditet;Stockholm;35+ år;1,8;1,6;1,6
+Procent;Röker i sen graviditet;Uppsala;Alla åldrar;1,8;2,7;2,5
+Procent;Röker i sen graviditet;Uppsala;­24 år;6,5;6,1;5,0
+Procent;Röker i sen graviditet;Uppsala;25­29 år;0,9;2,9;3,0
+Procent;Röker i sen graviditet;Uppsala;30­34 år;1,4;1,6;1,1
+Procent;Röker i sen graviditet;Uppsala;35+ år;1,0;2,0;2,5
+Procent;Röker i sen graviditet;Södermanland;Alla åldrar;6,6;6,7;5,6
+Procent;Röker i sen graviditet;Södermanland;­24 år;11,7;11,4;10,4
+Procent;Röker i sen graviditet;Södermanland;25­29 år;6,8;5,7;5,3
+Procent;Röker i sen graviditet;Södermanland;30­34 år;3,4;6,4;3,4
+Procent;Röker i sen graviditet;Södermanland;35+ år;5,6;4,1;4,2
+Procent;Röker i sen graviditet;Östergötland;Alla åldrar;5,0;4,6;5,2
+Procent;Röker i sen graviditet;Östergötland;­24 år;10,3;10,7;10,1
+Procent;Röker i sen graviditet;Östergötland;25­29 år;5,0;4,5;4,7
+Procent;Röker i sen graviditet;Östergötland;30­34 år;3,3;2,4;4,0
+Procent;Röker i sen graviditet;Östergötland;35+ år;3,3;3,3;3,8
+Procent;Röker i sen graviditet;Jönköping;Alla åldrar;4,6;5,0;4,8
+Procent;Röker i sen graviditet;Jönköping;­24 år;8,3;10,0;10,7
+Procent;Röker i sen graviditet;Jönköping;25­29 år;4,3;4,2;4,4
+Procent;Röker i sen graviditet;Jönköping;30­34 år;3,4;3,2;3,0
+Procent;Röker i sen graviditet;Jönköping;35+ år;3,9;4,8;3,7
+Procent;Röker i sen graviditet;Kronoberg;Alla åldrar;4,5;4,0;3,9
+Procent;Röker i sen graviditet;Kronoberg;­24 år;12,2;8,0;8,4
+Procent;Röker i sen graviditet;Kronoberg;25­29 år;2,6;4,2;2,4
+Procent;Röker i sen graviditet;Kronoberg;30­34 år;2,9;1,9;2,4
+Procent;Röker i sen graviditet;Kronoberg;35+ år;3,7;3,7;4,7
+Procent;Röker i sen graviditet;Kalmar;Alla åldrar;6,6;5,6;5,2
+Procent;Röker i sen graviditet;Kalmar;­24 år;12,4;7,3;11,0
+Procent;Röker i sen graviditet;Kalmar;25­29 år;6,6;5,9;3,4
+Procent;Röker i sen graviditet;Kalmar;30­34 år;3,4;4,9;4,2
+Procent;Röker i sen graviditet;Kalmar;35+ år;5,5;3,5;5,2
+Procent;Röker i sen graviditet;Gotland;Alla åldrar;6,9;4,7;4,8
+Procent;Röker i sen graviditet;Gotland;­24 år;11,4;9,4;7,6
+Procent;Röker i sen graviditet;Gotland;25­29 år;9,5;5,1;5,4
+Procent;Röker i sen graviditet;Gotland;30­34 år;X;X;3,4
+Procent;Röker i sen graviditet;Gotland;35+ år;X;X;4,1
+Procent;Röker i sen graviditet;Blekinge;Alla åldrar;6,1;6,1;6,4
+Procent;Röker i sen graviditet;Blekinge;­24 år;9,3;10,5;12,9
+Procent;Röker i sen graviditet;Blekinge;25­29 år;5,7;6,1;4,7
+Procent;Röker i sen graviditet;Blekinge;30­34 år;4,5;3,7;4,4
+Procent;Röker i sen graviditet;Blekinge;35+ år;5,8;4,6;5,4
+Procent;Röker i sen graviditet;Skåne;Alla åldrar;5,2;5,6;5,4
+Procent;Röker i sen graviditet;Skåne;­24 år;11,0;11,4;10,9
+Procent;Röker i sen graviditet;Skåne;25­29 år;5,7;6,5;6,1
+Procent;Röker i sen graviditet;Skåne;30­34 år;3,4;3,5;3,7
+Procent;Röker i sen graviditet;Skåne;35+ år;3,1;3,7;3,4
+Procent;Röker i sen graviditet;Halland;Alla åldrar;5,4;4,2;5,3
+Procent;Röker i sen graviditet;Halland;­24 år;11,2;9,9;11,4
+Procent;Röker i sen graviditet;Halland;25­29 år;5,9;4,5;5,3
+Procent;Röker i sen graviditet;Halland;30­34 år;2,5;2,6;3,4
+Procent;Röker i sen graviditet;Halland;35+ år;5,3;2,7;4,1
+Procent;Röker i sen graviditet;Västra Götaland;Alla åldrar;5,1;4,7;4,4
+Procent;Röker i sen graviditet;Västra Götaland;­24 år;11,9;11,1;9,6
+Procent;Röker i sen graviditet;Västra Götaland;25­29 år;4,7;4,8;4,5
+Procent;Röker i sen graviditet;Västra Götaland;30­34 år;3,5;3,0;3,1
+Procent;Röker i sen graviditet;Västra Götaland;35+ år;3,8;2,9;2,9
+Procent;Röker i sen graviditet;Värmland;Alla åldrar;5,6;4,1;4,0
+Procent;Röker i sen graviditet;Värmland;­24 år;9,8;8,4;9,1
+Procent;Röker i sen graviditet;Värmland;25­29 år;5,0;2,8;2,2
+Procent;Röker i sen graviditet;Värmland;30­34 år;3,1;3,7;2,1
+Procent;Röker i sen graviditet;Värmland;35+ år;5,9;3,1;5,8
+Procent;Röker i sen graviditet;Örebro;Alla åldrar;5,3;5,9;5,4
+Procent;Röker i sen graviditet;Örebro;­24 år;10,7;13,7;10,4
+Procent;Röker i sen graviditet;Örebro;25­29 år;5,0;5,1;5,3
+Procent;Röker i sen graviditet;Örebro;30­34 år;3,6;3,2;3,5
+Procent;Röker i sen graviditet;Örebro;35+ år;3,2;4,1;4,6
+Procent;Röker i sen graviditet;Västmanland;Alla åldrar;6,3;4,9;4,6
+Procent;Röker i sen graviditet;Västmanland;­24 år;11,2;9,5;7,5
+Procent;Röker i sen graviditet;Västmanland;25­29 år;5,4;4,5;4,3
+Procent;Röker i sen graviditet;Västmanland;30­34 år;4,0;3,7;4,2
+Procent;Röker i sen graviditet;Västmanland;35+ år;6,4;3,0;2,9
+Procent;Röker i sen graviditet;Dalarna;Alla åldrar;6,2;4,0;4,4
+Procent;Röker i sen graviditet;Dalarna;­24 år;7,7;6,8;6,0
+Procent;Röker i sen graviditet;Dalarna;25­29 år;6,6;3,5;4,7
+Procent;Röker i sen graviditet;Dalarna;30­34 år;6,0;2,6;2,6
+Procent;Röker i sen graviditet;Dalarna;35+ år;4,0;3,8;5,2
+Procent;Röker i sen graviditet;Gävleborg;Alla åldrar;7,2;5,0;4,9
+Procent;Röker i sen graviditet;Gävleborg;­24 år;13,5;8,4;6,5
+Procent;Röker i sen graviditet;Gävleborg;25­29 år;5,3;4,8;4,7
+Procent;Röker i sen graviditet;Gävleborg;30­34 år;5,8;3,8;4,2
+Procent;Röker i sen graviditet;Gävleborg;35+ år;4,4;3,1;4,4
+Procent;Röker i sen graviditet;Västernorrland;Alla åldrar;5,2;4,3;4,5
+Procent;Röker i sen graviditet;Västernorrland;­24 år;7,0;6,8;8,8
+Procent;Röker i sen graviditet;Västernorrland;25­29 år;5,5;3,3;3,1
+Procent;Röker i sen graviditet;Västernorrland;30­34 år;3,6;3,5;3,4
+Procent;Röker i sen graviditet;Västernorrland;35+ år;5,5;5,2;3,7
+Procent;Röker i sen graviditet;Jämtland;Alla åldrar;2,2;2,4;2,6
+Procent;Röker i sen graviditet;Jämtland;­24 år;4,3;7,1;4,8
+Procent;Röker i sen graviditet;Jämtland;25­29 år;2,3;X;2,0
+Procent;Röker i sen graviditet;Jämtland;30­34 år;X;2,1;1,5
+Procent;Röker i sen graviditet;Jämtland;35+ år;X;X;3,5
+Procent;Röker i sen graviditet;Västerbotten;Alla åldrar;1,9;1,6;1,7
+Procent;Röker i sen graviditet;Västerbotten;­24 år;4,9;4,5;3,1
+Procent;Röker i sen graviditet;Västerbotten;25­29 år;1,4;X;1,7
+Procent;Röker i sen graviditet;Västerbotten;30­34 år;1,4;1,2;1,0
+Procent;Röker i sen graviditet;Västerbotten;35+ år;1,3;X;1,7
+Procent;Röker i sen graviditet;Norrbotten;Alla åldrar;2,4;1,7;2,4
+Procent;Röker i sen graviditet;Norrbotten;­24 år;3,6;4,1;4,6
+Procent;Röker i sen graviditet;Norrbotten;25­29 år;2,3;0,9;2,2
+Procent;Röker i sen graviditet;Norrbotten;30­34 år;1,3;X;1,2
+Procent;Röker i sen graviditet;Norrbotten;35+ år;2,8;X;2,2
+Procent;Snusar tre månader före aktuell graviditet;Riket;Alla åldrar;3,4;3,9;4,6
+Procent;Snusar tre månader före aktuell graviditet;Riket;­24 år;4,9;5,1;5,5
+Procent;Snusar tre månader före aktuell graviditet;Riket;25­29 år;4,3;4,7;5,8
+Procent;Snusar tre månader före aktuell graviditet;Riket;30­34 år;2,8;3,4;4,1
+Procent;Snusar tre månader före aktuell graviditet;Riket;35+ år;2,3;2,8;3,1
+Procent;Snusar tre månader före aktuell graviditet;Stockholm;Alla åldrar;2,9;3,5;3,4
+Procent;Snusar tre månader före aktuell graviditet;Stockholm;­24 år;3,2;4,1;3,6
+Procent;Snusar tre månader före aktuell graviditet;Stockholm;25­29 år;3,6;4,4;4,4
+Procent;Snusar tre månader före aktuell graviditet;Stockholm;30­34 år;2,9;3,3;3,6
+Procent;Snusar tre månader före aktuell graviditet;Stockholm;35+ år;2,1;2,9;2,3
+Procent;Snusar tre månader före aktuell graviditet;Uppsala;Alla åldrar;5,3;5,7;6,7
+Procent;Snusar tre månader före aktuell graviditet;Uppsala;­24 år;6,8;7,2;8,2
+Procent;Snusar tre månader före aktuell graviditet;Uppsala;25­29 år;6,4;7,5;7,8
+Procent;Snusar tre månader före aktuell graviditet;Uppsala;30­34 år;5,6;4,9;6,7
+Procent;Snusar tre månader före aktuell graviditet;Uppsala;35+ år;2,8;3,8;4,4
+Procent;Snusar tre månader före aktuell graviditet;Södermanland;Alla åldrar;1,4;1,9;2,9
+Procent;Snusar tre månader före aktuell graviditet;Södermanland;­24 år;X;1,5;2,8
+Procent;Snusar tre månader före aktuell graviditet;Södermanland;25­29 år;1,9;2,3;4,0
+Procent;Snusar tre månader före aktuell graviditet;Södermanland;30­34 år;X;2,0;2,5
+Procent;Snusar tre månader före aktuell graviditet;Södermanland;35+ år;1,8;1,2;1,7
+Procent;Snusar tre månader före aktuell graviditet;Östergötland;Alla åldrar;1,9;2,4;3,7
+Procent;Snusar tre månader före aktuell graviditet;Östergötland;­24 år;2,7;2,6;3,3
+Procent;Snusar tre månader före aktuell graviditet;Östergötland;25­29 år;2,2;3,1;4,5
+Procent;Snusar tre månader före aktuell graviditet;Östergötland;30­34 år;1,8;2,1;2,9
+Procent;Snusar tre månader före aktuell graviditet;Östergötland;35+ år;0,9;1,7;3,8
+Procent;Snusar tre månader före aktuell graviditet;Jönköping;Alla åldrar;2,5;3,5;3,9
+Procent;Snusar tre månader före aktuell graviditet;Jönköping;­24 år;4,4;5,0;4,4
+Procent;Snusar tre månader före aktuell graviditet;Jönköping;25­29 år;2,3;4,2;4,9
+Procent;Snusar tre månader före aktuell graviditet;Jönköping;30­34 år;2,1;2,8;3,7
+Procent;Snusar tre månader före aktuell graviditet;Jönköping;35+ år;1,7;2,1;2,1
+Procent;Snusar tre månader före aktuell graviditet;Kronoberg;Alla åldrar;2,7;2,3;3,3
+Procent;Snusar tre månader före aktuell graviditet;Kronoberg;­24 år;3,9;X;X
+Procent;Snusar tre månader före aktuell graviditet;Kronoberg;25­29 år;3,4;3,3;3,8
+Procent;Snusar tre månader före aktuell graviditet;Kronoberg;30­34 år;2,0;2,2;3,3
+Procent;Snusar tre månader före aktuell graviditet;Kronoberg;35+ år;1,4;X;X
+Procent;Snusar tre månader före aktuell graviditet;Kalmar;Alla åldrar;3,1;3,7;3,5
+Procent;Snusar tre månader före aktuell graviditet;Kalmar;­24 år;3,0;5,3;4,4
+Procent;Snusar tre månader före aktuell graviditet;Kalmar;25­29 år;3,1;4,4;4,9
+Procent;Snusar tre månader före aktuell graviditet;Kalmar;30­34 år;3,4;2,2;2,5
+Procent;Snusar tre månader före aktuell graviditet;Kalmar;35+ år;3,0;3,5;2,5
+Procent;Snusar tre månader före aktuell graviditet;Gotland;Alla åldrar;6,3;8,8;6,5
+Procent;Snusar tre månader före aktuell graviditet;Gotland;­24 år;8,6;17,7;X
+Procent;Snusar tre månader före aktuell graviditet;Gotland;25­29 år;12,0;9,5;8,8
+Procent;Snusar tre månader före aktuell graviditet;Gotland;30­34 år;X;X;X
+Procent;Snusar tre månader före aktuell graviditet;Gotland;35+ år;X;X;7,4
+Procent;Snusar tre månader före aktuell graviditet;Blekinge;Alla åldrar;1,8;2,8;2,7
+Procent;Snusar tre månader före aktuell graviditet;Blekinge;­24 år;X;3,4;X
+Procent;Snusar tre månader före aktuell graviditet;Blekinge;25­29 år;1,8;4,2;3,5
+Procent;Snusar tre månader före aktuell graviditet;Blekinge;30­34 år;X;1,7;X
+Procent;Snusar tre månader före aktuell graviditet;Blekinge;35+ år;X;1,5;X
+Procent;Snusar tre månader före aktuell graviditet;Skåne;Alla åldrar;1,6;2,0;2,2
+Procent;Snusar tre månader före aktuell graviditet;Skåne;­24 år;1,3;1,1;1,3
+Procent;Snusar tre månader före aktuell graviditet;Skåne;25­29 år;2,0;2,1;2,8
+Procent;Snusar tre månader före aktuell graviditet;Skåne;30­34 år;1,5;2,3;2,2
+Procent;Snusar tre månader före aktuell graviditet;Skåne;35+ år;1,5;1,9;1,8
+Procent;Snusar tre månader före aktuell graviditet;Halland;Alla åldrar;1,4;1,3;3,3
+Procent;Snusar tre månader före aktuell graviditet;Halland;­24 år;2,6;X;2,6
+Procent;Snusar tre månader före aktuell graviditet;Halland;25­29 år;1,4;1,8;4,5
+Procent;Snusar tre månader före aktuell graviditet;Halland;30­34 år;1,1;X;2,8
+Procent;Snusar tre månader före aktuell graviditet;Halland;35+ år;1,2;1,6;3,0
+Procent;Snusar tre månader före aktuell graviditet;Västra Götaland;Alla åldrar;1,9;2,3;4,3
+Procent;Snusar tre månader före aktuell graviditet;Västra Götaland;­24 år;2,6;2,5;4,1
+Procent;Snusar tre månader före aktuell graviditet;Västra Götaland;25­29 år;2,6;3,0;5,7
+Procent;Snusar tre månader före aktuell graviditet;Västra Götaland;30­34 år;1,6;1,9;4,0
+Procent;Snusar tre månader före aktuell graviditet;Västra Götaland;35+ år;1,0;1,6;2,7
+Procent;Snusar tre månader före aktuell graviditet;Värmland;Alla åldrar;5,7;7,2;6,4
+Procent;Snusar tre månader före aktuell graviditet;Värmland;­24 år;6,5;11,4;9,5
+Procent;Snusar tre månader före aktuell graviditet;Värmland;25­29 år;10,6;9,0;7,7
+Procent;Snusar tre månader före aktuell graviditet;Värmland;30­34 år;2,4;4,5;4,4
+Procent;Snusar tre månader före aktuell graviditet;Värmland;35+ år;3,0;4,2;4,0
+Procent;Snusar tre månader före aktuell graviditet;Örebro;Alla åldrar;3,1;4,0;5,4
+Procent;Snusar tre månader före aktuell graviditet;Örebro;­24 år;3,6;4,2;5,9
+Procent;Snusar tre månader före aktuell graviditet;Örebro;25­29 år;4,1;4,6;7,4
+Procent;Snusar tre månader före aktuell graviditet;Örebro;30­34 år;2,4;3,9;4,3
+Procent;Snusar tre månader före aktuell graviditet;Örebro;35+ år;2,0;2,8;3,3
+Procent;Snusar tre månader före aktuell graviditet;Västmanland;Alla åldrar;2,7;3,7;4,6
+Procent;Snusar tre månader före aktuell graviditet;Västmanland;­24 år;4,7;6,4;6,2
+Procent;Snusar tre månader före aktuell graviditet;Västmanland;25­29 år;3,4;4,1;5,1
+Procent;Snusar tre månader före aktuell graviditet;Västmanland;30­34 år;1,5;2,9;4,2
+Procent;Snusar tre månader före aktuell graviditet;Västmanland;35+ år;1,4;1,8;3,5
+Procent;Snusar tre månader före aktuell graviditet;Dalarna;Alla åldrar;6,4;5,4;7,0
+Procent;Snusar tre månader före aktuell graviditet;Dalarna;­24 år;9,1;7,4;8,6
+Procent;Snusar tre månader före aktuell graviditet;Dalarna;25­29 år;7,9;5,6;8,5
+Procent;Snusar tre månader före aktuell graviditet;Dalarna;30­34 år;3,9;5,1;6,0
+Procent;Snusar tre månader före aktuell graviditet;Dalarna;35+ år;4,9;3,4;4,8
+Procent;Snusar tre månader före aktuell graviditet;Gävleborg;Alla åldrar;3,6;3,6;5,8
+Procent;Snusar tre månader före aktuell graviditet;Gävleborg;­24 år;4,7;5,0;6,0
+Procent;Snusar tre månader före aktuell graviditet;Gävleborg;25­29 år;4,3;3,7;8,2
+Procent;Snusar tre månader före aktuell graviditet;Gävleborg;30­34 år;2,3;3,1;4,3
+Procent;Snusar tre månader före aktuell graviditet;Gävleborg;35+ år;2,9;2,3;3,1
+Procent;Snusar tre månader före aktuell graviditet;Västernorrland;Alla åldrar;10,4;10,8;11,3
+Procent;Snusar tre månader före aktuell graviditet;Västernorrland;­24 år;16,3;12,7;14,7
+Procent;Snusar tre månader före aktuell graviditet;Västernorrland;25­29 år;11,4;13,3;13,4
+Procent;Snusar tre månader före aktuell graviditet;Västernorrland;30­34 år;6,9;9,4;9,0
+Procent;Snusar tre månader före aktuell graviditet;Västernorrland;35+ år;8,0;6,8;10,3
+Procent;Snusar tre månader före aktuell graviditet;Jämtland;Alla åldrar;18,1;16,5;15,2
+Procent;Snusar tre månader före aktuell graviditet;Jämtland;­24 år;29,1;28,3;20,9
+Procent;Snusar tre månader före aktuell graviditet;Jämtland;25­29 år;22,9;21,7;17,3
+Procent;Snusar tre månader före aktuell graviditet;Jämtland;30­34 år;11,7;11,4;11,7
+Procent;Snusar tre månader före aktuell graviditet;Jämtland;35+ år;11,8;10,9;14,1
+Procent;Snusar tre månader före aktuell graviditet;Västerbotten;Alla åldrar;14,4;13,6;12,9
+Procent;Snusar tre månader före aktuell graviditet;Västerbotten;­24 år;22,1;17,8;18,4
+Procent;Snusar tre månader före aktuell graviditet;Västerbotten;25­29 år;16,4;15,6;14,7
+Procent;Snusar tre månader före aktuell graviditet;Västerbotten;30­34 år;12,3;11,4;10,9
+Procent;Snusar tre månader före aktuell graviditet;Västerbotten;35+ år;8,4;10,8;9,9
+Procent;Snusar tre månader före aktuell graviditet;Norrbotten;Alla åldrar;9,3;11,1;15,1
+Procent;Snusar tre månader före aktuell graviditet;Norrbotten;­24 år;14,5;19,0;22,5
+Procent;Snusar tre månader före aktuell graviditet;Norrbotten;25­29 år;10,7;11,8;17,5
+Procent;Snusar tre månader före aktuell graviditet;Norrbotten;30­34 år;7,0;8,6;12,2
+Procent;Snusar tre månader före aktuell graviditet;Norrbotten;35+ år;5,0;5,1;7,0
+Procent;Snusar i tidig graviditet;Riket;Alla åldrar;1,2;1,4;1,3
+Procent;Snusar i tidig graviditet;Riket;­24 år;1,6;2,0;1,7
+Procent;Snusar i tidig graviditet;Riket;25­29 år;1,2;1,5;1,5
+Procent;Snusar i tidig graviditet;Riket;30­34 år;1,0;1,2;1,2
+Procent;Snusar i tidig graviditet;Riket;35+ år;1,1;1,3;1,2
+Procent;Snusar i tidig graviditet;Stockholm;Alla åldrar;1,1;1,6;1,1
+Procent;Snusar i tidig graviditet;Stockholm;­24 år;1,6;1,8;1,1
+Procent;Snusar i tidig graviditet;Stockholm;25­29 år;1,1;1,8;1,0
+Procent;Snusar i tidig graviditet;Stockholm;30­34 år;1,2;1,6;1,1
+Procent;Snusar i tidig graviditet;Stockholm;35+ år;0,9;1,3;1,0
+Procent;Snusar i tidig graviditet;Uppsala;Alla åldrar;1,4;1,9;1,7
+Procent;Snusar i tidig graviditet;Uppsala;­24 år;X;2,0;2,1
+Procent;Snusar i tidig graviditet;Uppsala;25­29 år;1,4;1,9;1,6
+Procent;Snusar i tidig graviditet;Uppsala;30­34 år;1,6;1,6;1,6
+Procent;Snusar i tidig graviditet;Uppsala;35+ år;X;2,2;1,8
+Procent;Snusar i tidig graviditet;Södermanland;Alla åldrar;0,8;1,0;0,9
+Procent;Snusar i tidig graviditet;Södermanland;­24 år;X;X;X
+Procent;Snusar i tidig graviditet;Södermanland;25­29 år;X;X;1,1
+Procent;Snusar i tidig graviditet;Södermanland;30­34 år;0,7;0,9;0,9
+Procent;Snusar i tidig graviditet;Södermanland;35+ år;1,2;2,2;X
+Procent;Snusar i tidig graviditet;Östergötland;Alla åldrar;0,3;0,9;1,1
+Procent;Snusar i tidig graviditet;Östergötland;­24 år;X;1,6;1,5
+Procent;Snusar i tidig graviditet;Östergötland;25­29 år;0,4;0,9;1,0
+Procent;Snusar i tidig graviditet;Östergötland;30­34 år;X;0,7;0,9
+Procent;Snusar i tidig graviditet;Östergötland;35+ år;0,4;0,9;1,4
+Procent;Snusar i tidig graviditet;Jönköping;Alla åldrar;0,9;1,2;1,1
+Procent;Snusar i tidig graviditet;Jönköping;­24 år;X;2,0;X
+Procent;Snusar i tidig graviditet;Jönköping;25­29 år;0,7;1,5;0,8
+Procent;Snusar i tidig graviditet;Jönköping;30­34 år;1,3;X;1,4
+Procent;Snusar i tidig graviditet;Jönköping;35+ år;X;X;X
+Procent;Snusar i tidig graviditet;Kronoberg;Alla åldrar;0,5;0,5;0,6
+Procent;Snusar i tidig graviditet;Kronoberg;­24 år;1,2;X;X
+Procent;Snusar i tidig graviditet;Kronoberg;25­29 år;X;X;X
+Procent;Snusar i tidig graviditet;Kronoberg;30­34 år;X;0,6;X
+Procent;Snusar i tidig graviditet;Kronoberg;35+ år;X;X;X
+Procent;Snusar i tidig graviditet;Kalmar;Alla åldrar;0,8;1,0;1,1
+Procent;Snusar i tidig graviditet;Kalmar;­24 år;X;1,6;X
+Procent;Snusar i tidig graviditet;Kalmar;25­29 år;0,7;1,1;1,3
+Procent;Snusar i tidig graviditet;Kalmar;30­34 år;0,9;X;1,0
+Procent;Snusar i tidig graviditet;Kalmar;35+ år;X;X;X
+Procent;Snusar i tidig graviditet;Gotland;Alla åldrar;2,6;1,9;2,9
+Procent;Snusar i tidig graviditet;Gotland;­24 år;X;X;0,0
+Procent;Snusar i tidig graviditet;Gotland;25­29 år;5,1;X;X
+Procent;Snusar i tidig graviditet;Gotland;30­34 år;X;0,0;X
+Procent;Snusar i tidig graviditet;Gotland;35+ år;X;X;4,9
+Procent;Snusar i tidig graviditet;Blekinge;Alla åldrar;0,5;1,3;0,9
+Procent;Snusar i tidig graviditet;Blekinge;­24 år;X;X;0,0
+Procent;Snusar i tidig graviditet;Blekinge;25­29 år;X;1,8;X
+Procent;Snusar i tidig graviditet;Blekinge;30­34 år;X;1,2;1,1
+Procent;Snusar i tidig graviditet;Blekinge;35+ år;X;X;X
+Procent;Snusar i tidig graviditet;Skåne;Alla åldrar;0,7;0,7;0,5
+Procent;Snusar i tidig graviditet;Skåne;­24 år;0,7;0,5;X
+Procent;Snusar i tidig graviditet;Skåne;25­29 år;0,7;0,8;0,7
+Procent;Snusar i tidig graviditet;Skåne;30­34 år;0,7;0,7;0,5
+Procent;Snusar i tidig graviditet;Skåne;35+ år;0,8;0,9;X
+Procent;Snusar i tidig graviditet;Halland;Alla åldrar;0,3;0,4;1,2
+Procent;Snusar i tidig graviditet;Halland;­24 år;X;X;1,2
+Procent;Snusar i tidig graviditet;Halland;25­29 år;X;0,6;1,5
+Procent;Snusar i tidig graviditet;Halland;30­34 år;X;X;1,0
+Procent;Snusar i tidig graviditet;Halland;35+ år;X;X;0,9
+Procent;Snusar i tidig graviditet;Västra Götaland;Alla åldrar;0,6;0,7;1,1
+Procent;Snusar i tidig graviditet;Västra Götaland;­24 år;0,7;0,9;1,3
+Procent;Snusar i tidig graviditet;Västra Götaland;25­29 år;0,7;0,9;1,4
+Procent;Snusar i tidig graviditet;Västra Götaland;30­34 år;0,5;0,6;0,9
+Procent;Snusar i tidig graviditet;Västra Götaland;35+ år;0,4;0,7;1,0
+Procent;Snusar i tidig graviditet;Värmland;Alla åldrar;1,3;2,2;1,4
+Procent;Snusar i tidig graviditet;Värmland;­24 år;X;5,0;1,6
+Procent;Snusar i tidig graviditet;Värmland;25­29 år;2,3;1,9;1,8
+Procent;Snusar i tidig graviditet;Värmland;30­34 år;X;1,5;0,9
+Procent;Snusar i tidig graviditet;Värmland;35+ år;X;1,3;1,3
+Procent;Snusar i tidig graviditet;Örebro;Alla åldrar;0,9;1,4;1,6
+Procent;Snusar i tidig graviditet;Örebro;­24 år;1,3;X;1,7
+Procent;Snusar i tidig graviditet;Örebro;25­29 år;0,4;1,9;1,8
+Procent;Snusar i tidig graviditet;Örebro;30­34 år;0,9;1,2;1,3
+Procent;Snusar i tidig graviditet;Örebro;35+ år;1,2;X;1,5
+Procent;Snusar i tidig graviditet;Västmanland;Alla åldrar;1,2;1,3;1,7
+Procent;Snusar i tidig graviditet;Västmanland;­24 år;1,8;2,9;2,3
+Procent;Snusar i tidig graviditet;Västmanland;25­29 år;1,4;1,2;2,1
+Procent;Snusar i tidig graviditet;Västmanland;30­34 år;X;X;1,3
+Procent;Snusar i tidig graviditet;Västmanland;35+ år;X;X;1,0
+Procent;Snusar i tidig graviditet;Dalarna;Alla åldrar;1,8;1,6;1,7
+Procent;Snusar i tidig graviditet;Dalarna;­24 år;2,9;2,1;2,4
+Procent;Snusar i tidig graviditet;Dalarna;25­29 år;1,6;2,0;1,7
+Procent;Snusar i tidig graviditet;Dalarna;30­34 år;1,0;1,1;1,6
+Procent;Snusar i tidig graviditet;Dalarna;35+ år;2,4;1,1;1,3
+Procent;Snusar i tidig graviditet;Gävleborg;Alla åldrar;1,8;1,1;2,3
+Procent;Snusar i tidig graviditet;Gävleborg;­24 år;1,8;1,6;2,7
+Procent;Snusar i tidig graviditet;Gävleborg;25­29 år;1,9;0,6;3,3
+Procent;Snusar i tidig graviditet;Gävleborg;30­34 år;1,7;1,1;1,6
+Procent;Snusar i tidig graviditet;Gävleborg;35+ år;1,7;1,2;0,9
+Procent;Snusar i tidig graviditet;Västernorrland;Alla åldrar;3,4;3,9;4,0
+Procent;Snusar i tidig graviditet;Västernorrland;­24 år;4,9;6,6;5,0
+Procent;Snusar i tidig graviditet;Västernorrland;25­29 år;2,7;3,3;4,5
+Procent;Snusar i tidig graviditet;Västernorrland;30­34 år;2,2;3,2;3,3
+Procent;Snusar i tidig graviditet;Västernorrland;35+ år;4,8;3,3;4,4
+Procent;Snusar i tidig graviditet;Jämtland;Alla åldrar;6,3;5,7;5,1
+Procent;Snusar i tidig graviditet;Jämtland;­24 år;9,6;12,0;9,0
+Procent;Snusar i tidig graviditet;Jämtland;25­29 år;8,3;7,9;6,1
+Procent;Snusar i tidig graviditet;Jämtland;30­34 år;3,5;2,3;2,3
+Procent;Snusar i tidig graviditet;Jämtland;35+ år;4,6;4,4;5,3
+Procent;Snusar i tidig graviditet;Västerbotten;Alla åldrar;5,2;5,2;4,3
+Procent;Snusar i tidig graviditet;Västerbotten;­24 år;6,8;6,9;5,4
+Procent;Snusar i tidig graviditet;Västerbotten;25­29 år;5,3;5,1;4,1
+Procent;Snusar i tidig graviditet;Västerbotten;30­34 år;4,8;4,6;3,6
+Procent;Snusar i tidig graviditet;Västerbotten;35+ år;4,7;5,2;5,4
+Procent;Snusar i tidig graviditet;Norrbotten;Alla åldrar;2,5;3,0;3,5
+Procent;Snusar i tidig graviditet;Norrbotten;­24 år;2,5;6,2;7,0
+Procent;Snusar i tidig graviditet;Norrbotten;25­29 år;2,1;2,9;2,9
+Procent;Snusar i tidig graviditet;Norrbotten;30­34 år;2,4;1,8;2,9
+Procent;Snusar i tidig graviditet;Norrbotten;35+ år;3,5;1,4;1,9
+Procent;Snusar i sen graviditet;Riket;Alla åldrar;0,6;0,6;0,7
+Procent;Snusar i sen graviditet;Riket;­24 år;1,0;1,2;1,0
+Procent;Snusar i sen graviditet;Riket;25­29 år;0,7;0,8;0,8
+Procent;Snusar i sen graviditet;Riket;30­34 år;0,5;0,4;0,5
+Procent;Snusar i sen graviditet;Riket;35+ år;0,6;0,5;0,5
+Procent;Snusar i sen graviditet;Stockholm;Alla åldrar;0,5;0,4;0,2
+Procent;Snusar i sen graviditet;Stockholm;­24 år;0,7;0,9;0,3
+Procent;Snusar i sen graviditet;Stockholm;25­29 år;0,7;0,6;0,4
+Procent;Snusar i sen graviditet;Stockholm;30­34 år;0,4;0,3;0,2
+Procent;Snusar i sen graviditet;Stockholm;35+ år;0,5;0,4;0,2
+Procent;Snusar i sen graviditet;Uppsala;Alla åldrar;0,5;0,7;0,9
+Procent;Snusar i sen graviditet;Uppsala;­24 år;X;1,3;1,3
+Procent;Snusar i sen graviditet;Uppsala;25­29 år;X;1,0;0,9
+Procent;Snusar i sen graviditet;Uppsala;30­34 år;0,5;0,3;0,8
+Procent;Snusar i sen graviditet;Uppsala;35+ år;0,5;0,5;0,7
+Procent;Snusar i sen graviditet;Södermanland;Alla åldrar;0,3;0,3;0,2
+Procent;Snusar i sen graviditet;Södermanland;­24 år;0,0;X;X
+Procent;Snusar i sen graviditet;Södermanland;25­29 år;X;0,4;X
+Procent;Snusar i sen graviditet;Södermanland;30­34 år;X;X;X
+Procent;Snusar i sen graviditet;Södermanland;35+ år;X;X;X
+Procent;Snusar i sen graviditet;Östergötland;Alla åldrar;0,1;0,5;0,5
+Procent;Snusar i sen graviditet;Östergötland;­24 år;X;1,0;0,6
+Procent;Snusar i sen graviditet;Östergötland;25­29 år;X;0,5;0,5
+Procent;Snusar i sen graviditet;Östergötland;30­34 år;0,0;X;0,3
+Procent;Snusar i sen graviditet;Östergötland;35+ år;X;X;0,5
+Procent;Snusar i sen graviditet;Jönköping;Alla åldrar;0,5;0,8;0,8
+Procent;Snusar i sen graviditet;Jönköping;­24 år;0,9;1,4;1,7
+Procent;Snusar i sen graviditet;Jönköping;25­29 år;0,6;1,0;X
+Procent;Snusar i sen graviditet;Jönköping;30­34 år;X;X;0,9
+Procent;Snusar i sen graviditet;Jönköping;35+ år;X;X;X
+Procent;Snusar i sen graviditet;Kronoberg;Alla åldrar;X;0,4;0,4
+Procent;Snusar i sen graviditet;Kronoberg;­24 år;X;X;X
+Procent;Snusar i sen graviditet;Kronoberg;25­29 år;X;X;X
+Procent;Snusar i sen graviditet;Kronoberg;30­34 år;X;0,6;X
+Procent;Snusar i sen graviditet;Kronoberg;35+ år;X;0,0;0,0
+Procent;Snusar i sen graviditet;Kalmar;Alla åldrar;0,5;1,0;0,9
+Procent;Snusar i sen graviditet;Kalmar;­24 år;X;1,4;X
+Procent;Snusar i sen graviditet;Kalmar;25­29 år;X;1,0;1,0
+Procent;Snusar i sen graviditet;Kalmar;30­34 år;X;0,6;0,7
+Procent;Snusar i sen graviditet;Kalmar;35+ år;X;1,1;X
+Procent;Snusar i sen graviditet;Gotland;Alla åldrar;1,5;2,2;2,0
+Procent;Snusar i sen graviditet;Gotland;­24 år;X;7,1;X
+Procent;Snusar i sen graviditet;Gotland;25­29 år;X;X;X
+Procent;Snusar i sen graviditet;Gotland;30­34 år;X;X;0,0
+Procent;Snusar i sen graviditet;Gotland;35+ år;X;0,0;X
+Procent;Snusar i sen graviditet;Blekinge;Alla åldrar;X;0,4;0,4
+Procent;Snusar i sen graviditet;Blekinge;­24 år;X;X;X
+Procent;Snusar i sen graviditet;Blekinge;25­29 år;X;X;X
+Procent;Snusar i sen graviditet;Blekinge;30­34 år;0,0;X;X
+Procent;Snusar i sen graviditet;Blekinge;35+ år;0,0;0,0;X
+Procent;Snusar i sen graviditet;Skåne;Alla åldrar;0,4;0,2;0,1
+Procent;Snusar i sen graviditet;Skåne;­24 år;0,6;0,2;X
+Procent;Snusar i sen graviditet;Skåne;25­29 år;0,3;0,3;0,2
+Procent;Snusar i sen graviditet;Skåne;30­34 år;0,5;0,2;0,2
+Procent;Snusar i sen graviditet;Skåne;35+ år;0,3;0,2;X
+Procent;Snusar i sen graviditet;Halland;Alla åldrar;0,3;0,2;0,6
+Procent;Snusar i sen graviditet;Halland;­24 år;X;0,0;X
+Procent;Snusar i sen graviditet;Halland;25­29 år;X;X;0,5
+Procent;Snusar i sen graviditet;Halland;30­34 år;X;X;0,4
+Procent;Snusar i sen graviditet;Halland;35+ år;0,0;X;X
+Procent;Snusar i sen graviditet;Västra Götaland;Alla åldrar;0,2;0,3;0,5
+Procent;Snusar i sen graviditet;Västra Götaland;­24 år;0,3;0,5;0,6
+Procent;Snusar i sen graviditet;Västra Götaland;25­29 år;0,2;0,4;0,6
+Procent;Snusar i sen graviditet;Västra Götaland;30­34 år;0,1;0,2;0,3
+Procent;Snusar i sen graviditet;Västra Götaland;35+ år;0,1;0,3;0,5
+Procent;Snusar i sen graviditet;Värmland;Alla åldrar;0,7;1,3;0,7
+Procent;Snusar i sen graviditet;Värmland;­24 år;X;2,6;X
+Procent;Snusar i sen graviditet;Värmland;25­29 år;X;1,1;1,0
+Procent;Snusar i sen graviditet;Värmland;30­34 år;X;X;X
+Procent;Snusar i sen graviditet;Värmland;35+ år;X;X;X
+Procent;Snusar i sen graviditet;Örebro;Alla åldrar;0,9;0,6;1,1
+Procent;Snusar i sen graviditet;Örebro;­24 år;0,9;0,7;1,2
+Procent;Snusar i sen graviditet;Örebro;25­29 år;0,8;0,5;0,9
+Procent;Snusar i sen graviditet;Örebro;30­34 år;1,1;0,6;1,0
+Procent;Snusar i sen graviditet;Örebro;35+ år;0,7;0,7;1,2
+Procent;Snusar i sen graviditet;Västmanland;Alla åldrar;0,6;0,7;0,9
+Procent;Snusar i sen graviditet;Västmanland;­24 år;1,6;1,3;1,6
+Procent;Snusar i sen graviditet;Västmanland;25­29 år;X;X;0,9
+Procent;Snusar i sen graviditet;Västmanland;30­34 år;0,0;0,6;0,7
+Procent;Snusar i sen graviditet;Västmanland;35+ år;X;X;0,8
+Procent;Snusar i sen graviditet;Dalarna;Alla åldrar;0,8;0,9;1,4
+Procent;Snusar i sen graviditet;Dalarna;­24 år;X;1,2;1,4
+Procent;Snusar i sen graviditet;Dalarna;25­29 år;0,7;0,6;1,8
+Procent;Snusar i sen graviditet;Dalarna;30­34 år;0,8;0,9;1,1
+Procent;Snusar i sen graviditet;Dalarna;35+ år;X;1,2;1,3
+Procent;Snusar i sen graviditet;Gävleborg;Alla åldrar;0,6;0,5;1,3
+Procent;Snusar i sen graviditet;Gävleborg;­24 år;1,3;0,7;1,9
+Procent;Snusar i sen graviditet;Gävleborg;25­29 år;X;0,5;1,3
+Procent;Snusar i sen graviditet;Gävleborg;30­34 år;X;X;X
+Procent;Snusar i sen graviditet;Gävleborg;35+ år;X;X;X
+Procent;Snusar i sen graviditet;Västernorrland;Alla åldrar;3,1;3,5;3,2
+Procent;Snusar i sen graviditet;Västernorrland;­24 år;4,9;6,7;3,3
+Procent;Snusar i sen graviditet;Västernorrland;25­29 år;2,5;3,1;4,2
+Procent;Snusar i sen graviditet;Västernorrland;30­34 år;2,1;2,3;3,0
+Procent;Snusar i sen graviditet;Västernorrland;35+ år;3,8;3,0;2,5
+Procent;Snusar i sen graviditet;Jämtland;Alla åldrar;5,3;4,1;4,0
+Procent;Snusar i sen graviditet;Jämtland;­24 år;9,8;8,5;8,4
+Procent;Snusar i sen graviditet;Jämtland;25­29 år;5,9;7,7;5,0
+Procent;Snusar i sen graviditet;Jämtland;30­34 år;3,7;X;1,4
+Procent;Snusar i sen graviditet;Jämtland;35+ år;3,5;X;3,6
+Procent;Snusar i sen graviditet;Västerbotten;Alla åldrar;4,2;3,2;3,2
+Procent;Snusar i sen graviditet;Västerbotten;­24 år;5,9;4,8;4,5
+Procent;Snusar i sen graviditet;Västerbotten;25­29 år;4,7;3,4;3,6
+Procent;Snusar i sen graviditet;Västerbotten;30­34 år;3,1;2,5;2,8
+Procent;Snusar i sen graviditet;Västerbotten;35+ år;4,4;2,9;2,7
+Procent;Snusar i sen graviditet;Norrbotten;Alla åldrar;0,9;1,3;1,5
+Procent;Snusar i sen graviditet;Norrbotten;­24 år;X;2,1;1,9
+Procent;Snusar i sen graviditet;Norrbotten;25­29 år;1,4;1,8;1,9
+Procent;Snusar i sen graviditet;Norrbotten;30­34 år;X;X;1,1
+Procent;Snusar i sen graviditet;Norrbotten;35+ år;X;X;1,3
+Procent;Preeklampsi;Riket;Alla åldrar;3,0;2,8;2,8
+Procent;Preeklampsi;Riket;­24 år;3,4;3,4;3,3
+Procent;Preeklampsi;Riket;25­29 år;2,9;2,8;2,7
+Procent;Preeklampsi;Riket;30­34 år;2,7;2,4;2,4
+Procent;Preeklampsi;Riket;35+ år;3,2;2,9;3,2
+Procent;Preeklampsi;Stockholm;Alla åldrar;2,9;2,8;2,9
+Procent;Preeklampsi;Stockholm;­24 år;2,8;3,0;3,6
+Procent;Preeklampsi;Stockholm;25­29 år;2,8;3,0;3,1
+Procent;Preeklampsi;Stockholm;30­34 år;2,8;2,5;2,4
+Procent;Preeklampsi;Stockholm;35+ år;3,3;3,0;3,2
+Procent;Preeklampsi;Uppsala;Alla åldrar;3,0;2,5;3,1
+Procent;Preeklampsi;Uppsala;­24 år;4,4;4,4;2,4
+Procent;Preeklampsi;Uppsala;25­29 år;3,5;2,3;3,6
+Procent;Preeklampsi;Uppsala;30­34 år;2,4;1,5;1,8
+Procent;Preeklampsi;Uppsala;35+ år;2,6;2,9;4,7
+Procent;Preeklampsi;Södermanland;Alla åldrar;3,1;1,9;2,0
+Procent;Preeklampsi;Södermanland;­24 år;2,7;2,7;2,0
+Procent;Preeklampsi;Södermanland;25­29 år;3,5;2,1;1,8
+Procent;Preeklampsi;Södermanland;30­34 år;2,7;1,1;2,5
+Procent;Preeklampsi;Södermanland;35+ år;3,8;2,0;1,6
+Procent;Preeklampsi;Östergötland;Alla åldrar;2,0;2,1;2,0
+Procent;Preeklampsi;Östergötland;­24 år;2,6;1,9;2,4
+Procent;Preeklampsi;Östergötland;25­29 år;1,8;2,3;1,4
+Procent;Preeklampsi;Östergötland;30­34 år;1,9;2,5;1,8
+Procent;Preeklampsi;Östergötland;35+ år;1,9;1,4;2,7
+Procent;Preeklampsi;Jönköping;Alla åldrar;3,5;3,1;2,9
+Procent;Preeklampsi;Jönköping;­24 år;4,3;4,0;3,4
+Procent;Preeklampsi;Jönköping;25­29 år;3,9;3,4;2,7
+Procent;Preeklampsi;Jönköping;30­34 år;2,5;2,8;3,2
+Procent;Preeklampsi;Jönköping;35+ år;3,5;2,3;2,6
+Procent;Preeklampsi;Kronoberg;Alla åldrar;2,5;1,3;3,1
+Procent;Preeklampsi;Kronoberg;­24 år;X;X;4,5
+Procent;Preeklampsi;Kronoberg;25­29 år;2,9;X;3,4
+Procent;Preeklampsi;Kronoberg;30­34 år;X;1,3;2,3
+Procent;Preeklampsi;Kronoberg;35+ år;3,6;X;2,9
+Procent;Preeklampsi;Kalmar;Alla åldrar;3,3;2,4;3,0
+Procent;Preeklampsi;Kalmar;­24 år;5,0;3,6;4,3
+Procent;Preeklampsi;Kalmar;25­29 år;2,5;1,8;2,4
+Procent;Preeklampsi;Kalmar;30­34 år;3,9;2,1;2,9
+Procent;Preeklampsi;Kalmar;35+ år;2,9;3,3;3,7
+Procent;Preeklampsi;Gotland;Alla åldrar;1,4;3,5;3,0
+Procent;Preeklampsi;Gotland;­24 år;X;X;X
+Procent;Preeklampsi;Gotland;25­29 år;X;X;3,3
+Procent;Preeklampsi;Gotland;30­34 år;X;3,6;X
+Procent;Preeklampsi;Gotland;35+ år;X;5,1;3,2
+Procent;Preeklampsi;Blekinge;Alla åldrar;3,9;3,1;3,1
+Procent;Preeklampsi;Blekinge;­24 år;4,2;4,9;2,1
+Procent;Preeklampsi;Blekinge;25­29 år;3,3;3,5;2,2
+Procent;Preeklampsi;Blekinge;30­34 år;3,7;1,9;4,1
+Procent;Preeklampsi;Blekinge;35+ år;4,9;2,2;3,8
+Procent;Preeklampsi;Skåne;Alla åldrar;2,8;2,7;2,4
+Procent;Preeklampsi;Skåne;­24 år;3,0;2,8;3,2
+Procent;Preeklampsi;Skåne;25­29 år;2,6;3,2;2,1
+Procent;Preeklampsi;Skåne;30­34 år;2,6;2,1;2,5
+Procent;Preeklampsi;Skåne;35+ år;3,2;2,9;2,4
+Procent;Preeklampsi;Halland;Alla åldrar;3,4;2,3;2,3
+Procent;Preeklampsi;Halland;­24 år;4,3;3,6;2,9
+Procent;Preeklampsi;Halland;25­29 år;2,9;2,4;2,4
+Procent;Preeklampsi;Halland;30­34 år;3,0;2,3;1,8
+Procent;Preeklampsi;Halland;35+ år;4,3;1,5;2,5
+Procent;Preeklampsi;Västra Götaland;Alla åldrar;2,8;2,7;2,8
+Procent;Preeklampsi;Västra Götaland;­24 år;3,1;2,9;2,7
+Procent;Preeklampsi;Västra Götaland;25­29 år;2,7;2,7;2,7
+Procent;Preeklampsi;Västra Götaland;30­34 år;2,4;2,5;2,5
+Procent;Preeklampsi;Västra Götaland;35+ år;3,4;3,1;3,6
+Procent;Preeklampsi;Värmland;Alla åldrar;3,3;3,8;3,4
+Procent;Preeklampsi;Värmland;­24 år;5,0;4,2;4,6
+Procent;Preeklampsi;Värmland;25­29 år;X;3,5;3,3
+Procent;Preeklampsi;Värmland;30­34 år;3,4;3,4;3,1
+Procent;Preeklampsi;Värmland;35+ år;X;4,5;2,8
+Procent;Preeklampsi;Örebro;Alla åldrar;4,1;4,1;3,4
+Procent;Preeklampsi;Örebro;­24 år;5,2;4,2;4,9
+Procent;Preeklampsi;Örebro;25­29 år;4,5;4,3;3,5
+Procent;Preeklampsi;Örebro;30­34 år;3,4;3,9;2,1
+Procent;Preeklampsi;Örebro;35+ år;3,5;3,7;4,3
+Procent;Preeklampsi;Västmanland;Alla åldrar;2,7;2,3;2,8
+Procent;Preeklampsi;Västmanland;­24 år;2,8;3,5;4,7
+Procent;Preeklampsi;Västmanland;25­29 år;2,0;2,0;2,5
+Procent;Preeklampsi;Västmanland;30­34 år;2,9;1,8;1,8
+Procent;Preeklampsi;Västmanland;35+ år;3,3;2,4;3,3
+Procent;Preeklampsi;Dalarna;Alla åldrar;3,9;4,2;4,3
+Procent;Preeklampsi;Dalarna;­24 år;3,6;6,0;4,3
+Procent;Preeklampsi;Dalarna;25­29 år;4,0;3,5;4,8
+Procent;Preeklampsi;Dalarna;30­34 år;4,1;3,9;3,8
+Procent;Preeklampsi;Dalarna;35+ år;4,1;3,7;3,8
+Procent;Preeklampsi;Gävleborg;Alla åldrar;2,9;3,8;3,4
+Procent;Preeklampsi;Gävleborg;­24 år;3,0;6,2;4,1
+Procent;Preeklampsi;Gävleborg;25­29 år;3,1;3,6;3,7
+Procent;Preeklampsi;Gävleborg;30­34 år;2,7;2,6;3,1
+Procent;Preeklampsi;Gävleborg;35+ år;2,6;3,2;2,7
+Procent;Preeklampsi;Västernorrland;Alla åldrar;2,8;3,3;2,6
+Procent;Preeklampsi;Västernorrland;­24 år;3,5;4,6;3,3
+Procent;Preeklampsi;Västernorrland;25­29 år;2,9;3,2;2,7
+Procent;Preeklampsi;Västernorrland;30­34 år;2,6;3,1;1,9
+Procent;Preeklampsi;Västernorrland;35+ år;2,1;2,3;3,6
+Procent;Preeklampsi;Jämtland;Alla åldrar;4,4;2,9;2,6
+Procent;Preeklampsi;Jämtland;­24 år;7,2;X;X
+Procent;Preeklampsi;Jämtland;25­29 år;5,3;3,7;2,0
+Procent;Preeklampsi;Jämtland;30­34 år;X;2,5;X
+Procent;Preeklampsi;Jämtland;35+ år;X;X;4,5
+Procent;Preeklampsi;Västerbotten;Alla åldrar;2,7;2,7;2,9
+Procent;Preeklampsi;Västerbotten;­24 år;4,6;3,2;4,6
+Procent;Preeklampsi;Västerbotten;25­29 år;2,9;2,3;2,5
+Procent;Preeklampsi;Västerbotten;30­34 år;1,9;3,0;2,4
+Procent;Preeklampsi;Västerbotten;35+ år;2,5;2,3;3,4
+Procent;Preeklampsi;Norrbotten;Alla åldrar;2,7;2,4;3,2
+Procent;Preeklampsi;Norrbotten;­24 år;4,2;3,3;2,6
+Procent;Preeklampsi;Norrbotten;25­29 år;2,3;2,3;3,4
+Procent;Preeklampsi;Norrbotten;30­34 år;2,8;1,4;2,8
+Procent;Preeklampsi;Norrbotten;35+ år;1,8;3,1;3,9
+Procent;Graviditetsdiabetes;Riket;Alla åldrar;1,2;1,1;1,2
+Procent;Graviditetsdiabetes;Riket;­24 år;0,7;0,6;0,7
+Procent;Graviditetsdiabetes;Riket;25­29 år;0,9;0,9;0,9
+Procent;Graviditetsdiabetes;Riket;30­34 år;1,1;1,1;1,2
+Procent;Graviditetsdiabetes;Riket;35+ år;1,9;1,9;1,9
+Procent;Graviditetsdiabetes;Stockholm;Alla åldrar;0,8;0,7;0,7
+Procent;Graviditetsdiabetes;Stockholm;­24 år;0,7;0,4;0,5
+Procent;Graviditetsdiabetes;Stockholm;25­29 år;0,6;0,6;0,5
+Procent;Graviditetsdiabetes;Stockholm;30­34 år;0,7;0,5;0,7
+Procent;Graviditetsdiabetes;Stockholm;35+ år;1,1;1,0;1,0
+Procent;Graviditetsdiabetes;Uppsala;Alla åldrar;1,1;1,2;1,1
+Procent;Graviditetsdiabetes;Uppsala;­24 år;X;X;X
+Procent;Graviditetsdiabetes;Uppsala;25­29 år;X;X;X
+Procent;Graviditetsdiabetes;Uppsala;30­34 år;0,8;1,1;1,5
+Procent;Graviditetsdiabetes;Uppsala;35+ år;2,3;2,2;1,8
+Procent;Graviditetsdiabetes;Södermanland;Alla åldrar;0,9;0,7;1,1
+Procent;Graviditetsdiabetes;Södermanland;­24 år;X;X;0,8
+Procent;Graviditetsdiabetes;Södermanland;25­29 år;X;X;0,7
+Procent;Graviditetsdiabetes;Södermanland;30­34 år;1,3;1,1;1,3
+Procent;Graviditetsdiabetes;Södermanland;35+ år;1,5;1,2;2,2
+Procent;Graviditetsdiabetes;Östergötland;Alla åldrar;1,7;1,0;1,2
+Procent;Graviditetsdiabetes;Östergötland;­24 år;1,4;X;0,7
+Procent;Graviditetsdiabetes;Östergötland;25­29 år;1,2;X;0,9
+Procent;Graviditetsdiabetes;Östergötland;30­34 år;1,3;1,1;1,1
+Procent;Graviditetsdiabetes;Östergötland;35+ år;3,5;1,9;2,3
+Procent;Graviditetsdiabetes;Jönköping;Alla åldrar;2,4;1,6;1,3
+Procent;Graviditetsdiabetes;Jönköping;­24 år;1,2;0,9;X
+Procent;Graviditetsdiabetes;Jönköping;25­29 år;2,2;1,1;X
+Procent;Graviditetsdiabetes;Jönköping;30­34 år;1,8;1,4;1,6
+Procent;Graviditetsdiabetes;Jönköping;35+ år;5,0;3,8;2,7
+Procent;Graviditetsdiabetes;Kronoberg;Alla åldrar;1,7;0,3;1,0
+Procent;Graviditetsdiabetes;Kronoberg;­24 år;X;X;X
+Procent;Graviditetsdiabetes;Kronoberg;25­29 år;X;X;X
+Procent;Graviditetsdiabetes;Kronoberg;30­34 år;1,8;X;1,2
+Procent;Graviditetsdiabetes;Kronoberg;35+ år;3,1;X;1,9
+Procent;Graviditetsdiabetes;Kalmar;Alla åldrar;1,1;1,1;0,9
+Procent;Graviditetsdiabetes;Kalmar;­24 år;X;X;X
+Procent;Graviditetsdiabetes;Kalmar;25­29 år;X;0,9;1,1
+Procent;Graviditetsdiabetes;Kalmar;30­34 år;1,4;X;X
+Procent;Graviditetsdiabetes;Kalmar;35+ år;1,5;3,0;1,6
+Procent;Graviditetsdiabetes;Gotland;Alla åldrar;1,6;1,7;1,9
+Procent;Graviditetsdiabetes;Gotland;­24 år;0,0;0,0;X
+Procent;Graviditetsdiabetes;Gotland;25­29 år;X;X;X
+Procent;Graviditetsdiabetes;Gotland;30­34 år;X;X;X
+Procent;Graviditetsdiabetes;Gotland;35+ år;3,6;X;3,2
+Procent;Graviditetsdiabetes;Blekinge;Alla åldrar;1,6;2,0;2,0
+Procent;Graviditetsdiabetes;Blekinge;­24 år;X;X;X
+Procent;Graviditetsdiabetes;Blekinge;25­29 år;1,5;2,1;X
+Procent;Graviditetsdiabetes;Blekinge;30­34 år;1,7;2,4;2,3
+Procent;Graviditetsdiabetes;Blekinge;35+ år;X;X;4,2
+Procent;Graviditetsdiabetes;Skåne;Alla åldrar;2,2;2,7;2,6
+Procent;Graviditetsdiabetes;Skåne;­24 år;1,2;1,2;1,2
+Procent;Graviditetsdiabetes;Skåne;25­29 år;1,8;2,1;1,8
+Procent;Graviditetsdiabetes;Skåne;30­34 år;2,2;3,0;2,8
+Procent;Graviditetsdiabetes;Skåne;35+ år;3,7;4,3;4,2
+Procent;Graviditetsdiabetes;Halland;Alla åldrar;0,9;0,7;1,0
+Procent;Graviditetsdiabetes;Halland;­24 år;1,0;X;0,0
+Procent;Graviditetsdiabetes;Halland;25­29 år;0,7;X;1,1
+Procent;Graviditetsdiabetes;Halland;30­34 år;0,7;0,6;1,0
+Procent;Graviditetsdiabetes;Halland;35+ år;1,4;1,3;1,7
+Procent;Graviditetsdiabetes;Västra Götaland;Alla åldrar;0,9;0,8;0,7
+Procent;Graviditetsdiabetes;Västra Götaland;­24 år;0,4;0,5;0,5
+Procent;Graviditetsdiabetes;Västra Götaland;25­29 år;0,6;0,5;0,6
+Procent;Graviditetsdiabetes;Västra Götaland;30­34 år;0,8;0,8;0,6
+Procent;Graviditetsdiabetes;Västra Götaland;35+ år;1,7;1,5;1,1
+Procent;Graviditetsdiabetes;Värmland;Alla åldrar;1,0;1,2;1,0
+Procent;Graviditetsdiabetes;Värmland;­24 år;0,8;1,1;X
+Procent;Graviditetsdiabetes;Värmland;25­29 år;0,6;1,0;X
+Procent;Graviditetsdiabetes;Värmland;30­34 år;1,3;0,8;0,9
+Procent;Graviditetsdiabetes;Värmland;35+ år;1,1;2,7;1,7
+Procent;Graviditetsdiabetes;Örebro;Alla åldrar;0,8;1,4;1,3
+Procent;Graviditetsdiabetes;Örebro;­24 år;0,9;0,7;0,9
+Procent;Graviditetsdiabetes;Örebro;25­29 år;0,6;0,8;0,7
+Procent;Graviditetsdiabetes;Örebro;30­34 år;1,0;1,5;1,7
+Procent;Graviditetsdiabetes;Örebro;35+ år;0,8;2,9;2,2
+Procent;Graviditetsdiabetes;Västmanland;Alla åldrar;0,9;0,7;1,6
+Procent;Graviditetsdiabetes;Västmanland;­24 år;X;X;0,9
+Procent;Graviditetsdiabetes;Västmanland;25­29 år;0,9;X;1,3
+Procent;Graviditetsdiabetes;Västmanland;30­34 år;1,0;0,7;1,5
+Procent;Graviditetsdiabetes;Västmanland;35+ år;X;1,2;3,4
+Procent;Graviditetsdiabetes;Dalarna;Alla åldrar;0,9;1,7;2,4
+Procent;Graviditetsdiabetes;Dalarna;­24 år;X;1,4;1,8
+Procent;Graviditetsdiabetes;Dalarna;25­29 år;X;1,3;1,7
+Procent;Graviditetsdiabetes;Dalarna;30­34 år;1,4;1,7;2,7
+Procent;Graviditetsdiabetes;Dalarna;35+ år;1,6;2,9;4,4
+Procent;Graviditetsdiabetes;Gävleborg;Alla åldrar;0,4;0,6;0,8
+Procent;Graviditetsdiabetes;Gävleborg;­24 år;X;X;X
+Procent;Graviditetsdiabetes;Gävleborg;25­29 år;0,4;0,7;X
+Procent;Graviditetsdiabetes;Gävleborg;30­34 år;X;X;0,7
+Procent;Graviditetsdiabetes;Gävleborg;35+ år;0,7;0,9;2,0
+Procent;Graviditetsdiabetes;Västernorrland;Alla åldrar;0,9;0,7;0,8
+Procent;Graviditetsdiabetes;Västernorrland;­24 år;X;X;X
+Procent;Graviditetsdiabetes;Västernorrland;25­29 år;0,7;0,8;0,7
+Procent;Graviditetsdiabetes;Västernorrland;30­34 år;1,1;X;0,8
+Procent;Graviditetsdiabetes;Västernorrland;35+ år;X;1,4;X
+Procent;Graviditetsdiabetes;Jämtland;Alla åldrar;1,2;0,9;0,8
+Procent;Graviditetsdiabetes;Jämtland;­24 år;0,0;0,0;X
+Procent;Graviditetsdiabetes;Jämtland;25­29 år;X;X;X
+Procent;Graviditetsdiabetes;Jämtland;30­34 år;1,7;1,2;1,0
+Procent;Graviditetsdiabetes;Jämtland;35+ år;X;X;X
+Procent;Graviditetsdiabetes;Västerbotten;Alla åldrar;0,3;0,4;0,5
+Procent;Graviditetsdiabetes;Västerbotten;­24 år;0,0;X;X
+Procent;Graviditetsdiabetes;Västerbotten;25­29 år;X;X;X
+Procent;Graviditetsdiabetes;Västerbotten;30­34 år;X;X;0,7
+Procent;Graviditetsdiabetes;Västerbotten;35+ år;0,7;1,1;X
+Procent;Graviditetsdiabetes;Norrbotten;Alla åldrar;1,3;1,1;1,2
+Procent;Graviditetsdiabetes;Norrbotten;­24 år;X;0,8;0,9
+Procent;Graviditetsdiabetes;Norrbotten;25­29 år;1,1;0,8;0,6
+Procent;Graviditetsdiabetes;Norrbotten;30­34 år;X;1,7;0,7
+Procent;Graviditetsdiabetes;Norrbotten;35+ år;2,9;1,3;3,4
+Medelvärde;Medelålder;Riket;Alla åldrar;30,3;30,3;30,3
+Medelvärde;Medelålder;Riket;­24 år;22,1;22,2;22,3
+Medelvärde;Medelålder;Riket;25­29 år;27,2;27,2;27,2
+Medelvärde;Medelålder;Riket;30­34 år;31,9;31,9;31,9
+Medelvärde;Medelålder;Riket;35+ år;37,5;37,5;37,6
+Medelvärde;Medelålder;Stockholm;Alla åldrar;31,6;31,6;31,6
+Medelvärde;Medelålder;Stockholm;­24 år;22,3;22,2;22,3
+Medelvärde;Medelålder;Stockholm;25­29 år;27,3;27,3;27,3
+Medelvärde;Medelålder;Stockholm;30­34 år;32,0;32,0;32,0
+Medelvärde;Medelålder;Stockholm;35+ år;37,6;37,7;37,7
+Medelvärde;Medelålder;Uppsala;Alla åldrar;30,6;30,5;30,3
+Medelvärde;Medelålder;Uppsala;­24 år;22,3;22,3;22,3
+Medelvärde;Medelålder;Uppsala;25­29 år;27,2;27,2;27,1
+Medelvärde;Medelålder;Uppsala;30­34 år;31,8;31,8;31,9
+Medelvärde;Medelålder;Uppsala;35+ år;37,5;37,7;37,5
+Medelvärde;Medelålder;Södermanland;Alla åldrar;29,4;29,4;29,3
+Medelvärde;Medelålder;Södermanland;­24 år;21,9;22,1;22,2
+Medelvärde;Medelålder;Södermanland;25­29 år;27,0;27,1;27,0
+Medelvärde;Medelålder;Södermanland;30­34 år;31,8;31,8;31,8
+Medelvärde;Medelålder;Södermanland;35+ år;37,6;37,5;37,6
+Medelvärde;Medelålder;Östergötland;Alla åldrar;29,7;29,8;29,6
+Medelvärde;Medelålder;Östergötland;­24 år;21,9;22,1;22,2
+Medelvärde;Medelålder;Östergötland;25­29 år;27,2;27,2;27,1
+Medelvärde;Medelålder;Östergötland;30­34 år;31,9;31,9;31,8
+Medelvärde;Medelålder;Östergötland;35+ år;37,3;37,4;37,6
+Medelvärde;Medelålder;Jönköping;Alla åldrar;29,5;29,5;29,5
+Medelvärde;Medelålder;Jönköping;­24 år;22,1;22,3;22,3
+Medelvärde;Medelålder;Jönköping;25­29 år;27,1;27,1;27,1
+Medelvärde;Medelålder;Jönköping;30­34 år;31,9;31,8;31,8
+Medelvärde;Medelålder;Jönköping;35+ år;37,5;37,3;37,3
+Medelvärde;Medelålder;Kronoberg;Alla åldrar;29,6;29,7;29,7
+Medelvärde;Medelålder;Kronoberg;­24 år;21,9;22,2;22,1
+Medelvärde;Medelålder;Kronoberg;25­29 år;27,1;27,2;27,2
+Medelvärde;Medelålder;Kronoberg;30­34 år;31,8;31,9;31,9
+Medelvärde;Medelålder;Kronoberg;35+ år;37,2;37,4;37,4
+Medelvärde;Medelålder;Kalmar;Alla åldrar;29,5;29,3;29,4
+Medelvärde;Medelålder;Kalmar;­24 år;22,0;22,4;22,3
+Medelvärde;Medelålder;Kalmar;25­29 år;27,1;27,0;27,1
+Medelvärde;Medelålder;Kalmar;30­34 år;31,8;31,8;31,8
+Medelvärde;Medelålder;Kalmar;35+ år;37,4;37,6;37,6
+Medelvärde;Medelålder;Gotland;Alla åldrar;30,1;29,9;30,4
+Medelvärde;Medelålder;Gotland;­24 år;22,2;22,1;22,5
+Medelvärde;Medelålder;Gotland;25­29 år;27,0;27,0;27,0
+Medelvärde;Medelålder;Gotland;30­34 år;32,0;32,1;31,8
+Medelvärde;Medelålder;Gotland;35+ år;37,5;37,3;37,5
+Medelvärde;Medelålder;Blekinge;Alla åldrar;29,2;29,3;29,4
+Medelvärde;Medelålder;Blekinge;­24 år;22,3;22,1;22,1
+Medelvärde;Medelålder;Blekinge;25­29 år;27,0;27,0;27,0
+Medelvärde;Medelålder;Blekinge;30­34 år;31,7;32,0;31,9
+Medelvärde;Medelålder;Blekinge;35+ år;37,4;37,1;37,2
+Medelvärde;Medelålder;Skåne;Alla åldrar;30,2;30,1;30,3
+Medelvärde;Medelålder;Skåne;­24 år;22,1;22,1;22,3
+Medelvärde;Medelålder;Skåne;25­29 år;27,2;27,1;27,2
+Medelvärde;Medelålder;Skåne;30­34 år;31,9;31,9;31,9
+Medelvärde;Medelålder;Skåne;35+ år;37,5;37,4;37,4
+Medelvärde;Medelålder;Halland;Alla åldrar;30,4;30,3;30,3
+Medelvärde;Medelålder;Halland;­24 år;22,2;22,4;22,3
+Medelvärde;Medelålder;Halland;25­29 år;27,2;27,2;27,2
+Medelvärde;Medelålder;Halland;30­34 år;31,8;31,9;31,9
+Medelvärde;Medelålder;Halland;35+ år;37,5;37,4;37,3
+Medelvärde;Medelålder;Västra Götaland;Alla åldrar;30,2;30,2;30,2
+Medelvärde;Medelålder;Västra Götaland;­24 år;22,2;22,2;22,3
+Medelvärde;Medelålder;Västra Götaland;25­29 år;27,2;27,2;27,2
+Medelvärde;Medelålder;Västra Götaland;30­34 år;31,9;31,9;31,9
+Medelvärde;Medelålder;Västra Götaland;35+ år;37,5;37,4;37,5
+Medelvärde;Medelålder;Värmland;Alla åldrar;29,8;29,4;29,5
+Medelvärde;Medelålder;Värmland;­24 år;21,9;22,0;22,2
+Medelvärde;Medelålder;Värmland;25­29 år;27,1;27,1;27,0
+Medelvärde;Medelålder;Värmland;30­34 år;31,8;31,9;31,8
+Medelvärde;Medelålder;Värmland;35+ år;37,8;37,7;37,7
+Medelvärde;Medelålder;Örebro;Alla åldrar;29,5;29,6;29,7
+Medelvärde;Medelålder;Örebro;­24 år;22,2;22,2;22,3
+Medelvärde;Medelålder;Örebro;25­29 år;27,2;27,2;27,2
+Medelvärde;Medelålder;Örebro;30­34 år;31,8;31,8;31,9
+Medelvärde;Medelålder;Örebro;35+ år;37,3;37,6;37,5
+Medelvärde;Medelålder;Västmanland;Alla åldrar;29,4;29,6;29,4
+Medelvärde;Medelålder;Västmanland;­24 år;22,1;22,2;22,2
+Medelvärde;Medelålder;Västmanland;25­29 år;27,1;27,1;27,0
+Medelvärde;Medelålder;Västmanland;30­34 år;31,8;31,9;31,8
+Medelvärde;Medelålder;Västmanland;35+ år;37,7;37,6;37,5
+Medelvärde;Medelålder;Dalarna;Alla åldrar;29,4;29,3;29,4
+Medelvärde;Medelålder;Dalarna;­24 år;22,0;22,1;22,2
+Medelvärde;Medelålder;Dalarna;25­29 år;27,1;27,1;27,1
+Medelvärde;Medelålder;Dalarna;30­34 år;31,9;31,8;31,9
+Medelvärde;Medelålder;Dalarna;35+ år;37,5;37,5;37,6
+Medelvärde;Medelålder;Gävleborg;Alla åldrar;29,2;29,4;29,2
+Medelvärde;Medelålder;Gävleborg;­24 år;21,9;21,9;22,0
+Medelvärde;Medelålder;Gävleborg;25­29 år;27,1;27,1;27,1
+Medelvärde;Medelålder;Gävleborg;30­34 år;31,8;31,9;31,9
+Medelvärde;Medelålder;Gävleborg;35+ år;37,7;37,7;37,6
+Medelvärde;Medelålder;Västernorrland;Alla åldrar;29,4;29,5;29,7
+Medelvärde;Medelålder;Västernorrland;­24 år;22,1;22,1;22,3
+Medelvärde;Medelålder;Västernorrland;25­29 år;27,1;27,1;27,1
+Medelvärde;Medelålder;Västernorrland;30­34 år;31,9;31,8;31,9
+Medelvärde;Medelålder;Västernorrland;35+ år;37,4;37,3;37,5
+Medelvärde;Medelålder;Jämtland;Alla åldrar;30,1;30,4;30,0
+Medelvärde;Medelålder;Jämtland;­24 år;22,0;22,2;22,2
+Medelvärde;Medelålder;Jämtland;25­29 år;27,1;27,0;27,1
+Medelvärde;Medelålder;Jämtland;30­34 år;31,9;31,9;31,8
+Medelvärde;Medelålder;Jämtland;35+ år;37,4;37,6;37,6
+Medelvärde;Medelålder;Västerbotten;Alla åldrar;29,9;30,0;29,9
+Medelvärde;Medelålder;Västerbotten;­24 år;22,1;22,2;22,4
+Medelvärde;Medelålder;Västerbotten;25­29 år;27,1;27,3;27,2
+Medelvärde;Medelålder;Västerbotten;30­34 år;31,9;31,8;31,8
+Medelvärde;Medelålder;Västerbotten;35+ år;37,2;37,3;37,4
+Medelvärde;Medelålder;Norrbotten;Alla åldrar;29,3;29,3;29,5
+Medelvärde;Medelålder;Norrbotten;­24 år;22,1;22,1;22,3
+Medelvärde;Medelålder;Norrbotten;25­29 år;27,0;27,0;27,0
+Medelvärde;Medelålder;Norrbotten;30­34 år;31,8;31,9;31,9
+Medelvärde;Medelålder;Norrbotten;35+ år;37,7;37,6;37,9
+Medelvärde;BMI medelvärde;Riket;Alla åldrar;24,8;24,8;24,8
+Medelvärde;BMI medelvärde;Riket;­24 år;24,7;24,6;24,7
+Medelvärde;BMI medelvärde;Riket;25­29 år;24,7;24,8;24,7
+Medelvärde;BMI medelvärde;Riket;30­34 år;24,6;24,6;24,5
+Medelvärde;BMI medelvärde;Riket;35+ år;25,3;25,2;25,2
+Medelvärde;BMI medelvärde;Stockholm;Alla åldrar;24,0;24,1;24,0
+Medelvärde;BMI medelvärde;Stockholm;­24 år;23,9;24,1;24,0
+Medelvärde;BMI medelvärde;Stockholm;25­29 år;24,1;24,1;24,2
+Medelvärde;BMI medelvärde;Stockholm;30­34 år;23,8;23,8;23,7
+Medelvärde;BMI medelvärde;Stockholm;35+ år;24,4;24,4;24,3
+Medelvärde;BMI medelvärde;Uppsala;Alla åldrar;24,9;24,9;24,9
+Medelvärde;BMI medelvärde;Uppsala;­24 år;24,9;24,7;24,7
+Medelvärde;BMI medelvärde;Uppsala;25­29 år;24,8;24,9;24,8
+Medelvärde;BMI medelvärde;Uppsala;30­34 år;24,7;24,7;24,6
+Medelvärde;BMI medelvärde;Uppsala;35+ år;25,2;25,4;25,6
+Medelvärde;BMI medelvärde;Södermanland;Alla åldrar;25,6;25,7;25,6
+Medelvärde;BMI medelvärde;Södermanland;­24 år;24,9;24,9;24,8
+Medelvärde;BMI medelvärde;Södermanland;25­29 år;25,6;25,4;25,6
+Medelvärde;BMI medelvärde;Södermanland;30­34 år;25,4;25,8;25,5
+Medelvärde;BMI medelvärde;Södermanland;35+ år;26,8;26,9;26,7
+Medelvärde;BMI medelvärde;Östergötland;Alla åldrar;25,4;25,3;25,1
+Medelvärde;BMI medelvärde;Östergötland;­24 år;25,1;24,9;24,9
+Medelvärde;BMI medelvärde;Östergötland;25­29 år;25,2;25,2;24,8
+Medelvärde;BMI medelvärde;Östergötland;30­34 år;25,3;25,1;24,8
+Medelvärde;BMI medelvärde;Östergötland;35+ år;26,3;25,9;26,1
+Medelvärde;BMI medelvärde;Jönköping;Alla åldrar;25,2;25,1;25,1
+Medelvärde;BMI medelvärde;Jönköping;­24 år;24,9;24,6;24,6
+Medelvärde;BMI medelvärde;Jönköping;25­29 år;25,1;24,9;25,0
+Medelvärde;BMI medelvärde;Jönköping;30­34 år;25,0;25,1;25,2
+Medelvärde;BMI medelvärde;Jönköping;35+ år;26,3;26,1;25,8
+Medelvärde;BMI medelvärde;Kronoberg;Alla åldrar;25,1;25,1;25,1
+Medelvärde;BMI medelvärde;Kronoberg;­24 år;24,9;24,8;24,5
+Medelvärde;BMI medelvärde;Kronoberg;25­29 år;24,8;24,9;25,0
+Medelvärde;BMI medelvärde;Kronoberg;30­34 år;24,9;25,1;25,2
+Medelvärde;BMI medelvärde;Kronoberg;35+ år;26,4;25,9;25,7
+Medelvärde;BMI medelvärde;Kalmar;Alla åldrar;25,1;25,0;25,2
+Medelvärde;BMI medelvärde;Kalmar;­24 år;24,7;24,7;24,8
+Medelvärde;BMI medelvärde;Kalmar;25­29 år;24,9;24,8;25,0
+Medelvärde;BMI medelvärde;Kalmar;30­34 år;25,1;24,8;25,1
+Medelvärde;BMI medelvärde;Kalmar;35+ år;26,0;25,8;25,7
+Medelvärde;BMI medelvärde;Gotland;Alla åldrar;25,3;25,2;25,3
+Medelvärde;BMI medelvärde;Gotland;­24 år;24,2;25,6;25,7
+Medelvärde;BMI medelvärde;Gotland;25­29 år;25,1;24,8;25,2
+Medelvärde;BMI medelvärde;Gotland;30­34 år;25,0;24,4;25,1
+Medelvärde;BMI medelvärde;Gotland;35+ år;26,6;26,4;25,6
+Medelvärde;BMI medelvärde;Blekinge;Alla åldrar;25,4;25,6;25,6
+Medelvärde;BMI medelvärde;Blekinge;­24 år;24,7;25,0;25,4
+Medelvärde;BMI medelvärde;Blekinge;25­29 år;25,2;25,4;25,4
+Medelvärde;BMI medelvärde;Blekinge;30­34 år;25,5;25,7;25,4
+Medelvärde;BMI medelvärde;Blekinge;35+ år;26,5;26,3;26,6
+Medelvärde;BMI medelvärde;Skåne;Alla åldrar;24,9;24,7;24,8
+Medelvärde;BMI medelvärde;Skåne;­24 år;24,6;24,4;24,5
+Medelvärde;BMI medelvärde;Skåne;25­29 år;24,8;24,8;24,6
+Medelvärde;BMI medelvärde;Skåne;30­34 år;24,7;24,5;24,7
+Medelvärde;BMI medelvärde;Skåne;35+ år;25,4;25,3;25,3
+Medelvärde;BMI medelvärde;Halland;Alla åldrar;24,8;24,8;24,7
+Medelvärde;BMI medelvärde;Halland;­24 år;24,8;24,6;24,7
+Medelvärde;BMI medelvärde;Halland;25­29 år;24,6;24,6;24,5
+Medelvärde;BMI medelvärde;Halland;30­34 år;24,5;24,7;24,6
+Medelvärde;BMI medelvärde;Halland;35+ år;25,4;25,3;25,2
+Medelvärde;BMI medelvärde;Västra Götaland;Alla åldrar;24,7;24,8;24,8
+Medelvärde;BMI medelvärde;Västra Götaland;­24 år;24,6;24,7;24,8
+Medelvärde;BMI medelvärde;Västra Götaland;25­29 år;24,6;24,7;24,7
+Medelvärde;BMI medelvärde;Västra Götaland;30­34 år;24,5;24,6;24,5
+Medelvärde;BMI medelvärde;Västra Götaland;35+ år;25,3;25,3;25,3
+Medelvärde;BMI medelvärde;Värmland;Alla åldrar;25,6;25,3;25,3
+Medelvärde;BMI medelvärde;Värmland;­24 år;25,6;24,7;24,7
+Medelvärde;BMI medelvärde;Värmland;25­29 år;24,9;25,1;24,9
+Medelvärde;BMI medelvärde;Värmland;30­34 år;25,6;25,1;25,5
+Medelvärde;BMI medelvärde;Värmland;35+ år;26,4;26,3;25,9
+Medelvärde;BMI medelvärde;Örebro;Alla åldrar;25,3;25,2;25,2
+Medelvärde;BMI medelvärde;Örebro;­24 år;25,0;24,9;25,3
+Medelvärde;BMI medelvärde;Örebro;25­29 år;24,9;25,2;24,7
+Medelvärde;BMI medelvärde;Örebro;30­34 år;25,2;25,1;25,1
+Medelvärde;BMI medelvärde;Örebro;35+ år;26,1;25,9;26,2
+Medelvärde;BMI medelvärde;Västmanland;Alla åldrar;25,3;25,3;25,3
+Medelvärde;BMI medelvärde;Västmanland;­24 år;25,2;24,9;24,8
+Medelvärde;BMI medelvärde;Västmanland;25­29 år;25,1;25,1;25,1
+Medelvärde;BMI medelvärde;Västmanland;30­34 år;25,2;25,3;25,2
+Medelvärde;BMI medelvärde;Västmanland;35+ år;26,0;25,9;26,3
+Medelvärde;BMI medelvärde;Dalarna;Alla åldrar;25,8;25,6;25,5
+Medelvärde;BMI medelvärde;Dalarna;­24 år;25,3;25,1;25,1
+Medelvärde;BMI medelvärde;Dalarna;25­29 år;25,5;25,4;25,4
+Medelvärde;BMI medelvärde;Dalarna;30­34 år;25,8;25,8;25,2
+Medelvärde;BMI medelvärde;Dalarna;35+ år;26,7;26,3;26,5
+Medelvärde;BMI medelvärde;Gävleborg;Alla åldrar;25,7;25,7;25,6
+Medelvärde;BMI medelvärde;Gävleborg;­24 år;25,2;25,2;25,1
+Medelvärde;BMI medelvärde;Gävleborg;25­29 år;25,5;25,5;25,5
+Medelvärde;BMI medelvärde;Gävleborg;30­34 år;25,6;25,7;25,6
+Medelvärde;BMI medelvärde;Gävleborg;35+ år;26,7;26,6;26,4
+Medelvärde;BMI medelvärde;Västernorrland;Alla åldrar;25,7;25,6;25,5
+Medelvärde;BMI medelvärde;Västernorrland;­24 år;25,3;25,0;25,3
+Medelvärde;BMI medelvärde;Västernorrland;25­29 år;25,3;25,4;25,3
+Medelvärde;BMI medelvärde;Västernorrland;30­34 år;25,9;25,6;25,4
+Medelvärde;BMI medelvärde;Västernorrland;35+ år;26,4;26,2;26,4
+Medelvärde;BMI medelvärde;Jämtland;Alla åldrar;25,2;25,3;25,1
+Medelvärde;BMI medelvärde;Jämtland;­24 år;24,8;24,6;24,9
+Medelvärde;BMI medelvärde;Jämtland;25­29 år;25,7;25,3;24,8
+Medelvärde;BMI medelvärde;Jämtland;30­34 år;24,6;25,2;25,1
+Medelvärde;BMI medelvärde;Jämtland;35+ år;25,7;26,0;25,5
+Medelvärde;BMI medelvärde;Västerbotten;Alla åldrar;24,7;24,9;24,8
+Medelvärde;BMI medelvärde;Västerbotten;­24 år;24,7;25,1;24,7
+Medelvärde;BMI medelvärde;Västerbotten;25­29 år;24,2;24,5;24,3
+Medelvärde;BMI medelvärde;Västerbotten;30­34 år;24,6;24,8;24,8
+Medelvärde;BMI medelvärde;Västerbotten;35+ år;25,5;25,8;25,5
+Medelvärde;BMI medelvärde;Norrbotten;Alla åldrar;25,2;25,3;25,2
+Medelvärde;BMI medelvärde;Norrbotten;­24 år;24,5;24,7;24,4
+Medelvärde;BMI medelvärde;Norrbotten;25­29 år;25,1;25,0;25,0
+Medelvärde;BMI medelvärde;Norrbotten;30­34 år;25,3;25,4;25,1
+Medelvärde;BMI medelvärde;Norrbotten;35+ år;26,2;26,1;26,7
+Socialstyrelsens statistikdatabas 2016-10-17
