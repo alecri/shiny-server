@@ -120,6 +120,12 @@ shinyServer(function(input, output, session) {
       }
    })
    
+   ## Output Data Panel
+   output$datap <- renderDataTable({
+     if (input$type == "") return(data.frame(dataset()))
+     data.frame(data())
+   })
+   
    ## Defaults value for knots 
    valuesKnots <- reactive({
       round(quantile(data()$x, 1:input$k/(input$k + 1), na.rm = T), 2)
@@ -456,11 +462,6 @@ shinyServer(function(input, output, session) {
    ## --------------------------------------------------------------------------
    ## Rendering output
    
-   ## Output Data Panel
-   output$data <- renderDataTable({
-      if (input$type == "") return(dataset())
-      data()
-   })
    
    ## Output summary models
    output$mod_categorical_text <- renderPrint({
