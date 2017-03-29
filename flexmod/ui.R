@@ -1,3 +1,6 @@
+library(shiny)
+library(DT)
+
 shinyUI(navbarPage(
    "Flexible modeling",
 
