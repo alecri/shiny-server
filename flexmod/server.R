@@ -125,6 +125,9 @@ shinyServer(function(input, output, session) {
      if (input$type == "") return(data.frame(dataset()))
      data.frame(data())
    })
+   output$datatab <- renderTable({
+     data()
+   })
    
    ## Defaults value for knots 
    valuesKnots <- reactive({
