@@ -122,7 +122,7 @@ shinyServer(function(input, output, session) {
    
    ## Output Data Panel
    output$datap <- renderDataTable({
-     if (input$type == "") return(data.frame(dataset()))
+     #if (input$type == "") return(data.frame(dataset()))
      data.frame(data())
    })
    
