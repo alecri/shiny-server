@@ -98,7 +98,7 @@ shinyServer(function(input, output, session) {
    
    ## Formatting data: need to be fixed
    ## can't access multiple elements of input
-   data <- reactive({
+   datap <- reactive({
       if (input$outcome == "" | input$exposure == ""){
          return(dataset())
       } else {
@@ -123,15 +123,15 @@ shinyServer(function(input, output, session) {
    ## Output Data Panel
    output$datap <- renderDataTable({
      if (input$type == "") return(data.frame(dataset()))
-     data.frame(data())
+     data.frame(datap())
    })
    output$datatab <- renderTable({
-     data()
+     datap()
    })
    
    ## Defaults value for knots 
    valuesKnots <- reactive({
-      round(quantile(data()$x, 1:input$k/(input$k + 1), na.rm = T), 2)
+      round(quantile(datap()$x, 1:input$k/(input$k + 1), na.rm = T), 2)
    })
 
    ## knots input
@@ -154,9 +154,9 @@ shinyServer(function(input, output, session) {
          xvalue_pred <- if (length(xpred) > 1L)
             xpred
          else
-            seq(min(data()$x, na.rm = T), max(data()$x, na.rm = T), length.out = 10)
+            seq(min(datap()$x, na.rm = T), max(datap()$x, na.rm = T), length.out = 10)
       } else {
-         xvalue_pred <- seq(min(data()$x, na.rm = T), max(data()$x, na.rm = T), length.out = 10)
+         xvalue_pred <- seq(min(datap()$x, na.rm = T), max(datap()$x, na.rm = T), length.out = 10)
       }
       xvalue_pred
    })
@@ -173,14 +173,14 @@ shinyServer(function(input, output, session) {
       else
          NA
       lapply(1:input$k, function(i){
-         vali <- if (!is.na(kloc[i]) & kloc[i] >= round(min(data()$x, na.rm = T), 2) &
-                     kloc[i] <= round(max(data()$x, na.rm = T), 2)){
+         vali <- if (!is.na(kloc[i]) & kloc[i] >= round(min(datap()$x, na.rm = T), 2) &
+                     kloc[i] <= round(max(datap()$x, na.rm = T), 2)){
             kloc[i]
          } else {
             valuesKnots()[i]
          }
-         sliderInput(eval(paste0('k', i)), label = NULL, min = round(min(data()$x, na.rm = T), 2), 
-                     max = round(max(data()$x, na.rm = T), 2), value = vali, step = .01,
+         sliderInput(eval(paste0('k', i)), label = NULL, min = round(min(datap()$x, na.rm = T), 2), 
+                     max = round(max(datap()$x, na.rm = T), 2), value = vali, step = .01,
                      sep = "", round = 2)
       })
    })
@@ -188,8 +188,8 @@ shinyServer(function(input, output, session) {
    ## X-range
    output$x_range <- renderUI({
       if (is.null(input$exposure))  return(NULL)
-      xmin <- round(min(data()$x, na.rm = T), 2)
-      xmax <- round(max(data()$x, na.rm = T), 2)
+      xmin <- round(min(datap()$x, na.rm = T), 2)
+      xmax <- round(max(datap()$x, na.rm = T), 2)
       sliderInput("xrange", "X-Range:", min = xmin, max = xmax,
                   step = (xmax - xmin)/99, value = c(xmin, xmax), round = 2, sep = "")
    })
@@ -197,15 +197,15 @@ shinyServer(function(input, output, session) {
    ## Slider for referent value
    output$ref_slider <- renderUI({
       if (is.null(input$exposure))  return(NULL)
-      xmin <- round(min(data()$x, na.rm = T), 2)
-      xmax <- round(max(data()$x, na.rm = T), 2)
+      xmin <- round(min(datap()$x, na.rm = T), 2)
+      xmax <- round(max(datap()$x, na.rm = T), 2)
       ref <- if (input$xrefloc != ""){
          if (as.numeric(input$xrefloc) >= xmin & 
              as.numeric(input$xrefloc) <= xmax)
             as.numeric(input$xrefloc)
-         else quantile(data()$x, .5, na.rm = T)
+         else quantile(datap()$x, .5, na.rm = T)
       } else
-         quantile(data()$x, .5, na.rm = T)
+         quantile(datap()$x, .5, na.rm = T)
       sliderInput("xref", strong("Referent value"), min = xmin, max = xmax, 
                   value = round(ref, 2), step = .01, sep = "", round = 2)
    })
@@ -260,7 +260,7 @@ shinyServer(function(input, output, session) {
    ## binwidth
    output$binwidth <- renderUI({
       if (is.null(input$exposure))  return(NULL)
-      xrange <- max(data()$x, na.rm = T) - min(data()$x, na.rm = T)
+      xrange <- max(datap()$x, na.rm = T) - min(datap()$x, na.rm = T)
       sliderInput("binwidth", "Width of bins:", min = round(xrange/100, 2), 
                   max = round(xrange/10, 2), value = round(xrange/30, 2), round = 2)      
    })
@@ -272,34 +272,34 @@ shinyServer(function(input, output, session) {
    ## Fitting the chosen model: issue confounding + cox/poisson
    cat <- reactive({
       if (!input$mod_categorical) return(NULL)
-      knots <- c(min(data()$x, na.rm = T), knots(), max(data()$x, na.rm = T))
+      knots <- c(min(datap()$x, na.rm = T), knots(), max(datap()$x, na.rm = T))
       fit_model(formula = ~ I(cut(x, knots, include.lowest = T)), 
-                       data = data(), type = input$type, 
+                       data = datap(), type = input$type, 
                        PTcond = input$PTcond, confounding = input$confounding)
    })
    lin <- reactive({
       if (!input$mod_linear) return(NULL)
-     fit_model(formula = ~ x, data = data(), type = input$type,
+     fit_model(formula = ~ x, data = datap(), type = input$type,
                        PTcond = input$PTcond, confounding = input$confounding)
    })
    linspl <- reactive({
       if (!input$linspl) return(NULL)
-      fit_model(formula = ~ bs(x, knots = knots(), degree = 1), data = data(), 
+      fit_model(formula = ~ bs(x, knots = knots(), degree = 1), data = datap(), 
                        type = input$type, PTcond = input$PTcond, confounding = input$confounding)
    })
    quadrspl <- reactive({
       if (!input$quadrspl) return(NULL)
-      fit_model(formula = ~ bs(x, knots = knots(), degree = 2), data = data(), 
+      fit_model(formula = ~ bs(x, knots = knots(), degree = 2), data = datap(), 
                        type = input$type, PTcond = input$PTcond, confounding = input$confounding)
    })
    cubspl <- reactive({
       if (!input$cubspl) return(NULL)
-      fit_model(formula = ~ bs(x, knots = knots(), degree = 3), data = data(), 
+      fit_model(formula = ~ bs(x, knots = knots(), degree = 3), data = datap(), 
                 type = input$type, PTcond = input$PTcond, confounding = input$confounding)
    })
    rcubspl <- reactive({
       if (!input$rcubspl) return(NULL)
-      fit_model(formula = ~ rcs(x, parms = knots()), data = data(), 
+      fit_model(formula = ~ rcs(x, parms = knots()), data = datap(), 
                 type = input$type, PTcond = input$PTcond, confounding = input$confounding)
    })
    poly <- reactive({
@@ -308,7 +308,7 @@ shinyServer(function(input, output, session) {
       for (i in 1:input$n){
          expr <- paste0(expr, "+ I(x^", i, ")")
       }
-      fit_model(formula = eval(parse(text = expr)), data = data(), 
+      fit_model(formula = eval(parse(text = expr)), data = datap(), 
                 type = input$type, PTcond = input$PTcond, confounding = input$confounding)
    })
    
@@ -344,7 +344,7 @@ shinyServer(function(input, output, session) {
    data_pred <- reactive({
       if (avoidErr())  return(NULL)
       x <- c(input$xref, xvalue_pred(), 
-              seq(min(data()$x, na.rm = T), max(data()$x, na.rm = T), length.out = 500))
+              seq(min(datap()$x, na.rm = T), max(datap()$x, na.rm = T), length.out = 500))
       if (input$valuePred){
          input$updatePred
          xpred <- isolate(as.double(unlist(strsplit(input$valpred, ", ", fixed = T))))
@@ -358,7 +358,7 @@ shinyServer(function(input, output, session) {
       if (avoidErr())  return(NULL)
       pred_value <<- data_pred()
       if (input$mod_categorical){
-         knots <- c(min(data()$x, na.rm = T), knots(), max(data()$x, na.rm = T))
+         knots <- c(min(datap()$x, na.rm = T), knots(), max(datap()$x, na.rm = T))
          pred_value <- cbind(pred_value, categorical =
                              model_pred(mod = cat(), formula = ~ I(cut(x, knots, include.lowest = T)),
                                         label = "categorical", type = input$type, 
@@ -413,7 +413,7 @@ shinyServer(function(input, output, session) {
       if (input$type == "surv")  return(NULL)
       pred_value_abs <<- data_pred()
       if (input$mod_categorical){
-         knots <- c(min(data()$x, na.rm = T), knots(), max(data()$x, na.rm = T))
+         knots <- c(min(datap()$x, na.rm = T), knots(), max(datap()$x, na.rm = T))
          pred_value_abs <- cbind(pred_value_abs, categorical =
                                 model_pred(mod = cat(), formula = ~ I(cut(x, knots, include.lowest = T)),
                                            label = "categorical", type = input$type, 
@@ -499,7 +499,7 @@ shinyServer(function(input, output, session) {
    ## Histogram of observed exposure
    hist <- reactive({
       if (avoidErr())  return(NULL)
-      p <- ggplot(data(), aes(x = x)) + theme_bw() +
+      p <- ggplot(datap(), aes(x = x)) + theme_bw() +
          geom_histogram(aes(y = (..count..)/sum(..count..)), binwidth = input$binwidth,
                         colour="black", fill="white") + 
          scale_y_continuous('percent') + scale_x_continuous(input$xlab)
@@ -532,7 +532,7 @@ shinyServer(function(input, output, session) {
       }
       # Adding models prediction
       if (input$mod_categorical){
-         knots <- c(min(data()$x, na.rm = T), knots(), max(data()$x, na.rm = T))
+         knots <- c(min(datap()$x, na.rm = T), knots(), max(datap()$x, na.rm = T))
          p <- p + geom_step(data = prediction(), aes(x = x, y = categorical.pred), linetype = input$catlty)
          if (any(input$CI == "categorical")){
             p <- p + geom_ribbon(data = prediction(), 
@@ -613,7 +613,7 @@ shinyServer(function(input, output, session) {
       }
       
       # Basic plot
-      p <- ggplot(prediction_abs(), aes(x = x, y = mean(data()$y, na.rm = T))) + 
+      p <- ggplot(prediction_abs(), aes(x = x, y = mean(datap()$y, na.rm = T))) + 
          geom_blank() + theme_bw() + scale_x_continuous("exposure") + 
          scale_y_continuous(lab, labels = function(y)  format(round(y, 2), nsmall = 2))
       if (input$type != "gaussian") p <- p + scale_y_continuous(lab, trans = "log", breaks = trans_breaks('log', function(x) exp(x)),
@@ -625,7 +625,7 @@ shinyServer(function(input, output, session) {
       }
       # Adding models prediction
       if (input$mod_categorical){
-         knots <- c(min(data()$x, na.rm = T), knots(), max(data()$x, na.rm = T))
+         knots <- c(min(datap()$x, na.rm = T), knots(), max(datap()$x, na.rm = T))
          p <- p + geom_step(data = prediction_abs(), aes(x = x, y = categorical.pred), linetype = input$catlty)
          if (any(input$CI == "categorical")){
             p <- p + geom_ribbon(data = prediction_abs(), 
