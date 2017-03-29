@@ -125,10 +125,7 @@ shinyServer(function(input, output, session) {
      if (input$type == "") return(data.frame(dataset()))
      data.frame(datap())
    })
-   output$datatab <- renderTable({
-     datap()
-   })
-   
+
    ## Defaults value for knots 
    valuesKnots <- reactive({
       round(quantile(datap()$x, 1:input$k/(input$k + 1), na.rm = T), 2)

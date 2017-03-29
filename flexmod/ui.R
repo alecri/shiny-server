@@ -78,8 +78,7 @@ shinyUI(navbarPage(
          ),
          
          mainPanel(
-            dataTableOutput('datap'),
-            tableOutput('datatab')
+            dataTableOutput('datap')
          )
       )
    ),
