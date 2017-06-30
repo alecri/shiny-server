@@ -14,7 +14,7 @@ shinyUI(navbarPage(
             "&", 
             a("N. Orsini", target = "_blank", target = "_blank", href = "http://nicolaorsini.altervista.org")), 
          p("More info at",
-           a("www.imm.ki.se/biostatistics", target = "_blank", href = "http://www.imm.ki.se/biostatistics/")),
+           a("stats4life.se/", target = "_blank", href = "http://stats4life.se/")),
          br()
       ),
       img(src = "pic.jpg", align = "middle", height = 600, width = 600),
