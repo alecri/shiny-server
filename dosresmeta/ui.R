@@ -4,10 +4,14 @@ shinyUI(pageWithSidebar(
     
   ## Header
   tagList(tags$h1("Multivariate Dose-Response Meta-Analysis"),
-          tags$h4("Designed by ", a("A. Crippa", target="_blank", href = "http://alessiocrippa.altervista.org"), 
-                  "&", a("N. Orsini", target = "_blank", href = "http://nicolaorsini.altervista.org") ),
-          tags$p("More info at", a("www.imm.ki.se/biostatistics/glst/", target = "_blank", 
-                                   href = "http://www.imm.ki.se/biostatistics/glst/"))),
+          h4("Designed by ",
+             a("A. Crippa", target="_blank", target = "_blank", href = "http://alecri.github.io/"),
+             "&", 
+             a("N. Orsini", target = "_blank", target = "_blank", href = "http://nicolaorsini.altervista.org")), 
+          p("More info at",
+            a("stats4life.se/", target = "_blank", href = "http://stats4life.se/")),
+          br()
+          ),
   
   ## Siderbar
   sidebarPanel(
@@ -21,7 +25,7 @@ shinyUI(pageWithSidebar(
                      'Select your own data' = 'yourdata'), 'bmi_rc2'),  
       conditionalPanel(condition = "input.data == 'yourdata'",
                        helpText(a("Click Here to Download yourdata.xlsx Template", target = "_blank",     
-                                  href = "http://alessiocrippa.altervista.org/data/yourdata.xlsx")), 
+                                  href = "http://alecri.github.io/downloads/data/yourdata.xlsx")), 
                        fileInput('file1', 'Choose xlsx File')
       )
     ),

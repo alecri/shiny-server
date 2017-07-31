@@ -12,7 +12,7 @@ shinyServer(function(input, output) {
     if(!(input$data %in% c('yourdata'))){
       urldata <- paste0("http://alecri.github.io/downloads/data/", input$data, ".xlsx")
       data <- read.xls(urldata, sheet = 1, header = T, na.strings = c("NA", "#DIV/0!", "#N/A", " ", "."))
-    }	
+    }
     if(input$data == 'yourdata'){
       inFile <- input$file1
       ## Otherwise error
@@ -27,7 +27,7 @@ shinyServer(function(input, output) {
     data$dose <- data$exposure[index]
     data.frame(data)
   })
-
+  
   ## Slider for referent value
   output$ref_slider <- renderUI({
     inFile <- input$file1
