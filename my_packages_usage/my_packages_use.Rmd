@@ -1,0 +1,226 @@
+---
+title: "How many people use my R packages"
+author: "Alessio Crippa"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, comment = "")
+options(width = 110)
+library(tidyverse)
+library(lubridate)
+library(plotly)
+library(scales)
+library(DT)
+library(googleVis)
+library(shiny)
+library(shinyjs)
+
+dwnld <- read.table("pkgs_dwnld.txt", stringsAsFactors = FALSE) %>%
+  mutate(
+    date = as.Date(date),
+    month = floor_date(date, "month"),
+    week = floor_date(date, "week")
+  ) %>%
+  as_tibble()
+```
+
+------------
+
+The aim of this interactive R markdonw is to dispaly the number of downloads of the R packages that I developed, i.e. the `dosresmeta` and `hetmeta` packages, both available on CRAN ([`dosresmeta`](https://cran.r-project.org/package=dosresmeta), [`hetmeta`](https://cran.r-project.org/package=hetmeta)) and GitHub ([`dosresmeta`](https://github.com/alecri/dosresmeta), [`hetmeta`](https://github.com/alecri/hetmeta)). 
+The `alecri` R package is an (incomplete) collection of functions and data usefull in my day-life work, but it's not considered in this document. More material and working example can be found at https://alecri.github.io/software/ .
+
+The data about the number of downloads come from CRAN log files of the RStudio cloud CRAN. Read the  [blog post](https://blog.rstudio.com/2013/06/10/rstudio-cran-mirror/) by Hadley Wickham for more details.
+
+<br/>
+
+**Document last updated**:  `r Sys.Date()`
+
+**Data last updated**: `r max(dwnld$date)`
+
+-----
+
+
+## Description of the available data
+
+The data files (i.e. log files) from the (Rstudio CRAN mirror)[https://cran.rstudio.com/] have been downloaded and read in R using the `installr` package. 
+Each log file had the following variables:
+
+- date
+- time (in UTC)  
+- size (in bytes)  
+- r_version, version of R used to download package  
+- r_arch (i386 = 32 bit, x86_64 = 64 bit)  
+- r_os (darwin9.8.0 = mac, mingw32 = windows)  
+- package  
+- country, two letter ISO country code. Geocoded from IP using MaxMind's free database  
+- ip_id, a daily unique id assigned to each IP address.  
+
+This is a snapshot of the available information.
+
+```{r}
+glimpse(dwnld)
+```
+
+```{r data}
+dwnld_sub <- reactive({
+  dwnld_sub <- dwnld
+  #date_range <- floor_date(input$date_range, input$time_unit)
+  if (!all(range(dwnld$date) == input$date_range)){
+    # dwnld_sub <- filter(dwnld_sub, UQ(as.name(input$time_unit)) >= date_range[1],
+    #                     UQ(as.name(input$time_unit)) <= date_range[2])
+    dwnld_sub <- filter(dwnld_sub, date >= min(input$date_range),
+                        date <= max(input$date_range))
+  }
+  if (input$pkgs != "all")
+  dwnld_sub <- filter(dwnld_sub, package == input$pkgs)
+  dwnld_sub
+})
+
+dwnld_count <- reactive({
+  dwnld_sub() %>%
+  group_by_("package", input$time_unit) %>%
+  count()
+})
+
+dwnld_map <- reactive({
+  dwnld_sub() %>%
+    group_by(country, package) %>%
+    count()
+})
+dwnld_map_all <- reactive({
+  dwnld_map() %>%
+    group_by(country) %>%
+    summarise(n = sum(n)) %>%
+    arrange(desc(n))
+})
+dwnld_map_dosresmeta <- reactive({
+  dwnld_map() %>%
+    filter(package == "dosresmeta") %>%
+    arrange(desc(n))
+})
+dwnld_map_hetmeta <- reactive({
+  dwnld_map() %>%
+    filter(package == "hetmeta") %>%
+    arrange(desc(n))
+})
+
+```
+
+----
+
+<h2>Total number of downloads per `r renderText(input$time_unit)`</h2>
+
+Here you can find the total number of downloads grouped by month or week. 
+
+```{r tot_dwnld_table}
+inputPanel(
+  id = "form",
+  selectInput("time_unit", label = "Display total number of downloads per:",
+            choices = c("month", "week"), selected = "month"),
+  radioButtons("pkgs", "Select the desired package", 
+             c("all", "dosresmeta", "hetmeta"), "all"),
+  dateRangeInput("date_range", label = "Date range",
+               start = min(dwnld$date), end = max(dwnld$date),
+               min = min(dwnld$date), max = max(dwnld$date)),
+  actionButton("resetAll", "Reset all")
+)
+useShinyjs(rmd = TRUE)
+observeEvent(input$resetAll, reset("form"))
+```
+
+```{r}
+renderDataTable({
+  dwnld_count()
+})
+```
+
+</br></br>
+
+Below the time serie with the total number of downloads per month or week for the selected packages.
+
+
+```{r tot_dwnld_ts, echo=FALSE}
+output$trend <- renderPlotly({
+  p_trend <- ggplot(dwnld_count(), aes_string(input$time_unit, "n", col = "package")) + 
+    geom_line() + 
+    theme_light() + theme(panel.border = element_blank(), axis.line = element_line()) +
+    labs(y = paste("Total number of downloads per", input$time_unit, "\n"))
+  if (input$log)
+    p_trend <- p_trend + scale_y_continuous(trans = "log",
+                             breaks = trans_breaks("log", function(x) round(exp(x))))
+  ggplotly(p_trend)
+})
+plotlyOutput("trend")
+checkboxInput("log", "Dispaly counts on a log-scale", FALSE)
+```
+
+<br/>
+
+-----------------
+
+## Downloads by country
+
+
+```{r maps}
+output$map_dosresmeta <- renderGvis({
+  if (input$pkgs == "hetmeta") return(NULL)
+  geo <- gvisGeoChart(dwnld_map_dosresmeta(), locationvar = 'country', colorvar = 'n',
+                    options = list(height = 400, width = 600, colors = "green"))
+  tbl <- gvisTable(dwnld_map_dosresmeta(), options = list(height = 400, width = 300))
+  gvisMerge(geo, tbl, horizontal = TRUE, tableOptions = "cellspacing=50")
+})
+output$map_hetmeta <- renderGvis({
+  if (input$pkgs == "dosresmeta") return(NULL)
+  geo <- gvisGeoChart(dwnld_map_hetmeta(), locationvar = 'country', colorvar = 'n',
+                    options = list(height = 400, width = 600, colors = "red"))
+  tbl <- gvisTable(dwnld_map_hetmeta(), options = list(height = 400, width = 300))
+  gvisMerge(geo, tbl, horizontal = TRUE, tableOptions = "cellspacing=50")
+})
+output$map_all <- renderGvis({
+  if (input$pkgs != "all") return(NULL)
+  geo <- gvisGeoChart(dwnld_map_all(), locationvar = 'country', colorvar = 'n',
+                    options = list(height = 400, width = 600, colors = "purple"))
+  tbl <- gvisTable(dwnld_map_all(), options = list(height = 400, width = 300))
+  gvisMerge(geo, tbl, horizontal = TRUE, tableOptions = "cellspacing=50")
+})
+```
+
+```{r}
+tabsetPanel(
+  tabPanel("dosresmeta", htmlOutput("map_dosresmeta")), 
+  tabPanel("hetmeta", htmlOutput("map_hetmeta")),
+  tabPanel("all", htmlOutput("map_all"))
+)
+```
+
+<br/><br/>
+
+-----------------
+
+## Descriptives
+
+<br/>
+
+**Total number of downloads**
+```{r}
+renderTable(
+dwnld_sub() %>%
+  group_by(package) %>%
+  count()
+)
+```
+
+**Different versions with range dates**
+```{r}
+renderTable(
+dwnld_sub() %>%
+  group_by(package, version) %>%
+  summarize(n = n(),
+            min_date = as.character(min(date)),
+            max_date = as.character(max(date)))
+)
+```
+
