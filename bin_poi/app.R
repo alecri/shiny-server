@@ -13,12 +13,15 @@ ui <- pageWithSidebar(
                 max = 1, value = .1),
     sliderInput("lambda", label = "Expected number of success (lambda)", 
                 min = 0, max = 100, value = 50),
-    sliderInput("x", label = "Choose value", 
-                min = 0, max = 100, value = 50)
+    p("Given a Binomial distribution with some n and p, if you let n goes to infinite and 
+      p tends to 0 in such a way that np tends λ, then the Binomial distribution 
+      approaches a Poisson distribution with parameter λ.")
   ),
   mainPanel(
     plotOutput('dist_plot'),
     br(),
+    sliderInput("x", label = "Choose value (x)", 
+                min = 0, max = 100, value = 50),
     checkboxInput("show", "Show probability on graph", value = FALSE),
     tableOutput('prob')
   )
