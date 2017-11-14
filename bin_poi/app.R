@@ -1,18 +1,15 @@
 library(tidyverse)
 library(shiny)
-library(DT)
-library(htmlTable)
-library(htmlwidgets)
 
 ui <- pageWithSidebar(
   headerPanel('Comparison between Binomial and Poisson distribution'),
   sidebarPanel(
-    sliderInput("n", label = "Number of trials (n)", min = 100, 
-                max = 1000, value = 500),
+    sliderInput("n", label = "Number of trials (n)", min = 10, 
+                max = 100, value = 50, step = 5),
     sliderInput("p", label = "Probability of success (n)", min = 0, 
                 max = 1, value = .1),
     sliderInput("lambda", label = "Expected number of success (lambda)", 
-                min = 0, max = 100, value = 50),
+                min = 0, max = 11, value = 5),
     p("Given a Binomial distribution with some n and p, if you let n goes to infinite and 
       p tends to 0 in such a way that np tends λ, then the Binomial distribution 
       approaches a Poisson distribution with parameter λ.")
@@ -21,44 +18,52 @@ ui <- pageWithSidebar(
     plotOutput('dist_plot'),
     br(),
     sliderInput("x", label = "Choose value (x)", 
-                min = 0, max = 100, value = 50),
+                min = 0, max = 9, value = 5),
     checkboxInput("show", "Show probability on graph", value = FALSE),
     tableOutput('prob')
   )
 )
 server <- function(input, output, session){
-  observeEvent(input$n, {
-    updateSliderInput(session, "lambda",
-                      min = max(0,floor(input$n*input$p - 3*sqrt(input$n*input$p))),
-                      max = floor(input$n*input$p + 3*sqrt(input$n*input$p)),
-                      value = input$n*input$p)
+  
+  v <- reactiveValues(x = NULL)
+  
+  observeEvent(input$p, {
+    v$x <- input$p
+  })
+  observeEvent(input$lambda, {
+    v$x <- input$lambda
+  }, priority = 10)
+  
+  observeEvent(v$x, {
+    if (v$x != input$p) {
+      updateSliderInput(session, "p", value = min(1, v$x/input$n))
+    }
+    if (v$x != input$lambda){
+      updateSliderInput(session, "lambda",
+                        min = max(0, floor(input$n*v$x - 3*sqrt(input$n*v$x))),
+                        max = floor(input$n*v$x + 3*sqrt(input$n*v$x)),
+                        value = input$n*v$x)
+    }
     updateSliderInput(session, "x",
-                      min = max(0,floor(input$n*input$p - 2*sqrt(input$n*input$p))),
+                      min = max(0, floor(input$n*input$p - 2*sqrt(input$n*input$p))),
                       max = floor(input$n*input$p +  2*sqrt(input$n*input$p)),
                       value = input$n*input$p)
   })
-  observeEvent(input$p, {
+  
+  observeEvent(input$n, {
     updateSliderInput(session, "lambda",
-                      min = max(0,floor(input$n*input$p - 3*sqrt(input$n*input$p))),
-                      max = floor(input$n*input$p + 3*sqrt(input$n*input$p)),
-                      value = input$n*input$p)
-    updateSliderInput(session, "x",
-                      min = max(0,floor(input$n*input$p - 2*sqrt(input$n*input$p))),
-                      max = floor(input$n*input$p + 2*sqrt(input$n*input$p)),
+                      min = max(0, floor(input$n*input$p - 3*sqrt(input$n*input$p))),
+                      max = floor(input$n*input$p+ 3*sqrt(input$n*input$p)),
                       value = input$n*input$p)
   })
-  observeEvent(input$lambda,
-               updateSliderInput(session, "p",
-                                 value = input$lambda/input$n)
-  )
   
-  
+
   dat <- reactive({
     lambda <- input$n*input$p
     data_dist <- data_frame(
       x = seq(floor(lambda - 3*sqrt(lambda)), floor(lambda + 3*sqrt(lambda))),
-      d_bin = dbinom(x, size = input$n, prob = input$p),
-      d_poi = dpois(x, lambda = lambda)
+      binomial = dbinom(x, size = input$n, prob = input$p),
+      poisson = dpois(x, lambda = lambda)
     ) %>% gather(dist, p, -x)
     data_dist
   })
