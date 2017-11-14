@@ -61,7 +61,7 @@ server <- function(input, output, session){
   dat <- reactive({
     lambda <- input$n*input$p
     data_dist <- data_frame(
-      x = seq(floor(lambda - 3*sqrt(lambda)), floor(lambda + 3*sqrt(lambda))),
+      x = seq(max(0, floor(lambda - 3*sqrt(lambda))), floor(lambda + 3*sqrt(lambda))),
       binomial = dbinom(x, size = input$n, prob = input$p),
       poisson = dpois(x, lambda = lambda)
     ) %>% gather(dist, p, -x)
