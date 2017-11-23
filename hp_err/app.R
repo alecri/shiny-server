@@ -68,7 +68,7 @@ server <- function(input, output) {
       beta = beta,
       power = 1 - beta)
     if (input$side == "two.sided"){
-      err <- mutate(err, xbar1 = xbar[1], xbar = xbar[2])
+      err <- mutate(err, xbar1 = xbar[1], xbar2 = xbar[2])
     } else {
       err <- mutate(err, xbar1 = xbar)
     }
