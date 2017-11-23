@@ -4,7 +4,7 @@ library(DT)
 
 ui <- fluidPage(
    
-   titlePanel("Visualize Type I/II errors: One-sample Test of Means (T test)"),
+   titlePanel("Visualize Type I/II errors: One-sample Test of Means (Z test)"),
    
    sidebarLayout(
       sidebarPanel(
