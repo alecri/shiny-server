@@ -88,7 +88,7 @@ server <- function(input, output) {
     p <- ggplot(dt(), aes(x, null_d)) +
       geom_line(aes(col = "Null hypothesis (H0)")) +
       geom_line(aes(y = alter_d, col = "Alternative hypothesis (H1)")) +
-      labs(x = "X", y = "density", col = "Distribution under") +
+      labs(x = "X", y = "density", col = "Distribution:") +
       scale_color_manual(values = c("blue", "red"), labels = labl) +
       theme_classic()
     
