@@ -17,8 +17,9 @@ ui <- fluidPage(
          sliderInput("sd", "Standard deviation of X:",
                      min = 25, max = 75, value = 50),
          radioButtons("side", "Choose tail of the test",
-                      c("Two Tail" = "two.sided", "One Tail, Upper Tail" = "greater",
-                        "One Tail, Lower Tail" = "less"), "two.sided"),
+                      c("One Tail, Upper Tail" = "greater",
+                        "One Tail, Lower Tail" = "less",
+                        "Two Tail" = "two.sided"), "two.sided"),
          br(),
          sliderInput("alpha", "Choose alpha level :",
                      min = 0.01, max = 0.15, value = .05, step = .01)
@@ -64,6 +65,8 @@ server <- function(input, output) {
     }
     
     err <- data_frame(
+      `sample size` = input$n,
+      `standard deviation` = input$sd,
       alpha = input$alpha,
       beta = beta,
       power = 1 - beta)
@@ -76,10 +79,15 @@ server <- function(input, output) {
     round(err, 3)    
   })
   
+  labl <- list(expression(bar(x) %~% N (mu[0], frac(sigma, sqrt(n)))), expression(italic('y'))) 
+  labl <- list(expression(paste(bar(x) %~% N, bgroup("(", paste(mu[1], ", ", frac(sigma, sqrt(n))) ,")"))), 
+               expression(paste(bar(x) %~% N, bgroup("(", paste(mu[0], ", ", frac(sigma, sqrt(n))) ,")")))) 
   output$plot_d <- renderPlot({
     p <- ggplot(dt(), aes(x, null_d)) +
-      geom_line() +
-      geom_line(aes(y = alter_d)) +
+      geom_line(aes(col = "Null hypothesis (H0)")) +
+      geom_line(aes(y = alter_d, col = "Alternative hypothesis (H1)")) +
+      labs(x = "X", y = "density", col = "Distribution under") +
+      scale_color_manual(values = c("blue", "red"), labels = labl) +
       theme_classic()
     
     if (input$side == "two.sided"){
