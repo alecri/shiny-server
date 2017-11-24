@@ -16,13 +16,12 @@ ui <- fluidPage(
                      min = 10, max = 100, value = 25),
          sliderInput("sd", "Standard deviation of X:",
                      min = 25, max = 75, value = 50),
+         sliderInput("alpha", "Choose alpha level :",
+                     min = 0.01, max = 0.15, value = .05, step = .01),
          radioButtons("side", "Choose tail of the test",
                       c("One Tail, Upper Tail" = "greater",
                         "One Tail, Lower Tail" = "less",
-                        "Two Tail" = "two.sided"), "two.sided"),
-         br(),
-         sliderInput("alpha", "Choose alpha level :",
-                     min = 0.01, max = 0.15, value = .05, step = .01)
+                        "Two Tail" = "two.sided"), "greater")
       ),
       
       mainPanel(
