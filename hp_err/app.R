@@ -79,9 +79,11 @@ server <- function(input, output) {
     round(err, 3)    
   })
   
-  labl <- list(expression(bar(x) %~% N (mu[0], frac(sigma, sqrt(n)))), expression(italic('y'))) 
-  labl <- list(expression(paste(bar(x) %~% N, bgroup("(", paste(mu[1], ", ", frac(sigma, sqrt(n))) ,")"))), 
-               expression(paste(bar(x) %~% N, bgroup("(", paste(mu[0], ", ", frac(sigma, sqrt(n))) ,")")))) 
+  #labl <- list(expression(paste(bar(x) %~% N, bgroup("(", paste(mu[1], ", ", frac(sigma, sqrt(n))) ,")"))), 
+  #             expression(paste(bar(x) %~% N, bgroup("(", paste(mu[0], ", ", frac(sigma, sqrt(n))) ,")")))) 
+  labl <- list(expression(bar(x) %~% N (mu[1], frac(sigma, sqrt(n)))), 
+               expression(bar(x) %~% N (mu[0], frac(sigma, sqrt(n))))) 
+  
   output$plot_d <- renderPlot({
     p <- ggplot(dt(), aes(x, null_d)) +
       geom_line(aes(col = "Null hypothesis (H0)")) +
