@@ -81,8 +81,8 @@ server <- function(input, output) {
   
   #labl <- list(expression(paste(bar(x) %~% N, bgroup("(", paste(mu[1], ", ", frac(sigma, sqrt(n))) ,")"))), 
   #             expression(paste(bar(x) %~% N, bgroup("(", paste(mu[0], ", ", frac(sigma, sqrt(n))) ,")")))) 
-  labl <- list(expression(bar(x) %~% N (mu[1], frac(sigma, sqrt(n)))), 
-               expression(bar(x) %~% N (mu[0], frac(sigma, sqrt(n))))) 
+  labl <- list(expression(bar(X) %~% N (mu[1], frac(sigma, sqrt(n)))), 
+               expression(bar(X) %~% N (mu[0], frac(sigma, sqrt(n))))) 
   
   output$plot_d <- renderPlot({
     p <- ggplot(dt(), aes(x, null_d)) +
