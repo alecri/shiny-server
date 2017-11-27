@@ -1,6 +1,7 @@
 library(shiny)
 library(tidyverse)
 library(DT)
+library(BSDA)
 
 ui <- fluidPage(
    
@@ -21,12 +22,18 @@ ui <- fluidPage(
          radioButtons("side", "Choose tail of the test",
                       c("One Tail, Upper Tail" = "greater",
                         "One Tail, Lower Tail" = "less",
-                        "Two Tail" = "two.sided"), "greater")
+                        "Two Tails" = "two.sided"), "greater")
       ),
       
       mainPanel(
          plotOutput("plot_d"),
-         dataTableOutput("error")
+         dataTableOutput("error"),
+         hr(),
+         h3("Simulation:"),
+         uiOutput("mu"),
+         actionButton("draw", "Simulate"),
+         plotOutput("plot_sim"),
+         verbatimTextOutput("test")
       )
    )
 )
@@ -127,6 +134,39 @@ server <- function(input, output) {
     
     p
     })
+  
+  output$mu <- renderUI({
+    radioButtons("mu", "Draw a sample under the",
+                 c("Null hypothesis" = input$mu_0,
+                   "Alternative hypothesis" = input$mu_1), input$mu_0)
+
+  })
+  
+  data_sim <- eventReactive(input$draw, {
+    rnorm(input$n, as.numeric(input$mu), input$sd)
+  })
+  test <- reactive({
+    z.test(data_sim(), sigma.x = input$sd, alternative = input$side, mu = input$mu_0)
+  })
+  output$test <- renderPrint({
+    test()
+  })
+  output$plot_sim <- renderPlot({
+    means <- data.frame(
+      mean =  c(mean(data_sim()), input$mu_0, input$mu_1),
+      col = c("Sample", "Under H0", "Under H1")
+    )
+    ci <- test()$conf.int
+    if (is.na(ci[1])) ci[1] <- -Inf
+    if (is.na(ci[2])) ci[2] <- Inf
+    ggplot(data = NULL, aes(x = data_sim())) +
+      geom_histogram(fill = "green", alpha = .5) +
+      geom_vline(data = means, aes(xintercept = mean, col = col), linetype = "dashed", size = 1.25) +
+      geom_rect(aes(xmin = ci[1], xmax = ci[2], ymin = 0, ymax = Inf), alpha = .01) +
+      scale_color_manual(values = c("black", "red", "blue")) +
+      labs(x = "X", col = "Mean") + theme_classic()
+  })
+  
    
 }
 
