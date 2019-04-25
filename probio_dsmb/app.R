@@ -23,7 +23,7 @@ ui <- navbarPage(
   tabPanel("Home",
            titlePanel("Examples from simulation studies for ProBio"),
            #includeMarkdown(rmarkdown::render("www/intro.md")),
-           includeMarkdown("www/intro.md"),
+           includeMarkdown("www/Intro.md"),
            hr(),
            selectInput("scen", h4("Select scenario"), 
                        choices = list("Scenario 1" = 1, "Scenario 2" = 2,
