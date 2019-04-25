@@ -13,7 +13,7 @@ library(markdown)
 
 ## load all files
 #load("www/dat_probio_dsmb.Rdata")
-load(file = "www/dat_probio_dsmb.rds")
+load(file = "www/dat_probio_dsmb.rda")
 sigs <- list("all", "TP53- & AR-", "TP53+", "DRD+", "TEfus+")
 
 ui <- navbarPage(
