@@ -16,7 +16,7 @@ sigs <- list("all", "TP53- & AR-", "TP53+", "DRD+", "TEfus+")
 
 ui <- navbarPage(
   title = div(img(src = "favicon-32x32.png"), "ProBio DSMB"),
-  tags$head(tags$link(rel = "icon", type = "image/png", sizes = "32x32", href = "favicon-32x32.png")),
+  #tags$head(tags$link(rel = "icon", type = "image/png", sizes = "32x32", href = "favicon-32x32.png")),
   
   tabPanel("Home",
            titlePanel("Examples from simulation studies for ProBio"),
@@ -155,8 +155,7 @@ ui <- navbarPage(
                       dataTableOutput("dat_m")
                       )
              ),
-  tabPanel("Stat"
-           #, tags$iframe(src="model_exemplification.pdf", width="900", height="1000")
+  tabPanel("Stat", tags$iframe(src="model_exemplification.pdf", width="900", height="1000")
            )
 )
   
