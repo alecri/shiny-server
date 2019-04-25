@@ -6,12 +6,14 @@ library(tidyverse)
 library(cowplot)
 library(knitr)
 library(plotly)
+library(survminer)
 library(markdown)
 
 
 
 ## load all files
-load("www/dat_probio_dsmb.Rdata")
+#load("www/dat_probio_dsmb.Rdata")
+load(file = "www/dat_probio_dsmb.rds")
 sigs <- list("all", "TP53- & AR-", "TP53+", "DRD+", "TEfus+")
 
 ui <- navbarPage(
