@@ -9,7 +9,7 @@ library(cowplot)
 library(knitr)
 library(plotly)
 library(markdown)
-
+library(Epi)
 
 
 ## load all files
