@@ -15,15 +15,22 @@ library(Epi)
 ## load all files
 load("www/dat_probio_dsmb.Rdata")
 sigs <- list("all", "TP53- & AR-", "TP53+", "DRD+", "TEfus+")
+col_width <- 6
 
-ui <- navbarPage(
-  title = div(img(src = "favicon-32x32.png"), "ProBio DSMB"),
-  #tags$head(tags$link(rel = "icon", type = "image/png", sizes = "32x32", href = "favicon-32x32.png")),
+ui <-   fluidPage(
+  list(tags$head(HTML('<link rel="icon", href="favicon-32x32.png", type="image/png" />'))),
+  div(titlePanel(title ="", windowTitle = "ProBio DSMB")),
   
-  tabPanel("Home",
+  navbarPage(
+
+  title = div(img(src = "favicon-32x32.png"), "ProBio DSMB"),
+  position = "fixed-top",
+
+  tabPanel("Home", br(), br(),
+           
            titlePanel("Examples from simulation studies for ProBio"),
            #includeMarkdown(rmarkdown::render("www/intro.md")),
-           includeMarkdown("www/Intro.md"),
+           includeMarkdown("www/intro.md"),
            hr(),
            selectInput("scen", h4("Select scenario"), 
                        choices = list("Scenario 1" = 1, "Scenario 2" = 2,
@@ -34,23 +41,23 @@ ui <- navbarPage(
            tableOutput("ri_gx")
            ),
   navbarMenu("Example",
-             tabPanel("Summary results",
+             tabPanel("Summary results", br(), br(),
                       h4("Graduation output"),
                       fluidRow(
-                        column(5, h5("Superiority"), tableOutput("sup") %>% withSpinner(color="#0dc5c1")),
-                        column(5, h5("Inferiority"), tableOutput("inf") %>% withSpinner(color="#0dc5c1"))
+                        column(col_width, h5("Superiority"), tableOutput("sup") %>% withSpinner(color="#0dc5c1")),
+                        column(col_width, h5("Inferiority"), tableOutput("inf") %>% withSpinner(color="#0dc5c1"))
                       ),
                       br(),
                       h4("Final probabilities of superiority"),
                       fluidRow(
-                        column(5, h5("By signature"), tableOutput("prob_sign_tab") %>% withSpinner(color="#0dc5c1")),
-                        column(5, h5("By subtype"), tableOutput("prob_type_tab") %>% withSpinner(color="#0dc5c1"))
+                        column(col_width, h5("By signature"), tableOutput("prob_sign_tab") %>% withSpinner(color="#0dc5c1")),
+                        column(col_width, h5("By subtype"), tableOutput("prob_type_tab") %>% withSpinner(color="#0dc5c1"))
                       ),
                       br(),
                       h4("Enrolled participants"),
                       fluidRow(
-                        column(5, h5("By signature"), tableOutput("n_sign_tab") %>% withSpinner(color="#0dc5c1")),
-                        column(5, h5("By subtype"), tableOutput("n_type_tab") %>% withSpinner(color="#0dc5c1"))
+                        column(col_width, h5("By signature"), tableOutput("n_sign_tab") %>% withSpinner(color="#0dc5c1")),
+                        column(col_width, h5("By subtype"), tableOutput("n_type_tab") %>% withSpinner(color="#0dc5c1"))
                       ),
                       hr(),
                       br(),
@@ -75,14 +82,14 @@ ui <- navbarPage(
                       br(),
                       h4("Enrolled participants over time"),
                       fluidRow(
-                        column(5, h5("By signature"), plotlyOutput("n_sign", height = "600px") %>% withSpinner(color="#0dc5c1")),
-                        column(5, h5("By subtype"), plotlyOutput("n_type", height = "600px") %>% withSpinner(color="#0dc5c1"))
+                        column(col_width, h5("By signature"), plotlyOutput("n_sign", height = "600px") %>% withSpinner(color="#0dc5c1")),
+                        column(col_width, h5("By subtype"), plotlyOutput("n_type", height = "600px") %>% withSpinner(color="#0dc5c1"))
                       ),
                       br(),
                       h4("Rates over time"),
                       fluidRow(
-                        column(5, h5("By signature"), plotlyOutput("rate_sign", height = "600px") %>% withSpinner(color="#0dc5c1")),
-                        column(5, h5("By subtype"), plotlyOutput("rate_type", height = "600px") %>% withSpinner(color="#0dc5c1"))
+                        column(col_width, h5("By signature"), plotlyOutput("rate_sign", height = "600px") %>% withSpinner(color="#0dc5c1")),
+                        column(col_width, h5("By subtype"), plotlyOutput("rate_type", height = "600px") %>% withSpinner(color="#0dc5c1"))
                       ),
                       hr(),
                       br(),
@@ -92,76 +99,81 @@ ui <- navbarPage(
                       h4("Kaplan-Meier results:"),
                       verbatimTextOutput("km") %>% withSpinner(color="#0dc5c1"),
                       br(),
-                      plotOutput("km_plot", height = "800px") %>% withSpinner(color="#0dc5c1")
+                      plotOutput("km_plot", height = "1000px") %>% withSpinner(color="#0dc5c1")
                       ),
-             tabPanel("Over month",
-                      sliderInput("month", "Select follow-up month",
-                                  min = 1, max = 35, value = 1),
+             
+             tabPanel("Over month", br(), br(),
                       fluidRow(
-                        column(5, uiOutput("month")),
-                        column(5, uiOutput("month_a"))
+                        column(6, sliderInput("month", "Select follow-up month",
+                                              min = 1, max = 35, value = 1)),
+                        column(3, actionButton("update2", "Update data"))
+                      ),
+                      fluidRow(
+                        column(col_width, uiOutput("month")),
+                        column(col_width, uiOutput("month_a"))
                       ),
                       br(),
                       h3("Randomization probabilities", align = "center"),
                       fluidRow(
-                        column(5, uiOutput('r') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(5, uiOutput('r_a') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        column(col_width, uiOutput('r') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                        column(col_width, uiOutput('r_a') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
                       ),
                       br(),
                       h3("Enrolled participants (signatures)", align = "center"),
                       fluidRow(
-                        column(5, uiOutput('n_s') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(5, uiOutput('n_sa') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        column(col_width, uiOutput('n_s') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                        column(col_width, uiOutput('n_sa') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
                       ),
                       br(),
                       h3("Enrolled participants (subtypes)", align = "center"),
                       fluidRow(
-                        column(5, uiOutput('n_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(5, uiOutput('n_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        column(col_width, uiOutput('n_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                        column(col_width, uiOutput('n_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
                       ),
                       br(),
                       h3("Number of progressions (subtype)", align = "center"),
                       fluidRow(
-                        column(5, uiOutput('delta_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(5, uiOutput('delta_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        column(col_width, uiOutput('delta_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                        column(col_width, uiOutput('delta_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
                       ),
                       br(),
                       h3("Accumulated person-month (subtype)", align = "center"),
                       fluidRow(
-                        column(5, uiOutput('time_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(5, uiOutput('time_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        column(col_width, uiOutput('time_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                        column(col_width, uiOutput('time_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
                       ),
                       br(),
                       h3("Probability of superiority (subtype)", align = "center"),
                       fluidRow(
-                        column(5, uiOutput('p_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(5, uiOutput('p_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        column(col_width, uiOutput('p_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                        column(col_width, uiOutput('p_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
                       ),
                       br(),
                       h3("Probability of superiority (signature)", align = "center"),
                       fluidRow(
-                        column(5, uiOutput('p_s'), style = "border-right: 1px solid"),
-                        column(5, uiOutput('p_sa'), style = "border-right: 1px solid")
+                        column(col_width, uiOutput('p_s') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                        column(col_width, uiOutput('p_sa') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
                       ),
                       br(),
                       h3("Densities", align = "center"),
                       fluidRow(
-                        column(5, plotOutput("density_s", height = "600px") %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(5, plotOutput("density_sa", height = "600px") %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        column(col_width, plotOutput("density_s", height = "600px") %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                        column(col_width, plotOutput("density_sa", height = "600px") %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
                       )
                       ),
-             tabPanel("Data view",
+             tabPanel("Data view", br(), br(),
                       sliderInput("month_dat", "Select follow-up month",
                                   min = 1, max = 35, value = 1),
                       uiOutput("dat_title"),
                       dataTableOutput("dat_m")
                       )
              ),
-  tabPanel("Stat", tags$iframe(src="model_exemplification.pdf", width="900", height="1000")
+  tabPanel("Stat", br(), br(),
+           tags$iframe(src = "model_exemplification.pdf", style="height:800px; width:100%")
            )
 )
   
-                 
+)               
                  
         
  
@@ -284,37 +296,65 @@ server <- function(input, output, session) {
   output$km_plot <- renderPlot(arrange_ggsurvplots(dat()$kmplots, ncol = 3, nrow = 2))
   
   
-  output$month <- renderUI(
-    h3(paste("Selected Month:", input$month), align = "center")
-  )
-  output$month_a <- renderUI(
-    h3(paste("Month after:", input$month + 1), align = "center")
-  )
+  output$month <- renderUI({
+    input$update2
+    h3(paste("Selected Month:", isolate(input$month)), align = "center")
+  })
+  output$month_a <- renderUI({
+    input$update2
+    h3(paste("Month after:", isolate(input$month) + 1), align = "center")
+  })
+  r_p <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month)]]$post$r
+  })
   output$r <- renderTable(
-    dat()$results_inter[[input$month]]$post$r, spacing = "xs", digits = 2, rownames = TRUE
+    r_p(), spacing = "xs", digits = 2, rownames = TRUE
   )
+  r_p_a <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month) + 1]]$post$r
+  })
   output$r_a <- renderTable(
-    dat()$results_inter[[input$month + 1]]$post$r, spacing = "xs", digits = 2, rownames = TRUE
+    r_p_a(), spacing = "xs", digits = 2, rownames = TRUE
   )
+  n_s <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month)]]$dta$n$n_sign
+  })
   output$n_s <- renderTable(
-    dat()$results_inter[[input$month]]$dta$n$n_sign, spacing = "xs", digits = 0, rownames = TRUE
+    n_s(), spacing = "xs", digits = 0, rownames = TRUE
   )
+  n_s_a <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month) + 1]]$dta$n$n_sign
+  })
   output$n_sa <- renderTable(
-    dat()$results_inter[[input$month + 1]]$dta$n$n_sign, spacing = "xs", digits = 0, rownames = TRUE
+    n_s_a(), spacing = "xs", digits = 0, rownames = TRUE
   )
+  n_t <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month)]]$dta$n$n_type
+  })
   output$n_t <- renderTable(
-    dat()$results_inter[[input$month]]$dta$n$n_type, spacing = "xs", digits = 0, rownames = TRUE
+    n_t(), spacing = "xs", digits = 0, rownames = TRUE
   )
+  n_t_a <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month) + 1]]$dta$n$n_type
+  })
   output$n_ta <- renderTable(
-    dat()$results_inter[[input$month + 1]]$dta$n$n_type, spacing = "xs", digits = 0, rownames = TRUE
+    n_t_a(), spacing = "xs", digits = 0, rownames = TRUE
   )
   delta_t <- reactive({
-    delta <- dat()$results_inter[[input$month]]$dta$delta
+    input$update2
+    delta <- dat()$results_inter[[isolate(input$month)]]$dta$delta
     dimnames(delta) <- dimnames(scheme_type)
     delta
   })
   delta_ta <- reactive({
-    delta <- dat()$results_inter[[input$month + 1]]$dta$delta
+    input$update2
+    delta <- dat()$results_inter[[isolate(input$month) + 1]]$dta$delta
     dimnames(delta) <- dimnames(scheme_type)
     delta
   })
@@ -325,12 +365,14 @@ server <- function(input, output, session) {
     delta_ta(), spacing = "xs", digits = 0, rownames = TRUE
   )
   time_t <- reactive({
-    time_t <- dat()$results_inter[[input$month]]$dta$PT
+    input$update2
+    time_t <- dat()$results_inter[[isolate(input$month)]]$dta$PT
     dimnames(time_t) <- dimnames(scheme_type)
     time_t
   })
   time_ta <- reactive({
-    time_t <- dat()$results_inter[[input$month + 1]]$dta$PT
+    input$update2
+    time_t <- dat()$results_inter[[isolate(input$month) + 1]]$dta$PT
     dimnames(time_t) <- dimnames(scheme_type)
     time_t
   })
@@ -340,26 +382,43 @@ server <- function(input, output, session) {
   output$time_ta <- renderTable(
     time_ta(), spacing = "xs", digits = 1, rownames = TRUE
   )
+  p_t <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month)]]$post$p_type
+  })
   output$p_t <- renderTable(
-    dat()$results_inter[[input$month]]$post$p_type, spacing = "xs", digits = 2, rownames = TRUE
+    p_t(), spacing = "xs", digits = 2, rownames = TRUE
   )
+  p_t_a <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month) + 1]]$post$p_type
+  })
   output$p_ta <- renderTable(
-    dat()$results_inter[[input$month + 1]]$post$p_type, spacing = "xs", digits = 2, rownames = TRUE
+    p_t_a(), spacing = "xs", digits = 2, rownames = TRUE
   )
+  p_s <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month)]]$post$p_sign
+  })
   output$p_s <- renderTable(
-    dat()$results_inter[[input$month]]$post$p_sign, spacing = "xs", digits = 2, rownames = TRUE
+    p_s(), spacing = "xs", digits = 2, rownames = TRUE
   )
+  p_s_a <- reactive({
+    input$update2
+    dat()$results_inter[[isolate(input$month) + 1]]$post$p_sign
+  })
   output$p_sa <- renderTable(
-    dat()$results_inter[[input$month + 1]]$post$p_sign, spacing = "xs", digits = 2, rownames = TRUE
+    p_s_a(), spacing = "xs", digits = 2, rownames = TRUE
   )
   output$density_s <- renderPlot({
+    input$update2
     set.seed(190211)
     mu_dat <- lapply(1:1000, function(i){
       unlist(Map(function(a, b){
         l <- rgamma(1, shape = a, rate = b)
         1/l^(1/shape)*gamma(1 + 1/shape)
-      }, dat()$results_inter[[input$month]]$post$prior$a, 
-      dat()$results_inter[[input$month]]$post$prior$b
+      }, dat()$results_inter[[isolate(input$month)]]$post$prior$a, 
+      dat()$results_inter[[isolate(input$month)]]$post$prior$b
       )) %>% matrix(., ncol = X, nrow = G, dimnames = dimnames(scheme_type))
     })
     mu_sign <- lapply(mu_dat, function(m)
@@ -381,13 +440,14 @@ server <- function(input, output, session) {
     plot_grid(plotlist = c(gglist, list(legend)), nrow = 3, ncol = 2)
   })
   output$density_sa <- renderPlot({
+    input$update2
     set.seed(190111)
     mu_dat <- lapply(1:1000, function(i){
       unlist(Map(function(a, b){
         l <- rgamma(1, shape = a, rate = b)
         1/l^(1/shape)*gamma(1 + 1/shape)
-      }, dat()$results_inter[[input$month + 1]]$post$prior$a,
-      dat()$results_inter[[input$month + 1]]$post$prior$b
+      }, dat()$results_inter[[isolate(input$month) + 1]]$post$prior$a,
+      dat()$results_inter[[isolate(input$month) + 1]]$post$prior$b
       )) %>% matrix(., ncol = X, nrow = G, dimnames = dimnames(scheme_type))
     })
     mu_sign <- lapply(mu_dat, function(m)
