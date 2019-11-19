@@ -1,16 +1,8 @@
 # shinyapp_probio.Rdata
 
-library(shiny)
-library(shinycssloaders)
-library(survminer)
-library(survival)
-library(tidyverse)
-library(cowplot)
-library(knitr)
-library(plotly)
-library(markdown)
-library(Epi)
-
+pacman::p_load(shiny, shinycssloaders, survminer, survival, tidyverse, cowplot, 
+               knitr, plotly, markdown, Epi)
+theme_set(theme_bw())
 
 ## load all files
 load("www/dat_probio_dsmb.Rdata")
@@ -22,161 +14,166 @@ ui <-   fluidPage(
   div(titlePanel(title ="", windowTitle = "ProBio DSMB")),
   
   navbarPage(
-
-  title = div(img(src = "favicon-32x32.png"), "ProBio DSMB"),
-  position = "fixed-top",
-
-  tabPanel("Home", br(), br(),
-           
-           titlePanel("Examples from simulation studies for ProBio"),
-           #includeMarkdown(rmarkdown::render("www/intro.md")),
-           includeMarkdown("www/Intro.md"),
-           hr(),
-           selectInput("scen", h4("Select scenario"), 
-                       choices = list("Scenario 1" = 1, "Scenario 2" = 2,
-                                      "Scenario 3" = 3, "Scenario 4" = 4), 
-                       selected = 1),
-           br(),
-           h5("Treatment effects accross disease subtypes in terms of progression free survival (PFS)"),
-           tableOutput("ri_gx")
-           ),
-  navbarMenu("Example",
-             tabPanel("Summary results", br(), br(),
-                      h4("Graduation output"),
-                      fluidRow(
-                        column(col_width, h5("Superiority"), tableOutput("sup") %>% withSpinner(color="#0dc5c1")),
-                        column(col_width, h5("Inferiority"), tableOutput("inf") %>% withSpinner(color="#0dc5c1"))
-                      ),
-                      br(),
-                      h4("Final probabilities of superiority"),
-                      fluidRow(
-                        column(col_width, h5("By signature"), tableOutput("prob_sign_tab") %>% withSpinner(color="#0dc5c1")),
-                        column(col_width, h5("By subtype"), tableOutput("prob_type_tab") %>% withSpinner(color="#0dc5c1"))
-                      ),
-                      br(),
-                      h4("Enrolled participants"),
-                      fluidRow(
-                        column(col_width, h5("By signature"), tableOutput("n_sign_tab") %>% withSpinner(color="#0dc5c1")),
-                        column(col_width, h5("By subtype"), tableOutput("n_type_tab") %>% withSpinner(color="#0dc5c1"))
-                      ),
-                      hr(),
-                      br(),
-                      fluidRow(
-                        column(3, selectInput("signature", label = h4("Select signature"), 
-                                              choices = levels(signatures$signatures), selected = "all")),
-                        column(3, uiOutput("subtypes_in")),
-                        column(3, selectInput("treatment", label = h4("Select treatment"), 
-                                              choices = names(scheme_trt), 
-                                              selected = names(scheme_trt), multiple = TRUE)),
-                        column(3, actionButton("update", "Update plots"))
-                      ),
-                      br(),
-                      h4(" Probabilities of superiority (signatures)"),
-                      plotlyOutput("prob_sign", height = "600px") %>% withSpinner(color="#0dc5c1"),
-                      br(),
-                      h4(" Probabilities of superiority (subtypes)"),
-                      plotlyOutput("prob_type", height = "800px") %>% withSpinner(color="#0dc5c1"),
-                      br(),
-                      h4("Randomization probabilities (subtype)"),
-                      plotlyOutput("r_type", height = "800px") %>% withSpinner(color="#0dc5c1"),
-                      br(),
-                      h4("Enrolled participants over time"),
-                      fluidRow(
-                        column(col_width, h5("By signature"), plotlyOutput("n_sign", height = "600px") %>% withSpinner(color="#0dc5c1")),
-                        column(col_width, h5("By subtype"), plotlyOutput("n_type", height = "600px") %>% withSpinner(color="#0dc5c1"))
-                      ),
-                      br(),
-                      h4("Rates over time"),
-                      fluidRow(
-                        column(col_width, h5("By signature"), plotlyOutput("rate_sign", height = "600px") %>% withSpinner(color="#0dc5c1")),
-                        column(col_width, h5("By subtype"), plotlyOutput("rate_type", height = "600px") %>% withSpinner(color="#0dc5c1"))
-                      ),
-                      hr(),
-                      br(),
-                      h4("Analysis of final simulated results"),
-                      plotOutput("density_sign", height = "600px") %>% withSpinner(color="#0dc5c1"),
-                      br(),
-                      h4("Kaplan-Meier results:"),
-                      verbatimTextOutput("km") %>% withSpinner(color="#0dc5c1"),
-                      br(),
-                      plotOutput("km_plot", height = "1000px") %>% withSpinner(color="#0dc5c1")
-                      ),
+    
+    title = div(img(src = "favicon-32x32.png"), "ProBio DSMB"),
+    position = "fixed-top",
+    
+    tabPanel("Home", br(), br(),
              
-             tabPanel("Over month", br(), br(),
-                      fluidRow(
-                        column(6, sliderInput("month", "Select follow-up month",
-                                              min = 1, max = 35, value = 1)),
-                        column(3, actionButton("update2", "Update data"))
-                      ),
-                      fluidRow(
-                        column(col_width, uiOutput("month")),
-                        column(col_width, uiOutput("month_a"))
-                      ),
-                      br(),
-                      h3("Randomization probabilities", align = "center"),
-                      fluidRow(
-                        column(col_width, uiOutput('r') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(col_width, uiOutput('r_a') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
-                      ),
-                      br(),
-                      h3("Enrolled participants (signatures)", align = "center"),
-                      fluidRow(
-                        column(col_width, uiOutput('n_s') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(col_width, uiOutput('n_sa') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
-                      ),
-                      br(),
-                      h3("Enrolled participants (subtypes)", align = "center"),
-                      fluidRow(
-                        column(col_width, uiOutput('n_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(col_width, uiOutput('n_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
-                      ),
-                      br(),
-                      h3("Number of progressions (subtype)", align = "center"),
-                      fluidRow(
-                        column(col_width, uiOutput('delta_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(col_width, uiOutput('delta_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
-                      ),
-                      br(),
-                      h3("Accumulated person-month (subtype)", align = "center"),
-                      fluidRow(
-                        column(col_width, uiOutput('time_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(col_width, uiOutput('time_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
-                      ),
-                      br(),
-                      h3("Probability of superiority (subtype)", align = "center"),
-                      fluidRow(
-                        column(col_width, uiOutput('p_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(col_width, uiOutput('p_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
-                      ),
-                      br(),
-                      h3("Probability of superiority (signature)", align = "center"),
-                      fluidRow(
-                        column(col_width, uiOutput('p_s') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(col_width, uiOutput('p_sa') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
-                      ),
-                      br(),
-                      h3("Densities", align = "center"),
-                      fluidRow(
-                        column(col_width, plotOutput("density_s", height = "600px") %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
-                        column(col_width, plotOutput("density_sa", height = "600px") %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
-                      )
-                      ),
-             tabPanel("Data view", br(), br(),
-                      sliderInput("month_dat", "Select follow-up month",
-                                  min = 1, max = 35, value = 1),
-                      uiOutput("dat_title"),
-                      dataTableOutput("dat_m")
-                      )
-             ),
-  tabPanel("Stat", br(), br(),
-           tags$iframe(src = "model_exemplification.pdf", style="height:800px; width:100%")
-           )
-)
+             titlePanel("Examples from simulation studies for ProBio"),
+             #includeMarkdown(rmarkdown::render("www/intro.md")),
+             includeMarkdown("www/Intro.md"),
+             hr(),
+             selectInput("scen", h4("Select scenario"), 
+                         choices = list("Scenario 1" = 1, "Scenario 2" = 2,
+                                        "Scenario 3" = 3, "Scenario 4" = 4), 
+                         selected = 1),
+             br(),
+             h5("Treatment effects accross disease subtypes in terms of progression free survival (PFS)"),
+             tableOutput("ri_gx")
+    ),
+    navbarMenu("Example",
+               tabPanel("Summary results", br(), br(),
+                        h4("Graduation output"),
+                        fluidRow(
+                          column(col_width, h5("Superiority"), tableOutput("sup") %>% withSpinner(color="#0dc5c1")),
+                          column(col_width, h5("Inferiority"), tableOutput("inf") %>% withSpinner(color="#0dc5c1"))
+                        ),
+                        br(),
+                        h4("Final probabilities of superiority"),
+                        fluidRow(
+                          column(col_width, h5("By signature"), tableOutput("prob_sign_tab") %>% withSpinner(color="#0dc5c1")),
+                          column(col_width, h5("By subtype"), tableOutput("prob_type_tab") %>% withSpinner(color="#0dc5c1"))
+                        ),
+                        br(),
+                        h4("Enrolled participants"),
+                        fluidRow(
+                          column(col_width, h5("By signature"), tableOutput("n_sign_tab") %>% withSpinner(color="#0dc5c1")),
+                          column(col_width, h5("By subtype"), tableOutput("n_type_tab") %>% withSpinner(color="#0dc5c1"))
+                        ),
+                        hr(),
+                        br(),
+                        fluidRow(
+                          column(3, selectInput("signature", label = h4("Select signature"), 
+                                                choices = levels(signatures$signatures), selected = "all")),
+                          column(3, uiOutput("subtypes_in")),
+                          column(3, selectInput("treatment", label = h4("Select treatment"), 
+                                                choices = names(scheme_trt), 
+                                                selected = names(scheme_trt), multiple = TRUE)),
+                          column(3, actionButton("update", "Update plots"))
+                        ),
+                        br(),
+                        h4(" Probabilities of superiority (signatures)"),
+                        plotlyOutput("prob_sign", height = "600px") %>% withSpinner(color="#0dc5c1"),
+                        br(),
+                        h4(" Probabilities of superiority (subtypes)"),
+                        plotlyOutput("prob_type", height = "800px") %>% withSpinner(color="#0dc5c1"),
+                        br(),
+                        h4("Randomization probabilities (subtype)"),
+                        plotlyOutput("r_type", height = "800px") %>% withSpinner(color="#0dc5c1"),
+                        br(),
+                        h4("Enrolled participants over time"),
+                        fluidRow(
+                          column(col_width, h5("By signature"), plotlyOutput("n_sign", height = "600px") %>% withSpinner(color="#0dc5c1")),
+                          column(col_width, h5("By subtype"), plotlyOutput("n_type", height = "600px") %>% withSpinner(color="#0dc5c1"))
+                        ),
+                        br(),
+                        h4("Rates over time"),
+                        fluidRow(
+                          column(col_width, h5("By signature"), plotlyOutput("rate_sign", height = "600px") %>% withSpinner(color="#0dc5c1")),
+                          column(col_width, h5("By subtype"), plotlyOutput("rate_type", height = "600px") %>% withSpinner(color="#0dc5c1"))
+                        ),
+                        hr(),
+                        br(),
+                        br(),
+                        hr(),
+                        br(),
+                        h4("Analysis of final simulated results"),
+                        plotOutput("density_sign", height = "600px") %>% withSpinner(color="#0dc5c1"),
+                        br(),
+                        h4("Kaplan-Meier results:"),
+                        verbatimTextOutput("km") %>% withSpinner(color="#0dc5c1"),
+                        br(),
+                        plotOutput("km_plot", height = "1000px") %>% withSpinner(color="#0dc5c1")
+               ),
+               
+               tabPanel("Over month", br(), br(),
+                        fluidRow(
+                          column(6, sliderInput("month", "Select follow-up month",
+                                                min = 1, max = 35, value = 1)),
+                          column(3, actionButton("update2", "Update data"))
+                        ),
+                        fluidRow(
+                          column(col_width, uiOutput("month")),
+                          column(col_width, uiOutput("month_a"))
+                        ),
+                        br(),
+                        h3("Randomization probabilities", align = "center"),
+                        fluidRow(
+                          column(col_width, uiOutput('r') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                          column(col_width, uiOutput('r_a') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        ),
+                        br(),
+                        h3("Enrolled participants (signatures)", align = "center"),
+                        fluidRow(
+                          column(col_width, uiOutput('n_s') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                          column(col_width, uiOutput('n_sa') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        ),
+                        br(),
+                        h3("Enrolled participants (subtypes)", align = "center"),
+                        fluidRow(
+                          column(col_width, uiOutput('n_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                          column(col_width, uiOutput('n_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        ),
+                        br(),
+                        h3("Number of progressions (subtype)", align = "center"),
+                        fluidRow(
+                          column(col_width, uiOutput('delta_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                          column(col_width, uiOutput('delta_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        ),
+                        br(),
+                        h3("Accumulated person-month (subtype)", align = "center"),
+                        fluidRow(
+                          column(col_width, uiOutput('time_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                          column(col_width, uiOutput('time_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        ),
+                        br(),
+                        h3("Probability of superiority (subtype)", align = "center"),
+                        fluidRow(
+                          column(col_width, uiOutput('p_t') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                          column(col_width, uiOutput('p_ta') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        ),
+                        br(),
+                        h3("Probability of superiority (signature)", align = "center"),
+                        fluidRow(
+                          column(col_width, uiOutput('p_s') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                          column(col_width, uiOutput('p_sa') %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        ),
+                        br(),
+                        h3("Densities", align = "center"),
+                        fluidRow(
+                          column(col_width, plotOutput("density_s", height = "600px") %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid"),
+                          column(col_width, plotOutput("density_sa", height = "600px") %>% withSpinner(color="#0dc5c1"), style = "border-right: 1px solid")
+                        )
+               ),
+               tabPanel("Data view", br(), br(),
+                        sliderInput("month_dat", "Select follow-up month",
+                                    min = 1, max = 35, value = 1),
+                        uiOutput("dat_title"),
+                        dataTableOutput("dat_m")
+               )
+    ),
+    tabPanel("Stat", br(), br(),
+             #withMathJax(includeMarkdown("www/model exemplification_html.md"))
+             #includeHTML(knitr::knit2html("www/model exemplification_html.Rmd", fragment.only = TRUE))
+             #includeHTML("www/model-exemplification_html.html")
+             tags$iframe(src = "model-exemplification_html.html", style="height:1800px; width:100%; border:none")
+    )
+  )
   
 )               
-                 
-        
- 
+
+
 server <- function(input, output, session) {
   
   subtypes_in <- reactive({
@@ -189,7 +186,7 @@ server <- function(input, output, session) {
   })
   
   dat <- reactive(data_list[[as.numeric(input$scen)]])
-
+  
   output$ri_gx <- renderTable(1/dat()$ri_gx^(1/shape)*gamma(1 + 1/shape), spacing = "xs", digits = 2, rownames = TRUE)
   output$sup <- renderTable(dat()$post$superiority, spacing = "xs", digits = 0, rownames = TRUE)
   output$inf <- renderTable(dat()$post$inferiority, spacing = "xs", digits = 0, rownames = TRUE)
@@ -206,7 +203,8 @@ server <- function(input, output, session) {
         rownames_to_column(var = "signature") %>%
         gather(Treatment, time, Enzalutamide:Docetaxel) %>%
         merge(dat()$dat_sign, ., by = c("signature", "Treatment")) %>%
-        mutate(time = replace(time, time != month + 1 | time == mxmonth, NA)) %>%
+        mutate(time = replace(time, time != month + 1 | time == mxmonth, NA),
+               Treatment = factor(Treatment, levels = X_names)) %>%
         filter(isolate(input$signature == "all") | signature == isolate(input$signature),
                Treatment %in% isolate(input$treatment)) %>%
         ggplot(aes(month, prob, col = Treatment, event = event, n = n, PT = PT,
@@ -222,9 +220,10 @@ server <- function(input, output, session) {
   output$prob_type <- renderPlotly({
     ggplotly(
       ggplot(filter(dat()$dat_type, input$update == 0 | (subtype %in% isolate(input$subtypes) & 
-                    Treatment %in% isolate(input$treatment))),  
+                                                           Treatment %in% isolate(input$treatment))) %>% 
+               mutate(Treatment = factor(Treatment, levels = X_names)),  
              aes(month, prob, col = Treatment, event = event, n = n, PT = PT,
-                                 rate = rate, prob = prob, r = r, ntot = ntot)) +
+                 rate = rate, prob = prob, r = r, ntot = ntot)) +
         geom_line() +
         geom_hline(yintercept = pU2, linetype = "dashed", col = "grey") +
         geom_hline(yintercept = pU2n, linetype = "dashed", col = "grey") +
@@ -236,9 +235,10 @@ server <- function(input, output, session) {
   output$r_type <- renderPlotly({
     ggplotly(
       ggplot(filter(dat()$dat_type, input$update == 0 | (subtype %in% isolate(input$subtypes) &
-                    Treatment %in% isolate(input$treatment))), 
+                                                           Treatment %in% isolate(input$treatment))) %>% 
+               mutate(Treatment = factor(Treatment, levels = X_names)), 
              aes(month, r, col = Treatment, event = event, n = n, PT = PT,
-                                 rate = rate, prob = prob, r = r, ntot = ntot)) +
+                 rate = rate, prob = prob, r = r, ntot = ntot)) +
         geom_line() + 
         facet_wrap(~ subtype, ncol = 4, scales = "fixed") +
         labs(y = "", title = "", x = "")
@@ -246,10 +246,11 @@ server <- function(input, output, session) {
   })
   output$n_sign <- renderPlotly({
     ggplotly(
-      ggplot(filter(dat()$dat_sign, isolate(input$signature == "all") | signature == isolate(input$signature),
-                    Treatment %in% isolate(input$treatment)), 
+      ggplot(filter(dat()$dat_sign, input$signature == "all" | signature == isolate(input$signature),
+                    Treatment %in% isolate(input$treatment)) %>% 
+               mutate(Treatment = factor(Treatment, levels = X_names)), 
              aes(month, n, col = Treatment, event = event, n = n, PT = PT,
-                                 rate = rate, prob = prob)) +
+                 rate = rate, prob = prob)) +
         geom_line() + labs(y = "", title = "", x = "") +
         facet_wrap(~ signature, ncol = 3, scales = "fixed")
     )
@@ -257,9 +258,10 @@ server <- function(input, output, session) {
   output$n_type <- renderPlotly({
     ggplotly(
       ggplot(filter(dat()$dat_type, input$update == 0 | (subtype %in% isolate(input$subtypes) & 
-                    Treatment %in% isolate(input$treatment))), 
+                                                           Treatment %in% isolate(input$treatment))) %>% 
+               mutate(Treatment = factor(Treatment, levels = X_names)), 
              aes(month, n, col = Treatment, event = event, n = n, PT = PT,
-                                 rate = rate, prob = prob, r = r, ntot = ntot)) +
+                 rate = rate, prob = prob, r = r, ntot = ntot)) +
         geom_line() + 
         labs(y = "", title = "", x = "") +
         facet_wrap(~ subtype, ncol = 4, scales = "fixed")
@@ -268,9 +270,10 @@ server <- function(input, output, session) {
   output$rate_type <- renderPlotly({
     ggplotly(
       ggplot(filter(dat()$dat_type, input$update == 0 | (subtype %in% isolate(input$subtypes) &
-                    Treatment %in% isolate(input$treatment))), 
+                                                           Treatment %in% isolate(input$treatment))) %>% 
+               mutate(Treatment = factor(Treatment, levels = X_names)), 
              aes(month, rate, col = Treatment, event = event, n = n, PT = PT,
-                                 rate = rate, prob = prob, r = r, ntot = ntot)) +
+                 rate = rate, prob = prob, r = r, ntot = ntot)) +
         geom_line() + 
         facet_wrap(~ subtype, ncol = 4, scales = "free_y") +
         labs(y = "", title = "", x = "")
@@ -279,9 +282,10 @@ server <- function(input, output, session) {
   output$rate_sign <- renderPlotly({
     ggplotly(
       ggplot(filter(dat()$dat_sign, input$update == 0 | (isolate(input$signature == "all") | signature == isolate(input$signature) &
-                    Treatment %in% isolate(input$treatment))), 
+                                                           Treatment %in% isolate(input$treatment))) %>% 
+               mutate(Treatment = factor(Treatment, levels = X_names)), 
              aes(month, rate, col = Treatment, event = event, n = n, PT = PT,
-                                 rate = rate, prob = prob)) +
+                 rate = rate, prob = prob)) +
         geom_line() + 
         facet_wrap(~ signature, ncol = 3, scales = "free_y") +
         labs(y = "", title = "", x = "")
@@ -424,7 +428,7 @@ server <- function(input, output, session) {
     mu_sign <- lapply(mu_dat, function(m)
       t(apply(subtypes[, 6:(5 + nrow(signatures))], 2, function(x) colSums(m*x)/sum(x)))
     ) %>% do.call("rbind", .)
-
+    
     gglist <- data.frame(mu_sign) %>%
       cbind(signature = rownames(mu_sign)) %>%
       gather(trt, pfs, -signature) %>%
@@ -454,7 +458,7 @@ server <- function(input, output, session) {
       t(apply(subtypes[, 6:(5 + nrow(signatures))], 2, function(x) colSums(m*x)/sum(x)))
     ) %>%
       do.call("rbind", .)
-
+    
     gglist <- data.frame(mu_sign) %>%
       cbind(signature = rownames(mu_sign)) %>%
       gather(trt, pfs, -signature) %>%
@@ -469,7 +473,7 @@ server <- function(input, output, session) {
     legend <- get_legend(gglist[[1]] + theme(legend.position = "top"))
     plot_grid(plotlist = c(gglist, list(legend)), nrow = 3, ncol = 2)
   })
-
+  
   output$dat_title <- renderUI(
     h3(paste("Data up to the end of month", input$month_dat ), align = "center")
   )
