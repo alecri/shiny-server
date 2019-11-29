@@ -11,9 +11,6 @@ theme_set(theme_bw())
 # load data from incidence-mortality-PC.R
 load("www/data_pc.Rdata")
 
-# style for avoiding flickering
-tags$style(type="text/css", ".recalculating {opacity: 1.0;}")
-
 ui <- navbarPage(
     "Incidence and mortality of Prostate Cancer in Sweden over time",
     
