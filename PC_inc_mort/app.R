@@ -50,11 +50,12 @@ ui <- navbarPage(
                      width = 3
                  ),
                  mainPanel(
-                     fluidRow(
-                         splitLayout(cellWidths = c("50%", "50%"), 
-                                     plotlyOutput("p_map_inc", height = 600), 
-                                     plotlyOutput("p_map_mort", height = 600))
-                     ),
+                     plotlyOutput("p_map_inc", height = 600),
+                     # fluidRow(
+                     #     splitLayout(cellWidths = c("50%", "50%"), 
+                     #                 plotlyOutput("p_map_inc", height = 600), 
+                     #                 plotlyOutput("p_map_mort", height = 600))
+                     # ),
                      #plotlyOutput("p_map"),
                      dataTableOutput("tab_rate_map")
                  )
