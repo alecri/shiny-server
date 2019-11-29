@@ -4,15 +4,15 @@
 #'   https://sdb.socialstyrelsen.se/if_dor/val.aspx
 #' Designed by Alessio Crippa 191129
 
-# style for avoiding flickering
-tags$style(type="text/css", ".recalculating {opacity: 1.0;}")
-
 # libraries needed
-pacman::p_load(shiny, tidyverse, plotly, ggthemes)
+pacman::p_load(shiny, tidyverse, plotly, ggthemes, DT)
 theme_set(theme_bw())
 
 # load data from incidence-mortality-PC.R
 load("www/data_pc.Rdata")
+
+# style for avoiding flickering
+tags$style(type="text/css", ".recalculating {opacity: 1.0;}")
 
 ui <- navbarPage(
     "Incidence and mortality of Prostate Cancer in Sweden over time",
@@ -50,12 +50,11 @@ ui <- navbarPage(
                      width = 3
                  ),
                  mainPanel(
-                     plotlyOutput("p_map_inc", height = 600),
-                     # fluidRow(
-                     #     splitLayout(cellWidths = c("50%", "50%"), 
-                     #                 plotlyOutput("p_map_inc", height = 600), 
-                     #                 plotlyOutput("p_map_mort", height = 600))
-                     # ),
+                     fluidRow(
+                         splitLayout(cellWidths = c("50%", "50%"), 
+                                     plotlyOutput("p_map_inc", height = 600), 
+                                     plotlyOutput("p_map_mort", height = 600))
+                     ),
                      #plotlyOutput("p_map"),
                      dataTableOutput("tab_rate_map")
                  )
