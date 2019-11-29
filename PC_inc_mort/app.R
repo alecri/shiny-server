@@ -8,8 +8,7 @@
 tags$style(type="text/css", ".recalculating {opacity: 1.0;}")
 
 # libraries needed
-#pacman::p_load(shiny, tidyverse, swemaps, plotly, ggthemes, data.table, DT)
-pacman::p_load(tidyverse, plotly, swemaps, ggthemes, DT, data.table)
+pacman::p_load(shiny, tidyverse, plotly, ggthemes)
 theme_set(theme_bw())
 
 # load data from incidence-mortality-PC.R
@@ -20,23 +19,23 @@ ui <- navbarPage(
     
     # First panel: time serie plots
     tabPanel("Time serie",
-        sidebarLayout(
-            sidebarPanel(
-                selectInput("rate", "Rate:", 
-                            choices = list("Incidence & mortality" = "all", "Incidence" = "incidence",
-                                           "Mortality" = "mortality"), selected = "all"),
-                selectInput("region", "Region:", unique(indices$Region), selected = "Riket", multiple = T),
-                selectInput("age_cat", "Category of age:", 
-                            choices = unique(indices$age_cat), selected = "Totalt", multiple = T),
-                sliderInput("year_range", "Years range", sep = "",
-                            min = 1970, max = 2018, value = c(2000, 2018)),
-                width = 3
-            ),
-            mainPanel(
-                plotlyOutput("p_rate"),
-                dataTableOutput("tab_rate")
-            )
-        )
+             sidebarLayout(
+                 sidebarPanel(
+                     selectInput("rate", "Rate:", 
+                                 choices = list("Incidence & mortality" = "all", "Incidence" = "incidence",
+                                                "Mortality" = "mortality"), selected = "all"),
+                     selectInput("region", "Region:", unique(indices$Region), selected = "Riket", multiple = T),
+                     selectInput("age_cat", "Category of age:", 
+                                 choices = unique(indices$age_cat), selected = "Totalt", multiple = T),
+                     sliderInput("year_range", "Years range", sep = "",
+                                 min = 1970, max = 2018, value = c(2000, 2018)),
+                     width = 3
+                 ),
+                 mainPanel(
+                     plotlyOutput("p_rate"),
+                     dataTableOutput("tab_rate")
+                 )
+             )
     ),
     
     # Second panel: map plots
@@ -61,17 +60,17 @@ ui <- navbarPage(
                  )
              )
     )
-
+    
 )
 
 server <- function(input, output) {
-
+    
     # First panel: reactive data and output 
     dat <- reactive({
         dat <- filter(indices, 
                       Region %in% input$region, 
                       age_cat %in% input$age_cat,
-                      År %inrange% input$year_range
+                      År <= input$year_range[2] &  År >= input$year_range[1]
         )
         if (input$rate != "all") dat <- filter(dat, rate == input$rate)
         dat
@@ -95,12 +94,12 @@ server <- function(input, output) {
     # Second panel: reactive data and output 
     dat_map <- reactive({
         dat_map <- filter(map_indices,
-                      age_cat == input$age_cat_map,
-                      År  == input$year
+                          age_cat == input$age_cat_map,
+                          År  == input$year
         )
         dat_map
     })
-
+    
     output$p_map_inc <- renderPlotly({
         ggplotly(
             filter(dat_map(), rate == "incidence") %>%
@@ -123,7 +122,7 @@ server <- function(input, output) {
                 theme(legend.position = c(.9, .2)) +
                 labs(title = "Mortality rate (x 100 000)") +
                 scale_fill_gradientn(colours = heat.colors(n = 7, rev = T))
-            )
+        )
     })
     
     output$tab_rate_map <- renderDataTable({
@@ -133,7 +132,7 @@ server <- function(input, output) {
             pivot_wider(id_cols = c("Region", "År", "age_cat"), names_from = "rate", 
                         values_from = value)
     })
-
+    
 }
 
 # Run the application 
