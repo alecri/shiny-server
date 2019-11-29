@@ -8,7 +8,7 @@
 tags$style(type="text/css", ".recalculating {opacity: 1.0;}")
 
 # libraries needed
-pacman::p_load(shiny, tidyverse, plotly, ggthemes, data.table, DT)
+pacman::p_load(shiny, tidyverse, swemaps, plotly, ggthemes, data.table, DT)
 theme_set(theme_bw())
 
 # load data from incidence-mortality-PC.R
