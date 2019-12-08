@@ -23,8 +23,8 @@ ui <- navbarPage(
              sidebarLayout(
                  sidebarPanel(
                      selectInput("rate", "Rate:", 
-                                 choices = list("Incidence & mortality" = "all", "Incidence" = "incidence",
-                                                "Mortality" = "mortality"), selected = "all"),
+                                 choices = list("Incidence & mortality" = "all", "Incidence" = "Incidence",
+                                                "Mortality" = "Mortality"), selected = "all"),
                      selectInput("region", "Region:", unique(indices$Region), selected = "Sweden", multiple = T),
                      selectInput("age_cat", "Category of age:", 
                                  choices = unique(indices$`Age category`), selected = "Totalt", multiple = T),
