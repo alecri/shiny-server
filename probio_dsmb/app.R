@@ -164,10 +164,11 @@ ui <-   fluidPage(
                )
     ),
     tabPanel("Stat", br(), br(),
+             downloadLink("downloadData", "Download the pdf version of the document."),
              #withMathJax(includeMarkdown("www/model exemplification_html.md"))
              #includeHTML(knitr::knit2html("www/model exemplification_html.Rmd", fragment.only = TRUE))
              #includeHTML("www/model-exemplification_html.html")
-             tags$iframe(src = "model-exemplification_html.html", style="height:1800px; width:100%; border:none")
+             tags$iframe(src = "model-exemplification_html.html", style = "height:1800px; width:100%; border:none")
     )
   )
   
@@ -175,6 +176,13 @@ ui <-   fluidPage(
 
 
 server <- function(input, output, session) {
+  
+  output$downloadData <- downloadHandler(
+    filename = "model_exemplification.pdf",
+    content = function(file) {
+      file.copy("www/model_exemplification.pdf", file)
+    }
+  )
   
   subtypes_in <- reactive({
     colnames(signatures)[signatures[signatures$signatures == input$signature, ] == "X"]
