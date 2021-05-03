@@ -26,7 +26,7 @@ checkboxInput("ip", label = "unique IP", value = FALSE)
 require("plyr")
 require("sp")
 require("shiny")
-require("installr")
+#require("installr")
 require("ggplot2")
 require("googleVis")
 require("scales")                      ## for date format
@@ -109,8 +109,7 @@ plotlyOutput("trend")
 
 ## World Wide downloads
 
-<!--
-```{r, echo=FALSE, include=FALSE}
+```{r, echo=FALSE, include=FALSE, eval=FALSE}
 data <- data_tot[!duplicated(data_tot$ip_id), ]
 counts <- cbind.data.frame(table(data$country))
 names(counts) <- c("country", "count")
@@ -134,7 +133,6 @@ world.map <- ggplot(data = world.points) +
                      sum(counts$count), ")", sep = ""))
 world.map
 ```
--->
 
 ```{r, results = 'asis', echo=FALSE}
 dataTab <- reactive({
