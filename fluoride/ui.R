@@ -1,9 +1,12 @@
 # global.R for fluoride shiny app
 
 library(shiny)
+library(shinymanager)
 library(plotly)
 
-fluidPage(
+#load("credentials.Rdata")
+
+ui <- fluidPage(
   
   titlePanel("Learning and Memory: Morris Water Maze"),
 
@@ -81,3 +84,6 @@ fluidPage(
     )
   )
 )
+
+# Wrap your UI with secure_app
+ui <- secure_app(ui)

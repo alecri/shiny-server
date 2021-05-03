@@ -5,8 +5,14 @@ library(gridExtra)
 library(dosresmeta)
 library(rms)
 
-shinyServer(function(input, output, session) {
+server <- shinyServer(function(input, output, session) {
   
+   # call the server part
+   # check_credentials returns a function to authenticate users
+   res_auth <- secure_server(
+      check_credentials = check_credentials(credentials)
+   )
+   
   # interactive titles and labels
   output$analysis_title <- renderUI({
     main <- paste("Analysis for studies with tag:", 

@@ -6,7 +6,7 @@ library(dosresmeta)
 
 
 # reading data from excel
-fluo <- read_excel("www/Fluoride (2015)-animal-bioassay.xlsx", sheet = 1)
+fluo <- read_excel("Fluoride (2015)-animal-bioassay.xlsx", sheet = 1)
 
 # cleaning data:
 # keeping only relevant variables and changing 'seconds' in 'sec'
