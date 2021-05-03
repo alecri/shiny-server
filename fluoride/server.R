@@ -4,6 +4,7 @@ library(tidyverse)
 library(gridExtra)
 library(dosresmeta)
 library(rms)
+library(shinymanager)
 
 server <- shinyServer(function(input, output, session) {
   
