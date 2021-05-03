@@ -1,6 +1,6 @@
 require("shiny")
 require("plotly")
-require("data.table")
+require("reshape2")
 
 Sys.setenv("plotly_username"="alecri")
 Sys.setenv("plotly_api_key"="nr287vef19")
@@ -104,7 +104,7 @@ shinyServer(function(input, output) {
          "rbind", 
          lapply(split(data_lim()[c("Ri", "Ristar", "I2")], data_lim()["cv_s2s"]),
                 function(x) apply(x, 2, mean)))
-      biasMean <- data.table::melt(biasMean)
+      biasMean <- reshape2::melt(biasMean)
       names(biasMean) <- c("cv_s2s", "measure", "bias")
       levels(biasMean$measure)[levels(biasMean$measure) == "Ristar"] <- "Rb"
       biasMean
