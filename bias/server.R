@@ -104,7 +104,7 @@ shinyServer(function(input, output) {
          "rbind", 
          lapply(split(data_lim()[c("Ri", "Ristar", "I2")], data_lim()["cv_s2s"]),
                 function(x) apply(x, 2, mean)))
-      biasMean <- melt(biasMean)
+      biasMean <- data.table::melt(biasMean)
       names(biasMean) <- c("cv_s2s", "measure", "bias")
       levels(biasMean$measure)[levels(biasMean$measure) == "Ristar"] <- "Rb"
       biasMean
