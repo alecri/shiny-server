@@ -4,6 +4,8 @@
 library(readxl)
 library(dosresmeta)
 
+# loading credentials
+load("credentials.Rdata")
 
 # reading data from excel
 fluo <- read_excel("Fluoride (2015)-animal-bioassay.xlsx", sheet = 1)
