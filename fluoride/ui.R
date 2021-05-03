@@ -4,7 +4,7 @@ library(shiny)
 library(shinymanager)
 library(plotly)
 
-#load("credentials.Rdata")
+load("credentials.Rdata")
 
 ui <- fluidPage(
   
